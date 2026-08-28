@@ -1735,8 +1735,22 @@
             36.42005,
             -116.81229
           ],
-          "photo": "assets/photos/southwest-loop/zabriskie-point.jpg",
-          "caption": "Golden badlands at sunset, ten minutes from Furnace Creek."
+          "caption": "Golden badlands at sunset, ten minutes from Furnace Creek.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/zabriskie-point.jpg",
+              "caption": "Golden badlands at sunset, ten minutes from Furnace Creek."
+            },
+            {
+              "src": "assets/photos/southwest-loop/zabriskie-point-2.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/zabriskie-point-3.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/zabriskie-point-4.jpg"
+            }
+          ]
         }
       ],
       "driveTime": "2h",
@@ -2977,8 +2991,22 @@
             36.23026,
             -116.76744
           ],
-          "photo": "assets/photos/southwest-loop/badwater-basin.jpg",
-          "caption": "The lowest point in North America — 282 ft below sea level."
+          "caption": "The lowest point in North America — 282 ft below sea level.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/badwater-basin.jpg",
+              "caption": "The lowest point in North America — 282 ft below sea level."
+            },
+            {
+              "src": "assets/photos/southwest-loop/badwater-basin-2.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/badwater-basin-3.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/badwater-basin-4.jpg"
+            }
+          ]
         },
         {
           "name": "Golden Canyon",
@@ -2986,8 +3014,13 @@
             36.42076,
             -116.84656
           ],
-          "photo": "assets/photos/southwest-loop/golden-canyon.jpg",
-          "caption": "An easy walk up a narrow canyon straight off the valley floor."
+          "caption": "An easy walk up a narrow canyon straight off the valley floor.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/golden-canyon.jpg",
+              "caption": "An easy walk up a narrow canyon straight off the valley floor."
+            }
+          ]
         },
         {
           "name": "Artist's Drive",
@@ -2995,8 +3028,22 @@
             36.36669,
             -116.80052
           ],
-          "photo": "assets/photos/southwest-loop/artists-drive.jpg",
-          "caption": "A one-way loop through mineral-stained hills."
+          "caption": "A one-way loop through mineral-stained hills.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/artists-drive.jpg",
+              "caption": "A one-way loop through mineral-stained hills."
+            },
+            {
+              "src": "assets/photos/southwest-loop/artists-drive-2.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/artists-drive-3.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/artists-drive-4.jpg"
+            }
+          ]
         }
       ]
     },
@@ -3034,8 +3081,22 @@
             36.60616,
             -117.11507
           ],
-          "photo": "assets/photos/southwest-loop/mesquite-flat-dunes.jpg",
-          "caption": "Best at sunrise before the wind picks up."
+          "caption": "Best at sunrise before the wind picks up.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/mesquite-flat-dunes.jpg",
+              "caption": "Best at sunrise before the wind picks up."
+            },
+            {
+              "src": "assets/photos/southwest-loop/mesquite-flat-dunes-2.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/mesquite-flat-dunes-3.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/mesquite-flat-dunes-4.jpg"
+            }
+          ]
         },
         {
           "name": "Ubehebe Crater",
@@ -3043,8 +3104,13 @@
             37.00997,
             -117.45065
           ],
-          "photo": "assets/photos/southwest-loop/ubehebe-crater.jpg",
-          "caption": "A half-mile-wide volcanic crater — but a 110-mile round trip."
+          "caption": "A half-mile-wide volcanic crater — but a 110-mile round trip.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/ubehebe-crater.jpg",
+              "caption": "A half-mile-wide volcanic crater — but a 110-mile round trip."
+            }
+          ]
         },
         {
           "name": "Dante's View",
@@ -3052,8 +3118,22 @@
             36.22066,
             -116.72675
           ],
-          "photo": "assets/photos/southwest-loop/dantes-view.jpg",
-          "caption": "5,475 ft up, looking straight down at Badwater. Can be 25° colder."
+          "caption": "5,475 ft up, looking straight down at Badwater. Can be 25° colder.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/dantes-view.jpg",
+              "caption": "5,475 ft up, looking straight down at Badwater. Can be 25° colder."
+            },
+            {
+              "src": "assets/photos/southwest-loop/dantes-view-2.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/dantes-view-3.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/dantes-view-4.jpg"
+            }
+          ]
         }
       ]
     },
@@ -3091,8 +3171,13 @@
             36.42999,
             -114.51377
           ],
-          "photo": "assets/photos/southwest-loop/valley-of-fire.jpg",
-          "caption": "Nevada's oldest state park, and bright red the whole way through."
+          "caption": "Nevada's oldest state park, and bright red the whole way through.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/valley-of-fire.jpg",
+              "caption": "Nevada's oldest state park, and bright red the whole way through."
+            }
+          ]
         },
         {
           "name": "Fire Wave",
@@ -3100,8 +3185,22 @@
             36.48825,
             -114.529
           ],
-          "photo": "assets/photos/southwest-loop/fire-wave.jpg",
-          "caption": "Striped Aztec sandstone, a short walk that suits kids."
+          "caption": "Striped Aztec sandstone, a short walk that suits kids.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/fire-wave.jpg",
+              "caption": "Striped Aztec sandstone, a short walk that suits kids."
+            },
+            {
+              "src": "assets/photos/southwest-loop/fire-wave-2.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/fire-wave-3.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/fire-wave-4.jpg"
+            }
+          ]
         },
         {
           "name": "Atlatl Rock",
@@ -3109,8 +3208,13 @@
             36.42279,
             -114.5507
           ],
-          "photo": "assets/photos/southwest-loop/atlatl-rock.jpg",
-          "caption": "Petroglyphs up a steel staircase."
+          "caption": "Petroglyphs up a steel staircase.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/atlatl-rock.jpg",
+              "caption": "Petroglyphs up a steel staircase."
+            }
+          ]
         }
       ],
       "driveTime": "3h",
@@ -4351,8 +4455,22 @@
             37.23356,
             -112.96241
           ],
-          "photo": "assets/photos/southwest-loop/zion-canyon.jpg",
-          "caption": "In winter the shuttle stops running, so you can drive it yourself."
+          "caption": "In winter the shuttle stops running, so you can drive it yourself.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/zion-canyon.jpg",
+              "caption": "In winter the shuttle stops running, so you can drive it yourself."
+            },
+            {
+              "src": "assets/photos/southwest-loop/zion-canyon-2.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/zion-canyon-3.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/zion-canyon-4.jpg"
+            }
+          ]
         }
       ],
       "driveTime": "2h 45m",
@@ -5592,8 +5710,13 @@
             37.21112,
             -112.94963
           ],
-          "photo": "assets/photos/southwest-loop/mt-carmel-highway.jpg",
-          "caption": "Switchbacks and the 1930 tunnel to the east side of the park."
+          "caption": "Switchbacks and the 1930 tunnel to the east side of the park.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/mt-carmel-highway.jpg",
+              "caption": "Switchbacks and the 1930 tunnel to the east side of the park."
+            }
+          ]
         }
       ]
     },
@@ -5629,8 +5752,13 @@
             36.99037,
             -111.48208
           ],
-          "photo": "assets/photos/southwest-loop/lake-powell.jpg",
-          "caption": "Lake Powell and the Glen Canyon Dam at the end of a long day."
+          "caption": "Lake Powell and the Glen Canyon Dam at the end of a long day.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/lake-powell.jpg",
+              "caption": "Lake Powell and the Glen Canyon Dam at the end of a long day."
+            }
+          ]
         }
       ],
       "driveTime": "3h 45m",
@@ -6870,8 +6998,22 @@
             36.88045,
             -111.51613
           ],
-          "photo": "assets/photos/southwest-loop/horseshoe-bend.jpg",
-          "caption": "$10 per vehicle, a 1.5-mile round-trip walk. No tour, no permit."
+          "caption": "$10 per vehicle, a 1.5-mile round-trip walk. No tour, no permit.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/horseshoe-bend.jpg",
+              "caption": "$10 per vehicle, a 1.5-mile round-trip walk. No tour, no permit."
+            },
+            {
+              "src": "assets/photos/southwest-loop/horseshoe-bend-2.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/horseshoe-bend-3.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/horseshoe-bend-4.jpg"
+            }
+          ]
         },
         {
           "name": "Wire Pass",
@@ -6879,8 +7021,13 @@
             37.01911,
             -112.02487
           ],
-          "photo": "assets/photos/southwest-loop/wire-pass.jpg",
-          "caption": "Optional $6pp detour into a real slot canyon you walk yourself."
+          "caption": "Optional $6pp detour into a real slot canyon you walk yourself.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/wire-pass.jpg",
+              "caption": "Optional $6pp detour into a real slot canyon you walk yourself."
+            }
+          ]
         },
         {
           "name": "Monument Valley at sunset",
@@ -6888,8 +7035,22 @@
             36.98963,
             -110.08241
           ],
-          "photo": "assets/photos/southwest-loop/monument-valley-mittens.jpg",
-          "caption": "The Mittens as you arrive."
+          "caption": "The Mittens as you arrive.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/monument-valley-mittens.jpg",
+              "caption": "The Mittens as you arrive."
+            },
+            {
+              "src": "assets/photos/southwest-loop/monument-valley-mittens-2.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/monument-valley-mittens-3.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/monument-valley-mittens-4.jpg"
+            }
+          ]
         }
       ],
       "driveTime": "2h 30m",
@@ -8129,8 +8290,13 @@
             36.95341,
             -110.08768
           ],
-          "photo": "assets/photos/southwest-loop/monument-valley-loop.jpg",
-          "caption": "The 17-mile unpaved loop drive. John Ford's Point is the classic stop."
+          "caption": "The 17-mile unpaved loop drive. John Ford's Point is the classic stop.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/monument-valley-loop.jpg",
+              "caption": "The 17-mile unpaved loop drive. John Ford's Point is the classic stop."
+            }
+          ]
         },
         {
           "name": "Wildcat Trail",
@@ -8138,8 +8304,13 @@
             36.98963,
             -110.08241
           ],
-          "photo": "assets/photos/southwest-loop/wildcat-trail.jpg",
-          "caption": "A free 3.2-mile loop around West Mitten Butte. Open to everyone."
+          "caption": "A free 3.2-mile loop around West Mitten Butte. Open to everyone.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/wildcat-trail.jpg",
+              "caption": "A free 3.2-mile loop around West Mitten Butte. Open to everyone."
+            }
+          ]
         }
       ]
     },
@@ -8175,8 +8346,22 @@
             36.04401,
             -111.82621
           ],
-          "photo": "assets/photos/southwest-loop/desert-view-watchtower.jpg",
-          "caption": "The east entrance. Your first look at the canyon, and the best one."
+          "caption": "The east entrance. Your first look at the canyon, and the best one.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/desert-view-watchtower.jpg",
+              "caption": "The east entrance. Your first look at the canyon, and the best one."
+            },
+            {
+              "src": "assets/photos/southwest-loop/desert-view-watchtower-2.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/desert-view-watchtower-3.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/desert-view-watchtower-4.jpg"
+            }
+          ]
         },
         {
           "name": "Yavapai Point",
@@ -8184,8 +8369,13 @@
             36.06665,
             -112.11822
           ],
-          "photo": "assets/photos/southwest-loop/yavapai-point.jpg",
-          "caption": "Sunset, with a heated geology museum behind you."
+          "caption": "Sunset, with a heated geology museum behind you.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/yavapai-point.jpg",
+              "caption": "Sunset, with a heated geology museum behind you."
+            }
+          ]
         }
       ],
       "driveTime": "3h 30m",
@@ -9426,8 +9616,22 @@
             36.06172,
             -112.10903
           ],
-          "photo": "assets/photos/southwest-loop/mather-point.jpg",
-          "caption": "Sunrise spot, right by the visitor center."
+          "caption": "Sunrise spot, right by the visitor center.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/mather-point.jpg",
+              "caption": "Sunrise spot, right by the visitor center."
+            },
+            {
+              "src": "assets/photos/southwest-loop/mather-point-2.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/mather-point-3.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/mather-point-4.jpg"
+            }
+          ]
         },
         {
           "name": "Bright Angel Trailhead",
@@ -9435,8 +9639,13 @@
             36.05728,
             -112.14363
           ],
-          "photo": "assets/photos/southwest-loop/bright-angel-trail.jpg",
-          "caption": "Go down as far as the 1.5-mile resthouse, then turn around."
+          "caption": "Go down as far as the 1.5-mile resthouse, then turn around.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/bright-angel-trail.jpg",
+              "caption": "Go down as far as the 1.5-mile resthouse, then turn around."
+            }
+          ]
         }
       ]
     },
@@ -9474,8 +9683,22 @@
             35.32688,
             -112.87631
           ],
-          "photo": "assets/photos/southwest-loop/seligman-route66.jpg",
-          "caption": "Where the Route 66 revival started. Milkshakes and old cars."
+          "caption": "Where the Route 66 revival started. Milkshakes and old cars.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/seligman-route66.jpg",
+              "caption": "Where the Route 66 revival started. Milkshakes and old cars."
+            },
+            {
+              "src": "assets/photos/southwest-loop/seligman-route66-2.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/seligman-route66-3.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/seligman-route66-4.jpg"
+            }
+          ]
         },
         {
           "name": "Kingman",
@@ -9483,8 +9706,13 @@
             35.18959,
             -114.0533
           ],
-          "photo": "assets/photos/southwest-loop/kingman-route66.jpg",
-          "caption": "End of the longest intact original stretch of Route 66."
+          "caption": "End of the longest intact original stretch of Route 66.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/kingman-route66.jpg",
+              "caption": "End of the longest intact original stretch of Route 66."
+            }
+          ]
         }
       ],
       "driveTime": "4h 30m",
@@ -10722,8 +10950,22 @@
             36.01572,
             -114.73749
           ],
-          "photo": "assets/photos/southwest-loop/hoover-dam.jpg",
-          "caption": "Park and walk out onto the bridge — 20 minutes, no ticket needed."
+          "caption": "Park and walk out onto the bridge — 20 minutes, no ticket needed.",
+          "photos": [
+            {
+              "src": "assets/photos/southwest-loop/hoover-dam.jpg",
+              "caption": "Park and walk out onto the bridge — 20 minutes, no ticket needed."
+            },
+            {
+              "src": "assets/photos/southwest-loop/hoover-dam-2.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/hoover-dam-3.jpg"
+            },
+            {
+              "src": "assets/photos/southwest-loop/hoover-dam-4.jpg"
+            }
+          ]
         }
       ],
       "driveTime": "2h",

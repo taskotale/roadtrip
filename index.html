@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
       crossorigin="">
-<link rel="stylesheet" href="css/style.css?v=7">
+<link rel="stylesheet" href="css/style.css?v=15">
 </head>
 <body>
 
@@ -40,13 +40,20 @@
     <span id="route-title" class="topbar-title"></span>
   </div>
 
-  <div class="map-wrap">
+  <div class="map-wrap" id="map-wrap">
     <div id="map" role="application" aria-label="Route map"></div>
     <button id="reset-map" class="map-chip" type="button" hidden>Whole route</button>
   </div>
 
   <div class="detail-body">
     <div id="route-intro" class="route-intro"></div>
+
+    <section class="block" id="block-options" hidden>
+      <h2 class="block-head">How we do it</h2>
+      <p class="block-sub">Same route either way. Pick one to see how the days change.</p>
+      <div id="option-switch" class="option-switch" role="tablist"></div>
+      <div id="option-detail" class="option-detail"></div>
+    </section>
 
     <section class="block" id="block-mustsee" hidden>
       <h2 class="block-head">Must see</h2>
@@ -71,17 +78,14 @@
       </details>
     </section>
 
-    <section class="block" id="block-options" hidden>
-      <h2 class="block-head">How we do it</h2>
-      <p class="block-sub">Same route either way. Pick one to see how the days change.</p>
-      <div id="option-switch" class="option-switch" role="tablist"></div>
-      <div id="option-detail" class="option-detail"></div>
-    </section>
-
     <section class="block">
       <h2 class="block-head">Day by day</h2>
-      <p class="hint" id="map-hint">Tap a day to see that leg on the map.</p>
+      <p class="hint" id="map-hint">Tap a day to open it and see that leg on the map.</p>
       <div id="day-list" class="day-list"></div>
+    </section>
+
+    <section class="block" id="block-costs" hidden>
+      <div id="costs-summary" class="costs-summary"></div>
     </section>
 
     <footer class="detail-footer">
@@ -89,24 +93,41 @@
          stops and photos. Check park conditions the week before you go.</p>
     </footer>
   </div>
-
-  <!-- Costs, opened from the quiet link inside "How we do it" -->
-  <div id="costs-backdrop" class="costs-backdrop" hidden></div>
-  <div id="costs-sheet" class="costs-sheet" role="dialog" aria-modal="true" aria-labelledby="costs-heading" hidden>
-    <div class="sheet-grip" aria-hidden="true"></div>
-    <div class="sheet-head">
-      <h2 id="costs-heading">Estimated costs</h2>
-      <button id="costs-close" class="sheet-close" type="button" aria-label="Close costs">&times;</button>
-    </div>
-    <div id="costs-body" class="sheet-body"></div>
-  </div>
 </section>
+
+<!-- ============ COSTS ============ -->
+<section id="view-costs" class="view" hidden>
+  <div class="topbar">
+    <button class="back" id="costs-back" type="button" aria-label="Go back to the route">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      <span>Go back</span>
+    </button>
+    <span id="costs-topbar-title" class="topbar-title">Costs</span>
+  </div>
+  <div class="costs-page" id="costs-page"></div>
+</section>
+
+<!-- ============ PHOTO VIEWER ============ -->
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Photo" hidden>
+  <button id="lb-close" class="lb-close" type="button" aria-label="Close photo">&times;</button>
+  <button id="lb-prev" class="lb-nav lb-prev" type="button" aria-label="Previous photo">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+  </button>
+  <button id="lb-next" class="lb-nav lb-next" type="button" aria-label="Next photo">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+  </button>
+  <figure class="lb-figure">
+    <img id="lb-img" alt="">
+    <figcaption id="lb-cap" class="lb-cap"></figcaption>
+  </figure>
+  <div id="lb-dots" class="lb-dots"></div>
+</div>
 
 <div id="error-banner" class="error-banner" hidden></div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
         crossorigin=""></script>
-<script src="js/app.js?v=7"></script>
+<script src="js/app.js?v=15"></script>
 </body>
 </html>

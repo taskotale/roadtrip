@@ -16,8 +16,10 @@ Route  ──  Southwest Loop — January
                          (cost, vehicle, and which days change)
 ```
 
-Costs are deliberately tucked away — no prices on the home screen, and no price
-on the route page until you tap **See what it costs** inside "How we do it".
+Costs are deliberately tucked away — no prices on the home screen, and none on the
+route page until you reach the summary at the very bottom. The **COSTS** button
+there opens a separate page with both options broken down side by side, with a
+"Go back" button at the top and bottom.
 
 No build step, no framework — plain HTML, CSS and one JavaScript file.
 
@@ -140,9 +142,18 @@ GitHub rebuilds in about a minute.
       "notes": "The paragraph shown when the day is expanded.",
       "activities": ["Zabriskie Point at sunset"],
       "pois": [
-        { "name": "Zabriskie Point", "coords": [36.42, -116.8123],
-          "photo": "assets/photos/southwest-loop/zabriskie-point.jpg",
-          "caption": "One line about it." }
+        {
+          "name": "Zabriskie Point",
+          "coords": [36.42, -116.8123],
+          "caption": "One line about it.",
+          // Tapping the thumbnail opens all of these in a full-screen viewer.
+          "photos": [
+            { "src": "assets/photos/southwest-loop/zabriskie-point.jpg",
+              "caption": "One line about it." },
+            { "src": "assets/photos/southwest-loop/zabriskie-point-2.jpg" },
+            { "src": "assets/photos/southwest-loop/zabriskie-point-3.jpg" }
+          ]
+        }
       ],
       "route": [[36.1674, -115.1484], [36.4565, -116.8691]]
     }
@@ -153,8 +164,12 @@ GitHub rebuilds in about a minute.
 Things worth knowing:
 
 - **`coords` are `[latitude, longitude]`** — latitude first, the way Leaflet wants them.
-- The first three `pois` photos show as a strip on the closed day card, so the
-  pictures are visible without tapping anything. All of them show when it opens.
+- Each point of interest's first photo shows as a strip on the closed day card, so
+  the pictures are visible without tapping anything. Tapping anywhere on a closed
+  card opens it; tapping a photo inside an open card opens the full-screen viewer,
+  which swipes and arrows through every photo on that day.
+- A `pois` entry may use a single `"photo": "..."` string instead of `photos`;
+  both work.
 - A day where `from` and `to` match renders as "Based in …" with no map leg.
 - `columns` keys must match the keys used in `totals`, `perPerson` and every
   `lines` entry. **Each column should add up to its total** — the site shows the
@@ -171,11 +186,16 @@ Photos live in `assets/photos/<route-id>/`. To swap one you don't like, overwrit
 the file with the same name — nothing else changes. A missing photo shows a grey
 placeholder rather than breaking the page.
 
-Keep them at most 1200px wide and under ~320KB so they load quickly on a phone in
+**Extra photos are picked up by filename.** A point of interest that uses
+`zabriskie-point.jpg` automatically gains `zabriskie-point-2.jpg`,
+`-3.jpg`, `-4.jpg` and so on — drop the file in, rebuild the route, and it appears
+in the viewer. The numbering must be unbroken.
+
+Keep them at most 1200px wide and under ~180KB so they load quickly on a phone in
 a park with one bar:
 
 ```bash
-sips -Z 1200 -s format jpeg -s formatOptions 60 ~/Downloads/new.jpg --out "assets/photos/southwest-loop/zabriskie-point.jpg"
+sips -Z 1200 -s format jpeg -s formatOptions 55 ~/Downloads/new.jpg --out "assets/photos/southwest-loop/zabriskie-point-5.jpg"
 ```
 
 Sources and licences for every photo are in [CREDITS.md](CREDITS.md). A couple of

@@ -13,14 +13,17 @@
   var map = null;
   var layers = { segments: [], stops: [], pois: [] };
   var fullBounds = null;
+  var cameFromRoute = false; // so "Go back" on the costs page behaves
 
   var el = {};
-  ['view-home', 'view-route', 'route-list', 'route-title', 'route-intro',
+  ['view-home', 'view-route', 'view-costs', 'route-list', 'route-title', 'route-intro',
    'must-see', 'block-mustsee', 'route-proscons', 'block-proscons',
    'watch-outs', 'block-watch', 'skipped-list', 'block-skipped',
    'option-switch', 'option-detail', 'block-options',
-   'day-list', 'map-hint', 'reset-map',
-   'costs-sheet', 'costs-backdrop', 'costs-body', 'costs-close', 'error-banner'
+   'day-list', 'map-hint', 'reset-map', 'map-wrap', 'map',
+   'costs-summary', 'block-costs', 'costs-page', 'costs-back', 'costs-topbar-title',
+   'lightbox', 'lb-img', 'lb-cap', 'lb-close', 'lb-prev', 'lb-next', 'lb-dots',
+   'error-banner'
   ].forEach(function (id) {
     el[id.replace(/-(\w)/g, function (_, c) { return c.toUpperCase(); })] = document.getElementById(id);
   });
@@ -54,6 +57,12 @@
 
   function costColumns(costs) { return (costs && costs.columns) || []; }
 
+  function costHeadline(costs) {
+    if (!costs) return null;
+    var totals = costs.totals || {};
+    return moneyRange(costColumns(costs).map(function (c) { return totals[c.key]; }), costs.currency);
+  }
+
   function perPersonText(costs) {
     if (!costs || !costs.perPerson) return null;
     var r = moneyRange(costColumns(costs).map(function (c) { return costs.perPerson[c.key]; }), costs.currency);
@@ -80,7 +89,7 @@
 
   function chip(text, cls) { return elem('span', 'stat-chip' + (cls ? ' ' + cls : ''), text); }
 
-  function photo(src, alt, cls) {
+  function imgEl(src, alt, cls) {
     var img = document.createElement('img');
     if (cls) img.className = cls;
     img.src = src || PLACEHOLDER;
@@ -94,7 +103,20 @@
     return img;
   }
 
-  /* The geometry for a day, honouring an option's detour for that day. */
+  /* A point of interest may carry several photos. Older data has a single
+     "photo" string; both shapes come back as the same list. */
+  function poiPhotos(poi) {
+    if (!poi) return [];
+    if (Array.isArray(poi.photos) && poi.photos.length) {
+      return poi.photos.map(function (p) {
+        return typeof p === 'string'
+          ? { src: p, caption: poi.caption || '' }
+          : { src: p.src, caption: p.caption || poi.caption || '' };
+      }).filter(function (p) { return p.src; });
+    }
+    return poi.photo ? [{ src: poi.photo, caption: poi.caption || '' }] : [];
+  }
+
   function dayRoute(day) {
     var override = currentOpt && currentOpt.dayRoutes && currentOpt.dayRoutes[String(day.day)];
     if (Array.isArray(override) && override.filter(isCoord).length >= 2) return override.filter(isCoord);
@@ -111,7 +133,6 @@
     return { pts: pts, real: false };
   }
 
-  /* A day that starts and ends in the same place — no leg to draw. */
   function isBaseDay(day) {
     var f = day.from && day.from.name, t = day.to && day.to.name;
     return !!(f && t && f === t);
@@ -120,6 +141,149 @@
   function flagsFor(day) {
     if (!currentOpt || !currentOpt.flags) return [];
     return currentOpt.flags[String(day.day)] || [];
+  }
+
+  function routeHash(routeId, optId) {
+    return '#/route/' + encodeURIComponent(routeId) + (optId ? '/' + encodeURIComponent(optId) : '');
+  }
+
+  /* ---------------- photo viewer ---------------- */
+
+  var lb = { items: [], i: 0, open: false };
+
+  function openLightbox(items, index) {
+    if (!items || !items.length) return;
+    lb.items = items;
+    lb.i = Math.max(0, Math.min(index || 0, items.length - 1));
+    lb.open = true;
+    el.lightbox.hidden = false;
+    document.body.classList.add('modal-open');
+    requestAnimationFrame(function () { el.lightbox.classList.add('show'); });
+    paintLightbox();
+    el.lbClose.focus();
+  }
+
+  function paintLightbox() {
+    var item = lb.items[lb.i] || {};
+    el.lbImg.src = item.src || PLACEHOLDER;
+    el.lbImg.alt = item.caption || '';
+    el.lbCap.textContent = item.caption || '';
+    el.lbCap.hidden = !item.caption;
+
+    var many = lb.items.length > 1;
+    el.lbPrev.hidden = !many;
+    el.lbNext.hidden = !many;
+    el.lbDots.hidden = !many;
+    el.lbDots.innerHTML = '';
+    if (many) {
+      lb.items.forEach(function (_, i) {
+        var d = elem('span', 'lb-dot' + (i === lb.i ? ' on' : ''));
+        el.lbDots.appendChild(d);
+      });
+    }
+  }
+
+  function stepLightbox(delta) {
+    if (!lb.items.length) return;
+    lb.i = (lb.i + delta + lb.items.length) % lb.items.length;
+    paintLightbox();
+  }
+
+  function closeLightbox() {
+    lb.open = false;
+    el.lightbox.classList.remove('show');
+    document.body.classList.remove('modal-open');
+    setTimeout(function () {
+      if (!el.lightbox.classList.contains('show')) {
+        el.lightbox.hidden = true;
+        el.lbImg.removeAttribute('src');
+      }
+    }, 220);
+  }
+
+  /* ---------------- map sizing ---------------- */
+
+  var mapSize = 'full';
+  var dayFocused = false;
+  var lastScrollY = 0;
+  var resizeTimer = null;
+  var sizeLockUntil = 0;
+  var sizeLockTimer = null;
+
+  function mapHeights() {
+    var vh = window.innerHeight;
+    return {
+      full: Math.round(Math.max(200, Math.min(vh * 0.40, 420))),
+      focus: Math.round(Math.max(165, Math.min(vh * 0.28, 320))),
+      mini: Math.round(Math.max(96, Math.min(vh * 0.15, 150)))
+    };
+  }
+
+  var SIZE_ORDER = ['full', 'focus', 'mini'];
+
+  /* The spacer is a constant height so nothing below ever jumps, which means a
+     shorter map would leave a bare band above the content until the page has
+     scrolled far enough to cover it. So never shrink further than the current
+     scroll position hides. */
+  function largestShrinkAllowed(y) {
+    var h = mapHeights();
+    if (y >= h.full - h.mini) return 'mini';
+    if (y >= h.full - h.focus) return 'focus';
+    return 'full';
+  }
+
+  function applyMapSize(name, instant) {
+    var h = mapHeights();
+    var cap = largestShrinkAllowed(window.scrollY);
+    if (SIZE_ORDER.indexOf(name) > SIZE_ORDER.indexOf(cap)) name = cap;
+    if (name === mapSize && !instant) return;
+    mapSize = name;
+    document.documentElement.style.setProperty('--map-h', h[name] + 'px');
+    el.mapWrap.classList.toggle('no-anim', !!instant);
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function () {
+      el.mapWrap.classList.remove('no-anim');
+      if (map) map.invalidateSize({ animate: false });
+    }, instant ? 20 : 280);
+  }
+
+  /* Opening a day or tapping "Whole route" kicks off a smooth scroll, and the
+     scroll events it generates would otherwise immediately shrink the map again.
+     Ignore scroll-driven resizing for a moment afterwards — but release straight
+     away on a wheel or touch, because that is the reader actually taking over. */
+  function lockMapSize(ms) {
+    clearTimeout(sizeLockTimer);
+    sizeLockUntil = Date.now() + (ms || 2500);
+    sizeLockTimer = setTimeout(releaseMapLock, ms || 2500);
+  }
+
+  function releaseMapLock() {
+    clearTimeout(sizeLockTimer);
+    if (!sizeLockUntil) return;
+    sizeLockUntil = 0;
+    lastScrollY = window.scrollY;
+    /* The programmatic scroll has landed — settle on the size we wanted, now
+       that the scroll position allows it. */
+    applyMapSize(restingMapSize());
+  }
+
+  function restingMapSize() { return dayFocused ? 'focus' : 'full'; }
+
+  function onScroll() {
+    if (el.viewRoute.hidden) return;
+    if (Date.now() < sizeLockUntil) { lastScrollY = window.scrollY; return; }
+    var y = window.scrollY;
+    var dy = y - lastScrollY;
+    if (Math.abs(dy) < 6) return;
+    applyMapSize(dy > 0 ? 'mini' : restingMapSize());
+    lastScrollY = y;
+  }
+
+  function syncMapSpacer() {
+    var h = mapHeights();
+    var root = document.documentElement.style;
+    root.setProperty('--map-zone', h.full + 'px');
+    root.setProperty('--map-focus', h.focus + 'px');
   }
 
   /* ---------------- data ---------------- */
@@ -169,11 +333,11 @@
     routes.forEach(function (route) {
       var a = document.createElement('a');
       a.className = 'route-card';
-      a.href = '#/route/' + encodeURIComponent(route.id);
+      a.href = routeHash(route.id);
 
       if (route.hero) {
         var media = elem('div', 'route-media');
-        media.appendChild(photo(route.hero, route.name));
+        media.appendChild(imgEl(route.hero, route.name));
         a.appendChild(media);
       }
 
@@ -213,11 +377,11 @@
       renderRouteProsCons(route);
       renderSkipped(route);
     }
-    renderWatchOuts(route);      // filtered by the selected option
+    renderWatchOuts(route);
     renderOptionSwitch(route);
     renderOptionDetail(opt);
     renderDays(route);
-    renderCosts(opt);
+    renderCostsSummary(route, opt);
     buildMap(route);
   }
 
@@ -246,7 +410,7 @@
       var card = document.createElement('button');
       card.type = 'button';
       card.className = 'mustsee-card';
-      card.appendChild(photo(item.photo, item.name));
+      card.appendChild(imgEl(item.photo, item.name));
       var body = elem('div', 'mustsee-body');
       if (item.day) body.appendChild(elem('span', 'mustsee-day', 'Day ' + item.day));
       body.appendChild(elem('span', 'mustsee-name', item.name || ''));
@@ -316,7 +480,7 @@
       if (o.tagline) b.appendChild(elem('span', 'switch-tag', o.tagline));
       b.addEventListener('click', function () {
         if (o.id === currentOpt.id) return;
-        location.hash = '#/route/' + encodeURIComponent(route.id) + '/' + encodeURIComponent(o.id);
+        location.hash = routeHash(route.id, o.id);
       });
       el.optionSwitch.appendChild(b);
     });
@@ -352,19 +516,6 @@
       });
       box.appendChild(pc);
     }
-
-    if (opt.costs) {
-      var btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'costs-link';
-      btn.id = 'costs-link';
-      btn.setAttribute('aria-haspopup', 'dialog');
-      btn.appendChild(elem('span', null, 'See what it costs'));
-      var arr = elem('span', 'costs-link-arrow', '→');
-      btn.appendChild(arr);
-      btn.addEventListener('click', openCosts);
-      box.appendChild(btn);
-    }
   }
 
   function renderDays(route) {
@@ -378,9 +529,9 @@
       card.style.setProperty('--day-color', color(i));
       card.id = 'day-' + dayNum;
 
-      var head = document.createElement('button');
-      head.type = 'button';
-      head.className = 'day-head';
+      var head = elem('div', 'day-head');
+      head.setAttribute('role', 'button');
+      head.setAttribute('tabindex', '0');
       head.setAttribute('aria-expanded', 'false');
 
       var base = isBaseDay(day);
@@ -388,6 +539,7 @@
       var toName = (day.to && day.to.name) || '';
       var routeText = base ? ('Based in ' + (toName || fromName)) : (fromName + ' → ' + toName);
       head.setAttribute('aria-label', 'Day ' + dayNum + ': ' + routeText);
+      card.setAttribute('aria-controls', 'day-' + dayNum);
 
       head.appendChild(elem('span', 'day-num', String(dayNum)));
 
@@ -425,14 +577,27 @@
       head.appendChild(chev);
       card.appendChild(head);
 
-      /* Photo strip, visible while the card is closed so the pictures are findable. */
-      var pics = (day.pois || []).filter(function (x) { return x && x.photo; });
-      if (pics.length) {
-        var strip = elem('div', 'day-strip');
-        pics.slice(0, 3).forEach(function (poiItem) {
-          strip.appendChild(photo(poiItem.photo, poiItem.name, 'strip-img'));
+      /* All photos for the day, flattened once — used by the strip and the viewer. */
+      var pois = (day.pois || []).filter(function (x) { return x && (x.name || poiPhotos(x).length); });
+      var allShots = [];
+      pois.forEach(function (poiItem) {
+        var shots = poiPhotos(poiItem);
+        shots.forEach(function (ph, k) {
+          var parts = [];
+          if (poiItem.name) parts.push(poiItem.name + (shots.length > 1 ? ' (' + (k + 1) + ' of ' + shots.length + ')' : ''));
+          if (ph.caption) parts.push(ph.caption);
+          allShots.push({ src: ph.src, caption: parts.join(' — ') });
         });
-        head.insertAdjacentElement('afterend', strip);
+      });
+
+      /* Strip of covers, visible while the card is closed so photos are findable. */
+      var covers = pois.map(function (poiItem) { return poiPhotos(poiItem)[0]; }).filter(Boolean);
+      if (covers.length) {
+        var strip = elem('div', 'day-strip');
+        covers.slice(0, 3).forEach(function (ph) {
+          strip.appendChild(imgEl(ph.src, '', 'strip-img'));
+        });
+        card.appendChild(strip);
       }
 
       var body = elem('div', 'day-body');
@@ -454,12 +619,29 @@
         body.appendChild(act);
       }
 
-      var pois = (day.pois || []).filter(function (x) { return x && (x.photo || x.name); });
       if (pois.length) {
         var grid = elem('div', 'poi-grid');
+        var shotIndex = 0;
         pois.forEach(function (poiItem) {
+          var shots = poiPhotos(poiItem);
+          var myStart = shotIndex;
+          shotIndex += shots.length;
+
           var fig = elem('figure', 'poi');
-          fig.appendChild(photo(poiItem.photo, poiItem.name));
+          var thumb = elem('div', 'poi-thumb');
+          thumb.appendChild(imgEl(shots.length ? shots[0].src : null, poiItem.name));
+          if (shots.length > 1) {
+            thumb.appendChild(elem('span', 'poi-count', shots.length + ' photos'));
+          }
+          if (shots.length) {
+            thumb.classList.add('tappable');
+            thumb.addEventListener('click', function (e) {
+              e.stopPropagation();
+              openLightbox(allShots, myStart);
+            });
+          }
+          fig.appendChild(thumb);
+
           if (poiItem.name || poiItem.caption) {
             var cap = elem('figcaption');
             if (poiItem.name) cap.appendChild(elem('strong', null, poiItem.name));
@@ -473,24 +655,195 @@
 
       card.appendChild(body);
 
-      head.addEventListener('click', function () {
-        var opening = !card.classList.contains('open');
-        card.classList.toggle('open', opening);
-        head.setAttribute('aria-expanded', String(opening));
-        if (opening) {
+      function setOpen(open) {
+        card.classList.toggle('open', open);
+        head.setAttribute('aria-expanded', String(open));
+        if (open) {
           focusDay(dayNum);
           var box = card.getBoundingClientRect();
-          var mapBottom = document.querySelector('.map-wrap').getBoundingClientRect().bottom;
+          var mapBottom = el.mapWrap.getBoundingClientRect().bottom;
           if (box.top < mapBottom || box.top > window.innerHeight - 80) {
             card.scrollIntoView({ behavior: 'smooth', block: 'start' });
           }
         } else {
           resetMapView();
         }
+      }
+
+      /* Tap anywhere on a closed card to open it. Once open, only the header
+         closes it, so reading the text does not collapse the card. */
+      card.addEventListener('click', function (e) {
+        if (e.target.closest('.poi-thumb')) return;
+        var open = card.classList.contains('open');
+        if (!open) setOpen(true);
+        else if (e.target.closest('.day-head')) setOpen(false);
+      });
+      head.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          setOpen(!card.classList.contains('open'));
+        }
       });
 
       el.dayList.appendChild(card);
     });
+  }
+
+  /* ---------------- costs ---------------- */
+
+  function renderCostsSummary(route, opt) {
+    var costs = opt && opt.costs;
+    el.blockCosts.hidden = !costs;
+    el.costsSummary.innerHTML = '';
+    if (!costs) return;
+
+    var card = elem('div', 'costs-card');
+    card.appendChild(elem('p', 'costs-card-label', 'What it costs'));
+    card.appendChild(elem('p', 'costs-card-opt', opt.name + ', all six of us, everything in'));
+
+    var head = costHeadline(costs);
+    if (head) card.appendChild(elem('p', 'costs-card-total', head));
+    var pp = perPersonText(costs);
+    if (pp) card.appendChild(elem('p', 'costs-card-pp', pp));
+
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'costs-cta';
+    btn.textContent = 'Costs';
+    btn.addEventListener('click', function () {
+      cameFromRoute = true;
+      location.hash = routeHash(route.id, opt.id) + '/costs';
+    });
+    card.appendChild(btn);
+    card.appendChild(elem('p', 'costs-card-note', 'Full breakdown and both options side by side.'));
+
+    el.costsSummary.appendChild(card);
+  }
+
+  function costTable(costs) {
+    var cols = costColumns(costs);
+    var cur = costs.currency || 'USD';
+    var totals = costs.totals || {};
+    var table = elem('div', 'cost-table' + (cols.length > 1 ? ' cols-' + cols.length : ''));
+
+    if (cols.length > 1) {
+      var hdr = elem('div', 'cost-row cost-header');
+      var hdrTop = elem('div', 'cost-row-top');
+      hdrTop.appendChild(elem('span', 'cat', ''));
+      cols.forEach(function (c) { hdrTop.appendChild(elem('span', 'amt', c.label)); });
+      hdr.appendChild(hdrTop);
+      table.appendChild(hdr);
+    }
+
+    (costs.lines || []).forEach(function (line) {
+      var row = elem('div', 'cost-row');
+      var top = elem('div', 'cost-row-top');
+      top.appendChild(elem('span', 'cat', line.item || ''));
+      cols.forEach(function (c) { top.appendChild(elem('span', 'amt', money(line[c.key], cur) || '—')); });
+      row.appendChild(top);
+      if (line.basis) row.appendChild(elem('p', 'cost-basis', line.basis));
+      table.appendChild(row);
+    });
+
+    if ((costs.lines || []).length) {
+      var tr = elem('div', 'cost-row cost-row-total');
+      var tTop = elem('div', 'cost-row-top');
+      tTop.appendChild(elem('span', 'cat', 'Total'));
+      cols.forEach(function (c) { tTop.appendChild(elem('span', 'amt', money(totals[c.key], cur) || '—')); });
+      tr.appendChild(tTop);
+      table.appendChild(tr);
+
+      if (costs.perPerson) {
+        var pr = elem('div', 'cost-row cost-row-pp');
+        var pTop = elem('div', 'cost-row-top');
+        pTop.appendChild(elem('span', 'cat', 'Each' + (costs.party ? ' (of ' + costs.party + ')' : '')));
+        cols.forEach(function (c) { pTop.appendChild(elem('span', 'amt', money(costs.perPerson[c.key], cur) || '—')); });
+        pr.appendChild(pTop);
+        table.appendChild(pr);
+      }
+    }
+    return table;
+  }
+
+  function renderCostsPage(route, selectedOpt) {
+    el.costsTopbarTitle.textContent = 'Costs · ' + (route.name || '');
+    document.title = 'Costs · ' + (route.name || 'Road trip');
+
+    var page = el.costsPage;
+    page.innerHTML = '';
+
+    page.appendChild(elem('h1', 'costs-h1', 'What it costs'));
+    var t = route.totals || {};
+    page.appendChild(elem('p', 'costs-intro',
+      'Everything for ' + (t.party || 'the group') + ' people over ' + (t.days || '') +
+      ' days, flights included. These are estimates, not quotes.'));
+
+    /* Side-by-side comparison of the headline numbers. */
+    var opts = (route.options || []).filter(function (o) { return o.costs; });
+    if (opts.length > 1) {
+      var cmp = elem('div', 'cost-compare');
+      opts.forEach(function (o) {
+        var cell = elem('div', 'cmp-cell' + (o.id === selectedOpt.id ? ' on' : ''));
+        cell.appendChild(elem('p', 'cmp-name', o.name));
+        cell.appendChild(elem('p', 'cmp-total', costHeadline(o.costs) || ''));
+        var pp = perPersonText(o.costs);
+        if (pp) cell.appendChild(elem('p', 'cmp-pp', pp));
+        cmp.appendChild(cell);
+      });
+      page.appendChild(cmp);
+
+      var lows = opts.map(function (o) {
+        var tt = o.costs.totals || {};
+        return Math.min.apply(null, costColumns(o.costs).map(function (c) { return tt[c.key]; }));
+      });
+      var gap = Math.max.apply(null, lows) - Math.min.apply(null, lows);
+      if (gap > 0) {
+        page.appendChild(elem('p', 'cost-gap',
+          'The gap between the cheapest versions of each is about ' +
+          money(gap, opts[0].costs.currency) + ', which is ' +
+          money(Math.round(gap / (t.party || 6)), opts[0].costs.currency) + ' each.'));
+      }
+    }
+
+    opts.forEach(function (o) {
+      var sec = elem('section', 'cost-section' + (o.id === selectedOpt.id ? ' on' : ''));
+      var h = elem('div', 'cost-section-head');
+      h.appendChild(elem('h2', null, o.name));
+      if (o.tagline) h.appendChild(elem('p', 'cost-section-tag', o.tagline));
+      sec.appendChild(h);
+      sec.appendChild(costTable(o.costs));
+      if (o.costs.notes) sec.appendChild(elem('p', 'cost-notes', o.costs.notes));
+      page.appendChild(sec);
+    });
+
+    var savers = route.moneySavers || [];
+    if (savers.length) {
+      var sv = elem('section', 'savers');
+      sv.appendChild(elem('h2', 'savers-head', 'Ways to spend less'));
+      savers.forEach(function (s) {
+        var row = elem('div', 'saver');
+        var top = elem('p', 'saver-top');
+        top.appendChild(elem('span', 'saver-item', s.item || ''));
+        if (s.amount) top.appendChild(elem('span', 'saver-amount', s.amount));
+        row.appendChild(top);
+        if (s.detail) row.appendChild(elem('p', 'saver-detail', s.detail));
+        sv.appendChild(row);
+      });
+      page.appendChild(sv);
+    }
+
+    var back = document.createElement('button');
+    back.type = 'button';
+    back.className = 'costs-back-bottom';
+    back.textContent = '← Go back to the trip';
+    back.addEventListener('click', goBackFromCosts);
+    page.appendChild(back);
+  }
+
+  function goBackFromCosts() {
+    if (cameFromRoute && history.length > 1) history.back();
+    else if (current) location.hash = routeHash(current.id, currentOpt && currentOpt.id);
+    else location.hash = '#/';
   }
 
   /* ---------------- map ---------------- */
@@ -528,8 +881,6 @@
       allPts = allPts.concat(line.pts);
     });
 
-    /* Markers: the start, then each distinct overnight stop numbered in the
-       order you reach it, so the numbers do not skip the days you stay put. */
     var stops = [], byKey = {};
     var keyOf = function (c) { return c[0].toFixed(3) + ',' + c[1].toFixed(3); };
 
@@ -572,7 +923,6 @@
     setTimeout(function () { map.invalidateSize(); resetMapView(true); }, 60);
   }
 
-  /* "Night 4" / "Nights 5–6" / "Nights 1, 3" */
   function nightsLabel(dayNums) {
     if (!dayNums || !dayNums.length) return '';
     var runs = [], run = [dayNums[0]];
@@ -601,6 +951,9 @@
 
   function focusDay(dayNum) {
     if (!map || !current) return;
+    dayFocused = true;
+    lockMapSize();
+    applyMapSize('focus');
 
     layers.segments.forEach(function (poly) {
       var on = poly._dayNum === dayNum;
@@ -621,18 +974,23 @@
       (day.pois || []).forEach(function (poiItem) {
         if (!isCoord(poiItem.coords)) return;
         pts.push(poiItem.coords);
+        var shots = poiPhotos(poiItem);
         var m = L.marker(poiItem.coords, {
           icon: L.divIcon({ className: 'poi-marker', html: '<div></div>', iconSize: [14, 14], iconAnchor: [7, 7] }),
           keyboard: false
         }).addTo(map);
         var html = '<strong>' + escapeHtml(poiItem.name || '') + '</strong>';
         if (poiItem.caption) html += escapeHtml(poiItem.caption);
-        if (poiItem.photo) html += '<img src="' + escapeHtml(poiItem.photo) + '" alt="">';
+        if (shots.length) html += '<img src="' + escapeHtml(shots[0].src) + '" alt="">';
         m.bindPopup(html);
         layers.pois.push(m);
       });
       if (day.to && isCoord(day.to.coords)) pts.push(day.to.coords);
-      if (pts.length) map.flyToBounds(L.latLngBounds(pts), { padding: [40, 40], maxZoom: 11, duration: 0.6 });
+      if (pts.length) {
+        setTimeout(function () {
+          map.flyToBounds(L.latLngBounds(pts), { padding: [30, 30], maxZoom: 11, duration: 0.6 });
+        }, 300);
+      }
     }
 
     el.resetMap.hidden = false;
@@ -660,16 +1018,22 @@
   }
 
   function resetMapView(instant) {
+    dayFocused = false;
     if (!map) return;
+    if (!instant) lockMapSize();
+    applyMapSize('full', instant);
     layers.segments.forEach(function (poly) { poly.setStyle({ opacity: 0.55, weight: 4 }); });
     layers.stops.forEach(function (m) { m.setOpacity(1); });
     clearPois();
-    if (fullBounds && fullBounds.isValid()) {
-      if (instant) map.fitBounds(fullBounds, { padding: [30, 30] });
-      else map.flyToBounds(fullBounds, { padding: [30, 30], duration: 0.6 });
-    } else {
-      map.setView([36.5, -113.5], 6);
-    }
+    var go = function () {
+      if (fullBounds && fullBounds.isValid()) {
+        if (instant) map.fitBounds(fullBounds, { padding: [30, 30] });
+        else map.flyToBounds(fullBounds, { padding: [30, 30], duration: 0.6 });
+      } else {
+        map.setView([36.5, -113.5], 6);
+      }
+    };
+    instant ? go() : setTimeout(go, 300);
     el.resetMap.hidden = true;
     Array.prototype.forEach.call(el.dayList.children, function (card) { card.classList.remove('active'); });
   }
@@ -680,143 +1044,60 @@
     });
   }
 
-  /* ---------------- costs ---------------- */
-
-  function renderCosts(opt) {
-    el.costsBody.innerHTML = '';
-    var costs = opt && opt.costs;
-    if (!costs) return;
-
-    var cols = costColumns(costs);
-    var cur = costs.currency || 'USD';
-    var totals = costs.totals || {};
-    var headline = moneyRange(cols.map(function (c) { return totals[c.key]; }), cur);
-
-    el.costsBody.appendChild(elem('p', 'cost-context', opt.name));
-    if (headline) el.costsBody.appendChild(elem('p', 'cost-total', headline));
-
-    var bits = [];
-    var pp = perPersonText(costs);
-    if (pp) bits.push(pp);
-    if (costs.party) bits.push('split ' + costs.party + ' ways');
-    if (bits.length) el.costsBody.appendChild(elem('p', 'cost-total-sub', bits.join(' · ')));
-
-    var table = elem('div', 'cost-table' + (cols.length > 1 ? ' cols-' + cols.length : ''));
-    if (cols.length > 1) {
-      var hdr = elem('div', 'cost-row cost-header');
-      var hdrTop = elem('div', 'cost-row-top');
-      hdrTop.appendChild(elem('span', 'cat', ''));
-      cols.forEach(function (c) { hdrTop.appendChild(elem('span', 'amt', c.label)); });
-      hdr.appendChild(hdrTop);
-      table.appendChild(hdr);
-    }
-
-    (costs.lines || []).forEach(function (line) {
-      var row = elem('div', 'cost-row');
-      var top = elem('div', 'cost-row-top');
-      top.appendChild(elem('span', 'cat', line.item || ''));
-      cols.forEach(function (c) { top.appendChild(elem('span', 'amt', money(line[c.key], cur) || '—')); });
-      row.appendChild(top);
-      if (line.basis) row.appendChild(elem('p', 'cost-basis', line.basis));
-      table.appendChild(row);
-    });
-
-    if ((costs.lines || []).length) {
-      var tr = elem('div', 'cost-row cost-row-total');
-      var tTop = elem('div', 'cost-row-top');
-      tTop.appendChild(elem('span', 'cat', 'Total'));
-      cols.forEach(function (c) { tTop.appendChild(elem('span', 'amt', money(totals[c.key], cur) || '—')); });
-      tr.appendChild(tTop);
-      table.appendChild(tr);
-
-      if (costs.perPerson) {
-        var pr = elem('div', 'cost-row cost-row-pp');
-        var pTop = elem('div', 'cost-row-top');
-        pTop.appendChild(elem('span', 'cat', 'Each' + (costs.party ? ' (of ' + costs.party + ')' : '')));
-        cols.forEach(function (c) { pTop.appendChild(elem('span', 'amt', money(costs.perPerson[c.key], cur) || '—')); });
-        pr.appendChild(pTop);
-        table.appendChild(pr);
-      }
-    }
-    el.costsBody.appendChild(table);
-
-    if (costs.notes) el.costsBody.appendChild(elem('p', 'cost-notes', costs.notes));
-
-    var savers = (current && current.moneySavers) || [];
-    if (savers.length) {
-      var sv = elem('div', 'savers');
-      sv.appendChild(elem('p', 'savers-head', 'Ways to spend less'));
-      savers.forEach(function (s) {
-        var row = elem('div', 'saver');
-        var top = elem('p', 'saver-top');
-        top.appendChild(elem('span', 'saver-item', s.item || ''));
-        if (s.amount) top.appendChild(elem('span', 'saver-amount', s.amount));
-        row.appendChild(top);
-        if (s.detail) row.appendChild(elem('p', 'saver-detail', s.detail));
-        sv.appendChild(row);
-      });
-      el.costsBody.appendChild(sv);
-    }
-  }
-
-  function openCosts() {
-    el.costsBackdrop.hidden = false;
-    el.costsSheet.hidden = false;
-    document.body.classList.add('sheet-open');
-    requestAnimationFrame(function () {
-      el.costsBackdrop.classList.add('show');
-      el.costsSheet.classList.add('show');
-    });
-    el.costsSheet.scrollTop = 0;
-    el.costsClose.focus();
-  }
-
-  function closeCosts() {
-    el.costsBackdrop.classList.remove('show');
-    el.costsSheet.classList.remove('show');
-    document.body.classList.remove('sheet-open');
-    setTimeout(function () {
-      if (!el.costsSheet.classList.contains('show')) {
-        el.costsSheet.hidden = true;
-        el.costsBackdrop.hidden = true;
-      }
-    }, 280);
-  }
-
-  function costsOpen() { return el.costsSheet.classList.contains('show'); }
-
   /* ---------------- routing ---------------- */
 
-  function route() {
+  function show(view) {
+    el.viewHome.hidden = view !== 'home';
+    el.viewRoute.hidden = view !== 'route';
+    el.viewCosts.hidden = view !== 'costs';
+  }
+
+  function router() {
     var hash = location.hash || '#/';
-    var m = hash.match(/^#\/route\/([^/]+)(?:\/([^/]+))?/);
-    if (costsOpen()) closeCosts();
+    if (lb.open) closeLightbox();
 
-    if (m) {
-      var rt = findRoute(decodeURIComponent(m[1]));
-      if (!rt) { location.hash = '#/'; return; }
-      var opt = findOption(rt, m[2] ? decodeURIComponent(m[2]) : null);
-      var switchingOption = current && current.id === rt.id && currentOpt && opt && currentOpt.id !== opt.id;
-
-      el.viewHome.hidden = true;
-      el.viewRoute.hidden = false;
-      if (!switchingOption) window.scrollTo(0, 0);
-
-      if (!current || current.id !== rt.id || !currentOpt || currentOpt.id !== opt.id) {
-        var keep = switchingOption ? window.scrollY : 0;
-        renderRoute(rt, opt);
-        if (switchingOption) window.scrollTo(0, keep);
-      } else if (map) {
-        setTimeout(function () { map.invalidateSize(); }, 60);
-      }
-    } else {
-      el.viewRoute.hidden = true;
-      el.viewHome.hidden = false;
+    var m = hash.match(/^#\/route\/([^/]+)(?:\/([^/]+))?(?:\/(costs))?/);
+    if (!m) {
+      show('home');
       current = null;
       currentOpt = null;
       document.title = 'Road Trip Options';
       window.scrollTo(0, 0);
+      return;
     }
+
+    var rt = findRoute(decodeURIComponent(m[1]));
+    if (!rt) { location.hash = '#/'; return; }
+    var optId = m[2] && m[2] !== 'costs' ? decodeURIComponent(m[2]) : null;
+    var isCosts = m[3] === 'costs' || m[2] === 'costs';
+    var opt = findOption(rt, optId);
+
+    if (isCosts) {
+      if (!current || current.id !== rt.id || !currentOpt || currentOpt.id !== opt.id) {
+        current = rt; currentOpt = opt;
+      }
+      renderCostsPage(rt, opt);
+      show('costs');
+      window.scrollTo(0, 0);
+      return;
+    }
+
+    var switchingOption = current && current.id === rt.id && currentOpt && opt && currentOpt.id !== opt.id;
+    var leavingCosts = !el.viewCosts.hidden;
+    show('route');
+
+    if (!current || current.id !== rt.id || !currentOpt || currentOpt.id !== opt.id) {
+      var keep = switchingOption ? window.scrollY : 0;
+      renderRoute(rt, opt);
+      syncMapSpacer();
+      applyMapSize(restingMapSize(), true);
+      if (switchingOption) window.scrollTo(0, keep);
+      else window.scrollTo(0, 0);
+    } else if (map) {
+      setTimeout(function () { map.invalidateSize(); }, 60);
+      if (leavingCosts) applyMapSize(restingMapSize(), true);
+    }
+    lastScrollY = window.scrollY;
   }
 
   /* ---------------- init ---------------- */
@@ -829,15 +1110,49 @@
     });
     resetMapView();
   });
-  el.costsClose.addEventListener('click', closeCosts);
-  el.costsBackdrop.addEventListener('click', closeCosts);
-  document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape' && costsOpen()) closeCosts();
+
+  el.costsBack.addEventListener('click', goBackFromCosts);
+
+  el.lbClose.addEventListener('click', closeLightbox);
+  el.lbPrev.addEventListener('click', function (e) { e.stopPropagation(); stepLightbox(-1); });
+  el.lbNext.addEventListener('click', function (e) { e.stopPropagation(); stepLightbox(1); });
+  el.lightbox.addEventListener('click', function (e) {
+    if (e.target === el.lightbox || e.target.classList.contains('lb-figure')) closeLightbox();
   });
-  window.addEventListener('hashchange', route);
+
+  var touchX = null;
+  el.lightbox.addEventListener('touchstart', function (e) {
+    touchX = e.changedTouches[0].clientX;
+  }, { passive: true });
+  el.lightbox.addEventListener('touchend', function (e) {
+    if (touchX === null) return;
+    var dx = e.changedTouches[0].clientX - touchX;
+    if (Math.abs(dx) > 45) stepLightbox(dx < 0 ? 1 : -1);
+    touchX = null;
+  }, { passive: true });
+
+  document.addEventListener('keydown', function (e) {
+    if (!lb.open) return;
+    if (e.key === 'Escape') closeLightbox();
+    else if (e.key === 'ArrowLeft') stepLightbox(-1);
+    else if (e.key === 'ArrowRight') stepLightbox(1);
+  });
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('wheel', releaseMapLock, { passive: true });
+  window.addEventListener('touchmove', releaseMapLock, { passive: true });
+  window.addEventListener('resize', function () {
+    syncMapSpacer();
+    applyMapSize(mapSize, true);
+  });
+  window.addEventListener('hashchange', router);
 
   loadData()
-    .then(function () { renderHome(); route(); })
+    .then(function () {
+      renderHome();
+      syncMapSpacer();
+      router();
+    })
     .catch(function (err) {
       console.error(err);
       el.routeList.innerHTML = '';
