@@ -780,9 +780,6 @@ h1, h2, h3 { margin: 0; font-weight: 650; letter-spacing: -.01em; }
   margin-top: 4px;
 }
 .cost-row-total .cost-row-top { font-size: 16px; font-weight: 700; }
-.cost-row-pp { border-top: 1px solid var(--line); }
-.cost-row-pp .cost-row-top { color: var(--ink-soft); font-size: 13.5px; }
-.cost-row-pp .cat { font-weight: 600; }
 .cost-notes {
   margin: 16px 0 0;
   padding: 12px 14px;
@@ -987,7 +984,6 @@ body.modal-open { overflow: hidden; }
   letter-spacing: -.02em;
   font-variant-numeric: tabular-nums;
 }
-.costs-card-pp { margin: 4px 0 0; font-size: 14px; color: var(--ink-faint); }
 .costs-cta {
   display: block;
   width: 100%;
@@ -1039,7 +1035,6 @@ body.modal-open { overflow: hidden; }
   letter-spacing: -.01em;
   font-variant-numeric: tabular-nums;
 }
-.cmp-pp { margin: 3px 0 0; font-size: 12px; color: var(--ink-faint); }
 .cost-gap {
   margin: 14px 0 0;
   padding: 12px 14px;

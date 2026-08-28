@@ -4,10 +4,14 @@ A small phone-first website for planning family road trips.
 
 **Live site:** https://taskotale.github.io/roadtrip/
 
-The home screen lists **routes**. Open one and you get the map, what's worth
-seeing, what to watch out for, and the **options** — the different ways of doing
-that same route. Each route has its own options, so a future route can be
-"campervan vs. hotels" or "10 days vs. 14 days" or anything else.
+The home screen lists **routes**. Open one and you get the map, the **options**
+— the different ways of doing that same route — what's worth seeing, the
+day-by-day plan, and what to watch out for. Each route has its own options, so a
+future route can be "campervan vs. hotels" or "10 days vs. 14 days" or anything
+else.
+
+Route page order: summary → how we do it → must see → why this route → places we
+left out → day by day → watch out for → costs.
 
 ```
 Route  ──  Southwest Loop — January
@@ -105,11 +109,9 @@ GitHub rebuilds in about a minute.
 
       "costs": {
         "currency": "USD",
-        "party": 6,
         // One column per scenario to compare side by side.
-        "columns":   [{ "key": "low", "label": "Low" }, { "key": "high", "label": "High" }],
-        "totals":    { "low": 7128, "high": 7923 },
-        "perPerson": { "low": 1188, "high": 1321 },
+        "columns": [{ "key": "low", "label": "Low" }, { "key": "high", "label": "High" }],
+        "totals":  { "low": 7128, "high": 7923 },
         "lines": [
           { "item": "Flights", "low": 2280, "high": 2280, "basis": "6 people x $380 round trip" }
         ],
@@ -171,9 +173,12 @@ Things worth knowing:
 - A `pois` entry may use a single `"photo": "..."` string instead of `photos`;
   both work.
 - A day where `from` and `to` match renders as "Based in …" with no map leg.
-- `columns` keys must match the keys used in `totals`, `perPerson` and every
-  `lines` entry. **Each column should add up to its total** — the site shows the
-  sum and people notice when it doesn't.
+- `columns` keys must match the keys used in `totals` and every `lines` entry.
+  **Each column should add up to its total** — the site shows the sum and people
+  notice when it doesn't.
+- **Totals only, never a per-person figure.** The kids are not paying, and one
+  person dropping out would barely move the number, so a per-head split would
+  mislead more than it helps.
 - **`route` is optional.** Without it the map draws a dashed straight line.
 - Optional throughout: `note`, `caption`, `flags`, `activities`, `elevation`,
   `hero`, `notConsidered`, `moneySavers`, `only`.

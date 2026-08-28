@@ -63,12 +63,6 @@
     return moneyRange(costColumns(costs).map(function (c) { return totals[c.key]; }), costs.currency);
   }
 
-  function perPersonText(costs) {
-    if (!costs || !costs.perPerson) return null;
-    var r = moneyRange(costColumns(costs).map(function (c) { return costs.perPerson[c.key]; }), costs.currency);
-    return r ? r + ' each' : null;
-  }
-
   function isCoord(c) {
     return Array.isArray(c) && c.length >= 2 &&
       typeof c[0] === 'number' && typeof c[1] === 'number' &&
@@ -703,9 +697,6 @@
 
     var head = costHeadline(costs);
     if (head) card.appendChild(elem('p', 'costs-card-total', head));
-    var pp = perPersonText(costs);
-    if (pp) card.appendChild(elem('p', 'costs-card-pp', pp));
-
     var btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'costs-cta';
@@ -752,15 +743,6 @@
       cols.forEach(function (c) { tTop.appendChild(elem('span', 'amt', money(totals[c.key], cur) || '—')); });
       tr.appendChild(tTop);
       table.appendChild(tr);
-
-      if (costs.perPerson) {
-        var pr = elem('div', 'cost-row cost-row-pp');
-        var pTop = elem('div', 'cost-row-top');
-        pTop.appendChild(elem('span', 'cat', 'Each' + (costs.party ? ' (of ' + costs.party + ')' : '')));
-        cols.forEach(function (c) { pTop.appendChild(elem('span', 'amt', money(costs.perPerson[c.key], cur) || '—')); });
-        pr.appendChild(pTop);
-        table.appendChild(pr);
-      }
     }
     return table;
   }
@@ -786,22 +768,21 @@
         var cell = elem('div', 'cmp-cell' + (o.id === selectedOpt.id ? ' on' : ''));
         cell.appendChild(elem('p', 'cmp-name', o.name));
         cell.appendChild(elem('p', 'cmp-total', costHeadline(o.costs) || ''));
-        var pp = perPersonText(o.costs);
-        if (pp) cell.appendChild(elem('p', 'cmp-pp', pp));
         cmp.appendChild(cell);
       });
       page.appendChild(cmp);
 
-      var lows = opts.map(function (o) {
+      var lowOf = function (o) {
         var tt = o.costs.totals || {};
         return Math.min.apply(null, costColumns(o.costs).map(function (c) { return tt[c.key]; }));
-      });
+      };
+      var lows = opts.map(lowOf);
       var gap = Math.max.apply(null, lows) - Math.min.apply(null, lows);
       if (gap > 0) {
+        var cheapest = opts.reduce(function (a, b) { return lowOf(a) <= lowOf(b) ? a : b; });
         page.appendChild(elem('p', 'cost-gap',
-          'The gap between the cheapest versions of each is about ' +
-          money(gap, opts[0].costs.currency) + ', which is ' +
-          money(Math.round(gap / (t.party || 6)), opts[0].costs.currency) + ' each.'));
+          'Compared like for like at the cheaper end, the ' + cheapest.name.toLowerCase() +
+          ' saves about ' + money(gap, cheapest.costs.currency) + ' overall.'));
       }
     }
 

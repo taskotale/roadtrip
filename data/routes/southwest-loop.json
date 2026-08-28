@@ -200,7 +200,6 @@
       },
       "costs": {
         "currency": "USD",
-        "party": 6,
         "columns": [
           {
             "key": "low",
@@ -214,10 +213,6 @@
         "totals": {
           "low": 7128,
           "high": 7923
-        },
-        "perPerson": {
-          "low": 1188,
-          "high": 1321
         },
         "lines": [
           {
@@ -1580,7 +1575,6 @@
       },
       "costs": {
         "currency": "USD",
-        "party": 6,
         "columns": [
           {
             "key": "value",
@@ -1594,10 +1588,6 @@
         "totals": {
           "value": 9700,
           "location": 12600
-        },
-        "perPerson": {
-          "value": 1617,
-          "location": 2100
         },
         "lines": [
           {
