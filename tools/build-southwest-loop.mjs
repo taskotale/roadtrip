@@ -343,8 +343,12 @@ const route = {
 
 await mkdir(`${SITE}/data/routes`, { recursive: true });
 await writeFile(`${SITE}/data/routes/southwest-loop.json`, JSON.stringify(route, null, 2) + '\n');
-await writeFile(`${SITE}/data/manifest.json`,
-  JSON.stringify({ routes: ['routes/southwest-loop.json'] }, null, 2) + '\n');
+/* Add this route to the manifest without disturbing the ones already there —
+   rebuilding one route must not drop the others off the home screen. */
+const manifestPath = `${SITE}/data/manifest.json`;
+const manifest = JSON.parse(await readFile(manifestPath, 'utf8').catch(() => '{"routes":[]}'));
+if (!manifest.routes.includes('routes/southwest-loop.json')) manifest.routes.unshift('routes/southwest-loop.json');
+await writeFile(manifestPath, JSON.stringify(manifest, null, 2) + '\n');
 
 /* ---- checks ---- */
 let bad = 0;

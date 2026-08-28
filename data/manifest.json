@@ -1,5 +1,7 @@
 {
   "routes": [
-    "routes/southwest-loop.json"
+    "routes/southwest-loop.json",
+    "routes/low-desert-loop.json",
+    "routes/sonoran-loop.json"
   ]
 }

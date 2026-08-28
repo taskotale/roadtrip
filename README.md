@@ -14,11 +14,16 @@ Route page order: summary → how we do it → must see → why this route → p
 left out → day by day → watch out for → costs.
 
 ```
-Route  ──  Southwest Loop — January
-            ├── shared: the map, the 14 days, must-sees, watch-outs, pros/cons
-            └── options: Motorhome  ·  Car and lodging
-                         (cost, vehicle, and which days change)
+Route  ──  Southwest Loop — January     the original: five national parks, a cold middle
+        ──  Low Desert Loop — January    warm all the way: Death Valley, Palm Springs, Joshua Tree
+        ──  Sonoran Loop — January       warmest of the three, and the most driving
+             ├── shared: the map, the 14 days, must-sees, watch-outs, pros/cons
+             └── options: Motorhome  ·  Car and lodging
+                          (cost, vehicle, and which days change)
 ```
+
+All three start and end at Las Vegas, run fourteen days for six people in January, and open
+with three nights in Death Valley. After that they go different ways.
 
 Costs are deliberately tucked away — no prices on the home screen, and none on the
 route page until you reach the summary at the very bottom. The **COSTS** button
@@ -37,6 +42,8 @@ Everything the site shows comes from two files:
 | --- | --- |
 | `data/manifest.json` | Which route files to load |
 | `data/routes/southwest-loop.json` | One whole route: days, must-sees, watch-outs, options |
+| `data/routes/low-desert-loop.json` | The warm loop through the Mojave and the Colorado Desert |
+| `data/routes/sonoran-loop.json` | The Arizona loop, out to Saguaro and Tucson |
 
 Change a number or some wording, then push:
 
@@ -55,9 +62,13 @@ GitHub rebuilds in about a minute.
 ## Adding a new route
 
 Either hand-write the JSON against the schema below — perfectly fine for a one-off
-— or copy `tools/build-southwest-loop.mjs` and generate it. That script is the
-record of how the Southwest Loop file was produced; running it plus
-`tools/build-routes.mjs` reproduces `data/routes/southwest-loop.json` exactly.
+— or copy one of the builders in `tools/` and generate it. Each builder is the
+record of how that route file was produced; running it plus `tools/build-routes.mjs`
+reproduces its route file exactly. `build-low-desert-loop.mjs` and
+`build-sonoran-loop.mjs` are the two most recent, and the closest to a template.
+
+A builder adds itself to `data/manifest.json` without disturbing the routes already
+listed, so rebuilding one route never drops the others off the home screen.
 
 1. Copy `data/routes/southwest-loop.json` to `data/routes/<new-id>.json` and edit it.
 2. Add its filename to `data/manifest.json`:
@@ -208,6 +219,27 @@ a park with one bar:
 sips -Z 1200 -s format jpeg -s formatOptions 55 ~/Downloads/new.jpg --out "assets/photos/southwest-loop/zabriskie-point-5.jpg"
 ```
 
+Check the result is actually under 180KB — `sips` quietly ignores the quality setting
+on some files. When it does, use ImageMagick and step the size down as well:
+
+```bash
+magick in.jpg -resize '1000x1000>' -strip -quality 50 out.jpg
+```
+
+To find candidates in the first place:
+
+```bash
+node tools/fetch-commons.mjs /tmp/candidates skull-rock "cat:Category:Skull Rock" 8
+```
+
+That pulls up to eight freely-licensed photos off Wikimedia Commons into
+`/tmp/candidates/skull-rock/`, with a `meta.json` holding the author, licence and
+source page for each — the four columns `CREDITS.md` needs. A `cat:` prefix lists a
+Commons category; anything else is a free-text search. **Look at every photo before
+you use one.** Searches return decoys, aerials where the landmark is unrecognisable,
+and shots through car windows, and a category can be full of something else entirely
+— the Wickenburg category is mostly turkey vultures.
+
 Sources and licences for every photo are in [CREDITS.md](CREDITS.md). A couple of
 spares sit in the folder unused (`mosaic-canyon`, `elephant-rock`-style extras),
 ready to drop into a `pois` entry.
@@ -250,7 +282,10 @@ work — the browser blocks loading the JSON that way.
 | `assets/photos/<route-id>/` | Photos for that route |
 | `tools/build-routes.mjs` | One-time road geometry fetcher (any route) |
 | `tools/build-southwest-loop.mjs` | Rebuilds that one route from `source/` — a worked example |
-| `source/` | The original planning data this was built from |
+| `tools/build-low-desert-loop.mjs` | Same, for the Low Desert Loop |
+| `tools/build-sonoran-loop.mjs` | Same, for the Sonoran Loop |
+| `tools/fetch-commons.mjs` | Pulls freely-licensed candidate photos off Wikimedia Commons |
+| `source/` | The planning data and checked coordinates each route was built from |
 
 The map uses [Leaflet](https://leafletjs.com) with
 [OpenStreetMap](https://www.openstreetmap.org/copyright) tiles — free, no account

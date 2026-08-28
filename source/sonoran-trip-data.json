@@ -1,0 +1,245 @@
+{
+  "trip": {
+    "title": "Sonoran Loop — January",
+    "subtitle": "Death Valley · Lake Havasu · Scottsdale · Superstitions · Saguaro · Tucson",
+    "duration_days": 14,
+    "party_size": 6,
+    "start_end": "Las Vegas, NV (Harry Reid International — LAS)",
+    "season": "January",
+    "total_miles": 1545,
+    "transit_miles": 1195,
+    "in_park_miles": 350,
+    "avg_miles_per_day": 110,
+    "summary": "The warmest of the loops, and the one that charges you the most driving for it. Death Valley first, then straight down the Colorado River into Arizona and on into the Sonoran Desert — saguaro country, which begins around Wickenburg and exists on neither of the other routes. Phoenix and Tucson both sit in the high 60s in January. Getting back to Las Vegas from Tucson is a 288-mile day, and that is the honest argument against this trip."
+  },
+
+  "itinerary": [
+    { "day": 1, "from": "Las Vegas, NV", "to": "Furnace Creek, Death Valley", "miles": 122,
+      "drive_time": "2h37", "elevation_ft": -190, "freezing_night": false,
+      "headline": "Below sea level by lunchtime",
+      "notes": "Pick up the vehicle and drive straight in. Furnace Creek sits 190 feet below sea level — January highs in the mid-60s, lows around 40.",
+      "activities": ["Zabriskie Point at sunset"] },
+
+    { "day": 2, "from": "Furnace Creek", "to": "Furnace Creek", "miles": 0,
+      "elevation_ft": -190, "freezing_night": false,
+      "headline": "The valley floor",
+      "notes": "Badwater Basin is the lowest point in North America. Artist's Drive is a one-way loop through mineral-stained hills and is limited to vehicles under 25 feet.",
+      "activities": ["Badwater Basin", "Golden Canyon hike", "Artist's Drive", "Devil's Golf Course"] },
+
+    { "day": 3, "from": "Furnace Creek", "to": "Furnace Creek", "miles": 0,
+      "elevation_ft": -190, "freezing_night": false,
+      "headline": "Dunes at sunrise",
+      "notes": "Mesquite Flat is twenty minutes up the valley and best before the wind picks up. Dante's View is the one genuinely cold place on this route — 5,450 feet, and it can be 25 degrees colder than the valley floor.",
+      "activities": ["Mesquite Flat Dunes at sunrise", "Mosaic Canyon", "Dante's View"] },
+
+    { "day": 4, "from": "Furnace Creek", "to": "Boulder City, NV", "miles": 136,
+      "drive_time": "2h55", "elevation_ft": 2510, "freezing_night": false,
+      "headline": "Out of the valley to the dam",
+      "notes": "Back through Las Vegas and out the far side. Boulder City was built in 1931 to house the men constructing Hoover Dam, and is still the only town in Nevada where gambling is illegal. The dam is ten minutes away and Lake Mead is closer than that.",
+      "activities": ["Hoover Dam", "Hemenway Harbor, Lake Mead"] },
+
+    { "day": 5, "from": "Boulder City", "to": "Lake Havasu City, AZ", "miles": 138,
+      "drive_time": "2h46", "elevation_ft": 630, "freezing_night": false,
+      "headline": "Down US-93 to the river",
+      "notes": "Through Kingman, where Route 66 crosses the highway, and on down to the Colorado. Lake Havasu City was founded in 1963 by a chainsaw manufacturer, who then bought London Bridge to give people a reason to come.",
+      "activities": ["Kingman and Route 66", "London Bridge"] },
+
+    { "day": 6, "from": "Lake Havasu City", "to": "Lake Havasu City", "miles": 0,
+      "elevation_ft": 630, "freezing_night": false,
+      "headline": "A day on the water",
+      "notes": "Lake Havasu runs to the mid-60s in January — warm enough to be out on a boat, too cold to swim. London Bridge is the actual bridge that stood over the Thames from 1831: bought from the City of London in 1968, taken apart, and rebuilt here block by numbered block.",
+      "activities": ["London Bridge", "Boat or kayak on the lake", "Lake Havasu State Park"] },
+
+    { "day": 7, "from": "Lake Havasu City", "to": "Scottsdale, AZ", "miles": 210,
+      "drive_time": "3h57", "elevation_ft": 1260, "freezing_night": false,
+      "headline": "Into saguaro country",
+      "notes": "The long transfer day, and the one where the desert changes under you. Somewhere south of Parker the first saguaros appear — they grow nowhere on earth but the Sonoran Desert, and nowhere at all on the other two routes. By the time you reach Phoenix they are everywhere.",
+      "activities": ["The drive down through Parker and Wickenburg", "Arrive Scottsdale"] },
+
+    { "day": 8, "from": "Scottsdale", "to": "Scottsdale", "miles": 0,
+      "elevation_ft": 1260, "freezing_night": false,
+      "headline": "Phoenix in shirtsleeves",
+      "notes": "Mid to high 60s and dry. The Desert Botanical Garden is the best introduction to this desert there is, and being a garden it suits everybody in the party. Camelback is a hard scramble with chains and drop-offs; Papago Park next door gives you a ten-minute walk to the same kind of view.",
+      "activities": ["Desert Botanical Garden", "Hole in the Rock, Papago Park", "Old Town Scottsdale", "Taliesin West"] },
+
+    { "day": 9, "from": "Scottsdale", "to": "Apache Junction, AZ", "miles": 28,
+      "drive_time": "0h42", "elevation_ft": 1710, "freezing_night": false,
+      "headline": "Under the Superstitions",
+      "notes": "Twenty-eight miles, the shortest day on any of these routes. Lost Dutchman State Park sits directly beneath the Superstition Mountains, and the Apache Trail climbs behind them to Canyon Lake and Tortilla Flat, a town with six residents and one saloon.",
+      "activities": ["Lost Dutchman State Park", "Apache Trail to Canyon Lake", "Tortilla Flat"] },
+
+    { "day": 10, "from": "Apache Junction", "to": "Tucson, AZ", "miles": 99,
+      "drive_time": "2h15", "elevation_ft": 2430, "freezing_night": false,
+      "headline": "The east half of Saguaro",
+      "notes": "Saguaro National Park is two separate districts on opposite sides of Tucson. The east one — Rincon Mountain — has the Cactus Forest Loop Drive: eight paved miles through the densest stand of saguaro in the park, and you can do the whole thing without leaving the vehicle if legs have run out.",
+      "activities": ["Saguaro National Park East", "Cactus Forest Loop Drive"] },
+
+    { "day": 11, "from": "Tucson", "to": "Tucson", "miles": 0,
+      "elevation_ft": 2430, "freezing_night": false,
+      "headline": "The west half, and the best museum in the desert",
+      "notes": "The Arizona-Sonora Desert Museum is a zoo, a botanical garden and a natural history museum on one site, and is routinely called one of the best museums in the country. It is next door to the western half of Saguaro. Mission San Xavier del Bac, ten miles south, has been in continuous use since 1797.",
+      "activities": ["Saguaro National Park West", "Arizona-Sonora Desert Museum", "Gates Pass at sunset", "Mission San Xavier del Bac"] },
+
+    { "day": 12, "from": "Tucson", "to": "Wickenburg, AZ", "miles": 174,
+      "drive_time": "3h19", "elevation_ft": 2050, "freezing_night": false,
+      "headline": "North, and the long way home begins",
+      "notes": "Back up through Phoenix and out the far side to Wickenburg, an 1863 gold town that runs on horses now. Vulture City, twelve miles south, is the mine that started it — abandoned in 1942 and left standing. This is the first and easier half of the drive home.",
+      "activities": ["Vulture City ghost town", "Wickenburg old town"] },
+
+    { "day": 13, "from": "Wickenburg", "to": "Las Vegas area", "miles": 288,
+      "drive_time": "5h51", "elevation_ft": 2050, "freezing_night": false,
+      "headline": "288 miles up the river",
+      "notes": "The longest day on any of these routes, and there is no version of this trip without it. West to Parker, then north along the Colorado through Lake Havasu and Needles and up US-95 into Nevada. It is a good drive and it is still the better part of six hours.",
+      "activities": ["Parker Dam", "The Colorado River road"] },
+
+    { "day": 14, "from": "Las Vegas", "to": "Fly home", "miles": 0,
+      "elevation_ft": 2050, "freezing_night": false,
+      "headline": "Return and depart",
+      "notes": "Allow half a day for the vehicle return process.",
+      "activities": [] }
+  ],
+
+  "practical_notes": {
+    "warm_weather": "No night on this route is expected to freeze. Tucson is the highest place you sleep at 2,430 feet, where January lows average about 40, and Wickenburg can touch freezing for an hour or two before dawn on a cold snap. Phoenix and Lake Havasu stay in the mid-40s at night and the high 60s by day. Nothing here needs winterising.",
+    "booking_order": "Book the Phoenix-area nights first, then Tucson, then Lake Havasu. January to March is snowbird season across the whole Valley of the Sun — RV parks around Phoenix, Mesa and Apache Junction fill up months ahead and charge their annual peak, and hotel rooms follow. Death Valley and Wickenburg have far more slack.",
+    "long_day": "Day 13 is 288 miles and the better part of six hours. Start early, fill up in Wickenburg, and plan nothing else that day. It is the price of reaching Tucson from Las Vegas and back inside two weeks — the same arithmetic that kept Saguaro off the Southwest Loop.",
+    "apache_trail": "The Apache Trail is paved as far as Tortilla Flat and that is the section to drive — Canyon Lake and the saloon. Beyond it the road turns to dirt and long stretches have been closed since the 2019 fire and the floods that followed. Check the state's road status before you set out, and do not plan to drive through to Roosevelt Lake.",
+    "death_valley_closures": "Flood damage persists. Bonnie Clare Road and Scotty's Castle are closed with no reopening date, North Highway has loose gravel and missing shoulders, southern Badwater Road has soft shoulders and unpaved sections, and Emigrant Campground is closed indefinitely. Check the park's conditions page a week before departure.",
+    "fuel": "US-93 and the Colorado River road both have long empty stretches. Top off in Kingman on the way down, in Wickenburg before day 13, and before entering Death Valley, where in-park fuel at Furnace Creek is notably expensive.",
+    "mileage_fees": "If the rental charges per mile at around $0.35, 1,545 miles adds roughly $540. On this route more than the others, always price the unlimited-miles package.",
+    "paid_attractions": "The America the Beautiful pass covers Death Valley and both halves of Saguaro. It does not cover Lost Dutchman or Lake Havasu, which are state parks, and it does nothing at all for the Desert Botanical Garden, the Arizona-Sonora Desert Museum or Taliesin West — the three best things in the middle of this trip, all of which charge per person."
+  },
+
+  "vehicle_restrictions": [
+    { "location": "Death Valley — Artist's Drive and the final climb to Dante's View",
+      "limits": { "length_ft": 25 },
+      "rule": "Vehicles over 25 feet are prohibited.",
+      "impact_on_rv": "A 30-footer is blocked. A C25 measures 24.93 ft — a three-inch margin, so measure the actual unit at pickup.",
+      "impact_on_car": "None." },
+    { "location": "Tucson — Gates Pass Road",
+      "rule": "Gates Pass is a narrow switchback climb over the Tucson Mountains and is posted closed to large vehicles, RVs and trailers.",
+      "impact_on_rv": "Blocked. Reach Saguaro West and the Desert Museum the long way round on Ajo Way instead — about twenty minutes more.",
+      "impact_on_car": "None, and it is the best sunset spot in Tucson." },
+    { "location": "Apache Trail — AZ-88 beyond Canyon Lake",
+      "rule": "Narrow, winding and with tight curves even on the paved section; unpaved and partly closed beyond Tortilla Flat.",
+      "impact_on_rv": "Not for a 30-footer. Stop at Lost Dutchman and the Canyon Lake vista and turn around.",
+      "impact_on_car": "Fine as far as Tortilla Flat. Do not attempt the dirt beyond it." },
+    { "location": "Phoenix and Mesa RV parks in January",
+      "rule": "Snowbird season. The good full-hookup parks are booked out months ahead and priced at their annual peak.",
+      "impact_on_rv": "Book this before anything else on the trip.",
+      "impact_on_car": "The same pressure applies to hotel rooms, but there is far more of them." }
+  ],
+
+  "money_savers": [
+    { "item": "Sleep in Mesa or Apache Junction, not Scottsdale", "saving": "~$700 over 3 nights",
+      "detail": "Scottsdale in January is the most expensive lodging on any of these routes. Mesa and Apache Junction are twenty-five minutes away, have the bulk of the region's RV parks, and put you closer to the Superstitions anyway. This is the single biggest lever in the budget." },
+    { "item": "Papago Park instead of Camelback", "saving": "$0",
+      "detail": "Hole in the Rock is a ten-minute walk to a view over Phoenix, free, with parking at the bottom. Camelback is a chained scramble with a car park that fills by eight in the morning." },
+    { "item": "Skip Taliesin West unless somebody cares", "saving": "~$300",
+      "detail": "Tours start around $49 a head and run ninety minutes. Superb if anyone in the party is interested in Frank Lloyd Wright, an expensive hour if not." },
+    { "item": "Decline the RV kit fee", "saving": "~$250",
+      "detail": "Buy bedding and kitchen gear at a Las Vegas store on day one for $200-300 and leave it behind. Cheaper than per-person kit fees for six." },
+    { "item": "Buy the Desert Museum and Garden tickets online", "saving": "~$40",
+      "detail": "Both discount advance tickets against the gate price, and both sell timed entry that can run out on a January weekend. This is the one pair of tickets worth booking ahead." },
+    { "item": "America the Beautiful pass", "saving": "$80, already owned",
+      "detail": "Covers Death Valley and both districts of Saguaro. It does NOT cover Lost Dutchman or Lake Havasu, which are state parks, nor any of the museums and gardens." }
+  ],
+
+  "rejected_alternatives": [
+    { "place": "The Grand Canyon",
+      "reason": "6,800 feet, snow on the rim and nights in the high teens. It belongs to the Southwest Loop, where the cold is the whole bargain." },
+    { "place": "Joshua Tree and Palm Springs",
+      "reason": "Warm, and on the far side of the Colorado. Putting them with Saguaro means two 280-mile days instead of one. That trip is the Low Desert Loop." },
+    { "place": "Sedona",
+      "reason": "4,300 feet, and January nights there run below freezing. It also sits 120 miles off this loop in the wrong direction." },
+    { "place": "Organ Pipe Cactus National Monument",
+      "reason": "The warmest national monument in the country and genuinely worth seeing, but it is 140 miles south of Tucson on the Mexican border and costs a whole day each way." },
+    { "place": "Tombstone and Bisbee",
+      "reason": "Both good, both about 90 miles past Tucson, and this trip already contains a 288-mile day." },
+    { "place": "Kartchner Caverns",
+      "reason": "Fifty miles southeast of Tucson, and tour tickets sell out weeks ahead. Worth it if you plan early — easy to miss if you do not." },
+    { "place": "Travel trailer plus rented pickup",
+      "reason": "Trailer rentals do not include a tow vehicle, and the major rental companies prohibit towing outright. Turo treats towing as a prohibited use that voids damage protection." }
+  ],
+
+  "options": [
+    {
+      "id": "option-1",
+      "name": "Motorhome",
+      "tagline": "Cheapest, warmest nights, and the hardest thing to book",
+      "vehicle": {
+        "type": "Class C motorhome, 30 ft",
+        "example": "Cruise America C30",
+        "sleeps": 7,
+        "seatbelts": 7,
+        "dimensions": { "length_ft": 30, "width_ft": 8.33, "height_ft": 12.2 },
+        "notes": "Book by seatbelt count, not sleeping capacity. On this route the length limits that bite are Death Valley's 25 ft on Artist's Drive and Dante's View, and Gates Pass in Tucson, which is closed to RVs outright. The real constraint is not the vehicle, it is finding a Phoenix-area site in January."
+      },
+      "budget": {
+        "currency": "USD",
+        "lines": [
+          { "item": "Flights", "low": 2280, "high": 2280, "basis": "6 people x $380 round trip" },
+          { "item": "RV rental, all-in", "low": 2000, "high": 2000, "basis": "Includes protection, unlimited miles and 15 generator hours. Kit fee declined." },
+          { "item": "Fuel", "low": 753, "high": 849, "basis": "1,545 mi at 8 mpg, $3.90-4.40/gal across NV, AZ and the Death Valley leg" },
+          { "item": "Campgrounds", "low": 700, "high": 950, "basis": "13 nights, full hookups. The Phoenix-area nights are at their annual peak in January" },
+          { "item": "Food and groceries", "low": 832, "high": 1063, "basis": "Cooking in the RV with a few meals out" },
+          { "item": "Gardens, museums and state parks", "low": 320, "high": 520, "basis": "Desert Botanical Garden, Arizona-Sonora Desert Museum, Lost Dutchman and Lake Havasu day use. None are covered by the national park pass" },
+          { "item": "Bedding and kitchen gear", "low": 200, "high": 300, "basis": "Bought in Vegas on day 1 instead of paying per-person kit fees" },
+          { "item": "Death Valley rental car", "low": 200, "high": 300, "basis": "Days 1-4 economy car; the 30-footer is barred from Artist's Drive and Dante's View" },
+          { "item": "Incidentals", "low": 160, "high": 260, "basis": "Propane, laundry, showers, parking" },
+          { "item": "Park entry fees", "low": 0, "high": 0, "basis": "America the Beautiful annual pass already owned — covers Death Valley and both halves of Saguaro" }
+        ]
+      },
+      "pros": [
+        "Cheapest by a wide margin",
+        "Transport and lodging in one",
+        "No freezing nights anywhere, so none of the winterising grief",
+        "Food costs stay low because you cook — and Phoenix and Tucson have real supermarkets",
+        "Two thirds of the route is main highway, which is the easy kind of driving in a 30-footer"
+      ],
+      "cons": [
+        "Phoenix-area sites in January are the hardest booking on any of these routes",
+        "Barred from Gates Pass, so Saguaro West and the Desert Museum need the long way round",
+        "Still needs a separate rental car in Death Valley for Artist's Drive and Dante's View",
+        "The Apache Trail past Canyon Lake is not for a 30-footer",
+        "Day 13 is 288 miles at 8 mpg — the most expensive tank of the trip"
+      ]
+    },
+    {
+      "id": "option-2",
+      "name": "Car and lodging",
+      "tagline": "More expensive, and it makes the two long days bearable",
+      "vehicle": {
+        "type": "Minivan or full-size SUV",
+        "examples": ["Chrysler Pacifica", "Honda Odyssey", "Chevrolet Suburban"],
+        "seats": 7,
+        "cost_low": 1400,
+        "cost_high": 2100,
+        "notes": "A minivan is better for people, a Suburban better for luggage. Fourteen days from Las Vegas including airport concession fees. On a route with a 288-mile day and a 210-mile day, the comfort of the vehicle matters more here than on either of the others."
+      },
+      "budget_deltas": {
+        "fuel": { "low": 300, "high": 380, "basis": "1,545 mi at 18-20 mpg — the single largest saving over the RV" },
+        "lodging": { "value": 3000, "location": 4800, "basis": "13 nights, two rooms or one rental house. Scottsdale and Tucson in January are peak snowbird season, which is what makes this line the biggest on the page" },
+        "food": { "low": 2600, "high": 3600, "basis": "Eating out for six. This single line is most of the gap between the two options." }
+      },
+      "builds": [
+        { "id": "value", "name": "Best value", "total": 10300 },
+        { "id": "location", "name": "Best location", "total": 14100 }
+      ],
+      "pros": [
+        "Unlocks Gates Pass and the best sunset in Tucson",
+        "Unlocks the Apache Trail through to Tortilla Flat",
+        "Fuel drops from roughly $800 to $340",
+        "Two long driving days are a great deal easier in a car than a 30-footer",
+        "Artist's Drive and Dante's View without a second rental"
+      ],
+      "cons": [
+        "Roughly $2,900 to $5,600 more than the motorhome",
+        "Food costs roughly triple",
+        "Six separate lodging bookings, in the region's most expensive month",
+        "Luggage for six in one vehicle for two weeks is tight",
+        "Scottsdale is the priciest single stop on any of these routes"
+      ]
+    }
+  ]
+}

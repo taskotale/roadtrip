@@ -1,0 +1,46 @@
+{
+  "las-vegas":                { "lat": 36.16743, "lng": -115.14841 },
+  "las-vegas-airport":        { "lat": 36.0861,  "lng": -115.1611  },
+  "furnace-creek":            { "lat": 36.45648, "lng": -116.86914 },
+  "boulder-city":             { "lat": 35.97876, "lng": -114.83376 },
+  "lake-havasu-city":         { "lat": 34.47555, "lng": -114.32859 },
+  "scottsdale":               { "lat": 33.49422, "lng": -111.92602 },
+  "apache-junction":          { "lat": 33.41505, "lng": -111.54958 },
+  "tucson":                   { "lat": 32.22288, "lng": -110.97485 },
+  "wickenburg":               { "lat": 33.9681,  "lng": -112.73014 },
+
+  "zabriskie-point":          { "lat": 36.42005, "lng": -116.81229 },
+  "badwater-basin":           { "lat": 36.23026, "lng": -116.76744 },
+  "golden-canyon":            { "lat": 36.42076, "lng": -116.84656 },
+  "artists-drive":            { "lat": 36.36669, "lng": -116.80052 },
+  "mesquite-flat-dunes":      { "lat": 36.60616, "lng": -117.11507 },
+  "mosaic-canyon":            { "lat": 36.57184, "lng": -117.14424 },
+  "dantes-view":              { "lat": 36.22066, "lng": -116.72675 },
+
+  "hoover-dam":               { "lat": 36.01572, "lng": -114.73749 },
+  "hemenway-harbor":          { "lat": 36.03411, "lng": -114.77399 },
+  "kingman":                  { "lat": 35.18959, "lng": -114.0533  },
+  "london-bridge":            { "lat": 34.47156, "lng": -114.34763 },
+  "lake-havasu-state-park":   { "lat": 34.49326, "lng": -114.35881 },
+  "parker-dam":               { "lat": 34.29602, "lng": -114.14036 },
+
+  "vulture-city":             { "lat": 33.81856, "lng": -112.83084 },
+  "desert-botanical-garden":  { "lat": 33.46127, "lng": -111.94508 },
+  "papago-hole-in-the-rock":  { "lat": 33.45633, "lng": -111.94525 },
+  "old-town-scottsdale":      { "lat": 33.49232, "lng": -111.92208 },
+  "camelback-mountain":       { "lat": 33.51473, "lng": -111.9617  },
+  "taliesin-west":            { "lat": 33.60658, "lng": -111.84499 },
+
+  "lost-dutchman-sp":         { "lat": 33.45621, "lng": -111.48122 },
+  "superstition-mountains":   { "lat": 33.42866, "lng": -111.41819 },
+  "canyon-lake":              { "lat": 33.55856, "lng": -111.4156  },
+  "tortilla-flat":            { "lat": 33.52644, "lng": -111.38985 },
+
+  "saguaro-east":             { "lat": 32.1802,  "lng": -110.73626 },
+  "saguaro-west":             { "lat": 32.25436, "lng": -111.19729 },
+  "sonora-desert-museum":     { "lat": 32.24371, "lng": -111.1674  },
+  "mission-san-xavier":       { "lat": 32.10728, "lng": -111.00749 },
+  "gates-pass":               { "lat": 32.22262, "lng": -111.10104 },
+
+  "wikieup":                  { "lat": 34.70335, "lng": -113.61136 }
+}
