@@ -1,0 +1,121 @@
+{
+  "trip": {
+    "title": "Key West Run — January",
+    "subtitle": "Savannah · Kennedy Space Center · Everglades · Key West · Naples · St Augustine · Charleston",
+    "summary": "Fourteen days from Fort Lee to the bottom of the Florida Keys and back, driving the whole way. Two hard interstate days at each end buy you nine days of warm weather, the Everglades in dry season, and the Overseas Highway out to Key West. No flights, no big theme park, and four walkable historic cities on the same line.",
+    "season": "January",
+    "start_end": "Fort Lee, NJ",
+    "duration_days": 14,
+    "total_miles": 3350,
+    "party_size": 6,
+    "avg_miles_per_day": 239
+  },
+
+  "days": [
+    { "day": 1, "miles": 339, "driveTime": "7h",
+      "headline": "Down the Turnpike and out of the cold",
+      "notes": "The one advantage of starting in Fort Lee is that you are already on the right side of the Hudson — no bridge toll, no Manhattan. Join the Turnpike, hold I-95 through Delaware and Maryland, and stop in Richmond. Nothing about this day is scenic. Leave early, because the stretch around Washington punishes anyone who arrives at four in the afternoon.",
+      "activities": ["Out by 7am to clear the Beltway before it seizes", "Virginia State Capitol if you land with light to spare"] },
+
+    { "day": 2, "miles": 467, "driveTime": "8h 40m",
+      "headline": "The long one",
+      "notes": "The hardest day of the trip and there is no way to soften it — 467 miles of I-95 through the Carolinas. It is deliberately early, while everyone still has patience. South of Florence the pine gives way to marsh and the temperature finally starts to climb. You will reach Savannah after dark; the squares are worth a walk anyway.",
+      "activities": ["Break it at Santee or Walterboro", "River Street after dark"] },
+
+    { "day": 3, "miles": 300, "driveTime": "5h 40m",
+      "headline": "A morning in the squares, then south into the warm",
+      "notes": "Savannah is laid out around 22 surviving squares and the way to see it is to walk four or five of them before the car starts again. Forsyth Park at the south end has the fountain everyone photographs. Then I-95 and the Florida line — the change is obvious somewhere past Jacksonville. Sleep in Kissimmee, which is where the cheap family rentals are.",
+      "activities": ["Walk Chippewa, Madison and Monterey squares", "Forsyth Park fountain", "Into Kissimmee by evening — three nights here"] },
+
+    { "day": 4, "miles": 0, "driveTime": "1h 55m round trip",
+      "headline": "The theme park day, at a third of the price",
+      "notes": "LEGOLAND Florida is 34 miles down the road at Winter Haven, built on the old Cypress Gardens site — the botanical gardens are still standing behind the rides. January is their lowest-demand pricing and the park is pitched squarely at children up to about twelve. Adults from roughly $90 and children from $67 booked ahead, with dates where a child goes for $39 alongside a full-price adult.",
+      "activities": ["Book online — the gate price is close to double", "The original Cypress Gardens botanical gardens are inside the park", "Bok Tower Gardens is 20 minutes away for a quieter afternoon"] },
+
+    { "day": 5, "miles": 0, "driveTime": "2h 20m round trip",
+      "headline": "Rockets",
+      "notes": "Fifty-six miles east to the Space Coast, and a full day once you are there. Space Shuttle Atlantis hangs at an angle a few feet from the glass with its payload doors open, and the bus out to the Apollo/Saturn V Center puts you underneath a complete Saturn V lying on its side. Adult admission runs about $88 at the gate and less on promotion. Parking is charged separately.",
+      "activities": ["Atlantis first, before the queues build", "Take the bus tour early — the last one leaves mid-afternoon", "Check whether anything is launching on your dates"] },
+
+    { "day": 6, "miles": 251, "driveTime": "4h 40m",
+      "headline": "Down the spine of Florida",
+      "notes": "The Turnpike most of the way, then the agricultural land south of Miami. Homestead is not a destination — it is where you sleep to be at the Everglades gate in the morning, and it costs a fraction of anywhere closer to the city.",
+      "activities": ["Stock up in Homestead — there is nothing in the park", "Two nights here"] },
+
+    { "day": 7, "miles": 0, "driveTime": "2h 30m round trip",
+      "headline": "Dry season, which is the whole point",
+      "notes": "January is the best month of the year to be here. The water is low so the wildlife concentrates in what is left of it, and the mosquitoes that make summer unbearable have gone. Two ends worth seeing: the Anhinga Trail at Royal Palm, where alligators lie on the bank a few feet from a boardwalk, and Shark Valley off the Tamiami Trail, where a two-hour tram runs a fifteen-mile loop out to an observation tower.",
+      "activities": ["Anhinga Trail early — an easy half-mile boardwalk", "Shark Valley tram, or rent bikes and ride the loop yourselves", "$35 a vehicle for seven days, or nothing at all on the America the Beautiful pass"] },
+
+    { "day": 8, "miles": 80, "driveTime": "2h",
+      "headline": "Onto the Overseas Highway",
+      "notes": "Eighty miles, but do not treat it as a short day — this is the drive. US-1 leaves the mainland at Key Largo and runs 113 miles over 42 bridges, mostly two lanes with water on both sides. The Seven Mile Bridge is the one from the photographs, with the abandoned 1912 railway bridge running alongside it. Stop at Bahia Honda on the way in; it has the best beach in the Keys.",
+      "activities": ["Seven Mile Bridge", "Bahia Honda State Park, $8 a vehicle", "Check in at Marathon, roughly halfway down the chain"] },
+
+    { "day": 9, "miles": 0, "driveTime": "2h 35m round trip",
+      "headline": "Key West for the day, Marathon for the night",
+      "notes": "Forty-seven miles down and the same back. Sleeping in Marathon rather than Key West is the single biggest saving on this trip — Key West rooms run $299 to $430 in January and six people need two of them. Park once and walk, because the old town is small. Mallory Square holds a sunset gathering every evening with buskers and it costs nothing.",
+      "activities": ["Park in a garage and leave the car there", "Southernmost Point marker — expect a queue", "Hemingway House if the six-toed cats appeal", "Mallory Square for sunset, then the drive back"] },
+
+    { "day": 10, "miles": 190, "driveTime": "4h 40m",
+      "headline": "Back up the Keys and across the bottom of the state",
+      "notes": "Retrace the Overseas Highway, then cut west on Alligator Alley or the slower Tamiami Trail. Naples is the warmest night of the trip and the most expensive — peak snowbird season and the town knows it. Fort Myers is forty minutes further on and materially cheaper if the number bothers you.",
+      "activities": ["Naples Pier at sunset", "White sand and a flat Gulf, after nine days of Atlantic"] },
+
+    { "day": 11, "miles": 292, "driveTime": "6h 10m",
+      "headline": "North to the oldest city",
+      "notes": "Up I-75 and across the state. St Augustine was founded in 1565, which makes it the oldest continuously occupied European settlement in the country, and it wears it well — the old town is genuinely old rather than reconstructed.",
+      "activities": ["Walk St George Street in the evening", "The fort opens at nine tomorrow — do it before you drive"] },
+
+    { "day": 12, "miles": 275, "driveTime": "5h 30m",
+      "headline": "A fort in the morning, Charleston by evening",
+      "notes": "Castillo de San Marcos opens at nine — a Spanish coquina fort on the harbour, begun in 1672 and never taken by force. The America the Beautiful pass covers it. Then north into South Carolina, where Charleston's peninsula is one long walk: Rainbow Row, the Battery, and the houses behind them.",
+      "activities": ["Castillo de San Marcos first thing", "Rainbow Row and the Battery on foot", "Book dinner — Charleston fills up even in January"] },
+
+    { "day": 13, "miles": 423, "driveTime": "7h 55m",
+      "headline": "The second long one",
+      "notes": "The last hard day. If you want Fort Sumter you need the first boat out and a much later start, which turns 423 miles into an evening arrival — decide the night before rather than at breakfast. Otherwise walk the Battery at first light and get moving.",
+      "activities": ["Fort Sumter is 2h15 round trip by ferry — only if you are willing to leave after lunch", "Break at Fayetteville or Rocky Mount"] },
+
+    { "day": 14, "miles": 338, "driveTime": "6h 55m",
+      "headline": "Home",
+      "notes": "The reverse of day one, and the reason day 13 stopped at Richmond instead of pushing further north. Aim to clear Washington and Baltimore before the afternoon builds. Coming back into Fort Lee from the south there is no bridge toll.",
+      "activities": ["Through Washington before 2pm or pay for it in time"] }
+  ],
+
+  "rejected_alternatives": [
+    { "place": "Walt Disney World",
+      "reason": "Two days for six comes to $1,700–1,950 at January 2027 prices — more than the fuel, the tolls and every other ticket on this trip put together. LEGOLAND does the same job for the children for about $470." },
+    { "place": "Universal Orlando",
+      "reason": "Worse value than Disney for a two-day stop. Their two-day tickets include only a single Epic Universe day, and the version that actually works costs $484.57 an adult — around $2,900 for six. Full Epic access needs three days, which this itinerary has no room for." },
+    { "place": "Blue Ridge Parkway and the Smokies",
+      "reason": "January closes them. Most of the Parkway sat shut through January 2026, Skyline Drive closes along its entire 105 miles for days at a time, and Kuwohi Road — the old Clingmans Dome Road — is gated from 1 December to 31 March. The mountains are the one draw this season cannot deliver." },
+    { "place": "A night in Key West itself",
+      "reason": "Two rooms at $299–430 each. Marathon is 47 miles up the chain at a quarter of the price, and you still get the whole day and the sunset." },
+    { "place": "Dry Tortugas",
+      "reason": "The ferry is around $200 a person, so $1,200 for six, and it consumes a full day out of Key West that this route does not have." },
+    { "place": "Miami and the Atlantic beaches",
+      "reason": "The route passes within thirty miles, but Miami rooms run $250–450 a night in January against a fraction of that in Homestead, and the city eats a day the schedule cannot spare." },
+    { "place": "The Outer Banks",
+      "reason": "Cold, windy and largely shut in January, and a long detour off I-95 for a beach nobody is going to swim at." },
+    { "place": "New England and Acadia",
+      "reason": "Wrong end of the calendar. Dark by half past four, most seasonal businesses closed, and the wrong direction entirely from a trip built around getting warm." }
+  ],
+
+  "money_savers": [
+    { "item": "Sleep in Marathon, not Key West", "saving": "~$800–1,100",
+      "detail": "Key West rooms run $299–430 a night in January and six people need two of them. Marathon is 47 miles and 1h15 away. This is the largest single lever in the budget." },
+    { "item": "LEGOLAND instead of Disney", "saving": "~$1,250",
+      "detail": "About $470 for six booked ahead against $1,700–1,950 for two Disney days. Children go from $39 on some January dates alongside a full-price adult." },
+    { "item": "Rent from a neighbourhood branch, not Newark Airport", "saving": "~$150–300",
+      "detail": "You are not flying, so there is no reason to pay the airport concession fee. A seven-seat van out of Jersey City runs about $68 a day in January against roughly $146 at Newark." },
+    { "item": "Homestead instead of Miami", "saving": "~$400 over two nights",
+      "detail": "Thirty miles further from the beach, far closer to the Everglades gate, and less than half the price." },
+    { "item": "America the Beautiful pass", "saving": "$80, if yours is still in date",
+      "detail": "Covers Everglades entry ($35 a vehicle), Castillo de San Marcos and the Fort Sumter grounds. It does not cover the Fort Sumter ferry, Bahia Honda or any state park." },
+    { "item": "Fort Myers instead of Naples", "saving": "~$150",
+      "detail": "Forty minutes further up the coast on day 10, out of the most expensive snowbird market in the state." },
+    { "item": "Book LEGOLAND online", "saving": "~$230 for six",
+      "detail": "Gate price starts at $129 a head against roughly $90 adult and $67 child booked in advance." }
+  ]
+}

@@ -304,4 +304,48 @@ picture there updates both.
 | `zabriskie-point-4.jpg` | Zabriskie Point badlands and the valley floor beyond, Death Valley | User Wolfgangbeyer on de.wikipedia | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Death_Valley_Zabriskie_Point.jpg) |
 | `zabriskie-point.jpg` | Zabriskie Point, Death Valley (eroded golden badlands overlook) | King of Hearts | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Zabriskie_Point_Death_Valley_December_2013_001.jpg) |
 
+## Key West Run
+
+`assets/photos/key-west-run/` — 37 photos
+
+| File | Subject | Author | Licence | Source |
+| --- | --- | --- | --- | --- |
+| `anhinga-trail-2.jpg` | Moonrise over the slough at Royal Palm, Everglades National Park | Everglades NPS from Homestead, Florida, United States | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:AnhingaTrailMoonriseWeb_(8721138690).jpg) |
+| `anhinga-trail-3.jpg` | The Anhinga Trail alongside Taylor Slough, Everglades National Park | paulsmithrj | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Anhinga_Trail_in_Royal_Palm%5E_-_panoramio_(11).jpg) |
+| `anhinga-trail.jpg` | The Anhinga Trail boardwalk over the slough, Everglades National Park | Fredlyfish4 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Anhinga_Trail_boardwalk.JPG) |
+| `bahia-honda-2.jpg` | White sand and shallow turquoise water, Bahia Honda State Park | Ebyabe | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bahia_Honda_FL_beach03.jpg) |
+| `bahia-honda-3.jpg` | Turquoise water and palms seen from the old bridge, Bahia Honda | Ebyabe | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bahia_Honda_FL_SP05.jpg) |
+| `bahia-honda-4.jpg` | Shaded path through sea grape, Bahia Honda State Park | Ebyabe | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bahia_Honda_FL_path01.jpg) |
+| `bahia-honda.jpg` | The beach at Bahia Honda State Park with the old bridge beyond | Ebyabe | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bahia_Honda_FL_beach01.jpg) |
+| `castillo-de-san-marcos-2.jpg` | Castillo de San Marcos and its moat, St Augustine | Jon Zander (Digon3) | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Castillo_de_San_Marcos_Fort_Panorama.jpg) |
+| `castillo-de-san-marcos.jpg` | Castillo de San Marcos seen through a gun embrasure, St Augustine | Nevnels | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Between_battlements_final.jpg) |
+| `flamingo.jpg` | Florida Bay from Flamingo, Everglades National Park | Moni3 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Florida_Bay_at_Flamingo.JPG) |
+| `forsyth-park-2.jpg` | The oak avenue and fountain at Forsyth Park, Savannah (1901 photochrom) | Unknown authorUnknown author | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Detroit_Photographic_Company_(0318).jpg) |
+| `forsyth-park.jpg` | The fountain at Forsyth Park, Savannah | Unknown | CC BY-SA 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Forsyth_park_fountain.jpg) |
+| `fort-sumter.jpg` | Fort Sumter earthworks and Charleston harbour | National Park Service Digital Image Archives | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Fort_Sumter_National_Monument_FTSU0555.jpg) |
+| `hemingway-house.jpg` | Ernest Hemingway House, Whitehead Street, Key West | Acroterion | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Hemingway_House_Key_West_FL1.jpg) |
+| `kennedy-space-center-2.jpg` | Rockets and Apollo capsule in the Rocket Garden, Kennedy Space Center | Gillfoto | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Kennedy_Space_Center_80.JPG) |
+| `kennedy-space-center-3.jpg` | Rockets against the sky, Rocket Garden, Kennedy Space Center | Gillfoto | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Kennedy_Space_Center_82.JPG) |
+| `kennedy-space-center-4.jpg` | The Space Shuttle Atlantis exhibit building, Kennedy Space Center | Kim Shiflett | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:KSC_Visitor_Complex_-_Space_Shuttle_Atlantis_exhibit_building.jpg) |
+| `kennedy-space-center.jpg` | The Rocket Garden, Kennedy Space Center Visitor Complex | Piotrus | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Florida_by_Piotrus_205.JPG) |
+| `key-west-old-town-2.jpg` | Conch house with double verandas, Key West Historic District | Ebyabe | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Key_West_FL_HD_802_Eaton_St02.jpg) |
+| `key-west-old-town.jpg` | Duval Street and the harbour from above, Key West Historic District | Marc Averette (Averette) | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Duval_Street.jpg) |
+| `legoland.jpg` | LEGOLAND Florida entrance, Winter Haven | A. Heneen | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Legoland_Florida_sign.jpg) |
+| `mallory-square-2.jpg` | Tightrope busker at the Mallory Square sunset celebration, Key West | CedarBendDrive from USA | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Key_West_2008_(2338516612).jpg) |
+| `mallory-square.jpg` | The sunset crowd at Mallory Square, Key West | CedarBendDrive from USA | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Key_West_2008_(2338517210).jpg) |
+| `naples-pier.jpg` | Naples Pier reaching into the Gulf of Mexico, Florida | Marc Ryckaert | CC BY-SA 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Naples_Pier1.jpg) |
+| `rainbow-row.jpg` | Rainbow Row, East Bay Street, Charleston | Melizabethi123 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Rainbow_Row_Charleston.jpg) |
+| `river-street.jpg` | Cobbled River Street and the old cotton warehouses, Savannah | Aude | CC BY-SA 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Savannah_river_street.jpg) |
+| `seven-mile-bridge-2.jpg` | Panorama of the Seven Mile Bridge, Florida Keys | Daniel Schwen | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:7mi_bridge_pano.jpg) |
+| `seven-mile-bridge-3.jpg` | The old 1912 bridge walkway beside the new span, Seven Mile Bridge | Ebyabe | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Little_Duck_Key_FL_7_Mile_Bridge02.jpg) |
+| `seven-mile-bridge-4.jpg` | The old Seven Mile Bridge used as a fishing pier | Ebyabe | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Little_Duck_Key_FL_7_Mile_Bridge04.jpg) |
+| `seven-mile-bridge.jpg` | Seven Mile Bridge sweeping over the water, Florida Keys | Ebyabe | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Little_Duck_Key_FL_7_Mile_Bridge03.jpg) |
+| `shark-valley-2.jpg` | Sawgrass panorama from the Shark Valley observation tower, Everglades | Cuzincuz | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:360_degree_panorama_from_the_observation_tower_at_Shark_Valley%2C_Everglades.jpg) |
+| `shark-valley.jpg` | The canal along the Shark Valley loop road, Everglades National Park | paulsmithrj | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Canal_in_Shark_Valley%5E_-_panoramio.jpg) |
+| `southernmost-point-2.jpg` | Southernmost Point marker, Key West | Diego Delso | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Southernmost_point_contitental_USA%2C_Key_West%2C_Florida%2C_USA2.jpg) |
+| `southernmost-point.jpg` | The Southernmost Point buoy, Key West | Daniel Schwen | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:US_Southernmost.jpg) |
+| `st-george-street.jpg` | Veranda house in the old town, St Augustine | Eccentric Scholar | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:272_Saint_George_St._(1889)_-_panoramio.jpg) |
+| `the-battery.jpg` | Cannon at White Point Garden on the Battery, Charleston | Billy Hathorn | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Cannon_at_The_Battery_in_Charleston%2C_SC_IMG_4564.JPG) |
+| `vehicle-assembly-building.jpg` | The Vehicle Assembly Building, Kennedy Space Center | Unknown | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:NASA-Vehicle-Assembly-Building.jpg) |
+
 Map tiles are &copy; [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors, rendered with [Leaflet](https://leafletjs.com).

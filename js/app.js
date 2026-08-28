@@ -756,9 +756,16 @@
 
     page.appendChild(elem('h1', 'costs-h1', 'What it costs'));
     var t = route.totals || {};
+    /* Routes driven from home carry no airfare, so do not claim flights are in the total. */
+    var hasFlights = (route.options || []).some(function (o) {
+      return ((o.costs || {}).lines || []).some(function (l) {
+        return /flight/i.test(l.item || '');
+      });
+    });
     page.appendChild(elem('p', 'costs-intro',
       'Everything for ' + (t.party || 'the group') + ' people over ' + (t.days || '') +
-      ' days, flights included. These are estimates, not quotes.'));
+      ' days, ' + (hasFlights ? 'flights included' : 'driven from home with no flights') +
+      '. These are estimates, not quotes.'));
 
     /* Side-by-side comparison of the headline numbers. */
     var opts = (route.options || []).filter(function (o) { return o.costs; });
