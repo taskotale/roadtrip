@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
- * Bake real road geometry into an option file, once.
+ * Bake real road geometry into a route file, once.
  *
- *   node tools/build-routes.mjs data/options/demo-southwest.json
+ *   node tools/build-routes.mjs data/routes/southwest-loop.json
  *
  * For every day it asks the free OSRM demo server for the driving route
  * from -> (via) -> to, and writes the result into that day's "route" array.
@@ -10,12 +10,15 @@
  *
  * Points of interest deliberately do NOT steer the route — they are places you
  * stop at, not waypoints you thread through, and routing via them distorts the
- * driving line badly. Use a day's optional "via" array to force a detour (for
- * example the motorhome's long way round Zion, avoiding the tunnel).
+ * driving line badly. Use a day's optional "via" array to force a detour.
  *
- * Days that already have a "route" are skipped unless you pass --force.
- * If a day fails, it is left alone and the site falls back to a dashed
- * straight line for that day. Safe to re-run.
+ * An option can override a single day with its own "dayVia", for a vehicle that
+ * has to go a different way (the motorhome cannot use the Zion tunnel). Those
+ * baked overrides land in that option's "dayRoutes".
+ *
+ * Days that already have geometry are skipped unless you pass --force.
+ * If a day fails it is left alone and the site falls back to a dashed straight
+ * line. Safe to re-run.
  */
 import { readFile, writeFile } from 'node:fs/promises';
 
@@ -28,7 +31,7 @@ const force = args.includes('--force');
 const file = args.find((a) => !a.startsWith('--'));
 
 if (!file) {
-  console.error('usage: node tools/build-routes.mjs <data/options/FILE.json> [--force]');
+  console.error('usage: node tools/build-routes.mjs <data/routes/FILE.json> [--force]');
   process.exit(1);
 }
 
@@ -59,59 +62,76 @@ async function routeFor(waypoints) {
   const coords = json.routes[0].geometry.coordinates.map(([lng, lat]) => [lat, lng]);
   return {
     route: downsample(coords).map(round),
-    miles: json.routes[0].distance / 1609.344,
-    minutes: json.routes[0].duration / 60
+    miles: json.routes[0].distance / 1609.344
   };
 }
 
-const option = JSON.parse(await readFile(file, 'utf8'));
+/** from -> via -> to. Returns null when there is no leg worth drawing. */
+function waypointsFor(day, via) {
+  const pts = [];
+  if (isCoord(day.from?.coords)) pts.push(day.from.coords);
+  for (const v of via ?? day.via ?? []) if (isCoord(v)) pts.push(v);
+  if (isCoord(day.to?.coords)) pts.push(day.to.coords);
+  if (pts.length < 2) return null;
+  const [a, b] = [pts[0], pts[pts.length - 1]];
+  if (pts.length === 2 && a[0] === b[0] && a[1] === b[1]) return null;
+  return pts;
+}
+
+const route = JSON.parse(await readFile(file, 'utf8'));
 let changed = 0;
 
-for (const day of option.days ?? []) {
+/* ---- the shared itinerary ---- */
+for (const day of route.days ?? []) {
   const n = day.day ?? '?';
-
   if (Array.isArray(day.route) && day.route.length >= 2 && !force) {
     console.log(`day ${n}: already has a route, skipping (use --force to redo)`);
     continue;
   }
-
-  const waypoints = [];
-  if (isCoord(day.from?.coords)) waypoints.push(day.from.coords);
-  for (const v of day.via ?? []) if (isCoord(v)) waypoints.push(v);
-  if (isCoord(day.to?.coords)) waypoints.push(day.to.coords);
-
-  if (waypoints.length < 2) {
-    console.log(`day ${n}: not enough coordinates, skipping`);
+  const pts = waypointsFor(day);
+  if (!pts) {
+    console.log(`day ${n}: no leg to draw (starts and ends in the same place)`);
     continue;
   }
-
-  /* A day that starts and ends in the same place has no drive line to draw. */
-  const [a, b] = [waypoints[0], waypoints[waypoints.length - 1]];
-  if (waypoints.length === 2 && a[0] === b[0] && a[1] === b[1]) {
-    console.log(`day ${n}: starts and ends in the same place, no route needed`);
-    continue;
-  }
-
   try {
-    const { route, miles, minutes } = await routeFor(waypoints);
-    day.route = route;
+    const { route: geom, miles } = await routeFor(pts);
+    day.route = geom;
     changed++;
-    const h = Math.floor(minutes / 60);
-    const m = Math.round(minutes % 60);
-    console.log(
-      `day ${n}: ${route.length} points  ` +
-      `(OSRM says ${Math.round(miles)} mi / ${h}h ${m}m via the listed stops` +
-      `${day.miles ? `, file says ${day.miles} mi` : ''})`
-    );
+    console.log(`day ${n}: ${geom.length} points (OSRM ${Math.round(miles)} mi` +
+      `${day.miles ? `, file says ${day.miles} mi` : ''})`);
   } catch (err) {
     console.warn(`day ${n}: ${err.message} — leaving it as a straight line`);
   }
-
   await sleep(PAUSE_MS);
 }
 
+/* ---- per-option detours ---- */
+for (const opt of route.options ?? []) {
+  const vias = opt.dayVia ?? {};
+  for (const [dayNum, via] of Object.entries(vias)) {
+    opt.dayRoutes ??= {};
+    if (Array.isArray(opt.dayRoutes[dayNum]) && !force) {
+      console.log(`${opt.id} day ${dayNum}: already has a detour, skipping`);
+      continue;
+    }
+    const day = (route.days ?? []).find((d) => String(d.day) === String(dayNum));
+    if (!day) { console.warn(`${opt.id} day ${dayNum}: no such day`); continue; }
+    const pts = waypointsFor(day, via);
+    if (!pts) continue;
+    try {
+      const { route: geom, miles } = await routeFor(pts);
+      opt.dayRoutes[dayNum] = geom;
+      changed++;
+      console.log(`${opt.id} day ${dayNum}: ${geom.length} points (OSRM ${Math.round(miles)} mi via the detour)`);
+    } catch (err) {
+      console.warn(`${opt.id} day ${dayNum}: ${err.message} — falling back to the shared route`);
+    }
+    await sleep(PAUSE_MS);
+  }
+}
+
 if (changed) {
-  await writeFile(file, JSON.stringify(option, null, 2) + '\n');
+  await writeFile(file, JSON.stringify(route, null, 2) + '\n');
   console.log(`\nwrote ${changed} route${changed === 1 ? '' : 's'} into ${file}`);
 } else {
   console.log('\nnothing changed');

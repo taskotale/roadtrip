@@ -1,35 +1,44 @@
-# Southwest Loop — trip options
+# Road trip routes
 
-A small phone-first website for comparing how we do the January Southwest loop.
-Pick an option, see the route on a map, scroll the fourteen days, tap the little
-**Costs** button in the corner for the numbers.
+A small phone-first website for planning family road trips.
 
 **Live site:** https://taskotale.github.io/roadtrip/
 
-Both options are the *same* 14-day route. What differs is what you sleep in, what
-it costs, and which three places the motorhome is not allowed to go.
+The home screen lists **routes**. Open one and you get the map, what's worth
+seeing, what to watch out for, and the **options** — the different ways of doing
+that same route. Each route has its own options, so a future route can be
+"campervan vs. hotels" or "10 days vs. 14 days" or anything else.
+
+```
+Route  ──  Southwest Loop — January
+            ├── shared: the map, the 14 days, must-sees, watch-outs, pros/cons
+            └── options: Motorhome  ·  Car and lodging
+                         (cost, vehicle, and which days change)
+```
+
+Costs are deliberately tucked away — no prices on the home screen, and no price
+on the route page until you tap **See what it costs** inside "How we do it".
 
 No build step, no framework — plain HTML, CSS and one JavaScript file.
 
 ---
 
-## Editing the trip
+## Editing
 
-Everything the site shows comes from three files:
+Everything the site shows comes from two files:
 
 | File | What it holds |
 | --- | --- |
-| `data/manifest.json` | The trip title, the stats on the home screen, and which option files to load |
-| `data/options/motorhome.json` | The motorhome option |
-| `data/options/car-and-lodging.json` | The car-and-hotels option |
+| `data/manifest.json` | Which route files to load |
+| `data/routes/southwest-loop.json` | One whole route: days, must-sees, watch-outs, options |
 
-To change a number, a day's write-up, or a cost line, edit the option file and push:
+Change a number or some wording, then push:
 
 ```bash
-git add -A && git commit -m "Update costs" && git push
+git add -A && git commit -m "Update the Zion day" && git push
 ```
 
-GitHub rebuilds the site in about a minute.
+GitHub rebuilds in about a minute.
 
 > **If you edit `index.html`, `css/style.css` or `js/app.js`,** bump the `?v=`
 > number on the `style.css` and `app.js` links in `index.html`. Phones cache hard
@@ -37,53 +46,92 @@ GitHub rebuilds the site in about a minute.
 
 ---
 
-## Adding a third option
+## Adding a new route
 
-1. Copy an existing option file to `data/options/<new-id>.json` and edit it.
-2. Add its filename to the `options` list in `data/manifest.json`.
-3. Push.
+1. Copy `data/routes/southwest-loop.json` to `data/routes/<new-id>.json` and edit it.
+2. Add its filename to `data/manifest.json`:
+   ```json
+   { "routes": ["routes/southwest-loop.json", "routes/<new-id>.json"] }
+   ```
+3. Put its photos in `assets/photos/<new-id>/` and point the `photo` paths at them.
+4. Bake the road geometry (below), then push.
 
-The home screen picks it up automatically. Options can share photos — both current
-options point at the same `assets/photos/southwest-loop/` folder.
+---
 
-### What goes in an option file
+## What goes in a route file
 
 ```jsonc
 {
-  "id": "motorhome",                    // must match the filename
-  "name": "Motorhome",                  // shown on the home card
-  "tagline": "Cheapest, simplest, coldest",
-  "summary": "A sentence or two on the trade-off.",
+  "id": "southwest-loop",              // must match the filename
+  "name": "Southwest Loop — January",
+  "subtitle": "Death Valley · Zion · Page · …",
+  "summary": "A paragraph on what this route is.",
+  "hero": "assets/photos/southwest-loop/monument-valley-mittens.jpg",
+  "season": "January",
+  "startEnd": "Las Vegas, NV",
+  "totals": { "days": 14, "miles": 1655, "party": 6, "avgMilesPerDay": 118 },
 
-  "vehicle": {
-    "type": "Class C motorhome, 30 ft",
-    "detail": "Sleeps 7 · 7 seatbelts · 30 ft long",
-    "notes": "Longer caveat text."
-  },
+  // Photo rail near the top. Tapping one jumps to that day.
+  "mustSee": [
+    { "name": "Zabriskie Point", "day": 1,
+      "photo": "assets/photos/southwest-loop/zabriskie-point.jpg",
+      "why": "Why it earns a stop." }
+  ],
 
-  "totals": { "days": 14, "miles": 1655, "party": 6 },
+  // Things that bite you if nobody reads them.
+  // "only" limits one to a single option; leave it out to show it for all.
+  "watchOuts": [
+    { "title": "Seven nights below freezing", "text": "…" },
+    { "title": "Freeze damage is charged to you", "text": "…", "only": "motorhome" }
+  ],
 
-  "costs": {
-    "currency": "USD",
-    "party": 6,
-    // One column per scenario you want to compare side by side.
-    "columns":   [{ "key": "low", "label": "Low" }, { "key": "high", "label": "High" }],
-    "totals":    { "low": 7127, "high": 7922 },
-    "perPerson": { "low": 1188, "high": 1320 },
-    "lines": [
-      { "item": "Flights", "low": 2280, "high": 2280, "basis": "6 people x $380 round trip" }
-    ],
-    "notes": "What the numbers assume."
-  },
+  "pros": ["What makes this route good."],
+  "cons": ["The catch."],
+  "notConsidered": [{ "place": "Bryce Canyon", "reason": "8,000 ft, miserable in January." }],
+  "moneySavers": [{ "item": "Skip Antelope Canyon", "amount": "~$480", "detail": "…" }],
 
-  "pros": ["..."],
-  "cons": ["..."],
+  // The ways of doing this route. Each gets its own tab.
+  "options": [
+    {
+      "id": "motorhome",
+      "name": "Motorhome",
+      "tagline": "Cheapest, simplest, coldest",
+      "summary": "…",
+      "vehicle": { "type": "Class C motorhome, 30 ft", "detail": "…", "notes": "…" },
+      "pros": ["…"],
+      "cons": ["…"],
 
+      "costs": {
+        "currency": "USD",
+        "party": 6,
+        // One column per scenario to compare side by side.
+        "columns":   [{ "key": "low", "label": "Low" }, { "key": "high", "label": "High" }],
+        "totals":    { "low": 7128, "high": 7923 },
+        "perPerson": { "low": 1188, "high": 1321 },
+        "lines": [
+          { "item": "Flights", "low": 2280, "high": 2280, "basis": "6 people x $380 round trip" }
+        ],
+        "notes": "What the numbers assume."
+      },
+
+      // Notes attached to individual days, only for this option.
+      // "blocked" renders red, "unlocked" green, "note" grey.
+      "flags": {
+        "6": [{ "type": "blocked", "label": "Not in the motorhome:", "text": "…" }]
+      },
+
+      // Force this option down a different road on one day (the RV cannot use
+      // the Zion tunnel). build-routes.mjs turns this into "dayRoutes".
+      "dayVia": { "7": [[37.1753, -113.2899], [36.9903, -112.9769]] }
+    }
+  ],
+
+  // The itinerary, shared by every option.
   "days": [
     {
       "day": 1,
-      "from": { "name": "Las Vegas, NV",   "coords": [36.1699, -115.1398] },
-      "to":   { "name": "Furnace Creek",   "coords": [36.4636, -116.8656] },
+      "from": { "name": "Las Vegas, NV", "coords": [36.1674, -115.1484] },
+      "to":   { "name": "Furnace Creek", "coords": [36.4565, -116.8691] },
       "miles": 120,
       "driveTime": "2h",
       "elevation": -190,
@@ -91,71 +139,62 @@ options point at the same `assets/photos/southwest-loop/` folder.
       "headline": "Below sea level by lunchtime",
       "notes": "The paragraph shown when the day is expanded.",
       "activities": ["Zabriskie Point at sunset"],
-      "flags": [
-        { "type": "blocked", "label": "Not in the motorhome:", "text": "..." }
-      ],
       "pois": [
-        {
-          "name": "Zabriskie Point",
-          "coords": [36.4200, -116.8117],
+        { "name": "Zabriskie Point", "coords": [36.42, -116.8123],
           "photo": "assets/photos/southwest-loop/zabriskie-point.jpg",
-          "caption": "One line about it."
-        }
+          "caption": "One line about it." }
       ],
-      "route": [[36.1699, -115.1398], [36.4636, -116.8656]]
+      "route": [[36.1674, -115.1484], [36.4565, -116.8691]]
     }
   ]
 }
 ```
 
-Notes on the shape:
+Things worth knowing:
 
 - **`coords` are `[latitude, longitude]`** — latitude first, the way Leaflet wants them.
-- **`columns`** drives the costs table. Two columns renders two price columns side by
-  side; one column renders a single price. The keys in `columns` must match the keys
-  used in `totals`, `perPerson` and every `lines` entry.
-- **`flags`** are the per-option annotations — `blocked` renders red, `unlocked` green,
-  `note` grey. This is how the site shows that the RV cannot drive Mount Carmel
-  Highway while the car can.
-- A day where `miles` is `0`, or where `from` and `to` match, renders as
-  "Based in …" with no arrow.
-- **`route`** is optional. Without it the map draws a dashed straight line.
-- `note`, `caption`, `flags`, `activities` and `elevation` are all optional.
+- The first three `pois` photos show as a strip on the closed day card, so the
+  pictures are visible without tapping anything. All of them show when it opens.
+- A day where `from` and `to` match renders as "Based in …" with no map leg.
+- `columns` keys must match the keys used in `totals`, `perPerson` and every
+  `lines` entry. **Each column should add up to its total** — the site shows the
+  sum and people notice when it doesn't.
+- **`route` is optional.** Without it the map draws a dashed straight line.
+- Optional throughout: `note`, `caption`, `flags`, `activities`, `elevation`,
+  `hero`, `notConsidered`, `moneySavers`, `only`.
 
 ---
 
 ## Photos
 
-Photos live in `assets/photos/southwest-loop/`. To swap one you don't like,
-overwrite the file with the same name — nothing else changes. If a photo is missing
-the site shows a grey placeholder rather than breaking.
+Photos live in `assets/photos/<route-id>/`. To swap one you don't like, overwrite
+the file with the same name — nothing else changes. A missing photo shows a grey
+placeholder rather than breaking the page.
 
-Keep them at most 1200px wide and under ~320KB so they load quickly on a phone
-in a park with one bar:
+Keep them at most 1200px wide and under ~320KB so they load quickly on a phone in
+a park with one bar:
 
 ```bash
 sips -Z 1200 -s format jpeg -s formatOptions 60 ~/Downloads/new.jpg --out "assets/photos/southwest-loop/zabriskie-point.jpg"
 ```
 
-Sources and licences for every current photo are in [CREDITS.md](CREDITS.md).
-There are a few spare photos in the folder that no day currently points at —
-`mosaic-canyon`, and any others you add — ready to drop into a `pois` entry.
+Sources and licences for every photo are in [CREDITS.md](CREDITS.md). A couple of
+spares sit in the folder unused (`mosaic-canyon`, `elephant-rock`-style extras),
+ready to drop into a `pois` entry.
 
 ---
 
 ## Drawing the real roads
 
-Each day carries a `route`: the list of coordinates the map draws. To fetch real
-road geometry and bake it into a file:
-
 ```bash
-node tools/build-routes.mjs data/options/motorhome.json
+node tools/build-routes.mjs data/routes/southwest-loop.json
 ```
 
-It asks a free routing server for each day's driving route, threading through that
-day's points of interest, and writes the result back into the JSON. Run it once per
-option file, and re-run with `--force` if you change the stops. The site itself never
-calls the routing server, so the map keeps working on a bad connection.
+It asks a free routing server for each day's driving route and writes the geometry
+back into the file. It also handles any option's `dayVia` detour, storing the
+result in that option's `dayRoutes`. Run it once per route file; add `--force` to
+redo geometry that already exists. The site never calls the routing server itself,
+so the map keeps working on a bad connection.
 
 ---
 
@@ -174,13 +213,13 @@ work — the browser blocks loading the JSON that way.
 
 | Path | What it is |
 | --- | --- |
-| `index.html` | The whole page — home list and option detail |
+| `index.html` | The whole page — routes list and route detail |
 | `css/style.css` | All the styling |
 | `js/app.js` | Routing, rendering, map and costs logic |
-| `data/` | The trip content |
-| `assets/photos/southwest-loop/` | Photos, shared by both options |
+| `data/routes/*.json` | One file per route |
+| `assets/photos/<route-id>/` | Photos for that route |
 | `tools/build-routes.mjs` | One-time road geometry fetcher |
-| `source/` | The original data file this was built from |
+| `source/` | The original planning data this was built from |
 
 The map uses [Leaflet](https://leafletjs.com) with
 [OpenStreetMap](https://www.openstreetmap.org/copyright) tiles — free, no account

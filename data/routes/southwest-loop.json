@@ -1,103 +1,1707 @@
 {
-  "id": "car-and-lodging",
-  "name": "Car and lodging",
-  "tagline": "More expensive, warmer, and unlocks three places the RV can't reach",
-  "summary": "A seven-seater and a room every night. Roughly $2,500 to $4,700 more than the motorhome, almost all of it food and lodging — but no freezing nights, and it opens up three places on this route the RV is barred from.",
-  "vehicle": {
-    "type": "Minivan or full-size SUV",
-    "detail": "Chrysler Pacifica · Honda Odyssey · Chevrolet Suburban · 7 seats",
-    "notes": "A minivan is better for people, a Suburban better for luggage. Fourteen days from Las Vegas including airport concession fees."
-  },
+  "id": "southwest-loop",
+  "name": "Southwest Loop — January",
+  "subtitle": "Death Valley · Zion · Page · Monument Valley · Grand Canyon · Route 66",
+  "summary": "A counterclockwise loop out of Las Vegas taking in five national parks and one Navajo tribal park. Warm start in Death Valley, a cold middle at elevation, and an easy Route 66 run home. Two versions are priced: a motorhome build and a car-plus-hotels build.",
+  "hero": "assets/photos/southwest-loop/monument-valley-mittens.jpg",
+  "season": "January",
+  "startEnd": "Las Vegas, NV (Harry Reid International — LAS)",
   "totals": {
     "days": 14,
     "miles": 1655,
-    "party": 6
-  },
-  "costs": {
-    "currency": "USD",
     "party": 6,
-    "columns": [
-      {
-        "key": "value",
-        "label": "Best value"
-      },
-      {
-        "key": "location",
-        "label": "Best location"
-      }
-    ],
-    "totals": {
-      "value": 9700,
-      "location": 12600
-    },
-    "perPerson": {
-      "value": 1617,
-      "location": 2100
-    },
-    "lines": [
-      {
-        "item": "Flights",
-        "value": 2280,
-        "location": 2280,
-        "basis": "6 people x $380 round trip"
-      },
-      {
-        "item": "Vehicle rental",
-        "value": 1400,
-        "location": 2100,
-        "basis": "A minivan is better for people, a Suburban better for luggage. Fourteen days from Las Vegas including airport concession fees."
-      },
-      {
-        "item": "Fuel",
-        "value": 300,
-        "location": 360,
-        "basis": "1,655 mi at 18-20 mpg — a large saving over the RV"
-      },
-      {
-        "item": "Lodging",
-        "value": 2600,
-        "location": 4000,
-        "basis": "13 nights, two rooms or one rental house"
-      },
-      {
-        "item": "Food",
-        "value": 2600,
-        "location": 3600,
-        "basis": "Eating out for six. This single line is most of the gap between the two options."
-      },
-      {
-        "item": "Monument Valley tribal entry",
-        "value": 48,
-        "location": 48,
-        "basis": "$8 per person; the national park pass is not valid here"
-      },
-      {
-        "item": "Park entry fees",
-        "value": 0,
-        "location": 0,
-        "basis": "America the Beautiful annual pass already owned"
-      },
-      {
-        "item": "Everything else",
-        "value": 472,
-        "location": 212,
-        "basis": "The remainder up to the quoted total — activities, parking, tolls and incidentals."
-      }
-    ],
-    "notes": "Two versions of the same trip. \"Best value\" sleeps in Beatty rather than inside Death Valley, which alone saves close to $1,000 over three nights — the single biggest lever in the whole budget. \"Best location\" puts you inside the parks and at The View in Monument Valley."
+    "avgMilesPerDay": 118
   },
+  "mustSee": [
+    {
+      "name": "Zabriskie Point",
+      "day": 1,
+      "photo": "assets/photos/southwest-loop/zabriskie-point.jpg",
+      "why": "Golden badlands at sunset, ten minutes from where you sleep. The best view in Death Valley for the least effort."
+    },
+    {
+      "name": "Badwater Basin",
+      "day": 2,
+      "photo": "assets/photos/southwest-loop/badwater-basin.jpg",
+      "why": "The lowest point in North America, 282 ft below sea level. Walk out onto the salt flats."
+    },
+    {
+      "name": "Mesquite Flat Dunes",
+      "day": 3,
+      "photo": "assets/photos/southwest-loop/mesquite-flat-dunes.jpg",
+      "why": "Go at sunrise. Dunes the kids can run down, before the wind picks up and the light goes flat."
+    },
+    {
+      "name": "Fire Wave",
+      "day": 4,
+      "photo": "assets/photos/southwest-loop/fire-wave.jpg",
+      "why": "Striped red and white sandstone at the end of a short flat walk. Valley of Fire in a single stop."
+    },
+    {
+      "name": "Zion Canyon Scenic Drive",
+      "day": 5,
+      "photo": "assets/photos/southwest-loop/zion-canyon.jpg",
+      "why": "In January the shuttle stops running and you drive the canyon yourself — a road closed to private cars most of the year."
+    },
+    {
+      "name": "Horseshoe Bend",
+      "day": 8,
+      "photo": "assets/photos/southwest-loop/horseshoe-bend.jpg",
+      "why": "$10 for the whole vehicle and a 1.5-mile walk. Does what a $580 Antelope Canyon tour does, for a sixtieth of the price."
+    },
+    {
+      "name": "The Mittens at sunrise",
+      "day": 9,
+      "photo": "assets/photos/southwest-loop/monument-valley-mittens.jpg",
+      "why": "If you splurge once on this trip, splurge on a room that faces these."
+    },
+    {
+      "name": "Desert View Watchtower",
+      "day": 10,
+      "photo": "assets/photos/southwest-loop/desert-view-watchtower.jpg",
+      "why": "Coming in from the east means this is your first sight of the Grand Canyon. It is the best one there is."
+    },
+    {
+      "name": "Sunrise at Mather Point",
+      "day": 11,
+      "photo": "assets/photos/southwest-loop/mather-point.jpg",
+      "why": "Snow on the rim over red rock, and the park as empty as it gets all year."
+    },
+    {
+      "name": "Seligman, Route 66",
+      "day": 12,
+      "photo": "assets/photos/southwest-loop/seligman-route66.jpg",
+      "why": "Where the Route 66 revival started. Milkshakes and old cars — this is the one the kids will talk about."
+    }
+  ],
+  "watchOuts": [
+    {
+      "title": "Book these three first, then everything else",
+      "text": "Grand Canyon lodging or Trailer Village first, then Goulding's or The View at Monument Valley, then Watchman at Zion. Those three set the skeleton — everything else has slack."
+    },
+    {
+      "title": "Seven nights at or below freezing",
+      "text": "Seven nights at or below freezing in the motorhome build — Zion, Page, Monument Valley and the Grand Canyon. Every one of those stops has a full-hookup option. Run the propane furnace, not the heat pump, which stops working around 40°F. Disconnect the city water hose at night and run off the fresh tank; the hose freezes long before the tanks."
+    },
+    {
+      "title": "Freeze damage is charged to you",
+      "text": "Rental companies push freeze damage onto the renter and treat a burst pipe as negligent damage at full repair cost. Confirm in writing that the unit is not winterized, that the water system is live, and that they have noted your cold-weather destinations on the booking.",
+      "only": "motorhome"
+    },
+    {
+      "title": "Death Valley is still closing roads",
+      "text": "Flood damage persists. Bonnie Clare Road and Scotty's Castle are closed with no reopening date, North Highway has loose gravel and missing shoulders, southern Badwater Road has soft shoulders and unpaved sections, and Emigrant Campground is closed indefinitely. Check the park's conditions page a week before departure."
+    },
+    {
+      "title": "Fill up before you drive in",
+      "text": "Fill up in Nevada, Utah and Arizona. Top off before entering Death Valley, where in-park fuel at Furnace Creek is notably expensive."
+    },
+    {
+      "title": "The park pass does not cover everything",
+      "text": "The America the Beautiful pass covers Death Valley, Zion, the Grand Canyon and Glen Canyon. It does not cover Monument Valley, which is a Navajo tribal park ($8 per person), or Valley of Fire, which is a Nevada state park."
+    },
+    {
+      "title": "Price the unlimited-miles package",
+      "text": "If the rental charges per mile at around $0.35, 1,655 miles adds roughly $580. Always price the unlimited-miles package as an alternative."
+    },
+    {
+      "title": "Day 13 is the weather buffer",
+      "text": "Day 13 is deliberately short. If snow costs you a day earlier in the trip, absorb it there."
+    }
+  ],
   "pros": [
-    "No freezing nights — real beds and heated rooms throughout",
-    "Unlocks Zion's Mount Carmel Highway and the east side of the park",
-    "Unlocks the Monument Valley loop drive",
-    "Unlocks Artist's Drive and Dante's View without a second rental",
-    "Fuel drops from roughly $825 to $330"
+    "Five national parks and a Navajo tribal park in one loop, out and back from a single airport.",
+    "January is the emptiest month of the year at the Grand Canyon, and Springdale and Page are both cheap in low season.",
+    "Short days: 118 miles a day on average, and five of the fourteen days involve no driving between towns at all.",
+    "Winter opens Zion Canyon Scenic Drive to private vehicles — the park shuttle does not run, so you drive it yourself.",
+    "The warm end of the trip comes first. Death Valley in the mid-60s while you settle in, before the cold middle.",
+    "One set of flights, one vehicle, one loop. Nothing is one-way."
   ],
   "cons": [
-    "Roughly $2,500 to $4,700 more than the motorhome",
-    "Food costs roughly triple",
-    "Six separate lodging bookings to manage",
-    "Luggage for six in one vehicle for two weeks is tight"
+    "Seven nights at or below freezing once you climb to Zion, Page, Monument Valley and the Grand Canyon.",
+    "Snow at the Grand Canyon can cost a day. Day 13 is deliberately short to absorb that.",
+    "Death Valley still has flood damage: Scotty's Castle and Bonnie Clare Road are closed indefinitely, and several roads have soft shoulders and unpaved sections.",
+    "Day 12 is a 200-mile, 4h30 push from the Grand Canyon to Kingman. It is the longest day of the trip.",
+    "Two of the best stops are not covered by the park pass, and Monument Valley charges per person.",
+    "Bryce Canyon is skipped on purpose — it sits at 8,000 ft and is genuinely miserable in January."
+  ],
+  "notConsidered": [
+    {
+      "place": "Joshua Tree",
+      "reason": "Strong park, but it sits on the opposite side of the map from Monument Valley. Cannot have both in 14 days."
+    },
+    {
+      "place": "Palm Springs / Coachella Valley",
+      "reason": "The warmest and most kid-friendly stop available, but on the western route only."
+    },
+    {
+      "place": "Mojave National Preserve",
+      "reason": "No hookups, no potable water, no cell service, and the York Fire burned close to 100,000 acres in 2023 including much of the Cima Dome Joshua tree forest."
+    },
+    {
+      "place": "Lake Havasu",
+      "reason": "In January the lake is too cold to swim, which removes the main reason to go. London Bridge is a ten-minute stop."
+    },
+    {
+      "place": "Saguaro NP and Lost Dutchman SP",
+      "reason": "Both good, but adding them means a 400-mile I-10 leg — the worst driving day in any version of this trip."
+    },
+    {
+      "place": "Bryce Canyon",
+      "reason": "Sits at 8,000 feet. Genuinely miserable in January."
+    },
+    {
+      "place": "Travel trailer plus rented pickup",
+      "reason": "Trailer rentals do not include a tow vehicle, and the major rental companies prohibit towing outright. Turo treats towing as a prohibited use that voids damage protection."
+    }
+  ],
+  "moneySavers": [
+    {
+      "item": "Skip Antelope Canyon",
+      "amount": "~$480",
+      "detail": "Lower Antelope now costs $80.50 per person plus a $15 Navajo permit — about $580 for six. Upper runs $115-140 per person. The famous light beams only appear between 11am and 1pm from March to October, so in January you would pay peak-adjacent prices for a canyon without its main feature."
+    },
+    {
+      "item": "Horseshoe Bend instead",
+      "amount": "$10 per vehicle",
+      "detail": "A 1.5-mile round-trip walk, no tour, no permit. $10 total for the whole group."
+    },
+    {
+      "item": "Wire Pass into Buckskin Gulch",
+      "amount": "$6 per person",
+      "detail": "A genuine slot canyon you walk yourself on BLM land, about 90 minutes from Page toward Kanab. The access road is dirt and turns to slop when wet."
+    },
+    {
+      "item": "Sleep in Beatty, not in the park",
+      "amount": "~$1,000 over 3 nights",
+      "detail": "The largest single lever in the car-and-hotels build."
+    },
+    {
+      "item": "Decline the RV kit fee",
+      "amount": "~$250",
+      "detail": "Buy bedding and kitchen gear at a Las Vegas store on day one for $200-300 and leave it behind. Cheaper than per-person kit fees for six."
+    },
+    {
+      "item": "America the Beautiful pass",
+      "amount": "$80, already owned",
+      "detail": "Covers Death Valley, Zion, Grand Canyon and Glen Canyon. It does NOT cover Monument Valley, which is a Navajo tribal park, or Valley of Fire, which is a Nevada state park."
+    }
+  ],
+  "options": [
+    {
+      "id": "motorhome",
+      "name": "Motorhome",
+      "tagline": "Cheapest, simplest, coldest",
+      "summary": "Transport and lodging in one vehicle. Cheapest by a wide margin, and you cook instead of eating out — but seven nights below freezing, and three places on this route it simply cannot go.",
+      "vehicle": {
+        "type": "Class C motorhome, 30 ft",
+        "detail": "Cruise America C30 · sleeps 7 · 7 seatbelts · 30 ft long, 8.33 ft wide, 12.2 ft high",
+        "notes": "Book by seatbelt count, not sleeping capacity. The smaller C25 measures 24.93 ft long, 8.33 ft wide and 12.20 ft high — it clears Death Valley's 25-foot roads but is still too wide and too tall for Zion's Mount Carmel Highway."
+      },
+      "costs": {
+        "currency": "USD",
+        "party": 6,
+        "columns": [
+          {
+            "key": "low",
+            "label": "Low"
+          },
+          {
+            "key": "high",
+            "label": "High"
+          }
+        ],
+        "totals": {
+          "low": 7128,
+          "high": 7923
+        },
+        "perPerson": {
+          "low": 1188,
+          "high": 1321
+        },
+        "lines": [
+          {
+            "item": "Flights",
+            "low": 2280,
+            "high": 2280,
+            "basis": "6 people x $380 round trip"
+          },
+          {
+            "item": "RV rental, all-in",
+            "low": 2000,
+            "high": 2000,
+            "basis": "Quoted: includes protection, unlimited miles, 15 generator hours. Kit fee declined."
+          },
+          {
+            "item": "Fuel",
+            "low": 764,
+            "high": 885,
+            "basis": "1,655 mi at 8 mpg, $3.90/gal, NV/UT/AZ prices"
+          },
+          {
+            "item": "Campgrounds",
+            "low": 644,
+            "high": 787,
+            "basis": "13 nights, mostly full hookups"
+          },
+          {
+            "item": "Food and groceries",
+            "low": 832,
+            "high": 1063,
+            "basis": "Cooking in the RV with a few meals out"
+          },
+          {
+            "item": "Bedding and kitchen gear",
+            "low": 200,
+            "high": 300,
+            "basis": "Bought in Vegas on day 1 instead of paying per-person kit fees"
+          },
+          {
+            "item": "Death Valley rental car",
+            "low": 200,
+            "high": 300,
+            "basis": "Days 1-4 economy car; the 30-footer is barred from Artist's Drive and Dante's View"
+          },
+          {
+            "item": "Monument Valley tribal entry",
+            "low": 48,
+            "high": 48,
+            "basis": "$8 per person; the national park pass is not valid here"
+          },
+          {
+            "item": "Incidentals",
+            "low": 160,
+            "high": 260,
+            "basis": "Propane, laundry, showers, parking"
+          },
+          {
+            "item": "Park entry fees",
+            "low": 0,
+            "high": 0,
+            "basis": "America the Beautiful annual pass already owned"
+          }
+        ],
+        "notes": "Everything for six people for fourteen days, flights included. The America the Beautiful pass is already owned, so park entry is zero — but it does not cover Monument Valley or Valley of Fire."
+      },
+      "pros": [
+        "Cheapest by a wide margin",
+        "Transport and lodging in one",
+        "Food costs stay low because you cook",
+        "No lodging to book at six separate stops"
+      ],
+      "cons": [
+        "Seven freezing nights at elevation",
+        "Cannot drive Zion's Mount Carmel Highway or reach the east side of the park",
+        "Cannot drive the Monument Valley loop — RVs prohibited by category",
+        "Needs a separate rental car for Artist's Drive and Dante's View",
+        "Tanks fill fast with six people; plan a dump roughly every other night"
+      ],
+      "flags": {
+        "2": [
+          {
+            "type": "blocked",
+            "label": "Not in the motorhome:",
+            "text": "Artist's Drive is closed to vehicles over 25 ft. Take the separate rental car — it is in the budget for exactly this."
+          }
+        ],
+        "3": [
+          {
+            "type": "blocked",
+            "label": "Not in the motorhome:",
+            "text": "The final climb to Dante's View has the same 25 ft limit. Rental car again."
+          }
+        ],
+        "5": [
+          {
+            "type": "note",
+            "label": "First freezing night.",
+            "text": "Run the propane furnace, not the heat pump — heat pumps stop working around 40°F. Disconnect the city water hose at night and run off the fresh tank; the hose freezes long before the tanks do."
+          }
+        ],
+        "6": [
+          {
+            "type": "blocked",
+            "label": "Not in the motorhome:",
+            "text": "Mount Carmel Highway is closed to anything over 35 ft 9 in long, 7 ft 10 in wide or 11 ft 4 in high. Every Class C is about 8 ft wide and 12 ft tall, so a smaller one does not help — the whole east side of Zion is out, Canyon Overlook Trail and Checkerboard Mesa included. As of June 2026 the oversized-vehicle escort was scrapped entirely: no permit, no escort, no exception."
+          }
+        ],
+        "7": [
+          {
+            "type": "blocked",
+            "label": "This is why it is 200 miles.",
+            "text": "The direct route through the Zion tunnel is closed to you, so the day goes round via Hurricane, Colorado City and Kanab. The map shows the long way."
+          }
+        ],
+        "9": [
+          {
+            "type": "blocked",
+            "label": "Not in the motorhome:",
+            "text": "The Navajo Nation bars RVs from the 17-mile loop by category, not by size. What you can still do for free: the visitor center overlook and the 3.2-mile Wildcat Trail. A Navajo-guided 4x4 tour runs $70–95 each."
+          }
+        ],
+        "11": [
+          {
+            "type": "note",
+            "label": "Coldest night of the trip.",
+            "text": "Highs in the low 40s, lows in the high teens. Full hookups are available at Trailer Village — book it first, it sets the skeleton of the whole trip."
+          }
+        ]
+      },
+      "dayVia": {
+        "7": [
+          [
+            37.1753,
+            -113.2899
+          ],
+          [
+            36.9903,
+            -112.9769
+          ],
+          [
+            37.0475,
+            -112.5263
+          ]
+        ]
+      },
+      "dayRoutes": {
+        "7": [
+          [
+            37.18888,
+            -112.99852
+          ],
+          [
+            37.18878,
+            -112.99956
+          ],
+          [
+            37.18861,
+            -113.00037
+          ],
+          [
+            37.18789,
+            -113.00098
+          ],
+          [
+            37.18556,
+            -113.00228
+          ],
+          [
+            37.1846,
+            -113.00285
+          ],
+          [
+            37.18308,
+            -113.00374
+          ],
+          [
+            37.1816,
+            -113.00563
+          ],
+          [
+            37.18046,
+            -113.00633
+          ],
+          [
+            37.17933,
+            -113.00723
+          ],
+          [
+            37.17792,
+            -113.00837
+          ],
+          [
+            37.1761,
+            -113.00997
+          ],
+          [
+            37.17484,
+            -113.01118
+          ],
+          [
+            37.17198,
+            -113.01333
+          ],
+          [
+            37.16917,
+            -113.01321
+          ],
+          [
+            37.16746,
+            -113.01342
+          ],
+          [
+            37.1663,
+            -113.01378
+          ],
+          [
+            37.16419,
+            -113.0154
+          ],
+          [
+            37.16287,
+            -113.01732
+          ],
+          [
+            37.16105,
+            -113.01832
+          ],
+          [
+            37.1608,
+            -113.02069
+          ],
+          [
+            37.16212,
+            -113.02237
+          ],
+          [
+            37.16302,
+            -113.02412
+          ],
+          [
+            37.16273,
+            -113.02551
+          ],
+          [
+            37.16083,
+            -113.02843
+          ],
+          [
+            37.16021,
+            -113.02966
+          ],
+          [
+            37.16083,
+            -113.03129
+          ],
+          [
+            37.16101,
+            -113.03279
+          ],
+          [
+            37.16119,
+            -113.03499
+          ],
+          [
+            37.16124,
+            -113.03679
+          ],
+          [
+            37.16104,
+            -113.04398
+          ],
+          [
+            37.16088,
+            -113.05003
+          ],
+          [
+            37.16122,
+            -113.05357
+          ],
+          [
+            37.16244,
+            -113.05756
+          ],
+          [
+            37.16427,
+            -113.06054
+          ],
+          [
+            37.16823,
+            -113.06516
+          ],
+          [
+            37.17039,
+            -113.06827
+          ],
+          [
+            37.17084,
+            -113.0714
+          ],
+          [
+            37.17021,
+            -113.07768
+          ],
+          [
+            37.17032,
+            -113.08078
+          ],
+          [
+            37.17158,
+            -113.08783
+          ],
+          [
+            37.17181,
+            -113.09066
+          ],
+          [
+            37.17137,
+            -113.09263
+          ],
+          [
+            37.16862,
+            -113.09883
+          ],
+          [
+            37.16814,
+            -113.10097
+          ],
+          [
+            37.16838,
+            -113.1031
+          ],
+          [
+            37.16922,
+            -113.10491
+          ],
+          [
+            37.17234,
+            -113.11014
+          ],
+          [
+            37.17306,
+            -113.11259
+          ],
+          [
+            37.17447,
+            -113.11427
+          ],
+          [
+            37.17664,
+            -113.1152
+          ],
+          [
+            37.17785,
+            -113.11626
+          ],
+          [
+            37.17877,
+            -113.11828
+          ],
+          [
+            37.1791,
+            -113.12147
+          ],
+          [
+            37.17986,
+            -113.12421
+          ],
+          [
+            37.1825,
+            -113.13272
+          ],
+          [
+            37.18833,
+            -113.14043
+          ],
+          [
+            37.19265,
+            -113.14444
+          ],
+          [
+            37.19471,
+            -113.14732
+          ],
+          [
+            37.19523,
+            -113.15035
+          ],
+          [
+            37.1954,
+            -113.1546
+          ],
+          [
+            37.19672,
+            -113.16089
+          ],
+          [
+            37.19789,
+            -113.1653
+          ],
+          [
+            37.20012,
+            -113.17018
+          ],
+          [
+            37.20272,
+            -113.17546
+          ],
+          [
+            37.20408,
+            -113.17964
+          ],
+          [
+            37.20395,
+            -113.18251
+          ],
+          [
+            37.20356,
+            -113.18928
+          ],
+          [
+            37.20373,
+            -113.19578
+          ],
+          [
+            37.20452,
+            -113.20305
+          ],
+          [
+            37.20572,
+            -113.21426
+          ],
+          [
+            37.20759,
+            -113.23101
+          ],
+          [
+            37.20875,
+            -113.23557
+          ],
+          [
+            37.21089,
+            -113.24232
+          ],
+          [
+            37.21237,
+            -113.24436
+          ],
+          [
+            37.21816,
+            -113.24975
+          ],
+          [
+            37.22486,
+            -113.25209
+          ],
+          [
+            37.22642,
+            -113.25319
+          ],
+          [
+            37.22703,
+            -113.25481
+          ],
+          [
+            37.22674,
+            -113.25698
+          ],
+          [
+            37.22496,
+            -113.25854
+          ],
+          [
+            37.22266,
+            -113.25826
+          ],
+          [
+            37.21886,
+            -113.26146
+          ],
+          [
+            37.21522,
+            -113.26404
+          ],
+          [
+            37.21183,
+            -113.26476
+          ],
+          [
+            37.21089,
+            -113.26907
+          ],
+          [
+            37.21087,
+            -113.2722
+          ],
+          [
+            37.20858,
+            -113.27218
+          ],
+          [
+            37.20317,
+            -113.27214
+          ],
+          [
+            37.20129,
+            -113.27248
+          ],
+          [
+            37.19338,
+            -113.27631
+          ],
+          [
+            37.18986,
+            -113.278
+          ],
+          [
+            37.18405,
+            -113.28209
+          ],
+          [
+            37.18117,
+            -113.28416
+          ],
+          [
+            37.18001,
+            -113.28442
+          ],
+          [
+            37.17754,
+            -113.28453
+          ],
+          [
+            37.17684,
+            -113.28527
+          ],
+          [
+            37.17655,
+            -113.28625
+          ],
+          [
+            37.17512,
+            -113.28747
+          ],
+          [
+            37.17522,
+            -113.29
+          ],
+          [
+            37.17522,
+            -113.29
+          ],
+          [
+            37.17512,
+            -113.28747
+          ],
+          [
+            37.17558,
+            -113.28414
+          ],
+          [
+            37.17739,
+            -113.2827
+          ],
+          [
+            37.17995,
+            -113.28126
+          ],
+          [
+            37.18263,
+            -113.27867
+          ],
+          [
+            37.18373,
+            -113.27521
+          ],
+          [
+            37.18205,
+            -113.27404
+          ],
+          [
+            37.18,
+            -113.27462
+          ],
+          [
+            37.17863,
+            -113.27393
+          ],
+          [
+            37.17709,
+            -113.27129
+          ],
+          [
+            37.17218,
+            -113.26767
+          ],
+          [
+            37.16964,
+            -113.26662
+          ],
+          [
+            37.16414,
+            -113.26256
+          ],
+          [
+            37.1454,
+            -113.25439
+          ],
+          [
+            37.14112,
+            -113.2518
+          ],
+          [
+            37.13869,
+            -113.24698
+          ],
+          [
+            37.13452,
+            -113.24135
+          ],
+          [
+            37.12685,
+            -113.21059
+          ],
+          [
+            37.11887,
+            -113.17512
+          ],
+          [
+            37.11653,
+            -113.1571
+          ],
+          [
+            37.11109,
+            -113.1475
+          ],
+          [
+            37.10048,
+            -113.12915
+          ],
+          [
+            37.09306,
+            -113.11659
+          ],
+          [
+            37.08198,
+            -113.11009
+          ],
+          [
+            37.05947,
+            -113.09841
+          ],
+          [
+            37.0468,
+            -113.08734
+          ],
+          [
+            37.03772,
+            -113.07104
+          ],
+          [
+            37.03,
+            -113.05518
+          ],
+          [
+            37.01367,
+            -113.02194
+          ],
+          [
+            37.00592,
+            -113.00614
+          ],
+          [
+            37.00269,
+            -113.00114
+          ],
+          [
+            37.0005,
+            -112.9991
+          ],
+          [
+            36.99752,
+            -112.99593
+          ],
+          [
+            36.99742,
+            -112.99088
+          ],
+          [
+            36.99223,
+            -112.9831
+          ],
+          [
+            36.99046,
+            -112.97558
+          ],
+          [
+            36.98213,
+            -112.974
+          ],
+          [
+            36.97407,
+            -112.97394
+          ],
+          [
+            36.97201,
+            -112.9744
+          ],
+          [
+            36.9662,
+            -112.97158
+          ],
+          [
+            36.95247,
+            -112.96054
+          ],
+          [
+            36.93302,
+            -112.94527
+          ],
+          [
+            36.925,
+            -112.93895
+          ],
+          [
+            36.90796,
+            -112.92529
+          ],
+          [
+            36.8918,
+            -112.91223
+          ],
+          [
+            36.88266,
+            -112.89909
+          ],
+          [
+            36.87691,
+            -112.87913
+          ],
+          [
+            36.87025,
+            -112.85394
+          ],
+          [
+            36.86507,
+            -112.83432
+          ],
+          [
+            36.85873,
+            -112.80845
+          ],
+          [
+            36.8581,
+            -112.77796
+          ],
+          [
+            36.8578,
+            -112.75332
+          ],
+          [
+            36.8577,
+            -112.73189
+          ],
+          [
+            36.86075,
+            -112.71773
+          ],
+          [
+            36.86659,
+            -112.69746
+          ],
+          [
+            36.87367,
+            -112.66945
+          ],
+          [
+            36.87887,
+            -112.64884
+          ],
+          [
+            36.89791,
+            -112.60498
+          ],
+          [
+            36.91113,
+            -112.58609
+          ],
+          [
+            36.93682,
+            -112.55273
+          ],
+          [
+            36.94305,
+            -112.54414
+          ],
+          [
+            36.94544,
+            -112.53655
+          ],
+          [
+            36.94564,
+            -112.52854
+          ],
+          [
+            36.95082,
+            -112.52641
+          ],
+          [
+            36.95581,
+            -112.52689
+          ],
+          [
+            36.95951,
+            -112.52699
+          ],
+          [
+            36.96779,
+            -112.52699
+          ],
+          [
+            36.98278,
+            -112.52953
+          ],
+          [
+            36.99843,
+            -112.53007
+          ],
+          [
+            37.00549,
+            -112.52888
+          ],
+          [
+            37.01162,
+            -112.52597
+          ],
+          [
+            37.01818,
+            -112.52493
+          ],
+          [
+            37.02836,
+            -112.52486
+          ],
+          [
+            37.03413,
+            -112.52482
+          ],
+          [
+            37.03672,
+            -112.5249
+          ],
+          [
+            37.03799,
+            -112.52527
+          ],
+          [
+            37.04033,
+            -112.52619
+          ],
+          [
+            37.04105,
+            -112.52633
+          ],
+          [
+            37.04254,
+            -112.52638
+          ],
+          [
+            37.0444,
+            -112.52639
+          ],
+          [
+            37.0472,
+            -112.52643
+          ],
+          [
+            37.04776,
+            -112.52653
+          ],
+          [
+            37.0472,
+            -112.52643
+          ],
+          [
+            37.0444,
+            -112.52639
+          ],
+          [
+            37.04299,
+            -112.52523
+          ],
+          [
+            37.04301,
+            -112.52089
+          ],
+          [
+            37.043,
+            -112.51704
+          ],
+          [
+            37.04294,
+            -112.51608
+          ],
+          [
+            37.04281,
+            -112.51514
+          ],
+          [
+            37.0425,
+            -112.51386
+          ],
+          [
+            37.04201,
+            -112.51259
+          ],
+          [
+            37.0389,
+            -112.50675
+          ],
+          [
+            37.03515,
+            -112.49976
+          ],
+          [
+            37.03143,
+            -112.49276
+          ],
+          [
+            37.03014,
+            -112.48954
+          ],
+          [
+            37.02874,
+            -112.48346
+          ],
+          [
+            37.0269,
+            -112.47244
+          ],
+          [
+            37.02392,
+            -112.4546
+          ],
+          [
+            37.02299,
+            -112.44622
+          ],
+          [
+            37.02303,
+            -112.43796
+          ],
+          [
+            37.02415,
+            -112.42892
+          ],
+          [
+            37.02783,
+            -112.4129
+          ],
+          [
+            37.03377,
+            -112.38754
+          ],
+          [
+            37.03677,
+            -112.37198
+          ],
+          [
+            37.03746,
+            -112.36136
+          ],
+          [
+            37.03781,
+            -112.34708
+          ],
+          [
+            37.03838,
+            -112.32632
+          ],
+          [
+            37.03909,
+            -112.29913
+          ],
+          [
+            37.04,
+            -112.26504
+          ],
+          [
+            37.04038,
+            -112.25055
+          ],
+          [
+            37.04124,
+            -112.22209
+          ],
+          [
+            37.04296,
+            -112.21571
+          ],
+          [
+            37.04559,
+            -112.21124
+          ],
+          [
+            37.05004,
+            -112.2049
+          ],
+          [
+            37.05623,
+            -112.19604
+          ],
+          [
+            37.0722,
+            -112.17306
+          ],
+          [
+            37.08502,
+            -112.15463
+          ],
+          [
+            37.10335,
+            -112.12832
+          ],
+          [
+            37.1203,
+            -112.10394
+          ],
+          [
+            37.12659,
+            -112.09542
+          ],
+          [
+            37.13498,
+            -112.08478
+          ],
+          [
+            37.14321,
+            -112.07231
+          ],
+          [
+            37.15644,
+            -112.05213
+          ],
+          [
+            37.16268,
+            -112.04073
+          ],
+          [
+            37.17168,
+            -112.02305
+          ],
+          [
+            37.18306,
+            -112.00059
+          ],
+          [
+            37.18561,
+            -111.99488
+          ],
+          [
+            37.18626,
+            -111.98857
+          ],
+          [
+            37.18509,
+            -111.98321
+          ],
+          [
+            37.18336,
+            -111.97994
+          ],
+          [
+            37.18031,
+            -111.97677
+          ],
+          [
+            37.17575,
+            -111.97463
+          ],
+          [
+            37.1695,
+            -111.97233
+          ],
+          [
+            37.16342,
+            -111.97015
+          ],
+          [
+            37.15636,
+            -111.96964
+          ],
+          [
+            37.14433,
+            -111.97307
+          ],
+          [
+            37.13333,
+            -111.97632
+          ],
+          [
+            37.12801,
+            -111.97686
+          ],
+          [
+            37.12457,
+            -111.9757
+          ],
+          [
+            37.12372,
+            -111.97306
+          ],
+          [
+            37.12584,
+            -111.96864
+          ],
+          [
+            37.12768,
+            -111.95472
+          ],
+          [
+            37.12379,
+            -111.94754
+          ],
+          [
+            37.11135,
+            -111.9283
+          ],
+          [
+            37.10789,
+            -111.90812
+          ],
+          [
+            37.10496,
+            -111.88994
+          ],
+          [
+            37.09949,
+            -111.86836
+          ],
+          [
+            37.10413,
+            -111.85899
+          ],
+          [
+            37.10506,
+            -111.8371
+          ],
+          [
+            37.09646,
+            -111.76951
+          ],
+          [
+            37.08797,
+            -111.70349
+          ],
+          [
+            37.08499,
+            -111.68152
+          ],
+          [
+            37.07517,
+            -111.65663
+          ],
+          [
+            37.07184,
+            -111.65152
+          ],
+          [
+            37.06365,
+            -111.64461
+          ],
+          [
+            37.05641,
+            -111.63787
+          ],
+          [
+            37.05128,
+            -111.62845
+          ],
+          [
+            37.04787,
+            -111.62413
+          ],
+          [
+            37.03704,
+            -111.61615
+          ],
+          [
+            37.03234,
+            -111.60804
+          ],
+          [
+            37.02673,
+            -111.60044
+          ],
+          [
+            37.01221,
+            -111.58448
+          ],
+          [
+            37.00073,
+            -111.57186
+          ],
+          [
+            36.99276,
+            -111.56311
+          ],
+          [
+            36.98747,
+            -111.5573
+          ],
+          [
+            36.98517,
+            -111.55415
+          ],
+          [
+            36.98401,
+            -111.55183
+          ],
+          [
+            36.98312,
+            -111.54935
+          ],
+          [
+            36.98235,
+            -111.54564
+          ],
+          [
+            36.98018,
+            -111.52695
+          ],
+          [
+            36.97821,
+            -111.5215
+          ],
+          [
+            36.97479,
+            -111.51788
+          ],
+          [
+            36.96789,
+            -111.51276
+          ],
+          [
+            36.95998,
+            -111.50659
+          ],
+          [
+            36.95287,
+            -111.49951
+          ],
+          [
+            36.94659,
+            -111.4963
+          ],
+          [
+            36.93926,
+            -111.49475
+          ],
+          [
+            36.93744,
+            -111.49332
+          ],
+          [
+            36.93482,
+            -111.48936
+          ],
+          [
+            36.93445,
+            -111.48818
+          ],
+          [
+            36.93457,
+            -111.48645
+          ],
+          [
+            36.93626,
+            -111.48099
+          ],
+          [
+            36.9364,
+            -111.47997
+          ],
+          [
+            36.93612,
+            -111.47886
+          ],
+          [
+            36.9337,
+            -111.47498
+          ],
+          [
+            36.93158,
+            -111.47313
+          ],
+          [
+            36.93002,
+            -111.47259
+          ],
+          [
+            36.92637,
+            -111.47222
+          ],
+          [
+            36.92574,
+            -111.47219
+          ],
+          [
+            36.9255,
+            -111.47223
+          ],
+          [
+            36.92544,
+            -111.47195
+          ],
+          [
+            36.9256,
+            -111.4715
+          ],
+          [
+            36.92537,
+            -111.46491
+          ],
+          [
+            36.92399,
+            -111.46408
+          ],
+          [
+            36.92041,
+            -111.46371
+          ],
+          [
+            36.91975,
+            -111.46138
+          ],
+          [
+            36.91854,
+            -111.45941
+          ],
+          [
+            36.91716,
+            -111.45787
+          ],
+          [
+            36.91504,
+            -111.45688
+          ]
+        ]
+      }
+    },
+    {
+      "id": "car-and-lodging",
+      "name": "Car and lodging",
+      "tagline": "More expensive, warmer, and unlocks three places the RV can't reach",
+      "summary": "A seven-seater and a room every night. Roughly $2,500 to $4,700 more than the motorhome, almost all of it food and lodging — but no freezing nights, and it opens up three places the RV is barred from.",
+      "vehicle": {
+        "type": "Minivan or full-size SUV",
+        "detail": "Chrysler Pacifica · Honda Odyssey · Chevrolet Suburban · 7 seats",
+        "notes": "A minivan is better for people, a Suburban better for luggage. Fourteen days from Las Vegas including airport concession fees."
+      },
+      "costs": {
+        "currency": "USD",
+        "party": 6,
+        "columns": [
+          {
+            "key": "value",
+            "label": "Best value"
+          },
+          {
+            "key": "location",
+            "label": "Best location"
+          }
+        ],
+        "totals": {
+          "value": 9700,
+          "location": 12600
+        },
+        "perPerson": {
+          "value": 1617,
+          "location": 2100
+        },
+        "lines": [
+          {
+            "item": "Flights",
+            "value": 2280,
+            "location": 2280,
+            "basis": "6 people x $380 round trip"
+          },
+          {
+            "item": "Vehicle rental",
+            "value": 1400,
+            "location": 2100,
+            "basis": "A minivan is better for people, a Suburban better for luggage. Fourteen days from Las Vegas including airport concession fees."
+          },
+          {
+            "item": "Fuel",
+            "value": 300,
+            "location": 360,
+            "basis": "1,655 mi at 18-20 mpg — a large saving over the RV"
+          },
+          {
+            "item": "Lodging",
+            "value": 2600,
+            "location": 4000,
+            "basis": "13 nights, two rooms or one rental house"
+          },
+          {
+            "item": "Food",
+            "value": 2600,
+            "location": 3600,
+            "basis": "Eating out for six. This single line is most of the gap between the two options."
+          },
+          {
+            "item": "Monument Valley tribal entry",
+            "value": 48,
+            "location": 48,
+            "basis": "$8 per person; the national park pass is not valid here"
+          },
+          {
+            "item": "Park entry fees",
+            "value": 0,
+            "location": 0,
+            "basis": "America the Beautiful annual pass already owned"
+          },
+          {
+            "item": "Everything else",
+            "value": 472,
+            "location": 212,
+            "basis": "The remainder up to the quoted total — activities, parking, tolls and incidentals."
+          }
+        ],
+        "notes": "Two versions of the same trip. \"Best value\" sleeps in Beatty rather than inside Death Valley, which alone saves close to $1,000 over three nights — the single biggest lever in the whole budget. \"Best location\" puts you inside the parks and at The View in Monument Valley."
+      },
+      "pros": [
+        "No freezing nights — real beds and heated rooms throughout",
+        "Unlocks Zion's Mount Carmel Highway and the east side of the park",
+        "Unlocks the Monument Valley loop drive",
+        "Unlocks Artist's Drive and Dante's View without a second rental",
+        "Fuel drops from roughly $825 to $330"
+      ],
+      "cons": [
+        "Roughly $2,500 to $4,700 more than the motorhome",
+        "Food costs roughly triple",
+        "Six separate lodging bookings to manage",
+        "Luggage for six in one vehicle for two weeks is tight"
+      ],
+      "flags": {
+        "2": [
+          {
+            "type": "unlocked",
+            "label": "Open to you:",
+            "text": "Artist's Drive, with no second rental car needed."
+          }
+        ],
+        "3": [
+          {
+            "type": "unlocked",
+            "label": "Open to you:",
+            "text": "The climb to Dante's View, 5,475 ft up over Badwater."
+          }
+        ],
+        "6": [
+          {
+            "type": "unlocked",
+            "label": "Open to you:",
+            "text": "Mount Carmel Highway and the whole east side of Zion — Canyon Overlook Trail and Checkerboard Mesa. One of the three places the motorhome cannot go."
+          }
+        ],
+        "7": [
+          {
+            "type": "unlocked",
+            "label": "Shorter if you want it:",
+            "text": "The 200 miles below is the motorhome routing round via Kanab. In a car you go straight through Mount Carmel Highway instead — about 120 miles, and the better drive. The map shows the direct route."
+          }
+        ],
+        "9": [
+          {
+            "type": "unlocked",
+            "label": "Open to you:",
+            "text": "Drive the 17-mile Tribal Park Loop yourself — included in the tribal park entry, no guide needed."
+          }
+        ]
+      }
+    }
   ],
   "days": [
     {
@@ -1394,13 +2998,6 @@
           "photo": "assets/photos/southwest-loop/artists-drive.jpg",
           "caption": "A one-way loop through mineral-stained hills."
         }
-      ],
-      "flags": [
-        {
-          "type": "unlocked",
-          "label": "Open to you:",
-          "text": "Artist's Drive, with no second rental car needed."
-        }
       ]
     },
     {
@@ -1457,13 +3054,6 @@
           ],
           "photo": "assets/photos/southwest-loop/dantes-view.jpg",
           "caption": "5,475 ft up, looking straight down at Badwater. Can be 25° colder."
-        }
-      ],
-      "flags": [
-        {
-          "type": "unlocked",
-          "label": "Open to you:",
-          "text": "The climb to Dante's View, 5,475 ft up over Badwater."
         }
       ]
     },
@@ -4005,13 +5595,6 @@
           "photo": "assets/photos/southwest-loop/mt-carmel-highway.jpg",
           "caption": "Switchbacks and the 1930 tunnel to the east side of the park."
         }
-      ],
-      "flags": [
-        {
-          "type": "unlocked",
-          "label": "Open to you:",
-          "text": "Mount Carmel Highway and the whole east side of Zion — Canyon Overlook Trail and Checkerboard Mesa. This is one of the three places the motorhome cannot go."
-        }
       ]
     },
     {
@@ -4051,13 +5634,6 @@
         }
       ],
       "driveTime": "3h 45m",
-      "flags": [
-        {
-          "type": "unlocked",
-          "label": "Shorter if you want it:",
-          "text": "The 200 miles below is the motorhome routing round via Kanab. In a car you can go straight through Mount Carmel Highway instead — about 120 miles, and the better drive. The map shows the direct route."
-        }
-      ],
       "route": [
         [
           37.18888,
@@ -5304,8 +6880,7 @@
             -112.02487
           ],
           "photo": "assets/photos/southwest-loop/wire-pass.jpg",
-          "caption": "Optional $6pp detour into a real slot canyon you walk yourself.",
-          "optional": true
+          "caption": "Optional $6pp detour into a real slot canyon you walk yourself."
         },
         {
           "name": "Monument Valley at sunset",
@@ -6555,7 +8130,7 @@
             -110.08768
           ],
           "photo": "assets/photos/southwest-loop/monument-valley-loop.jpg",
-          "caption": "The 17-mile unpaved loop drive. John Ford’s Point is the classic stop."
+          "caption": "The 17-mile unpaved loop drive. John Ford's Point is the classic stop."
         },
         {
           "name": "Wildcat Trail",
@@ -6565,13 +8140,6 @@
           ],
           "photo": "assets/photos/southwest-loop/wildcat-trail.jpg",
           "caption": "A free 3.2-mile loop around West Mitten Butte. Open to everyone."
-        }
-      ],
-      "flags": [
-        {
-          "type": "unlocked",
-          "label": "Open to you:",
-          "text": "Drive the 17-mile Tribal Park Loop yourself — it is included in the tribal park entry, no guide needed."
         }
       ]
     },

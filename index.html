@@ -5,40 +5,39 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#1b3a2f">
 <title>Road Trip Options</title>
-<meta name="description" content="Compare our road trip options day by day.">
+<meta name="description" content="Where we're going, and the ways we could do it.">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/favicon.svg">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
       crossorigin="">
-<link rel="stylesheet" href="css/style.css?v=6">
+<link rel="stylesheet" href="css/style.css?v=7">
 </head>
 <body>
 
-<!-- ============ HOME ============ -->
+<!-- ============ HOME: the routes ============ -->
 <section id="view-home" class="view">
   <header class="home-header">
     <p class="eyebrow">Family road trip</p>
-    <div id="trip-intro"></div>
+    <h1>Where are we going?</h1>
+    <p class="lede">Tap a route to see the map, the day-by-day plan, and the ways we could do it.</p>
   </header>
-  <p class="pick-label">Two ways to do it — tap one</p>
-  <div id="option-list" class="option-list">
-    <p class="loading">Loading options…</p>
+  <div id="route-list" class="route-list">
+    <p class="loading">Loading…</p>
   </div>
   <footer class="home-footer">
-    <p>Same 14-day route either way. The difference is what you sleep in, what it costs,
-       and which three places the motorhome can't reach.</p>
+    <p>More routes will land here as we work them out.</p>
   </footer>
 </section>
 
-<!-- ============ OPTION DETAIL ============ -->
-<section id="view-option" class="view" hidden>
+<!-- ============ ROUTE ============ -->
+<section id="view-route" class="view" hidden>
   <div class="topbar">
-    <a class="back" href="#/" aria-label="Back to all options">
+    <a class="back" href="#/" aria-label="Back to all routes">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
-      <span>Options</span>
+      <span>Routes</span>
     </a>
-    <span id="option-title" class="topbar-title"></span>
+    <span id="route-title" class="topbar-title"></span>
   </div>
 
   <div class="map-wrap">
@@ -47,20 +46,51 @@
   </div>
 
   <div class="detail-body">
-    <div id="option-summary" class="option-summary"></div>
-    <p class="hint" id="map-hint">Tap a day to see that leg on the map.</p>
-    <div id="day-list" class="day-list"></div>
+    <div id="route-intro" class="route-intro"></div>
+
+    <section class="block" id="block-mustsee" hidden>
+      <h2 class="block-head">Must see</h2>
+      <p class="block-sub">Tap one to jump to its day.</p>
+      <div id="must-see" class="mustsee-rail"></div>
+    </section>
+
+    <section class="block" id="block-proscons" hidden>
+      <h2 class="block-head">Why this route</h2>
+      <div id="route-proscons" class="proscons"></div>
+    </section>
+
+    <section class="block" id="block-watch" hidden>
+      <h2 class="block-head">Watch out for</h2>
+      <div id="watch-outs" class="watch-list"></div>
+    </section>
+
+    <section class="block" id="block-skipped" hidden>
+      <details class="skipped">
+        <summary>Places we left out, and why</summary>
+        <div id="skipped-list" class="skipped-list"></div>
+      </details>
+    </section>
+
+    <section class="block" id="block-options" hidden>
+      <h2 class="block-head">How we do it</h2>
+      <p class="block-sub">Same route either way. Pick one to see how the days change.</p>
+      <div id="option-switch" class="option-switch" role="tablist"></div>
+      <div id="option-detail" class="option-detail"></div>
+    </section>
+
+    <section class="block">
+      <h2 class="block-head">Day by day</h2>
+      <p class="hint" id="map-hint">Tap a day to see that leg on the map.</p>
+      <div id="day-list" class="day-list"></div>
+    </section>
+
     <footer class="detail-footer">
       <p>Distances and times are estimates — real driving days run longer with six people,
          stops and photos. Check park conditions the week before you go.</p>
     </footer>
   </div>
 
-  <!-- Costs -->
-  <button id="costs-btn" class="costs-btn" type="button" aria-expanded="false" aria-controls="costs-sheet" hidden>
-    <span class="costs-btn-label">Costs</span>
-    <span id="costs-btn-total" class="costs-btn-total"></span>
-  </button>
+  <!-- Costs, opened from the quiet link inside "How we do it" -->
   <div id="costs-backdrop" class="costs-backdrop" hidden></div>
   <div id="costs-sheet" class="costs-sheet" role="dialog" aria-modal="true" aria-labelledby="costs-heading" hidden>
     <div class="sheet-grip" aria-hidden="true"></div>
@@ -77,6 +107,6 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
         crossorigin=""></script>
-<script src="js/app.js?v=6"></script>
+<script src="js/app.js?v=7"></script>
 </body>
 </html>
