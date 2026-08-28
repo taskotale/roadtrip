@@ -1,0 +1,138 @@
+{
+  "las-vegas": {
+    "lat": 36.16743,
+    "lng": -115.14841
+  },
+  "furnace-creek": {
+    "lat": 36.45648,
+    "lng": -116.86914
+  },
+  "valley-of-fire": {
+    "lat": 36.42999,
+    "lng": -114.51377
+  },
+  "springdale": {
+    "lat": 37.18887,
+    "lng": -112.99855
+  },
+  "page": {
+    "lat": 36.91483,
+    "lng": -111.45729
+  },
+  "monument-valley": {
+    "lat": 36.98241,
+    "lng": -110.1118
+  },
+  "grand-canyon-village": {
+    "lat": 36.05722,
+    "lng": -112.13924
+  },
+  "kingman": {
+    "lat": 35.18959,
+    "lng": -114.0533
+  },
+  "las-vegas-airport": {
+    "lat": 36.0861,
+    "lng": -115.1611
+  },
+  "zabriskie-point": {
+    "lat": 36.42005,
+    "lng": -116.81229
+  },
+  "badwater-basin": {
+    "lat": 36.23026,
+    "lng": -116.76744
+  },
+  "golden-canyon": {
+    "lat": 36.42076,
+    "lng": -116.84656
+  },
+  "artists-drive": {
+    "lat": 36.36669,
+    "lng": -116.80052
+  },
+  "devils-golf-course": {
+    "lat": 36.28583,
+    "lng": -116.82619
+  },
+  "mesquite-flat-dunes": {
+    "lat": 36.60616,
+    "lng": -117.11507
+  },
+  "ubehebe-crater": {
+    "lat": 37.00997,
+    "lng": -117.45065
+  },
+  "mosaic-canyon": {
+    "lat": 36.57184,
+    "lng": -117.14424
+  },
+  "dantes-view": {
+    "lat": 36.22066,
+    "lng": -116.72675
+  },
+  "fire-wave": {
+    "lat": 36.48825,
+    "lng": -114.529
+  },
+  "atlatl-rock": {
+    "lat": 36.42279,
+    "lng": -114.5507
+  },
+  "elephant-rock": {
+    "lat": 36.42888,
+    "lng": -114.458
+  },
+  "zion-canyon": {
+    "lat": 37.23356,
+    "lng": -112.96241
+  },
+  "mount-carmel-highway": {
+    "lat": 37.21112,
+    "lng": -112.94963
+  },
+  "horseshoe-bend": {
+    "lat": 36.88045,
+    "lng": -111.51613
+  },
+  "lake-powell-wahweap": {
+    "lat": 36.99037,
+    "lng": -111.48208
+  },
+  "monument-valley-mittens": {
+    "lat": 36.98963,
+    "lng": -110.08241
+  },
+  "john-fords-point": {
+    "lat": 36.95341,
+    "lng": -110.08768
+  },
+  "desert-view-watchtower": {
+    "lat": 36.04401,
+    "lng": -111.82621
+  },
+  "mather-point": {
+    "lat": 36.06172,
+    "lng": -112.10903
+  },
+  "yavapai-point": {
+    "lat": 36.06665,
+    "lng": -112.11822
+  },
+  "bright-angel-trailhead": {
+    "lat": 36.05728,
+    "lng": -112.14363
+  },
+  "seligman": {
+    "lat": 35.32688,
+    "lng": -112.87631
+  },
+  "hoover-dam": {
+    "lat": 36.01572,
+    "lng": -114.73749
+  },
+  "wire-pass": {
+    "lat": 37.01911,
+    "lng": -112.02487
+  }
+}

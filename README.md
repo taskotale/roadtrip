@@ -54,6 +54,11 @@ GitHub rebuilds in about a minute.
 
 ## Adding a new route
 
+Either hand-write the JSON against the schema below — perfectly fine for a one-off
+— or copy `tools/build-southwest-loop.mjs` and generate it. That script is the
+record of how the Southwest Loop file was produced; running it plus
+`tools/build-routes.mjs` reproduces `data/routes/southwest-loop.json` exactly.
+
 1. Copy `data/routes/southwest-loop.json` to `data/routes/<new-id>.json` and edit it.
 2. Add its filename to `data/manifest.json`:
    ```json
@@ -243,7 +248,8 @@ work — the browser blocks loading the JSON that way.
 | `js/app.js` | Routing, rendering, map and costs logic |
 | `data/routes/*.json` | One file per route |
 | `assets/photos/<route-id>/` | Photos for that route |
-| `tools/build-routes.mjs` | One-time road geometry fetcher |
+| `tools/build-routes.mjs` | One-time road geometry fetcher (any route) |
+| `tools/build-southwest-loop.mjs` | Rebuilds that one route from `source/` — a worked example |
 | `source/` | The original planning data this was built from |
 
 The map uses [Leaflet](https://leafletjs.com) with
