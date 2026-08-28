@@ -192,7 +192,7 @@
       "id": "motorhome",
       "name": "Motorhome",
       "tagline": "Cheapest, simplest, coldest",
-      "summary": "Transport and lodging in one vehicle. Cheapest by a wide margin, and you cook instead of eating out — but seven nights below freezing, and three places on this route it simply cannot go.",
+      "summary": "Transport and lodging in one vehicle, so there is nothing to book at six separate stops and you cook instead of eating out — but seven nights below freezing, and three places on this route it simply cannot go.",
       "vehicle": {
         "type": "Class C motorhome, 30 ft",
         "detail": "Cruise America C30 · sleeps 7 · 7 seatbelts · 30 ft long, 8.33 ft wide, 12.2 ft high",
@@ -1572,7 +1572,7 @@
       "id": "car-and-lodging",
       "name": "Car and lodging",
       "tagline": "More expensive, warmer, and unlocks three places the RV can't reach",
-      "summary": "A seven-seater and a room every night. Roughly $2,500 to $4,700 more than the motorhome, almost all of it food and lodging — but no freezing nights, and it opens up three places the RV is barred from.",
+      "summary": "A seven-seater and a room every night. It costs meaningfully more, and almost all of the gap is food and lodging — but nobody sleeps below freezing, and it opens up three places on this route the motorhome is barred from.",
       "vehicle": {
         "type": "Minivan or full-size SUV",
         "detail": "Chrysler Pacifica · Honda Odyssey · Chevrolet Suburban · 7 seats",
