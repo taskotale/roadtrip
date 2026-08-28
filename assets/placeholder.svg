@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Photo coming soon">
+  <rect width="320" height="200" fill="#eeece6"/>
+  <path d="M0 150 L70 108 L124 140 L190 92 L250 128 L320 96 L320 200 L0 200 Z" fill="#ddd9cf"/>
+  <path d="M0 168 L86 128 L150 158 L214 122 L268 148 L320 124 L320 200 L0 200 Z" fill="#cfcabd"/>
+  <circle cx="252" cy="48" r="17" fill="#e2ddd0"/>
+  <text x="160" y="188" text-anchor="middle" font-family="-apple-system, Helvetica, Arial, sans-serif"
+        font-size="12" fill="#8b948e">photo coming soon</text>
+</svg>

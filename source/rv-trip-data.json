@@ -1,0 +1,434 @@
+{
+  "trip": {
+    "title": "Southwest Loop — January",
+    "subtitle": "Death Valley · Zion · Page · Monument Valley · Grand Canyon · Route 66",
+    "duration_days": 14,
+    "party_size": 6,
+    "start_end": "Las Vegas, NV (Harry Reid International — LAS)",
+    "season": "January",
+    "total_miles": 1655,
+    "transit_miles": 1255,
+    "in_park_miles": 400,
+    "avg_miles_per_day": 118,
+    "summary": "A counterclockwise loop out of Las Vegas taking in five national parks and one Navajo tribal park. Warm start in Death Valley, a cold middle at elevation, and an easy Route 66 run home. Two versions are priced: a motorhome build and a car-plus-hotels build."
+  },
+
+  "itinerary": [
+    {
+      "day": 1,
+      "from": "Las Vegas, NV",
+      "to": "Furnace Creek, Death Valley",
+      "miles": 120,
+      "drive_time": "2h00",
+      "elevation_ft": -190,
+      "freezing_night": false,
+      "headline": "Below sea level by lunchtime",
+      "notes": "Pick up the vehicle and drive straight in. Furnace Creek sits 190 feet below sea level and is the warmest place you'll sleep all trip — January highs in the mid-60s, lows around 40.",
+      "activities": ["Zabriskie Point at sunset"]
+    },
+    {
+      "day": 2,
+      "from": "Furnace Creek",
+      "to": "Furnace Creek",
+      "miles": 0,
+      "drive_time": null,
+      "elevation_ft": -190,
+      "freezing_night": false,
+      "headline": "The valley floor",
+      "notes": "Badwater Basin is the lowest point in North America. Artist's Drive is a one-way loop through mineral-stained hills and is limited to vehicles under 25 feet.",
+      "activities": ["Badwater Basin", "Golden Canyon hike", "Artist's Drive", "Devil's Golf Course"]
+    },
+    {
+      "day": 3,
+      "from": "Furnace Creek",
+      "to": "Furnace Creek",
+      "miles": 0,
+      "drive_time": null,
+      "elevation_ft": -190,
+      "freezing_night": false,
+      "headline": "Dunes and craters",
+      "notes": "Ubehebe Crater is a 110-mile round trip from Furnace Creek. Dante's View sits at 5,475 feet and can be 25 degrees colder than the valley floor — it also caps at 25 feet.",
+      "activities": ["Mesquite Flat Dunes at sunrise", "Ubehebe Crater", "Mosaic Canyon", "Dante's View"]
+    },
+    {
+      "day": 4,
+      "from": "Furnace Creek",
+      "to": "Valley of Fire State Park, NV",
+      "miles": 175,
+      "drive_time": "3h00",
+      "elevation_ft": 2300,
+      "freezing_night": false,
+      "headline": "Back through Vegas to the red rock",
+      "notes": "Nevada's oldest state park. Bright red Aztec sandstone, petroglyphs, and short walks that suit kids. All campsites are now reservation-only.",
+      "activities": ["Fire Wave", "Atlatl Rock petroglyphs", "Elephant Rock", "Seven Sisters"]
+    },
+    {
+      "day": 5,
+      "from": "Valley of Fire",
+      "to": "Springdale / Zion National Park, UT",
+      "miles": 150,
+      "drive_time": "2h45",
+      "elevation_ft": 4000,
+      "freezing_night": true,
+      "headline": "Into the canyon",
+      "notes": "Enter Zion from the south at Springdale. In winter the park shuttle does not run, which means you can drive Zion Canyon Scenic Drive yourself — a road closed to private vehicles most of the year.",
+      "activities": ["Zion Canyon Scenic Drive", "Riverside Walk", "Emerald Pools", "Watchman Trail"]
+    },
+    {
+      "day": 6,
+      "from": "Zion",
+      "to": "Zion",
+      "miles": 0,
+      "drive_time": null,
+      "elevation_ft": 4000,
+      "freezing_night": true,
+      "headline": "Full day in Zion",
+      "notes": "Canyon floor is around 4,000 feet — low 50s days, high 20s nights. The mildest of the cold stops.",
+      "activities": ["Canyon Overlook Trail (car only)", "Checkerboard Mesa (car only)", "Pa'rus Trail"]
+    },
+    {
+      "day": 7,
+      "from": "Zion",
+      "to": "Page, AZ",
+      "miles": 200,
+      "drive_time": "3h45",
+      "elevation_ft": 4300,
+      "freezing_night": true,
+      "headline": "The long way round to Lake Powell",
+      "notes": "Routed via Hurricane, Colorado City and Kanab. An RV cannot take the direct Mount Carmel Highway through the tunnel — see vehicle_restrictions.",
+      "activities": ["Glen Canyon Dam Overlook", "Wahweap Overlook"]
+    },
+    {
+      "day": 8,
+      "from": "Page",
+      "to": "Monument Valley, AZ/UT",
+      "miles": 125,
+      "drive_time": "2h30",
+      "elevation_ft": 5200,
+      "freezing_night": true,
+      "headline": "Horseshoe Bend, then the Navajo Nation",
+      "notes": "Horseshoe Bend is $10 per vehicle and a 1.5-mile round-trip walk — far better value than a guided slot canyon tour.",
+      "activities": ["Horseshoe Bend", "Wire Pass slot canyon (optional detour, $6pp)", "Sunset at Monument Valley"]
+    },
+    {
+      "day": 9,
+      "from": "Monument Valley",
+      "to": "Monument Valley",
+      "miles": 0,
+      "drive_time": null,
+      "elevation_ft": 5200,
+      "freezing_night": true,
+      "headline": "Sunrise over the Mittens",
+      "notes": "The 17-mile Tribal Park Loop is unpaved and closed to RVs and motorcycles by Navajo Nation rules. In a car you can drive it yourself. The Wildcat Trail is a free 3.2-mile loop around West Mitten Butte from the visitor center.",
+      "activities": ["Tribal Park Loop Drive (car only)", "Wildcat Trail", "John Ford's Point"]
+    },
+    {
+      "day": 10,
+      "from": "Monument Valley",
+      "to": "Grand Canyon South Rim, AZ",
+      "miles": 180,
+      "drive_time": "3h30",
+      "elevation_ft": 6800,
+      "freezing_night": true,
+      "headline": "In through the East Entrance",
+      "notes": "Via Kayenta, Tuba City and Cameron. Coming in from the east means you pass Desert View Watchtower before reaching the village — the better approach.",
+      "activities": ["Desert View Watchtower", "Sunset at Yavapai Point"]
+    },
+    {
+      "day": 11,
+      "from": "Grand Canyon",
+      "to": "Grand Canyon",
+      "miles": 0,
+      "drive_time": null,
+      "elevation_ft": 6800,
+      "freezing_night": true,
+      "headline": "The rim",
+      "notes": "Coldest night of the trip — highs in the low 40s, lows in the high teens. Free park shuttles run year-round. Snow on the rim over red rock, and the park at its emptiest all year.",
+      "activities": ["Sunrise at Mather Point", "Rim Trail", "Bright Angel trailhead", "Hermit Road"]
+    },
+    {
+      "day": 12,
+      "from": "Grand Canyon",
+      "to": "Kingman, AZ",
+      "miles": 200,
+      "drive_time": "4h30",
+      "elevation_ft": 3300,
+      "freezing_night": false,
+      "headline": "Route 66 westbound",
+      "notes": "The Seligman-to-Kingman stretch is the longest intact original section of Route 66 left. Do not take the Oatman Highway — Sitgreaves Pass is steep with blind hairpins and most rental agreements prohibit it.",
+      "activities": ["Seligman", "Hackberry General Store", "Peach Springs", "Kingman"]
+    },
+    {
+      "day": 13,
+      "from": "Kingman",
+      "to": "Las Vegas area",
+      "miles": 105,
+      "drive_time": "2h00",
+      "elevation_ft": 2000,
+      "freezing_night": false,
+      "headline": "Short day home",
+      "notes": "Deliberately light. This is the weather buffer — if snow costs you a day earlier in the trip, you absorb it here.",
+      "activities": ["Hoover Dam"]
+    },
+    {
+      "day": 14,
+      "from": "Las Vegas",
+      "to": "Fly home",
+      "miles": 0,
+      "drive_time": null,
+      "elevation_ft": 2000,
+      "freezing_night": false,
+      "headline": "Return and depart",
+      "notes": "Allow half a day for the vehicle return process.",
+      "activities": []
+    }
+  ],
+
+  "options": [
+    {
+      "id": "option-1",
+      "name": "Motorhome",
+      "tagline": "Cheapest, simplest, coldest",
+      "vehicle": {
+        "type": "Class C motorhome, 30 ft",
+        "example": "Cruise America C30",
+        "sleeps": 7,
+        "seatbelts": 7,
+        "dimensions": { "length_ft": 30, "width_ft": 8.33, "height_ft": 12.2 },
+        "notes": "Book by seatbelt count, not sleeping capacity. The smaller C25 measures 24.93 ft long, 8.33 ft wide and 12.20 ft high — it clears Death Valley's 25-foot roads but is still too wide and too tall for Zion's Mount Carmel Highway."
+      },
+      "budget": {
+        "currency": "USD",
+        "lines": [
+          { "item": "Flights", "low": 2280, "high": 2280, "basis": "6 people x $380 round trip" },
+          { "item": "RV rental, all-in", "low": 2000, "high": 2000, "basis": "Quoted: includes protection, unlimited miles, 15 generator hours. Kit fee declined." },
+          { "item": "Fuel", "low": 764, "high": 885, "basis": "1,655 mi at 8 mpg, $3.90/gal, NV/UT/AZ prices" },
+          { "item": "Campgrounds", "low": 644, "high": 787, "basis": "13 nights, mostly full hookups" },
+          { "item": "Food and groceries", "low": 832, "high": 1063, "basis": "Cooking in the RV with a few meals out" },
+          { "item": "Bedding and kitchen gear", "low": 200, "high": 300, "basis": "Bought in Vegas on day 1 instead of paying per-person kit fees" },
+          { "item": "Death Valley rental car", "low": 200, "high": 300, "basis": "Days 1-4 economy car; the 30-footer is barred from Artist's Drive and Dante's View" },
+          { "item": "Monument Valley tribal entry", "low": 48, "high": 48, "basis": "$8 per person; the national park pass is not valid here" },
+          { "item": "Incidentals", "low": 160, "high": 260, "basis": "Propane, laundry, showers, parking" },
+          { "item": "Park entry fees", "low": 0, "high": 0, "basis": "America the Beautiful annual pass already owned" }
+        ],
+        "total_low": 7127,
+        "total_high": 7922,
+        "per_person_low": 1188,
+        "per_person_high": 1320
+      },
+      "pros": [
+        "Cheapest by a wide margin",
+        "Transport and lodging in one",
+        "Food costs stay low because you cook",
+        "No lodging to book at six separate stops"
+      ],
+      "cons": [
+        "Seven freezing nights at elevation",
+        "Cannot drive Zion's Mount Carmel Highway or reach the east side of the park",
+        "Cannot drive the Monument Valley loop — RVs prohibited by category",
+        "Needs a separate rental car for Artist's Drive and Dante's View",
+        "Tanks fill fast with six people; plan a dump roughly every other night"
+      ]
+    },
+    {
+      "id": "option-2",
+      "name": "Car and lodging",
+      "tagline": "More expensive, warmer, and unlocks three places the RV can't reach",
+      "vehicle": {
+        "type": "Minivan or full-size SUV",
+        "examples": ["Chrysler Pacifica", "Honda Odyssey", "Chevrolet Suburban"],
+        "seats": 7,
+        "cost_low": 1400,
+        "cost_high": 2100,
+        "notes": "A minivan is better for people, a Suburban better for luggage. Fourteen days from Las Vegas including airport concession fees."
+      },
+      "builds": [
+        { "id": "value", "name": "Best value", "total": 9700, "per_person": 1617 },
+        { "id": "location", "name": "Best location", "total": 12600, "per_person": 2100 }
+      ],
+      "budget_deltas": {
+        "fuel": { "low": 300, "high": 360, "basis": "1,655 mi at 18-20 mpg — a large saving over the RV" },
+        "lodging": { "value": 2600, "location": 4000, "basis": "13 nights, two rooms or one rental house" },
+        "food": { "low": 2600, "high": 3600, "basis": "Eating out for six. This single line is most of the gap between the two options." }
+      },
+      "pros": [
+        "No freezing nights — real beds and heated rooms throughout",
+        "Unlocks Zion's Mount Carmel Highway and the east side of the park",
+        "Unlocks the Monument Valley loop drive",
+        "Unlocks Artist's Drive and Dante's View without a second rental",
+        "Fuel drops from roughly $825 to $330"
+      ],
+      "cons": [
+        "Roughly $2,500 to $4,700 more than the motorhome",
+        "Food costs roughly triple",
+        "Six separate lodging bookings to manage",
+        "Luggage for six in one vehicle for two weeks is tight"
+      ]
+    }
+  ],
+
+  "lodging": [
+    {
+      "stop": "Death Valley",
+      "nights": 3,
+      "best_location": {
+        "picks": ["The Ranch at Death Valley", "The Inn at Death Valley", "Stovepipe Wells Village"],
+        "price_per_room": "$250-290 (The Inn runs $425+)",
+        "two_rooms_per_night": "$500-580",
+        "why": "Inside the park. You wake up at Furnace Creek and reach Zabriskie Point for sunrise in ten minutes."
+      },
+      "best_value": {
+        "picks": ["Death Valley Inn, Beatty NV", "Atomic Inn, Beatty NV", "Motel 6 Beatty"],
+        "price_per_room": "$70-120",
+        "two_rooms_per_night": "$180-240",
+        "why": "Thirty minutes to the park's northeast entrance, an hour to Furnace Creek. Saves close to $1,000 over three nights — the single biggest lever in the whole budget."
+      }
+    },
+    {
+      "stop": "Zion",
+      "nights": 2,
+      "best_location": {
+        "picks": ["Cable Mountain Lodge, Springdale", "Desert Pearl Inn", "Flanigan's Inn"],
+        "price_per_room": "$100-160 in January",
+        "why": "Walking distance to the park entrance. January is low season, so Springdale is unusually affordable."
+      },
+      "best_value": {
+        "picks": ["3-bedroom rental in Rockville or Virgin", "Hurricane / La Verkin motels"],
+        "price_per_night": "$200-280 for a whole house; $70-90 per motel room",
+        "why": "The best rental-house stop on the route. A kitchen here meaningfully cuts the food line."
+      }
+    },
+    {
+      "stop": "Page",
+      "nights": 1,
+      "best_location": {
+        "picks": ["Lake Powell Resort at Wahweap"],
+        "price_per_room": "$120-160",
+        "why": "Lake views. Worth it only if you want the view; otherwise Page town is fine."
+      },
+      "best_value": {
+        "picks": ["Page chain hotels — Hampton, Best Western, Rodeway"],
+        "price_per_room": "$80-120",
+        "why": "Page is genuinely cheap in winter. No reason to overspend on a single night."
+      }
+    },
+    {
+      "stop": "Monument Valley",
+      "nights": 2,
+      "best_location": {
+        "picks": ["The View Hotel"],
+        "price_per_room": "$200-280",
+        "why": "Every room faces the Mittens. If you splurge once on this trip, splurge here — you wake up to the view rather than driving to it."
+      },
+      "best_value": {
+        "picks": ["Hampton Inn Kayenta", "Wetherill Inn Kayenta", "Goulding's Lodge"],
+        "price_per_room": "$90-120 in Kayenta; $150-180 at Goulding's",
+        "why": "Kayenta is 25 minutes out, Goulding's 10 minutes. Goulding's is the middle ground on both price and position."
+      }
+    },
+    {
+      "stop": "Grand Canyon",
+      "nights": 2,
+      "best_location": {
+        "picks": ["Yavapai Lodge", "Maswik Lodge", "Kachina Lodge"],
+        "price_per_room": "$100-107 Yavapai; $136-146 Maswik; $190+ Kachina",
+        "why": "Inside the park, walking distance to the rim, free shuttles year-round."
+      },
+      "best_value": {
+        "picks": ["Yavapai Lodge"],
+        "price_per_room": "$100-107",
+        "why": "The value pick and the location pick are the same here. Tusayan hotels seven miles outside run $109-135 — no cheaper than staying in the park. Book in-park."
+      }
+    },
+    {
+      "stop": "Filler nights",
+      "nights": 3,
+      "best_value": {
+        "picks": ["Mesquite NV casino hotels ($50-80)", "Kingman AZ ($70-90)", "Off-Strip Las Vegas ($60-100)"],
+        "why": "Transit nights. Spend nothing here."
+      }
+    }
+  ],
+
+  "vehicle_restrictions": [
+    {
+      "location": "Zion — Mount Carmel Highway and tunnel",
+      "limits": { "length_ft": 35.75, "width_ft": 7.83, "height_ft": 11.33 },
+      "rule": "As of 7 June 2026 the oversized-vehicle escort was eliminated entirely. Any vehicle over the limits is banned from the whole stretch between Canyon Junction and the East Entrance. No permit, escort or exception exists.",
+      "impact_on_rv": "Blocked. Every Class C is roughly 8 ft wide and 12 ft tall regardless of length, so downsizing does not help. Reroute via Hurricane, Colorado City and Kanab.",
+      "impact_on_car": "None. Any car, minivan or standard SUV can drive it in any season."
+    },
+    {
+      "location": "Death Valley — Artist's Drive and the final climb to Dante's View",
+      "limits": { "length_ft": 25 },
+      "rule": "Vehicles over 25 feet are prohibited.",
+      "impact_on_rv": "A 30-footer is blocked. A C25 measures 24.93 ft — a three-inch margin, so measure the actual unit at pickup.",
+      "impact_on_car": "None."
+    },
+    {
+      "location": "Monument Valley — 17-mile Tribal Park Loop",
+      "rule": "The Navajo Nation prohibits RVs and motorcycles on the loop drive. The road is unpaved with washboard and deep sand.",
+      "impact_on_rv": "Blocked by category, not by size. Free alternatives: the visitor center overlook and the 3.2-mile Wildcat Trail. A Navajo-guided 4x4 tour runs $70-95 per person.",
+      "impact_on_car": "None — drive it yourself, included in the tribal park entry fee."
+    },
+    {
+      "location": "Route 66 — Oatman Highway over Sitgreaves Pass",
+      "rule": "Steep with blind hairpins. Most rental agreements effectively prohibit it.",
+      "impact_on_rv": "Avoid. Stay on the Seligman-to-Kingman section instead.",
+      "impact_on_car": "Passable but tight."
+    }
+  ],
+
+  "money_savers": [
+    {
+      "item": "Skip Antelope Canyon",
+      "saving": "~$480",
+      "detail": "Lower Antelope now costs $80.50 per person plus a $15 Navajo permit — about $580 for six. Upper runs $115-140 per person. The famous light beams only appear between 11am and 1pm from March to October, so in January you would pay peak-adjacent prices for a canyon without its main feature."
+    },
+    {
+      "item": "Horseshoe Bend instead",
+      "cost": "$10 per vehicle",
+      "detail": "A 1.5-mile round-trip walk, no tour, no permit. $10 total for the whole group."
+    },
+    {
+      "item": "Wire Pass into Buckskin Gulch",
+      "cost": "$6 per person",
+      "detail": "A genuine slot canyon you walk yourself on BLM land, about 90 minutes from Page toward Kanab. The access road is dirt and turns to slop when wet."
+    },
+    {
+      "item": "Sleep in Beatty, not in the park",
+      "saving": "~$1,000 over 3 nights",
+      "detail": "The largest single lever in the car-and-hotels build."
+    },
+    {
+      "item": "Decline the RV kit fee",
+      "saving": "~$250",
+      "detail": "Buy bedding and kitchen gear at a Las Vegas store on day one for $200-300 and leave it behind. Cheaper than per-person kit fees for six."
+    },
+    {
+      "item": "America the Beautiful pass",
+      "cost": "$80, already owned",
+      "detail": "Covers Death Valley, Zion, Grand Canyon and Glen Canyon. It does NOT cover Monument Valley, which is a Navajo tribal park, or Valley of Fire, which is a Nevada state park."
+    }
+  ],
+
+  "practical_notes": {
+    "cold_weather": "Seven nights at or below freezing in the motorhome build — Zion, Page, Monument Valley and the Grand Canyon. Every one of those stops has a full-hookup option. Run the propane furnace, not the heat pump, which stops working around 40°F. Disconnect the city water hose at night and run off the fresh tank; the hose freezes long before the tanks.",
+    "rental_freeze_risk": "Rental companies push freeze damage onto the renter and treat a burst pipe as negligent damage at full repair cost. Confirm in writing that the unit is not winterized, that the water system is live, and that they have noted your cold-weather destinations on the booking.",
+    "booking_order": "Grand Canyon lodging or Trailer Village first, then Goulding's or The View at Monument Valley, then Watchman at Zion. Those three set the skeleton — everything else has slack.",
+    "mileage_fees": "If the rental charges per mile at around $0.35, 1,655 miles adds roughly $580. Always price the unlimited-miles package as an alternative.",
+    "fuel": "Fill up in Nevada, Utah and Arizona. Top off before entering Death Valley, where in-park fuel at Furnace Creek is notably expensive.",
+    "death_valley_closures": "Flood damage persists. Bonnie Clare Road and Scotty's Castle are closed with no reopening date, North Highway has loose gravel and missing shoulders, southern Badwater Road has soft shoulders and unpaved sections, and Emigrant Campground is closed indefinitely. Check the park's conditions page a week before departure.",
+    "buffer": "Day 13 is deliberately short. If snow costs you a day earlier in the trip, absorb it there."
+  },
+
+  "rejected_alternatives": [
+    { "place": "Joshua Tree", "reason": "Strong park, but it sits on the opposite side of the map from Monument Valley. Cannot have both in 14 days." },
+    { "place": "Palm Springs / Coachella Valley", "reason": "The warmest and most kid-friendly stop available, but on the western route only." },
+    { "place": "Mojave National Preserve", "reason": "No hookups, no potable water, no cell service, and the York Fire burned close to 100,000 acres in 2023 including much of the Cima Dome Joshua tree forest." },
+    { "place": "Lake Havasu", "reason": "In January the lake is too cold to swim, which removes the main reason to go. London Bridge is a ten-minute stop." },
+    { "place": "Saguaro NP and Lost Dutchman SP", "reason": "Both good, but adding them means a 400-mile I-10 leg — the worst driving day in any version of this trip." },
+    { "place": "Bryce Canyon", "reason": "Sits at 8,000 feet. Genuinely miserable in January." },
+    { "place": "Travel trailer plus rented pickup", "reason": "Trailer rentals do not include a tow vehicle, and the major rental companies prohibit towing outright. Turo treats towing as a prohibited use that voids damage protection." }
+  ]
+}

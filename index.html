@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1b3a2f">
+<title>Road Trip Options</title>
+<meta name="description" content="Compare our road trip options day by day.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/favicon.svg">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin="">
+<link rel="stylesheet" href="css/style.css?v=6">
+</head>
+<body>
+
+<!-- ============ HOME ============ -->
+<section id="view-home" class="view">
+  <header class="home-header">
+    <p class="eyebrow">Family road trip</p>
+    <div id="trip-intro"></div>
+  </header>
+  <p class="pick-label">Two ways to do it — tap one</p>
+  <div id="option-list" class="option-list">
+    <p class="loading">Loading options…</p>
+  </div>
+  <footer class="home-footer">
+    <p>Same 14-day route either way. The difference is what you sleep in, what it costs,
+       and which three places the motorhome can't reach.</p>
+  </footer>
+</section>
+
+<!-- ============ OPTION DETAIL ============ -->
+<section id="view-option" class="view" hidden>
+  <div class="topbar">
+    <a class="back" href="#/" aria-label="Back to all options">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      <span>Options</span>
+    </a>
+    <span id="option-title" class="topbar-title"></span>
+  </div>
+
+  <div class="map-wrap">
+    <div id="map" role="application" aria-label="Route map"></div>
+    <button id="reset-map" class="map-chip" type="button" hidden>Whole route</button>
+  </div>
+
+  <div class="detail-body">
+    <div id="option-summary" class="option-summary"></div>
+    <p class="hint" id="map-hint">Tap a day to see that leg on the map.</p>
+    <div id="day-list" class="day-list"></div>
+    <footer class="detail-footer">
+      <p>Distances and times are estimates — real driving days run longer with six people,
+         stops and photos. Check park conditions the week before you go.</p>
+    </footer>
+  </div>
+
+  <!-- Costs -->
+  <button id="costs-btn" class="costs-btn" type="button" aria-expanded="false" aria-controls="costs-sheet" hidden>
+    <span class="costs-btn-label">Costs</span>
+    <span id="costs-btn-total" class="costs-btn-total"></span>
+  </button>
+  <div id="costs-backdrop" class="costs-backdrop" hidden></div>
+  <div id="costs-sheet" class="costs-sheet" role="dialog" aria-modal="true" aria-labelledby="costs-heading" hidden>
+    <div class="sheet-grip" aria-hidden="true"></div>
+    <div class="sheet-head">
+      <h2 id="costs-heading">Estimated costs</h2>
+      <button id="costs-close" class="sheet-close" type="button" aria-label="Close costs">&times;</button>
+    </div>
+    <div id="costs-body" class="sheet-body"></div>
+  </div>
+</section>
+
+<div id="error-banner" class="error-banner" hidden></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+<script src="js/app.js?v=6"></script>
+</body>
+</html>

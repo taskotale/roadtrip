@@ -1,0 +1,17 @@
+{
+  "intro": {
+    "title": "Southwest Loop — January",
+    "subtitle": "Death Valley · Zion · Page · Monument Valley · Grand Canyon · Route 66",
+    "stats": [
+      "14 days",
+      "1,655 miles",
+      "6 people",
+      "January",
+      "Out and back from Las Vegas"
+    ]
+  },
+  "options": [
+    "options/motorhome.json",
+    "options/car-and-lodging.json"
+  ]
+}
