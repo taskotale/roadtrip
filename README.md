@@ -14,16 +14,19 @@ Route page order: summary → how we do it → must see → why this route → p
 left out → day by day → watch out for → costs.
 
 ```
-Route  ──  Southwest Loop — January     the original: five national parks, a cold middle
-        ──  Low Desert Loop — January    warm all the way: Death Valley, Palm Springs, Joshua Tree
-        ──  Sonoran Loop — January       warmest of the three, and the most driving
-             ├── shared: the map, the 14 days, must-sees, watch-outs, pros/cons
+Route  ──  Southwest Loop — January        the original: five national parks, a cold middle
+        ──  Low Desert Loop, the short way  10 days: Death Valley, Route 66, Joshua Tree
+        ──  Low Desert Loop, the long way   14 days: the same, finishing at Valley of Fire
+        ──  Sonoran Loop — January          warmest of them, and the most driving
+             ├── shared: the map, the days, must-sees, watch-outs, pros/cons
              └── options: Motorhome  ·  Car and lodging
                           (cost, vehicle, and which days change)
 ```
 
-All three start and end at Las Vegas, run fourteen days for six people in January, and open
-with three nights in Death Valley. After that they go different ways.
+All four start and end at Las Vegas, are priced for six people in January, and open in Death
+Valley. After that they go different ways. The two Low Desert routes are the same trip at two
+lengths — one source file and one builder produce both, and they share a photo folder, so a
+picture swapped for one is swapped for both.
 
 Costs are deliberately tucked away — no prices on the home screen, and none on the
 route page until you reach the summary at the very bottom. The **COSTS** button
@@ -42,7 +45,8 @@ Everything the site shows comes from two files:
 | --- | --- |
 | `data/manifest.json` | Which route files to load |
 | `data/routes/southwest-loop.json` | One whole route: days, must-sees, watch-outs, options |
-| `data/routes/low-desert-loop.json` | The warm loop through the Mojave and the Colorado Desert |
+| `data/routes/low-desert-short.json` | The warm loop through the Mojave and the Colorado Desert, in ten days |
+| `data/routes/low-desert-loop.json` | The same loop in fourteen, finishing at Valley of Fire |
 | `data/routes/sonoran-loop.json` | The Arizona loop, out to Saguaro and Tucson |
 
 Change a number or some wording, then push:
@@ -63,9 +67,10 @@ GitHub rebuilds in about a minute.
 
 Either hand-write the JSON against the schema below — perfectly fine for a one-off
 — or copy one of the builders in `tools/` and generate it. Each builder is the
-record of how that route file was produced; running it plus `tools/build-routes.mjs`
-reproduces its route file exactly. `build-low-desert-loop.mjs` and
-`build-sonoran-loop.mjs` are the two most recent, and the closest to a template.
+record of how those route files were produced; running one plus `tools/build-routes.mjs`
+reproduces its output exactly. `build-sonoran-loop.mjs` is the simplest template for a
+single route; `build-low-desert.mjs` shows how to emit two versions of one trip from a
+single source file, which is what keeps their shared wording from drifting apart.
 
 A builder adds itself to `data/manifest.json` without disturbing the routes already
 listed, so rebuilding one route never drops the others off the home screen.
@@ -205,7 +210,12 @@ Things worth knowing:
 
 Photos live in `assets/photos/<route-id>/`. To swap one you don't like, overwrite
 the file with the same name — nothing else changes. A missing photo shows a grey
-placeholder rather than breaking the page.
+placeholder rather than breaking the page, which is how `Font's Point` renders: no
+verified free photo of it exists, and a stand-in captioned as the landmark would be
+worse than a blank.
+
+The two Low Desert routes are the exception to one-folder-per-route: they are the same
+trip at two lengths, so both read from `assets/photos/low-desert-loop/`.
 
 **Extra photos are picked up by filename.** A point of interest that uses
 `zabriskie-point.jpg` automatically gains `zabriskie-point-2.jpg`,
@@ -282,7 +292,7 @@ work — the browser blocks loading the JSON that way.
 | `assets/photos/<route-id>/` | Photos for that route |
 | `tools/build-routes.mjs` | One-time road geometry fetcher (any route) |
 | `tools/build-southwest-loop.mjs` | Rebuilds that one route from `source/` — a worked example |
-| `tools/build-low-desert-loop.mjs` | Same, for the Low Desert Loop |
+| `tools/build-low-desert.mjs` | Builds both Low Desert routes from one source file |
 | `tools/build-sonoran-loop.mjs` | Same, for the Sonoran Loop |
 | `tools/fetch-commons.mjs` | Pulls freely-licensed candidate photos off Wikimedia Commons |
 | `source/` | The planning data and checked coordinates each route was built from |

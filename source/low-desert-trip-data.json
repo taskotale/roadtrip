@@ -1,113 +1,183 @@
 {
   "trip": {
-    "title": "Low Desert Loop — January",
-    "subtitle": "Death Valley · Route 66 · Palm Springs · Anza-Borrego · Joshua Tree · Lake Havasu",
-    "duration_days": 14,
+    "family": "Low Desert Loop",
     "party_size": 6,
     "start_end": "Las Vegas, NV (Harry Reid International — LAS)",
-    "season": "January",
-    "total_miles": 1365,
-    "transit_miles": 985,
-    "in_park_miles": 380,
-    "avg_miles_per_day": 98,
-    "summary": "A clockwise loop out of Las Vegas that never climbs out of the warm. Death Valley first, then down across the Mojave onto Route 66, over to the Coachella Valley and Anza-Borrego, up to Joshua Tree, and home along the Colorado River. Nothing on this route sleeps above 2,200 feet, so no night is expected to freeze. Two versions are priced: a motorhome build and a car-plus-hotels build."
+    "season": "January"
   },
 
-  "itinerary": [
-    { "day": 1, "from": "Las Vegas, NV", "to": "Furnace Creek, Death Valley", "miles": 122,
-      "drive_time": "2h37", "elevation_ft": -190, "freezing_night": false,
-      "headline": "Below sea level by lunchtime",
-      "notes": "Pick up the vehicle and drive straight in. Furnace Creek sits 190 feet below sea level and is the warmest place you will sleep all trip — January highs in the mid-60s, lows around 40.",
-      "activities": ["Zabriskie Point at sunset"] },
+  "versions": {
+    "short": {
+      "id": "low-desert-short",
+      "title": "Low Desert Loop — the short way",
+      "subtitle": "Death Valley · Route 66 · Palm Springs · Anza-Borrego · Joshua Tree · Needles",
+      "duration_days": 10,
+      "total_miles": 1245,
+      "transit_miles": 945,
+      "in_park_miles": 300,
+      "avg_miles_per_day": 125,
+      "summary": "The same warm loop as the long version, run in ten days instead of fourteen. Death Valley, Route 66 across the Mojave, the Coachella Valley, Anza-Borrego, Joshua Tree, and home along the old road through Needles and Kingman. Nothing sleeps above 2,200 feet and no night is expected to freeze. Be clear about the trade though: the driving is almost the same, so this is a busier trip rather than a smaller one — only two of the ten days have no driving between towns.",
+      "itinerary": [
+        { "day": 1, "from": "Las Vegas, NV", "to": "Furnace Creek, Death Valley", "miles": 122,
+          "drive_time": "2h37", "elevation_ft": -190, "freezing_night": false,
+          "headline": "Below sea level by lunchtime",
+          "notes": "Pick up the vehicle and drive straight in. Furnace Creek sits 190 feet below sea level and is the warmest place you will sleep all trip — January highs in the mid-60s, lows around 40.",
+          "activities": ["Zabriskie Point at sunset"] },
+        { "day": 2, "from": "Furnace Creek", "to": "Furnace Creek", "miles": 0,
+          "elevation_ft": -190, "freezing_night": false,
+          "headline": "The whole valley floor in one day",
+          "notes": "The long version spreads this over two days. Here it is one, and it works if you start at Badwater early and finish at the dunes for sunset. What you give up is Dante's View and Mosaic Canyon, both of which need the second day.",
+          "activities": ["Badwater Basin", "Golden Canyon hike", "Artist's Drive", "Mesquite Flat Dunes at sunset"] },
+        { "day": 3, "from": "Furnace Creek", "to": "Barstow, CA", "miles": 177,
+          "drive_time": "3h48", "elevation_ft": 2170, "freezing_night": false,
+          "headline": "Out of the valley and onto Route 66",
+          "notes": "The one leg that looks dull on the map, and is not. You leave Death Valley by the southern road, cross the Mojave and land on the original alignment of Route 66. Calico is a silver town that went bust in 1896 and was rebuilt as a park — kitsch, and the kids will love it.",
+          "activities": ["Calico Ghost Town", "Route 66 through Barstow"] },
+        { "day": 4, "from": "Barstow", "to": "Palm Springs, CA", "miles": 130,
+          "drive_time": "2h39", "elevation_ft": 450, "freezing_night": false,
+          "headline": "Into the warmest air on the trip",
+          "notes": "Start on the old road for Elmer's Bottle Tree Ranch, then over the pass into the Coachella Valley, which runs to the low 70s in January. One night here, so take the tramway this afternoon — sunset from the top is the version worth having.",
+          "activities": ["Elmer's Bottle Tree Ranch", "Palm Springs Aerial Tramway"] },
+        { "day": 5, "from": "Palm Springs", "to": "Borrego Springs, CA", "miles": 84,
+          "drive_time": "1h49", "elevation_ft": 550, "freezing_night": false,
+          "headline": "A palm oasis, then the biggest state park in California",
+          "notes": "Indian Canyons first thing, then south along the west shore of the Salton Sea — a lake 230 feet below sea level that exists only because an irrigation canal broke in 1905. You reach Borrego Springs with the afternoon still ahead of you, which is exactly enough for the sculptures and The Slot.",
+          "activities": ["Indian Canyons", "Salton Sea west shore", "Galleta Meadows sculptures", "The Slot"] },
+        { "day": 6, "from": "Borrego Springs", "to": "Twentynine Palms, CA", "miles": 131,
+          "drive_time": "2h46", "elevation_ft": 1990, "freezing_night": false,
+          "headline": "Out of Anza-Borrego and up to Joshua Tree",
+          "notes": "Borrego Palm Canyon before you leave — three miles round trip to a palm grove and, in a wet year, a waterfall. Then you climb about 1,500 feet and come in by Joshua Tree's south entrance, where the Cholla Cactus Garden is the first thing you meet.",
+          "activities": ["Borrego Palm Canyon", "Cholla Cactus Garden", "Keys View"] },
+        { "day": 7, "from": "Twentynine Palms", "to": "Twentynine Palms", "miles": 0,
+          "elevation_ft": 1990, "freezing_night": false,
+          "headline": "A full day in Joshua Tree",
+          "notes": "Two deserts meet inside this park — the low Colorado and the high Mojave — and the Joshua trees only grow on the high side. Nearly everything worth doing is a short walk from a car park, which is what you want on the only rest day in the second half.",
+          "activities": ["Hidden Valley", "Barker Dam", "Skull Rock", "Arch Rock"] },
+        { "day": 8, "from": "Twentynine Palms", "to": "Needles, CA", "miles": 135,
+          "drive_time": "2h52", "elevation_ft": 495, "freezing_night": false,
+          "headline": "The empty Route 66",
+          "notes": "North on Amboy Road onto the loneliest surviving stretch of Route 66. Amboy Crater is a 250-foot cinder cone you can walk into; Roy's Motel is one neon sign in an empty town and it is the photograph everybody takes. Needles is 495 feet above sea level — the warmest bed on the whole route.",
+          "activities": ["Amboy Crater", "Roy's Motel and Cafe", "Route 66 into Needles"] },
+        { "day": 9, "from": "Needles", "to": "Las Vegas area", "miles": 166,
+          "drive_time": "3h14", "elevation_ft": 2050, "freezing_night": false,
+          "headline": "Kingman, the burros and the dam",
+          "notes": "East into Arizona for Kingman, where Route 66 crosses US-93 and the Powerhouse museum sits in a 1907 power station. Then north to Hoover Dam and into Las Vegas. In a car you can take the Oatman Highway over Sitgreaves Pass instead — ten miles shorter and half an hour slower, because it is a mountain pass with hairpins, and the wild burros come to the window.",
+          "activities": ["Oatman (car only)", "Kingman and the Powerhouse", "Hoover Dam"] },
+        { "day": 10, "from": "Las Vegas", "to": "Fly home", "miles": 0,
+          "elevation_ft": 2050, "freezing_night": false,
+          "headline": "Return and depart",
+          "notes": "Allow half a day for the vehicle return process.",
+          "activities": [] }
+      ],
+      "rejected_extra": [
+        { "place": "Valley of Fire",
+          "reason": "The best red rock within an hour of Las Vegas, and the long version finishes there. It is most of what the extra four days buy you." },
+        { "place": "A second day in Death Valley",
+          "reason": "One day covers Badwater, Golden Canyon, Artist's Drive and the dunes. It does not stretch to Dante's View or Mosaic Canyon — those need the day the long version has." },
+        { "place": "A full day in Anza-Borrego",
+          "reason": "One night means an afternoon and a morning: The Slot and the sculptures on the way in, Borrego Palm Canyon on the way out. Font's Point and the rest of the park do not fit." }
+      ]
+    },
 
-    { "day": 2, "from": "Furnace Creek", "to": "Furnace Creek", "miles": 0,
-      "elevation_ft": -190, "freezing_night": false,
-      "headline": "The valley floor",
-      "notes": "Badwater Basin is the lowest point in North America. Artist's Drive is a one-way loop through mineral-stained hills and is limited to vehicles under 25 feet.",
-      "activities": ["Badwater Basin", "Golden Canyon hike", "Artist's Drive", "Devil's Golf Course"] },
-
-    { "day": 3, "from": "Furnace Creek", "to": "Furnace Creek", "miles": 0,
-      "elevation_ft": -190, "freezing_night": false,
-      "headline": "Dunes at sunrise",
-      "notes": "Mesquite Flat is twenty minutes up the valley and is best before the wind picks up. Dante's View is the one genuinely cold thing on this whole route — 5,450 feet, and it can be 25 degrees colder than where you parked this morning.",
-      "activities": ["Mesquite Flat Dunes at sunrise", "Mosaic Canyon", "Dante's View"] },
-
-    { "day": 4, "from": "Furnace Creek", "to": "Barstow, CA", "miles": 177,
-      "drive_time": "3h48", "elevation_ft": 2170, "freezing_night": false,
-      "headline": "Out of the valley and onto Route 66",
-      "notes": "The one leg that looks dull on the map, and is not. You leave Death Valley by the southern road, cross the Mojave and land on the original alignment of Route 66. Calico is a silver town that went bust in 1896 and was rebuilt as a park — kitsch, and the kids will love it.",
-      "activities": ["Calico Ghost Town", "Route 66 through Barstow"] },
-
-    { "day": 5, "from": "Barstow", "to": "Palm Springs, CA", "miles": 130,
-      "drive_time": "2h39", "elevation_ft": 450, "freezing_night": false,
-      "headline": "Into the warmest air on the trip",
-      "notes": "Start on the old road for Elmer's Bottle Tree Ranch — a forest of welded steel trees hung with thousands of glass bottles, free, and unlike anything else on either route. Then over the pass and down into the Coachella Valley, which runs to the low 70s in January.",
-      "activities": ["Elmer's Bottle Tree Ranch", "Arrive Palm Springs"] },
-
-    { "day": 6, "from": "Palm Springs", "to": "Palm Springs", "miles": 0,
-      "elevation_ft": 450, "freezing_night": false,
-      "headline": "Palms, and snow you can go and look at",
-      "notes": "The tramway climbs from 2,600 feet to 8,500 in ten minutes. You can be in shirtsleeves at the bottom and in snow at the top on the same afternoon, which is the only snow anybody will see on this trip. Indian Canyons is Agua Caliente land — a real palm oasis in a desert canyon, on a walk that suits everyone.",
-      "activities": ["Palm Springs Aerial Tramway", "Indian Canyons", "Downtown Palm Springs"] },
-
-    { "day": 7, "from": "Palm Springs", "to": "Borrego Springs, CA", "miles": 84,
-      "drive_time": "1h49", "elevation_ft": 550, "freezing_night": false,
-      "headline": "Down the Salton Sea into Anza-Borrego",
-      "notes": "A short day along the west shore of the Salton Sea — a lake 230 feet below sea level that exists only because an irrigation canal broke in 1905 and took two years to close. Borrego Springs is a town of three thousand people surrounded on every side by the largest state park in California.",
-      "activities": ["Salton Sea west shore", "Galleta Meadows sculptures"] },
-
-    { "day": 8, "from": "Borrego Springs", "to": "Borrego Springs", "miles": 0,
-      "elevation_ft": 550, "freezing_night": false,
-      "headline": "Six hundred thousand acres of state park",
-      "notes": "Borrego Palm Canyon is a three-mile round trip to a palm grove and, in a wet year, a waterfall. The Slot is a genuine slot canyon you walk yourself — no permit, no guide, no fee. Font's Point looks out over the Borrego Badlands and is the best view in the park, but the road to it is four miles of soft sand.",
-      "activities": ["Borrego Palm Canyon", "The Slot", "Font's Point at sunset"] },
-
-    { "day": 9, "from": "Borrego Springs", "to": "Twentynine Palms, CA", "miles": 131,
-      "drive_time": "2h46", "elevation_ft": 1990, "freezing_night": false,
-      "headline": "Up out of the low desert to Joshua Tree",
-      "notes": "You climb about 1,500 feet, and this is the first night that feels properly cool — high 30s rather than the high 40s you have had. Come in by the south entrance and the Cholla Cactus Garden is the first thing you meet.",
-      "activities": ["Cholla Cactus Garden", "Keys View"] },
-
-    { "day": 10, "from": "Twentynine Palms", "to": "Twentynine Palms", "miles": 0,
-      "elevation_ft": 1990, "freezing_night": false,
-      "headline": "A full day in Joshua Tree",
-      "notes": "Two deserts meet inside this park — the low Colorado and the high Mojave — and the Joshua trees only grow on the high side. Nearly everything worth doing is a short walk from a car park, which is exactly what you want on day ten with six people.",
-      "activities": ["Hidden Valley", "Barker Dam", "Skull Rock", "Arch Rock"] },
-
-    { "day": 11, "from": "Twentynine Palms", "to": "Lake Havasu City, AZ", "miles": 177,
-      "drive_time": "3h43", "elevation_ft": 630, "freezing_night": false,
-      "headline": "Amboy Crater and the empty Route 66",
-      "notes": "North on Amboy Road onto the loneliest surviving stretch of Route 66. Amboy Crater is a 250-foot cinder cone you can walk into. Roy's Motel is one neon sign in an empty town and it is the photograph everybody takes. Then east to the Colorado River.",
-      "activities": ["Amboy Crater", "Roy's Motel and Cafe", "Route 66 to Needles"] },
-
-    { "day": 12, "from": "Lake Havasu City", "to": "Lake Havasu City", "miles": 0,
-      "elevation_ft": 630, "freezing_night": false,
-      "headline": "A day on the water",
-      "notes": "Lake Havasu runs to the mid-60s in January — warm enough to be out on a boat, too cold to swim. London Bridge is the actual bridge that stood over the Thames from 1831: bought from the City of London in 1968, taken apart, and rebuilt here block by numbered block.",
-      "activities": ["London Bridge", "Boat or kayak on the lake", "SARA Park"] },
-
-    { "day": 13, "from": "Lake Havasu City", "to": "Las Vegas area", "miles": 164,
-      "drive_time": "3h19", "elevation_ft": 2050, "freezing_night": false,
-      "headline": "Route 66 and the dam",
-      "notes": "Up to Kingman, where Route 66 crosses the highway, then down US-93 to Hoover Dam and into Las Vegas. In a car you can take the Oatman Highway instead — 23 miles longer, an hour slower, and the wild burros come to the window.",
-      "activities": ["Oatman (car only)", "Kingman", "Hoover Dam"] },
-
-    { "day": 14, "from": "Las Vegas", "to": "Fly home", "miles": 0,
-      "elevation_ft": 2050, "freezing_night": false,
-      "headline": "Return and depart",
-      "notes": "Allow half a day for the vehicle return process.",
-      "activities": [] }
-  ],
+    "long": {
+      "id": "low-desert-loop",
+      "title": "Low Desert Loop — the long way",
+      "subtitle": "Death Valley · Palm Springs · Anza-Borrego · Joshua Tree · Route 66 · Valley of Fire",
+      "duration_days": 14,
+      "total_miles": 1405,
+      "transit_miles": 1055,
+      "in_park_miles": 350,
+      "avg_miles_per_day": 100,
+      "summary": "A warm loop out of Las Vegas that never climbs into the cold. Death Valley first, then Route 66 across the Mojave, the Coachella Valley, Anza-Borrego, Joshua Tree, the old road east through Needles and Kingman, and a finish on the red rock at Valley of Fire rather than in an airport car park. Nothing sleeps above 2,600 feet, no night is expected to freeze, and five of the fourteen days involve no driving between towns.",
+      "itinerary": [
+        { "day": 1, "from": "Las Vegas, NV", "to": "Furnace Creek, Death Valley", "miles": 122,
+          "drive_time": "2h37", "elevation_ft": -190, "freezing_night": false,
+          "headline": "Below sea level by lunchtime",
+          "notes": "Pick up the vehicle and drive straight in. Furnace Creek sits 190 feet below sea level and is the warmest place you will sleep all trip — January highs in the mid-60s, lows around 40.",
+          "activities": ["Zabriskie Point at sunset"] },
+        { "day": 2, "from": "Furnace Creek", "to": "Furnace Creek", "miles": 0,
+          "elevation_ft": -190, "freezing_night": false,
+          "headline": "The valley floor",
+          "notes": "Badwater Basin is the lowest point in North America. Artist's Drive is a one-way loop through mineral-stained hills and is limited to vehicles under 25 feet.",
+          "activities": ["Badwater Basin", "Golden Canyon hike", "Artist's Drive", "Devil's Golf Course"] },
+        { "day": 3, "from": "Furnace Creek", "to": "Furnace Creek", "miles": 0,
+          "elevation_ft": -190, "freezing_night": false,
+          "headline": "Dunes at sunrise",
+          "notes": "Mesquite Flat is twenty minutes up the valley and is best before the wind picks up. Dante's View is the one genuinely cold thing on this whole route — 5,450 feet, and it can be 25 degrees colder than where you parked this morning.",
+          "activities": ["Mesquite Flat Dunes at sunrise", "Mosaic Canyon", "Dante's View"] },
+        { "day": 4, "from": "Furnace Creek", "to": "Barstow, CA", "miles": 177,
+          "drive_time": "3h48", "elevation_ft": 2170, "freezing_night": false,
+          "headline": "Out of the valley and onto Route 66",
+          "notes": "The one leg that looks dull on the map, and is not. You leave Death Valley by the southern road, cross the Mojave and land on the original alignment of Route 66. Calico is a silver town that went bust in 1896 and was rebuilt as a park — kitsch, and the kids will love it.",
+          "activities": ["Calico Ghost Town", "Route 66 through Barstow"] },
+        { "day": 5, "from": "Barstow", "to": "Palm Springs, CA", "miles": 130,
+          "drive_time": "2h39", "elevation_ft": 450, "freezing_night": false,
+          "headline": "Into the warmest air on the trip",
+          "notes": "Start on the old road for Elmer's Bottle Tree Ranch — a forest of welded steel trees hung with thousands of glass bottles, free, and unlike anything else on either version. Then over the pass into the Coachella Valley, which runs to the low 70s in January. One night here, so the tramway is this afternoon.",
+          "activities": ["Elmer's Bottle Tree Ranch", "Palm Springs Aerial Tramway"] },
+        { "day": 6, "from": "Palm Springs", "to": "Borrego Springs, CA", "miles": 84,
+          "drive_time": "1h49", "elevation_ft": 550, "freezing_night": false,
+          "headline": "A palm oasis, then down the Salton Sea",
+          "notes": "Indian Canyons first thing — Agua Caliente land, a real palm oasis in a desert canyon, and a walk that suits everyone. Then south along the west shore of the Salton Sea, a lake 230 feet below sea level that exists only because an irrigation canal broke in 1905 and took two years to close.",
+          "activities": ["Indian Canyons", "Salton Sea west shore", "Galleta Meadows sculptures"] },
+        { "day": 7, "from": "Borrego Springs", "to": "Borrego Springs", "miles": 0,
+          "elevation_ft": 550, "freezing_night": false,
+          "headline": "Six hundred thousand acres of state park",
+          "notes": "Borrego Palm Canyon is a three-mile round trip to a palm grove and, in a wet year, a waterfall. The Slot is a genuine slot canyon you walk yourself — no permit, no guide, no fee. Font's Point looks out over the Borrego Badlands and is the best view in the park, but the road to it is four miles of soft sand.",
+          "activities": ["Borrego Palm Canyon", "The Slot", "Font's Point at sunset"] },
+        { "day": 8, "from": "Borrego Springs", "to": "Twentynine Palms, CA", "miles": 131,
+          "drive_time": "2h46", "elevation_ft": 1990, "freezing_night": false,
+          "headline": "Up out of the low desert to Joshua Tree",
+          "notes": "You climb about 1,500 feet, and this is the first night that feels properly cool — high 30s rather than the high 40s you have had. Come in by the south entrance and the Cholla Cactus Garden is the first thing you meet.",
+          "activities": ["Cholla Cactus Garden", "Keys View"] },
+        { "day": 9, "from": "Twentynine Palms", "to": "Twentynine Palms", "miles": 0,
+          "elevation_ft": 1990, "freezing_night": false,
+          "headline": "A full day in Joshua Tree",
+          "notes": "Two deserts meet inside this park — the low Colorado and the high Mojave — and the Joshua trees only grow on the high side. Nearly everything worth doing is a short walk from a car park, which is exactly what you want on day nine with six people.",
+          "activities": ["Hidden Valley", "Barker Dam", "Skull Rock", "Arch Rock"] },
+        { "day": 10, "from": "Twentynine Palms", "to": "Needles, CA", "miles": 135,
+          "drive_time": "2h52", "elevation_ft": 495, "freezing_night": false,
+          "headline": "Amboy Crater and the empty Route 66",
+          "notes": "North on Amboy Road onto the loneliest surviving stretch of Route 66. Amboy Crater is a 250-foot cinder cone you can walk into. Roy's Motel is one neon sign in an empty town and it is the photograph everybody takes. Needles sits at 495 feet on the Colorado — the warmest bed on the route.",
+          "activities": ["Amboy Crater", "Roy's Motel and Cafe", "Route 66 into Needles"] },
+        { "day": 11, "from": "Needles", "to": "Boulder City, NV", "miles": 139,
+          "drive_time": "2h41", "elevation_ft": 2510, "freezing_night": false,
+          "headline": "Kingman, the burros and the dam",
+          "notes": "East into Arizona for Kingman, where Route 66 crosses US-93 and the Powerhouse museum sits inside a 1907 power station. Then north to Hoover Dam and Boulder City, built in 1931 to house the men who constructed it and still the only town in Nevada where gambling is illegal. In a car you can take the Oatman Highway instead — ten miles shorter and half an hour slower, because it is a mountain pass with hairpins.",
+          "activities": ["Oatman (car only)", "Kingman and the Powerhouse", "Hoover Dam"] },
+        { "day": 12, "from": "Boulder City", "to": "Valley of Fire State Park, NV", "miles": 74,
+          "drive_time": "1h44", "elevation_ft": 2000, "freezing_night": false,
+          "headline": "Back to the red rock",
+          "notes": "A short morning drive that puts you inside Nevada's oldest state park with the whole afternoon left. Bright red Aztec sandstone, petroglyphs up a steel staircase at Atlatl Rock, and short walks that suit kids. All campsites are reservation-only, and there is no hotel inside the park.",
+          "activities": ["Atlatl Rock petroglyphs", "Seven Sisters", "Sunset on the sandstone"] },
+        { "day": 13, "from": "Valley of Fire", "to": "Valley of Fire", "miles": 0,
+          "elevation_ft": 2000, "freezing_night": false,
+          "headline": "The last full day, and the best rock on the route",
+          "notes": "The Fire Wave is striped red and white sandstone at the end of a short flat walk. White Domes adds a slot canyon and the remains of a 1960s film set. Elephant Rock is ten minutes from the east entrance. A better last day than a car park near the airport.",
+          "activities": ["Fire Wave", "White Domes loop", "Elephant Rock"] },
+        { "day": 14, "from": "Valley of Fire", "to": "Fly home", "miles": 63,
+          "drive_time": "1h37", "elevation_ft": 2050, "freezing_night": false,
+          "headline": "An hour and a half to the plane",
+          "notes": "Sixty-three miles to the airport, so there is time for one more walk before you go. Allow half a day for the vehicle return process.",
+          "activities": [] }
+      ],
+      "rejected_extra": [
+        { "place": "Ubehebe Crater",
+          "reason": "A 110-mile round trip from Furnace Creek for a single crater. It fits when Death Valley gets four nights, not three." }
+      ]
+    }
+  },
 
   "practical_notes": {
-    "warm_weather": "No night on this route is expected to freeze. The coldest stops are Barstow and Twentynine Palms, both around 2,000 feet, where January lows average the high 30s. A cold snap can put either a degree or two below freezing for a few hours before dawn, so pack for 35°F nights — but there is no sustained freeze anywhere, and nothing here needs winterising.",
-    "booking_order": "Book Palm Springs first, then Borrego Springs, then Lake Havasu. January is high season in the Coachella Valley — the exact opposite of the Southwest Loop, where the cold made everything cheap. Death Valley and Twentynine Palms have far more slack.",
-    "fuel": "California fuel runs well above Nevada and Arizona. Fill up in Nevada before you drive in, top off in Barstow rather than inside Death Valley, where in-park fuel at Furnace Creek is notably expensive, and fill again in Arizona on the way home.",
+    "warm_weather": "No night on this route is expected to freeze. The coolest stops are Barstow, Twentynine Palms and Boulder City, all around 2,000 to 2,500 feet, where January lows average the high 30s. A cold snap can put any of them a degree or two below for a few hours before dawn, so pack for 35°F nights — but there is no sustained freeze anywhere, and nothing here needs winterising.",
+    "booking_order": "Book Palm Springs first, then Borrego Springs, then Valley of Fire if you are camping. January is high season in the Coachella Valley — the exact opposite of the Southwest Loop, where the cold made everything cheap. Death Valley, Barstow and Needles have far more slack.",
+    "needles": "Needles is a small, faded railroad town and the lodging is basic motels rather than anything with a lobby. It is on the route because it sits at 495 feet on the Colorado, which makes it the warmest bed of the trip, and because it is genuinely on Route 66. If the party would rather have a proper room, Lake Havasu is 42 miles south — warmer weather is not the reason to go there, comfort is.",
+    "fuel": "California fuel runs well above Nevada and Arizona. Fill up in Nevada before you drive in, top off in Barstow rather than inside Death Valley, where in-park fuel at Furnace Creek is notably expensive, and fill again in Arizona on the way home. The Amboy stretch of Route 66 has no fuel at all for about eighty miles.",
     "death_valley_closures": "Flood damage persists. Bonnie Clare Road and Scotty's Castle are closed with no reopening date, North Highway has loose gravel and missing shoulders, southern Badwater Road has soft shoulders and unpaved sections, and Emigrant Campground is closed indefinitely. Check the park's conditions page a week before departure.",
     "fonts_point": "The road to Font's Point is four miles of soft sand off the Borrego Salton Seaway. It needs four-wheel drive and it strands two-wheel-drive vehicles regularly. A minivan will not make it. Either rent something suitable for the day, take a local jeep tour, or accept that this one is off the list.",
-    "oatman_highway": "The Oatman Highway over Sitgreaves Pass is steep with blind hairpins, and most rental agreements effectively prohibit it. It is passable but tight in a car and out of the question in a motorhome. The I-40 route to Kingman is the one in the plan.",
-    "mileage_fees": "If the rental charges per mile at around $0.35, 1,365 miles adds roughly $480. Always price the unlimited-miles package as an alternative.",
-    "state_parks": "The America the Beautiful pass covers Death Valley and Joshua Tree. It does not cover Anza-Borrego or the Salton Sea, which are California state parks, or Lake Havasu, which is an Arizona state park. None of them are expensive; they are just not free."
+    "oatman_highway": "The Oatman Highway over Sitgreaves Pass is steep with blind hairpins, and most rental agreements effectively prohibit it. It is passable but tight in a car and out of the question in a motorhome. The I-40 route through Kingman is the one in the plan, and it is ten miles longer but half an hour faster.",
+    "valley_of_fire": "There is no hotel inside Valley of Fire. The park has two campgrounds — Atlatl Rock has hookups, Arch Rock does not — and both are reservation-only. In a car, the nearest rooms are in Overton about fifteen minutes away. This is the one stop where the motorhome build has the better night.",
+    "state_parks": "The America the Beautiful pass covers Death Valley and Joshua Tree. It does not cover Anza-Borrego or the Salton Sea, which are California state parks, or Valley of Fire, which is a Nevada state park. None of them are expensive; they are just not free."
   },
 
   "vehicle_restrictions": [
@@ -118,7 +188,7 @@
       "impact_on_car": "None." },
     { "location": "Route 66 — Oatman Highway over Sitgreaves Pass",
       "rule": "Steep with blind hairpins. Most rental agreements effectively prohibit it.",
-      "impact_on_rv": "Avoid. Take I-40 to Kingman instead, which is the routing in the plan.",
+      "impact_on_rv": "Avoid. Take I-40 through Kingman instead, which is the routing in the plan.",
       "impact_on_car": "Passable but tight, and worth doing for the burros. Check your rental agreement first." },
     { "location": "Joshua Tree — the park campgrounds",
       "rule": "Most sites inside the park cap at around 25 to 35 feet and there are no hookups, no dump station and, at most campgrounds, no water.",
@@ -139,13 +209,19 @@
       "detail": "The park's own campgrounds have no hookups, no dump and mostly no water. A full-hookup site in town costs about the same as a dry site inside and you can shower — and you are ten minutes from the north entrance either way." },
     { "item": "Decline the RV kit fee", "saving": "~$250",
       "detail": "Buy bedding and kitchen gear at a Las Vegas store on day one for $200-300 and leave it behind. Cheaper than per-person kit fees for six." },
-    { "item": "Go midweek in the Coachella Valley", "saving": "~$300 over 2 nights",
+    { "item": "Go midweek in the Coachella Valley", "saving": "~$150 for the night",
       "detail": "January is peak season in Palm Springs and the weekend premium is steep. Arriving Sunday or Monday rather than Friday is the single biggest lever in the lodging line." },
     { "item": "America the Beautiful pass", "saving": "$80, already owned",
-      "detail": "Covers Death Valley and Joshua Tree — both national parks on this route. It does NOT cover Anza-Borrego or the Salton Sea, which are California state parks, or Lake Havasu, which is an Arizona state park." }
+      "detail": "Covers Death Valley and Joshua Tree — both national parks on this route. It does NOT cover Anza-Borrego or the Salton Sea, which are California state parks, or Valley of Fire, which is a Nevada state park." }
   ],
 
   "rejected_alternatives": [
+    { "place": "Los Angeles",
+      "reason": "Santa Monica Pier is the western end of Route 66, and it slots between Barstow and Palm Springs for only 125 extra miles — genuinely cheap, and it would let the route run Route 66 from the Pacific to Arizona. Left out because the point of this trip is empty desert, and January is the wettest month of LA's year." },
+    { "place": "Sleeping in Kingman",
+      "reason": "The better Route 66 town and the better rooms, but it sits at 3,366 feet and averages a January low of 32°F. It would be the one freezing night on a route built to avoid them. You drive through it and stop at the Powerhouse instead." },
+    { "place": "Lake Havasu",
+      "reason": "Warm, comfortable, and 42 miles off the Route 66 line. It is a lake town with a novelty bridge rather than anything to do with the road, and in January it is too cold to swim. It gets two nights on the Sonoran Loop instead." },
     { "place": "Zion, Bryce and the Grand Canyon",
       "reason": "The famous parks on the Southwest Loop sit between 4,000 and 8,000 feet. Warm and high do not go together in January — that is the entire reason this route exists." },
     { "place": "Monument Valley",
@@ -155,16 +231,13 @@
     { "place": "Mojave National Preserve",
       "reason": "No hookups, no potable water, no cell service, and the York Fire burned close to 100,000 acres in 2023 including much of the Cima Dome Joshua tree forest." },
     { "place": "Salvation Mountain and Slab City",
-      "reason": "Genuinely remarkable, and only twenty minutes past the south end of the Salton Sea — but it sits on the far shore and adds about 70 miles to the shortest day of the trip." },
-    { "place": "Ubehebe Crater",
-      "reason": "A 110-mile round trip from Furnace Creek for a single crater. It fits when Death Valley gets four nights, not three." },
+      "reason": "Genuinely remarkable, and only twenty minutes past the south end of the Salton Sea — but routing the day through it costs 76 extra miles and two extra hours. It sits on the far shore from the road you are on." },
     { "place": "Travel trailer plus rented pickup",
       "reason": "Trailer rentals do not include a tow vehicle, and the major rental companies prohibit towing outright. Turo treats towing as a prohibited use that voids damage protection." }
   ],
 
-  "options": [
-    {
-      "id": "option-1",
+  "options": {
+    "motorhome": {
       "name": "Motorhome",
       "tagline": "Cheapest, simplest, and no longer the cold one",
       "vehicle": {
@@ -175,22 +248,6 @@
         "dimensions": { "length_ft": 30, "width_ft": 8.33, "height_ft": 12.2 },
         "notes": "Book by seatbelt count, not sleeping capacity. On this route there is no reason to take the smaller C25 for clearance — the only length limit you meet is Death Valley's 25 ft on Artist's Drive and Dante's View, and a C25 measures 24.93 ft, which is a three-inch margin you should not rely on."
       },
-      "budget": {
-        "currency": "USD",
-        "lines": [
-          { "item": "Flights", "low": 2280, "high": 2280, "basis": "6 people x $380 round trip" },
-          { "item": "RV rental, all-in", "low": 2000, "high": 2000, "basis": "Includes protection, unlimited miles and 15 generator hours. Kit fee declined." },
-          { "item": "Fuel", "low": 752, "high": 838, "basis": "1,365 mi at 8 mpg. California fuel runs well above Nevada and Arizona, so $4.40-4.90/gal blended" },
-          { "item": "Campgrounds", "low": 715, "high": 936, "basis": "13 nights, full hookups. California parks run higher than the Southwest Loop's Utah and Arizona sites" },
-          { "item": "Food and groceries", "low": 832, "high": 1063, "basis": "Cooking in the RV with a few meals out" },
-          { "item": "Bedding and kitchen gear", "low": 200, "high": 300, "basis": "Bought in Vegas on day 1 instead of paying per-person kit fees" },
-          { "item": "Death Valley rental car", "low": 200, "high": 300, "basis": "Days 1-4 economy car; the 30-footer is barred from Artist's Drive and Dante's View" },
-          { "item": "Palm Springs Aerial Tramway", "low": 170, "high": 210, "basis": "Six tickets. The one paid attraction that everybody agreed was worth it" },
-          { "item": "State park day use", "low": 30, "high": 50, "basis": "Anza-Borrego, the Salton Sea and Lake Havasu are state parks — the national park pass is not valid at any of them" },
-          { "item": "Incidentals", "low": 160, "high": 260, "basis": "Propane, laundry, showers, parking" },
-          { "item": "Park entry fees", "low": 0, "high": 0, "basis": "America the Beautiful annual pass already owned — covers Death Valley and Joshua Tree" }
-        ]
-      },
       "pros": [
         "Cheapest by a wide margin",
         "Transport and lodging in one",
@@ -199,48 +256,94 @@
         "Only two places on this route it cannot go, and both are in Death Valley"
       ],
       "cons": [
-        "Still barred from Artist's Drive and Dante's View, so it still needs a separate rental car for days 1-4",
-        "Cannot take the Oatman Highway on the way home",
+        "Still barred from Artist's Drive and Dante's View, so it still needs a separate rental car in Death Valley",
+        "Cannot take the Oatman Highway over Sitgreaves Pass",
         "Joshua Tree's own campgrounds are too small and have no hookups, so you sleep in town",
         "Tanks fill fast with six people; plan a dump roughly every other night",
         "Palm Springs and Borrego Springs RV parks are at their annual peak in January"
-      ]
+      ],
+      "budgets": {
+        "short": {
+          "currency": "USD",
+          "lines": [
+            { "item": "Flights", "low": 2280, "high": 2280, "basis": "6 people x $380 round trip" },
+            { "item": "RV rental, all-in", "low": 1450, "high": 1450, "basis": "Ten days. Includes protection, unlimited miles and generator hours. Kit fee declined." },
+            { "item": "Fuel", "low": 686, "high": 764, "basis": "1,245 mi at 8 mpg, $4.40-4.90/gal blended across CA, NV and AZ" },
+            { "item": "Campgrounds", "low": 495, "high": 648, "basis": "9 nights, full hookups" },
+            { "item": "Food and groceries", "low": 594, "high": 759, "basis": "Cooking in the RV with a few meals out" },
+            { "item": "Bedding and kitchen gear", "low": 200, "high": 300, "basis": "Bought in Vegas on day 1 instead of paying per-person kit fees" },
+            { "item": "Death Valley rental car", "low": 150, "high": 220, "basis": "Days 1-3 economy car; the 30-footer is barred from Artist's Drive" },
+            { "item": "Palm Springs Aerial Tramway", "low": 170, "high": 210, "basis": "Six tickets. The one paid attraction everybody agreed was worth it" },
+            { "item": "State park day use", "low": 30, "high": 50, "basis": "Anza-Borrego and the Salton Sea are California state parks — the national park pass is not valid" },
+            { "item": "Incidentals", "low": 115, "high": 185, "basis": "Propane, laundry, showers, parking" },
+            { "item": "Park entry fees", "low": 0, "high": 0, "basis": "America the Beautiful annual pass already owned — covers Death Valley and Joshua Tree" }
+          ]
+        },
+        "long": {
+          "currency": "USD",
+          "lines": [
+            { "item": "Flights", "low": 2280, "high": 2280, "basis": "6 people x $380 round trip" },
+            { "item": "RV rental, all-in", "low": 2000, "high": 2000, "basis": "Fourteen days. Includes protection, unlimited miles and 15 generator hours. Kit fee declined." },
+            { "item": "Fuel", "low": 774, "high": 862, "basis": "1,405 mi at 8 mpg, $4.40-4.90/gal blended across CA, NV and AZ" },
+            { "item": "Campgrounds", "low": 715, "high": 936, "basis": "13 nights, full hookups. Valley of Fire's Atlatl Rock sites are reservation-only" },
+            { "item": "Food and groceries", "low": 832, "high": 1063, "basis": "Cooking in the RV with a few meals out" },
+            { "item": "Bedding and kitchen gear", "low": 200, "high": 300, "basis": "Bought in Vegas on day 1 instead of paying per-person kit fees" },
+            { "item": "Death Valley rental car", "low": 200, "high": 300, "basis": "Days 1-4 economy car; the 30-footer is barred from Artist's Drive and Dante's View" },
+            { "item": "Palm Springs Aerial Tramway", "low": 170, "high": 210, "basis": "Six tickets. The one paid attraction everybody agreed was worth it" },
+            { "item": "State park day use", "low": 45, "high": 75, "basis": "Anza-Borrego, the Salton Sea and Valley of Fire — none covered by the national park pass" },
+            { "item": "Incidentals", "low": 160, "high": 260, "basis": "Propane, laundry, showers, parking" },
+            { "item": "Park entry fees", "low": 0, "high": 0, "basis": "America the Beautiful annual pass already owned — covers Death Valley and Joshua Tree" }
+          ]
+        }
+      }
     },
-    {
-      "id": "option-2",
+    "car-and-lodging": {
       "name": "Car and lodging",
       "tagline": "More expensive, more comfortable, and it unlocks the Oatman Highway",
       "vehicle": {
         "type": "Minivan or full-size SUV",
         "examples": ["Chrysler Pacifica", "Honda Odyssey", "Chevrolet Suburban"],
         "seats": 7,
-        "cost_low": 1400,
-        "cost_high": 2100,
-        "notes": "A minivan is better for people, a Suburban better for luggage. Fourteen days from Las Vegas including airport concession fees. Neither will get you to Font's Point — that needs four-wheel drive."
+        "notes": "A minivan is better for people, a Suburban better for luggage. From Las Vegas, including airport concession fees. Neither will get you to Font's Point — that needs four-wheel drive."
       },
-      "budget_deltas": {
-        "fuel": { "low": 300, "high": 370, "basis": "1,365 mi at 18-20 mpg — a large saving over the RV even at California prices" },
-        "lodging": { "value": 2900, "location": 4400, "basis": "13 nights, two rooms or one rental house. January is high season in Palm Springs and Borrego Springs, which is what makes this line bigger than the Southwest Loop's" },
-        "food": { "low": 2600, "high": 3600, "basis": "Eating out for six. This single line is most of the gap between the two options." }
-      },
-      "builds": [
-        { "id": "value", "name": "Best value", "total": 10100 },
-        { "id": "location", "name": "Best location", "total": 13500 }
-      ],
       "pros": [
-        "Unlocks the Oatman Highway and its burros on the way home",
+        "Unlocks the Oatman Highway and its burros",
         "Real beds, and rooms you can spread six people across",
-        "Fuel drops from roughly $800 to $335",
+        "Fuel drops to about a third of the motorhome's",
         "No dump station, no propane, no levelling blocks",
         "Artist's Drive and Dante's View without a second rental"
       ],
       "cons": [
-        "Roughly $2,000 to $5,300 more than the motorhome",
+        "Meaningfully more than the motorhome",
         "Food costs roughly triple",
-        "Six separate lodging bookings to manage, in the region's most expensive month",
-        "Luggage for six in one vehicle for two weeks is tight",
+        "Separate lodging bookings to manage, in the region's most expensive month",
+        "Luggage for six in one vehicle is tight",
         "Still cannot reach Font's Point"
-      ]
+      ],
+      "budgets": {
+        "short": {
+          "vehicle_low": 1000, "vehicle_high": 1500,
+          "vehicle_basis": "Ten days from Las Vegas including airport concession fees",
+          "fuel": { "low": 275, "high": 340, "basis": "1,245 mi at 18-20 mpg — a large saving over the RV even at California prices" },
+          "lodging": { "value": 2000, "location": 3050, "basis": "9 nights, two rooms. January is high season in Palm Springs, and Needles is basic motels either way" },
+          "food": { "low": 1860, "high": 2570, "basis": "Eating out for six. This single line is most of the gap between the two options." },
+          "builds": [
+            { "id": "value", "name": "Best value", "total": 7900 },
+            { "id": "location", "name": "Best location", "total": 10350 }
+          ]
+        },
+        "long": {
+          "vehicle_low": 1400, "vehicle_high": 2100,
+          "vehicle_basis": "Fourteen days from Las Vegas including airport concession fees",
+          "fuel": { "low": 310, "high": 385, "basis": "1,405 mi at 18-20 mpg — a large saving over the RV even at California prices" },
+          "lodging": { "value": 2800, "location": 4300, "basis": "13 nights, two rooms or one rental house. There is no hotel inside Valley of Fire — the nearest rooms are in Overton, fifteen minutes away" },
+          "food": { "low": 2600, "high": 3600, "basis": "Eating out for six. This single line is most of the gap between the two options." },
+          "builds": [
+            { "id": "value", "name": "Best value", "total": 10000 },
+            { "id": "location", "name": "Best location", "total": 13400 }
+          ]
+        }
+      }
     }
-  ]
+  }
 }

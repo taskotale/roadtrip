@@ -1,16 +1,16 @@
 {
-  "id": "low-desert-loop",
-  "name": "Low Desert Loop — the long way",
-  "subtitle": "Death Valley · Palm Springs · Anza-Borrego · Joshua Tree · Route 66 · Valley of Fire",
-  "summary": "A warm loop out of Las Vegas that never climbs into the cold. Death Valley first, then Route 66 across the Mojave, the Coachella Valley, Anza-Borrego, Joshua Tree, the old road east through Needles and Kingman, and a finish on the red rock at Valley of Fire rather than in an airport car park. Nothing sleeps above 2,600 feet, no night is expected to freeze, and five of the fourteen days involve no driving between towns.",
-  "hero": "assets/photos/low-desert-loop/valley-of-fire.jpg",
+  "id": "low-desert-short",
+  "name": "Low Desert Loop — the short way",
+  "subtitle": "Death Valley · Route 66 · Palm Springs · Anza-Borrego · Joshua Tree · Needles",
+  "summary": "The same warm loop as the long version, run in ten days instead of fourteen. Death Valley, Route 66 across the Mojave, the Coachella Valley, Anza-Borrego, Joshua Tree, and home along the old road through Needles and Kingman. Nothing sleeps above 2,200 feet and no night is expected to freeze. Be clear about the trade though: the driving is almost the same, so this is a busier trip rather than a smaller one — only two of the ten days have no driving between towns.",
+  "hero": "assets/photos/low-desert-loop/galleta-meadows.jpg",
   "season": "January",
   "startEnd": "Las Vegas, NV (Harry Reid International — LAS)",
   "totals": {
-    "days": 14,
-    "miles": 1405,
+    "days": 10,
+    "miles": 1245,
     "party": 6,
-    "avgMilesPerDay": 100
+    "avgMilesPerDay": 125
   },
   "mustSee": [
     {
@@ -26,58 +26,52 @@
       "why": "The lowest point in North America, 282 ft below sea level, at 65°F in January. Walk out onto the salt flats."
     },
     {
-      "name": "Mesquite Flat Dunes",
-      "day": 3,
-      "photo": "assets/photos/low-desert-loop/mesquite-flat-dunes.jpg",
-      "why": "Go at sunrise. Dunes the kids can run down, before the wind picks up and the light goes flat."
-    },
-    {
       "name": "Elmer's Bottle Tree Ranch",
-      "day": 5,
+      "day": 4,
       "photo": "assets/photos/low-desert-loop/elmers-bottle-tree-ranch.jpg",
       "why": "Free, on the old Route 66 alignment, and unlike anything else on either version. Ten minutes, and worth the detour."
     },
     {
       "name": "Palm Springs Aerial Tramway",
-      "day": 5,
+      "day": 4,
       "photo": "assets/photos/low-desert-loop/palm-springs-tramway.jpg",
       "why": "Ten minutes from the valley floor to 8,500 feet. The only snow anyone will see on this trip, and you choose whether to go up to it."
     },
     {
       "name": "Galleta Meadows",
-      "day": 6,
+      "day": 5,
       "photo": "assets/photos/low-desert-loop/galleta-meadows.jpg",
       "why": "A 350-foot steel serpent crossing a road in the desert, and 129 other sculptures. Free, and the best surprise on the route."
     },
     {
       "name": "The Slot",
-      "day": 7,
+      "day": 5,
       "photo": "assets/photos/low-desert-loop/the-slot.jpg",
       "why": "A slot canyon you walk yourself, with no permit and no guide. The Southwest Loop pays about $580 for six to do this at Antelope."
     },
     {
       "name": "Cholla Cactus Garden",
-      "day": 8,
+      "day": 6,
       "photo": "assets/photos/low-desert-loop/cholla-cactus-garden.jpg",
       "why": "Ten acres of teddy-bear cholla lit from behind at the end of the day. A quarter-mile loop, and the best photograph in Joshua Tree."
     },
     {
       "name": "Skull Rock",
-      "day": 9,
+      "day": 7,
       "photo": "assets/photos/low-desert-loop/skull-rock.jpg",
       "why": "Right beside the road, and the one every child on this trip will want a photograph of."
     },
     {
       "name": "Roy's Motel, Route 66",
-      "day": 10,
+      "day": 8,
       "photo": "assets/photos/low-desert-loop/roys-motel.jpg",
       "why": "One neon sign in an abandoned town in the middle of the Mojave. This is the one the kids will talk about."
     },
     {
-      "name": "The Fire Wave",
-      "day": 13,
-      "photo": "assets/photos/low-desert-loop/fire-wave.jpg",
-      "why": "Striped red and white sandstone at the end of a short flat walk, on the last full day. A better finish than a car park near the airport."
+      "name": "The burros at Oatman",
+      "day": 9,
+      "photo": "assets/photos/low-desert-loop/oatman.jpg",
+      "why": "Wild burros that walk up to the car window in the street. Car build only — the pass is no place for a 30-footer."
     }
   ],
   "watchOuts": [
@@ -92,14 +86,6 @@
     {
       "title": "Needles is warm, not smart",
       "text": "Needles is a small, faded railroad town and the lodging is basic motels rather than anything with a lobby. It is on the route because it sits at 495 feet on the Colorado, which makes it the warmest bed of the trip, and because it is genuinely on Route 66. If the party would rather have a proper room, Lake Havasu is 42 miles south — warmer weather is not the reason to go there, comfort is."
-    },
-    {
-      "title": "Font's Point is a four-wheel-drive road",
-      "text": "The road to Font's Point is four miles of soft sand off the Borrego Salton Seaway. It needs four-wheel drive and it strands two-wheel-drive vehicles regularly. A minivan will not make it. Either rent something suitable for the day, take a local jeep tour, or accept that this one is off the list."
-    },
-    {
-      "title": "There is no hotel inside Valley of Fire",
-      "text": "There is no hotel inside Valley of Fire. The park has two campgrounds — Atlatl Rock has hookups, Arch Rock does not — and both are reservation-only. In a car, the nearest rooms are in Overton about fifteen minutes away. This is the one stop where the motorhome build has the better night."
     },
     {
       "title": "Death Valley is still closing roads",
@@ -119,25 +105,33 @@
     }
   ],
   "pros": [
-    "No night is expected to freeze. Nothing on this route sleeps above 2,600 feet.",
-    "Two national parks, four state parks and 200 miles of original Route 66, out and back from a single airport.",
-    "Short days: 100 miles a day on average, and five of the fourteen involve no driving between towns.",
-    "It finishes on the red rock at Valley of Fire rather than in a car park near the airport, and the last day is a 63-mile run to the plane.",
+    "Ten days, and it still gets Death Valley, two national parks, three state parks and 200 miles of original Route 66.",
+    "No night is expected to freeze. Nothing on this route sleeps above 2,200 feet.",
+    "Needles sits at 495 feet on the Colorado — the warmest bed of the trip, and genuinely on Route 66.",
     "January is the best month of the year to be in the low desert. Palm Springs runs to the low 70s and Death Valley to the mid-60s.",
-    "The motorhome stops being a compromise. Its worst problem on the Southwest Loop was seven freezing nights, and this route does not have one."
+    "The motorhome stops being a compromise. Its worst problem on the Southwest Loop was seven freezing nights, and this route does not have one.",
+    "One set of flights, one vehicle, one loop. Nothing is one-way."
   ],
   "cons": [
-    "Two national parks instead of five. The warm places are the low places, and the famous parks are nearly all high.",
-    "January is high season in the Coachella Valley, so Palm Springs is the one expensive stop — the reverse of the Southwest Loop, where the cold made everything cheap.",
-    "Day 4 is 177 miles of mostly empty desert between Death Valley and Route 66. It is the longest day on the route.",
-    "Font's Point needs four-wheel drive — four miles of soft sand. Neither build reaches it.",
-    "Needles is a faded railroad town and the lodging is basic motels. It is on the route because it is warm and on Route 66, not because it is comfortable.",
-    "Death Valley still has flood damage: Scotty’s Castle and Bonnie Clare Road are closed indefinitely, and several roads have soft shoulders and unpaved sections."
+    "The driving is almost the same as the long version — 945 miles against 1,055 — so this is a busier trip rather than a smaller one.",
+    "Only two of the ten days involve no driving between towns. The long version has five.",
+    "Death Valley gets one full day. Dante’s View and Mosaic Canyon do not fit.",
+    "Anza-Borrego gets an afternoon and a morning, which is enough for The Slot and Borrego Palm Canyon and nothing else.",
+    "Needles is a faded railroad town and the lodging is basic motels. Lake Havasu is 42 miles south if the party would rather have a proper room.",
+    "No Valley of Fire. Finishing on the red rock is what the long version buys."
   ],
   "notConsidered": [
     {
-      "place": "Ubehebe Crater",
-      "reason": "A 110-mile round trip from Furnace Creek for a single crater. It fits when Death Valley gets four nights, not three."
+      "place": "Valley of Fire",
+      "reason": "The best red rock within an hour of Las Vegas, and the long version finishes there. It is most of what the extra four days buy you."
+    },
+    {
+      "place": "A second day in Death Valley",
+      "reason": "One day covers Badwater, Golden Canyon, Artist's Drive and the dunes. It does not stretch to Dante's View or Mosaic Canyon — those need the day the long version has."
+    },
+    {
+      "place": "A full day in Anza-Borrego",
+      "reason": "One night means an afternoon and a morning: The Slot and the sculptures on the way in, Borrego Palm Canyon on the way out. Font's Point and the rest of the park do not fit."
     },
     {
       "place": "Los Angeles",
@@ -232,8 +226,8 @@
           }
         ],
         "totals": {
-          "low": 7376,
-          "high": 8286
+          "low": 6170,
+          "high": 6866
         },
         "lines": [
           {
@@ -244,26 +238,26 @@
           },
           {
             "item": "RV rental, all-in",
-            "low": 2000,
-            "high": 2000,
-            "basis": "Fourteen days. Includes protection, unlimited miles and 15 generator hours. Kit fee declined."
+            "low": 1450,
+            "high": 1450,
+            "basis": "Ten days. Includes protection, unlimited miles and generator hours. Kit fee declined."
           },
           {
             "item": "Fuel",
-            "low": 774,
-            "high": 862,
-            "basis": "1,405 mi at 8 mpg, $4.40-4.90/gal blended across CA, NV and AZ"
+            "low": 686,
+            "high": 764,
+            "basis": "1,245 mi at 8 mpg, $4.40-4.90/gal blended across CA, NV and AZ"
           },
           {
             "item": "Campgrounds",
-            "low": 715,
-            "high": 936,
-            "basis": "13 nights, full hookups. Valley of Fire's Atlatl Rock sites are reservation-only"
+            "low": 495,
+            "high": 648,
+            "basis": "9 nights, full hookups"
           },
           {
             "item": "Food and groceries",
-            "low": 832,
-            "high": 1063,
+            "low": 594,
+            "high": 759,
             "basis": "Cooking in the RV with a few meals out"
           },
           {
@@ -274,9 +268,9 @@
           },
           {
             "item": "Death Valley rental car",
-            "low": 200,
-            "high": 300,
-            "basis": "Days 1-4 economy car; the 30-footer is barred from Artist's Drive and Dante's View"
+            "low": 150,
+            "high": 220,
+            "basis": "Days 1-3 economy car; the 30-footer is barred from Artist's Drive"
           },
           {
             "item": "Palm Springs Aerial Tramway",
@@ -286,14 +280,14 @@
           },
           {
             "item": "State park day use",
-            "low": 45,
-            "high": 75,
-            "basis": "Anza-Borrego, the Salton Sea and Valley of Fire — none covered by the national park pass"
+            "low": 30,
+            "high": 50,
+            "basis": "Anza-Borrego and the Salton Sea are California state parks — the national park pass is not valid"
           },
           {
             "item": "Incidentals",
-            "low": 160,
-            "high": 260,
+            "low": 115,
+            "high": 185,
             "basis": "Propane, laundry, showers, parking"
           },
           {
@@ -303,7 +297,7 @@
             "basis": "America the Beautiful annual pass already owned — covers Death Valley and Joshua Tree"
           }
         ],
-        "notes": "Everything for six people for 14 days, flights included. The America the Beautiful pass is already owned, so national park entry is zero — but Anza-Borrego, the Salton Sea and Valley of Fire are state parks and charge separately."
+        "notes": "Everything for six people for 10 days, flights included. The America the Beautiful pass is already owned, so national park entry is zero — but Anza-Borrego, the Salton Sea and Valley of Fire are state parks and charge separately."
       },
       "pros": [
         "Cheapest by a wide margin",
@@ -324,42 +318,21 @@
           {
             "type": "blocked",
             "label": "Not in the motorhome:",
-            "text": "Artist's Drive is closed to vehicles over 25 ft. Take the separate rental car — it is in the budget for exactly this."
+            "text": "Artist's Drive is closed to vehicles over 25 ft. Take the separate rental car — it is in the budget for exactly this. Dante's View has the same limit, but it is not on this version anyway."
           }
         ],
-        "3": [
-          {
-            "type": "blocked",
-            "label": "Not in the motorhome:",
-            "text": "The final climb to Dante's View has the same 25 ft limit. Rental car again. These two are the only places in Death Valley the motorhome cannot go."
-          }
-        ],
-        "7": [
-          {
-            "type": "blocked",
-            "label": "Not in the motorhome:",
-            "text": "Font's Point — four miles of soft sand off the Borrego Salton Seaway. Nothing without four-wheel drive gets there, so this one is out for the car build too."
-          }
-        ],
-        "8": [
+        "6": [
           {
             "type": "note",
             "label": "You sleep in town, not in the park.",
-            "text": "Joshua Tree's own campgrounds cap at around 25 to 35 ft and have no hookups, no dump station and mostly no water. A full-hookup site in Twentynine Palms costs about the same and you are ten minutes from the north entrance."
+            "text": "Joshua Tree's own campgrounds cap at around 25 to 35 ft and have no hookups, no dump station and mostly no water. A full-hookup site in Twentynine Palms costs about the same and you are ten minutes from the north entrance. The park roads themselves are fine in a 30-footer."
           }
         ],
-        "11": [
+        "9": [
           {
             "type": "blocked",
             "label": "Not in the motorhome:",
             "text": "The Oatman Highway over Sitgreaves Pass — steep, blind hairpins, no room for a 30-footer. The map shows the I-40 route through Kingman, which is ten miles longer and half an hour faster."
-          }
-        ],
-        "12": [
-          {
-            "type": "unlocked",
-            "label": "The one night you have the better bed:",
-            "text": "There is no hotel inside Valley of Fire. Atlatl Rock campground has hookups and puts you in the park for sunrise on the sandstone. Reserve it — all sites are reservation-only."
           }
         ]
       }
@@ -387,8 +360,8 @@
           }
         ],
         "totals": {
-          "value": 10000,
-          "location": 13400
+          "value": 7900,
+          "location": 10350
         },
         "lines": [
           {
@@ -399,26 +372,26 @@
           },
           {
             "item": "Vehicle rental",
-            "value": 1400,
-            "location": 2100,
-            "basis": "Fourteen days from Las Vegas including airport concession fees"
+            "value": 1000,
+            "location": 1500,
+            "basis": "Ten days from Las Vegas including airport concession fees"
           },
           {
             "item": "Fuel",
-            "value": 310,
-            "location": 385,
-            "basis": "1,405 mi at 18-20 mpg — a large saving over the RV even at California prices"
+            "value": 275,
+            "location": 340,
+            "basis": "1,245 mi at 18-20 mpg — a large saving over the RV even at California prices"
           },
           {
             "item": "Lodging",
-            "value": 2800,
-            "location": 4300,
-            "basis": "13 nights, two rooms or one rental house. There is no hotel inside Valley of Fire — the nearest rooms are in Overton, fifteen minutes away"
+            "value": 2000,
+            "location": 3050,
+            "basis": "9 nights, two rooms. January is high season in Palm Springs, and Needles is basic motels either way"
           },
           {
             "item": "Food",
-            "value": 2600,
-            "location": 3600,
+            "value": 1860,
+            "location": 2570,
             "basis": "Eating out for six. This single line is most of the gap between the two options."
           },
           {
@@ -429,9 +402,9 @@
           },
           {
             "item": "State park day use",
-            "value": 45,
-            "location": 75,
-            "basis": "Anza-Borrego, the Salton Sea and Valley of Fire — none covered by the national park pass"
+            "value": 30,
+            "location": 50,
+            "basis": "Anza-Borrego and the Salton Sea are California state parks — the national park pass is not valid"
           },
           {
             "item": "Park entry fees",
@@ -441,8 +414,8 @@
           },
           {
             "item": "Everything else",
-            "value": 395,
-            "location": 450,
+            "value": 285,
+            "location": 350,
             "basis": "The remainder up to the quoted total — activities, parking, tolls and incidentals."
           }
         ],
@@ -470,37 +443,16 @@
             "text": "Artist's Drive, with no second rental car needed."
           }
         ],
-        "3": [
-          {
-            "type": "unlocked",
-            "label": "Open to you:",
-            "text": "The climb to Dante's View, 5,450 ft up over Badwater."
-          }
-        ],
-        "7": [
-          {
-            "type": "note",
-            "label": "Still not open to you:",
-            "text": "Font's Point needs four-wheel drive — four miles of soft sand, and it strands two-wheel-drive vehicles regularly. A minivan will not make it. This is the one place on the route neither build reaches without renting something else for the day."
-          }
-        ],
-        "11": [
+        "9": [
           {
             "type": "unlocked",
             "label": "Open to you:",
             "text": "The Oatman Highway. Ten miles shorter than the interstate and half an hour slower, because it is a mountain pass with hairpins — and the wild burros come to the car window. Check the rental agreement first; many effectively prohibit Sitgreaves Pass. The map shows the detour."
           }
-        ],
-        "12": [
-          {
-            "type": "note",
-            "label": "No rooms in the park.",
-            "text": "Valley of Fire has campgrounds and nothing else. The nearest rooms are in Overton, about fifteen minutes from the east entrance — which means driving back in for sunrise if you want it."
-          }
         ]
       },
       "dayVia": {
-        "11": [
+        "9": [
           [
             35.02639,
             -114.38357
@@ -512,410 +464,326 @@
         ]
       },
       "dayRoutes": {
-        "11": [
+        "9": [
           [
             34.83826,
             -114.60392
           ],
           [
-            34.83926,
-            -114.60591
+            34.83973,
+            -114.60684
           ],
           [
-            34.84024,
-            -114.60789
+            34.8408,
+            -114.60902
           ],
           [
-            34.84128,
-            -114.60997
+            34.84277,
+            -114.61071
           ],
           [
-            34.84287,
-            -114.61065
+            34.84761,
+            -114.61041
           ],
           [
-            34.84679,
-            -114.61042
+            34.85022,
+            -114.61006
           ],
           [
-            34.84965,
-            -114.61033
+            34.85501,
+            -114.60685
           ],
           [
-            34.85311,
-            -114.60811
-          ],
-          [
-            34.8565,
-            -114.60579
-          ],
-          [
-            34.85843,
-            -114.6044
+            34.85776,
+            -114.60488
           ],
           [
             34.86011,
             -114.60378
           ],
           [
-            34.8615,
-            -114.60283
+            34.86214,
+            -114.60228
           ],
           [
-            34.86304,
-            -114.6012
+            34.86386,
+            -114.59942
           ],
           [
-            34.86437,
-            -114.59834
+            34.86501,
+            -114.59783
           ],
           [
-            34.86517,
-            -114.59778
+            34.86739,
+            -114.59779
           ],
           [
-            34.86631,
-            -114.59776
+            34.89517,
+            -114.59786
           ],
           [
-            34.88061,
-            -114.59777
-          ],
-          [
-            34.90212,
-            -114.5979
-          ],
-          [
-            34.90787,
-            -114.59787
+            34.90604,
+            -114.59789
           ],
           [
             34.91045,
             -114.5978
           ],
           [
-            34.92341,
+            34.92507,
             -114.59787
           ],
           [
-            34.93481,
-            -114.5979
-          ],
-          [
-            34.95331,
-            -114.59795
-          ],
-          [
-            34.96081,
+            34.93887,
             -114.59794
           ],
           [
-            34.96793,
-            -114.58174
+            34.95691,
+            -114.59794
           ],
           [
-            34.96803,
-            -114.56096
+            34.96799,
+            -114.5833
           ],
           [
-            34.96969,
-            -114.55451
+            34.96814,
+            -114.55949
           ],
           [
-            34.97309,
-            -114.54216
+            34.97151,
+            -114.54917
           ],
           [
-            34.97656,
-            -114.52761
+            34.97619,
+            -114.52968
           ],
           [
             34.98206,
             -114.50054
           ],
           [
-            34.99399,
-            -114.44113
+            34.99415,
+            -114.44031
           ],
           [
-            34.99932,
-            -114.41181
+            35.00217,
+            -114.40392
           ],
           [
-            35.00294,
-            -114.40237
-          ],
-          [
-            35.00487,
-            -114.39825
+            35.00478,
+            -114.3985
           ],
           [
             35.00557,
             -114.39508
           ],
           [
-            35.00712,
-            -114.39383
+            35.00755,
+            -114.39335
           ],
           [
-            35.00816,
-            -114.39222
+            35.00864,
+            -114.39168
           ],
           [
-            35.01113,
-            -114.39019
+            35.01189,
+            -114.38945
           ],
           [
-            35.01204,
-            -114.38927
+            35.01451,
+            -114.38735
           ],
           [
-            35.01394,
-            -114.38761
+            35.01665,
+            -114.38604
           ],
           [
-            35.01633,
-            -114.3863
+            35.01929,
+            -114.38435
           ],
           [
-            35.01788,
-            -114.38505
+            35.0208,
+            -114.3833
           ],
           [
-            35.01985,
-            -114.38395
-          ],
-          [
-            35.0211,
-            -114.38317
-          ],
-          [
-            35.02246,
-            -114.38266
-          ],
-          [
-            35.02413,
-            -114.38248
-          ],
-          [
-            35.02527,
+            35.02309,
             -114.38265
           ],
           [
-            35.02584,
-            -114.38299
+            35.02453,
+            -114.38248
           ],
           [
-            35.02682,
-            -114.38415
+            35.02575,
+            -114.38288
           ],
           [
-            35.02733,
-            -114.38519
+            35.02676,
+            -114.38405
           ],
           [
-            35.02873,
-            -114.3859
+            35.02741,
+            -114.38525
           ],
           [
-            35.03079,
-            -114.38818
+            35.02996,
+            -114.38777
           ],
           [
-            35.03172,
-            -114.38907
+            35.03146,
+            -114.38872
           ],
           [
             35.0326,
             -114.39063
           ],
           [
-            35.03381,
-            -114.39199
+            35.03446,
+            -114.39233
           ],
           [
-            35.03648,
-            -114.39353
+            35.03691,
+            -114.39359
           ],
           [
-            35.03784,
-            -114.39318
-          ],
-          [
-            35.04041,
-            -114.39242
+            35.0398,
+            -114.39275
           ],
           [
             35.04165,
             -114.3918
           ],
           [
-            35.04284,
-            -114.39193
+            35.0431,
+            -114.39206
           ],
           [
-            35.04388,
-            -114.39191
+            35.04399,
+            -114.39153
           ],
           [
-            35.04386,
-            -114.39103
-          ],
-          [
-            35.04304,
-            -114.39008
+            35.04328,
+            -114.39046
           ],
           [
             35.0422,
             -114.38905
           ],
           [
-            35.04307,
-            -114.38842
+            35.04349,
+            -114.38808
           ],
           [
-            35.0438,
-            -114.38734
+            35.04408,
+            -114.38689
           ],
           [
-            35.04447,
-            -114.38669
+            35.04467,
+            -114.38639
           ],
           [
-            35.04466,
-            -114.38628
+            35.04394,
+            -114.385
           ],
           [
-            35.04395,
-            -114.3851
+            35.04479,
+            -114.38422
           ],
           [
-            35.04448,
-            -114.3844
+            35.04624,
+            -114.38341
           ],
           [
-            35.04563,
-            -114.38411
+            35.0461,
+            -114.38232
           ],
           [
-            35.04635,
-            -114.38321
+            35.04562,
+            -114.38059
           ],
           [
-            35.046,
-            -114.38221
+            35.04535,
+            -114.37975
           ],
           [
-            35.04564,
-            -114.38068
+            35.04585,
+            -114.37903
           ],
           [
-            35.04525,
-            -114.37994
+            35.04518,
+            -114.37824
           ],
           [
-            35.04581,
-            -114.37955
+            35.04545,
+            -114.37718
           ],
           [
-            35.04571,
-            -114.37875
+            35.04441,
+            -114.37682
           ],
           [
-            35.04517,
-            -114.37816
-          ],
-          [
-            35.04546,
-            -114.37726
-          ],
-          [
-            35.04499,
-            -114.37662
-          ],
-          [
-            35.04417,
-            -114.3767
-          ],
-          [
-            35.04369,
-            -114.37534
+            35.04375,
+            -114.37542
           ],
           [
             35.04268,
             -114.37456
           ],
           [
-            35.04241,
-            -114.37404
+            35.04231,
+            -114.37418
           ],
           [
-            35.04264,
-            -114.37569
+            35.0425,
+            -114.3758
           ],
           [
-            35.04244,
-            -114.37535
-          ],
-          [
-            35.04101,
-            -114.37388
+            35.04108,
+            -114.37406
           ],
           [
             35.04096,
             -114.37201
           ],
           [
-            35.04156,
-            -114.37122
+            35.04241,
+            -114.36984
           ],
           [
-            35.043,
-            -114.36871
+            35.04327,
+            -114.3682
           ],
           [
-            35.04369,
-            -114.36822
-          ],
-          [
-            35.04438,
-            -114.36709
+            35.0442,
+            -114.36784
           ],
           [
             35.04503,
             -114.36474
           ],
           [
-            35.04548,
-            -114.36437
+            35.04574,
+            -114.36387
           ],
           [
-            35.04572,
-            -114.36286
+            35.04574,
+            -114.36232
           ],
           [
-            35.04597,
-            -114.36223
-          ],
-          [
-            35.04706,
+            35.04704,
             -114.36314
           ],
           [
-            35.0472,
-            -114.36305
+            35.04721,
+            -114.36303
           ],
           [
-            35.047,
-            -114.36247
+            35.04688,
+            -114.36155
           ],
           [
-            35.04634,
-            -114.36092
-          ],
-          [
-            35.04488,
-            -114.36017
+            35.04533,
+            -114.36006
           ],
           [
             35.04422,
@@ -926,55 +794,43 @@
             -114.35906
           ],
           [
-            35.04332,
-            -114.35882
+            35.04312,
+            -114.35871
           ],
           [
-            35.04296,
-            -114.35833
+            35.04278,
+            -114.35735
           ],
           [
-            35.04246,
-            -114.35676
-          ],
-          [
-            35.04135,
-            -114.35608
-          ],
-          [
-            35.04087,
-            -114.35672
-          ],
-          [
-            35.04048,
-            -114.35722
-          ],
-          [
-            35.03978,
+            35.04165,
             -114.35617
           ],
           [
-            35.03926,
-            -114.35587
+            35.04074,
+            -114.3571
+          ],
+          [
+            35.04008,
+            -114.35682
+          ],
+          [
+            35.03949,
+            -114.35588
           ],
           [
             35.03886,
             -114.35627
           ],
           [
-            35.03833,
-            -114.35529
+            35.03821,
+            -114.35494
           ],
           [
-            35.03857,
-            -114.35442
+            35.03894,
+            -114.35411
           ],
           [
-            35.03889,
-            -114.35375
-          ],
-          [
-            35.03811,
+            35.03817,
             -114.35316
           ],
           [
@@ -982,736 +838,832 @@
             -114.35359
           ],
           [
-            35.03733,
-            -114.35321
+            35.03744,
+            -114.35307
           ],
           [
-            35.0381,
-            -114.35237
+            35.03819,
+            -114.35208
           ],
           [
-            35.03816,
-            -114.3512
-          ],
-          [
-            35.03814,
-            -114.35007
+            35.03827,
+            -114.35038
           ],
           [
             35.03735,
             -114.34913
           ],
           [
-            35.0373,
-            -114.34889
+            35.03746,
+            -114.34882
           ],
           [
-            35.03812,
-            -114.34854
+            35.0384,
+            -114.34788
           ],
           [
-            35.03814,
-            -114.34703
+            35.03724,
+            -114.34634
           ],
           [
-            35.03721,
-            -114.34624
+            35.03709,
+            -114.34467
           ],
           [
-            35.03704,
-            -114.34475
+            35.03805,
+            -114.34269
           ],
           [
-            35.03789,
-            -114.34346
-          ],
-          [
-            35.03769,
-            -114.34248
-          ],
-          [
-            35.03711,
-            -114.34223
-          ],
-          [
-            35.0375,
-            -114.3392
-          ],
-          [
-            35.03774,
-            -114.3384
+            35.03726,
+            -114.34243
           ],
           [
             35.03747,
-            -114.33675
+            -114.33937
           ],
           [
-            35.03695,
-            -114.33574
+            35.03759,
+            -114.33766
           ],
           [
-            35.036,
-            -114.33445
+            35.03721,
+            -114.33623
           ],
           [
-            35.03594,
-            -114.33006
+            35.03602,
+            -114.33495
           ],
           [
-            35.03561,
-            -114.32863
+            35.03657,
+            -114.33255
           ],
           [
-            35.03542,
-            -114.32787
+            35.03562,
+            -114.32844
           ],
           [
-            35.03491,
-            -114.32777
+            35.03513,
+            -114.32784
           ],
           [
-            35.03331,
-            -114.32571
+            35.03354,
+            -114.32612
           ],
           [
             35.03293,
             -114.32435
           ],
           [
-            35.03273,
-            -114.3238
+            35.03207,
+            -114.32333
           ],
           [
-            35.03189,
-            -114.32293
+            35.03207,
+            -114.32206
           ],
           [
-            35.03206,
-            -114.32156
-          ],
-          [
-            35.03156,
-            -114.32033
+            35.03169,
+            -114.32047
           ],
           [
             35.03098,
             -114.32051
           ],
           [
-            35.03064,
-            -114.32031
+            35.03055,
+            -114.31971
           ],
           [
-            35.03064,
-            -114.3189
+            35.03008,
+            -114.31649
           ],
           [
-            35.02948,
-            -114.31473
-          ],
-          [
-            35.02872,
-            -114.31217
+            35.02878,
+            -114.31249
           ],
           [
             35.02743,
             -114.3096
           ],
           [
-            35.02529,
-            -114.30308
+            35.02541,
+            -114.3012
           ],
           [
-            35.02682,
-            -114.28222
+            35.02781,
+            -114.2785
           ],
           [
-            35.02897,
-            -114.27752
+            35.03297,
+            -114.27437
           ],
           [
-            35.03874,
-            -114.26326
+            35.05437,
+            -114.24142
           ],
           [
-            35.05183,
-            -114.24555
+            35.06924,
+            -114.21745
           ],
           [
-            35.06539,
-            -114.2237
+            35.08971,
+            -114.18402
           ],
           [
-            35.08445,
-            -114.19284
+            35.10063,
+            -114.16459
           ],
           [
-            35.09042,
-            -114.18092
+            35.11724,
+            -114.14017
           ],
           [
-            35.10129,
-            -114.16343
+            35.12143,
+            -114.13576
           ],
           [
-            35.11635,
-            -114.14132
-          ],
-          [
-            35.11983,
-            -114.13705
-          ],
-          [
-            35.12252,
-            -114.13433
-          ],
-          [
-            35.13044,
-            -114.12167
+            35.1286,
+            -114.12464
           ],
           [
             35.13563,
             -114.11335
           ],
           [
-            35.13828,
-            -114.109
+            35.13832,
+            -114.10893
           ],
           [
-            35.1389,
-            -114.10702
+            35.13805,
+            -114.10623
           ],
           [
-            35.13741,
-            -114.10519
-          ],
-          [
-            35.13591,
-            -114.10138
+            35.13567,
+            -114.10149
           ],
           [
             35.13924,
             -114.0998
           ],
           [
-            35.14878,
-            -114.09326
+            35.14977,
+            -114.09246
           ],
           [
-            35.15265,
-            -114.08978
+            35.15447,
+            -114.08769
           ],
           [
-            35.15702,
-            -114.08415
-          ],
-          [
-            35.16,
-            -114.0785
+            35.15872,
+            -114.0812
           ],
           [
             35.16415,
             -114.07391
           ],
           [
-            35.17125,
-            -114.07512
+            35.17343,
+            -114.07523
           ],
           [
-            35.17774,
-            -114.07395
+            35.18238,
+            -114.07026
           ],
           [
-            35.18538,
-            -114.06816
+            35.18846,
+            -114.06683
           ],
           [
-            35.18889,
-            -114.06671
-          ],
-          [
-            35.19071,
-            -114.0653
-          ],
-          [
-            35.19049,
-            -114.06278
-          ],
-          [
-            35.19034,
-            -114.06104
-          ],
-          [
-            35.19003,
-            -114.05749
-          ],
-          [
-            35.18963,
-            -114.05303
-          ],
-          [
-            35.1898,
-            -114.05495
-          ],
-          [
-            35.19008,
-            -114.05804
+            35.19069,
+            -114.06506
           ],
           [
             35.19042,
             -114.06198
           ],
           [
-            35.19061,
-            -114.06411
+            35.19006,
+            -114.05793
           ],
           [
-            35.19087,
-            -114.0664
+            35.18965,
+            -114.05329
           ],
           [
-            35.19115,
-            -114.0684
+            35.1898,
+            -114.05495
           ],
           [
-            35.19171,
-            -114.06989
+            35.19031,
+            -114.06076
           ],
           [
-            35.19273,
-            -114.07127
+            35.19051,
+            -114.06296
           ],
           [
-            35.19538,
-            -114.07429
+            35.19085,
+            -114.06628
+          ],
+          [
+            35.19117,
+            -114.06859
+          ],
+          [
+            35.19208,
+            -114.07047
+          ],
+          [
+            35.19508,
+            -114.07395
           ],
           [
             35.19654,
             -114.07556
           ],
           [
-            35.20034,
-            -114.07929
+            35.2007,
+            -114.07965
           ],
           [
-            35.20203,
-            -114.08311
+            35.2025,
+            -114.0847
           ],
           [
-            35.20273,
-            -114.08533
+            35.20481,
+            -114.09082
           ],
           [
-            35.20494,
-            -114.09126
+            35.20602,
+            -114.09472
           ],
           [
-            35.20607,
-            -114.09489
+            35.20761,
+            -114.09906
           ],
           [
-            35.20725,
-            -114.09822
+            35.2124,
+            -114.11172
           ],
           [
-            35.21041,
-            -114.10682
-          ],
-          [
-            35.21391,
-            -114.11382
-          ],
-          [
-            35.21733,
-            -114.11741
+            35.21684,
+            -114.1167
           ],
           [
             35.21906,
             -114.12081
           ],
           [
-            35.2208,
-            -114.12433
+            35.22147,
+            -114.12549
           ],
           [
-            35.22393,
-            -114.12897
+            35.22709,
+            -114.13322
           ],
           [
-            35.22844,
-            -114.13471
+            35.23229,
+            -114.1371
           ],
           [
-            35.23308,
-            -114.13765
+            35.24014,
+            -114.1452
           ],
           [
-            35.23947,
-            -114.14449
+            35.25036,
+            -114.15296
           ],
           [
-            35.24836,
-            -114.15153
+            35.29635,
+            -114.18637
           ],
           [
-            35.28078,
-            -114.17507
-          ],
-          [
-            35.30819,
-            -114.19497
-          ],
-          [
-            35.33098,
-            -114.21148
+            35.32287,
+            -114.20561
           ],
           [
             35.35823,
             -114.23118
           ],
           [
-            35.39525,
-            -114.25795
+            35.39708,
+            -114.25929
           ],
           [
-            35.41452,
-            -114.27193
+            35.4209,
+            -114.27654
           ],
           [
-            35.43166,
-            -114.28433
+            35.44893,
+            -114.29643
           ],
           [
-            35.45603,
-            -114.30134
+            35.4922,
+            -114.32633
           ],
           [
-            35.4902,
-            -114.32497
+            35.51651,
+            -114.34315
           ],
           [
-            35.50183,
-            -114.33299
-          ],
-          [
-            35.53272,
-            -114.35435
-          ],
-          [
-            35.54135,
-            -114.36033
+            35.5378,
+            -114.35787
           ],
           [
             35.56629,
             -114.37761
           ],
           [
-            35.58932,
-            -114.39355
+            35.59199,
+            -114.39541
           ],
           [
-            35.60017,
-            -114.40107
+            35.60865,
+            -114.40878
           ],
           [
-            35.6102,
-            -114.41096
-          ],
-          [
-            35.64209,
-            -114.43512
+            35.63237,
+            -114.4279
           ],
           [
             35.66349,
             -114.45215
           ],
           [
-            35.66861,
-            -114.45779
+            35.67025,
+            -114.45895
           ],
           [
-            35.67983,
-            -114.46571
+            35.68414,
+            -114.46791
           ],
           [
-            35.68723,
-            -114.46893
-          ],
-          [
-            35.69868,
-            -114.47372
+            35.69226,
+            -114.4703
           ],
           [
             35.71214,
             -114.48098
           ],
           [
-            35.72595,
-            -114.48842
+            35.75167,
+            -114.50232
           ],
           [
-            35.76753,
-            -114.51089
+            35.78405,
+            -114.5204
           ],
           [
-            35.78652,
-            -114.52241
+            35.79862,
+            -114.53319
           ],
           [
-            35.80387,
-            -114.53787
+            35.82871,
+            -114.56008
           ],
           [
-            35.82121,
-            -114.55337
+            35.8426,
+            -114.5725
           ],
           [
-            35.84166,
-            -114.57165
+            35.84913,
+            -114.58794
           ],
           [
-            35.84552,
-            -114.57738
+            35.85675,
+            -114.59451
           ],
           [
-            35.85118,
-            -114.59109
+            35.86261,
+            -114.60172
           ],
           [
-            35.85712,
-            -114.5948
+            35.88273,
+            -114.61666
           ],
           [
-            35.8623,
-            -114.60148
+            35.89336,
+            -114.6244
           ],
           [
-            35.88025,
-            -114.61483
+            35.91302,
+            -114.62879
           ],
           [
-            35.8892,
-            -114.62143
+            35.93279,
+            -114.6361
           ],
           [
-            35.89539,
-            -114.62533
+            35.95015,
+            -114.64781
           ],
           [
-            35.91432,
-            -114.62912
-          ],
-          [
-            35.93153,
-            -114.63542
-          ],
-          [
-            35.94794,
-            -114.64602
-          ],
-          [
-            35.95261,
-            -114.65078
-          ],
-          [
-            35.96582,
-            -114.67159
+            35.96392,
+            -114.66857
           ],
           [
             35.97052,
             -114.68271
           ],
           [
-            35.97216,
-            -114.68764
+            35.97236,
+            -114.68802
           ],
           [
-            35.97561,
-            -114.69394
+            35.97678,
+            -114.69569
           ],
           [
-            35.97973,
-            -114.6986
-          ],
-          [
-            35.98343,
-            -114.70617
+            35.98182,
+            -114.70273
           ],
           [
             35.98509,
             -114.7113
           ],
           [
-            35.98989,
-            -114.71591
+            35.99318,
+            -114.71773
           ],
           [
-            35.99645,
-            -114.71954
+            35.99922,
+            -114.72096
           ],
           [
-            36.00127,
-            -114.72191
-          ],
-          [
-            36.00428,
-            -114.72383
+            36.00332,
+            -114.72314
           ],
           [
             36.00796,
             -114.7274
           ],
           [
-            36.00914,
-            -114.72958
+            36.00939,
+            -114.73028
           ],
           [
-            36.00981,
-            -114.73214
+            36.01027,
+            -114.73558
           ],
           [
-            36.01054,
-            -114.73675
-          ],
-          [
-            36.01375,
-            -114.74386
+            36.01326,
+            -114.74285
           ],
           [
             36.01526,
             -114.74853
           ],
           [
-            36.01542,
-            -114.75192
+            36.01534,
+            -114.7528
           ],
           [
-            36.01472,
-            -114.75572
+            36.01427,
+            -114.75691
           ],
           [
-            36.01353,
-            -114.75838
-          ],
-          [
-            36.01116,
-            -114.76171
-          ],
-          [
-            36.01006,
-            -114.76414
+            36.01147,
+            -114.7613
           ],
           [
             36.01,
-            -114.76682
+            -114.76451
           ],
           [
-            36.01132,
-            -114.77024
+            36.01027,
+            -114.76785
           ],
           [
-            36.0122,
-            -114.77263
+            36.01199,
+            -114.77177
           ],
           [
             36.01188,
             -114.77506
           ],
           [
-            36.0105,
-            -114.77886
+            36.01039,
+            -114.77941
           ],
           [
-            36.00962,
-            -114.78368
+            36.00856,
+            -114.78863
           ],
           [
-            36.00836,
-            -114.79001
+            36.00838,
+            -114.79268
           ],
           [
-            36.00861,
-            -114.79394
+            36.00924,
+            -114.79663
           ],
           [
-            36.00928,
-            -114.79701
+            36.00887,
+            -114.80081
           ],
           [
-            36.00903,
-            -114.79989
+            36.00721,
+            -114.80964
           ],
           [
-            36.0077,
-            -114.80695
-          ],
-          [
-            36.00617,
-            -114.81469
-          ],
-          [
-            36.00522,
-            -114.8166
+            36.00562,
+            -114.81595
           ],
           [
             36.00006,
             -114.82112
           ],
           [
-            35.9961,
-            -114.82449
+            35.99414,
+            -114.82606
           ],
           [
-            35.99158,
-            -114.82839
+            35.99057,
+            -114.82966
           ],
           [
-            35.98979,
-            -114.83085
+            35.98809,
+            -114.83404
           ],
           [
-            35.98646,
-            -114.83019
+            35.9842,
+            -114.84148
           ],
           [
-            35.98398,
-            -114.82804
+            35.98304,
+            -114.84313
           ],
           [
-            35.9835,
-            -114.82773
+            35.98104,
+            -114.84439
           ],
           [
-            35.98295,
-            -114.82768
+            35.97743,
+            -114.8454
           ],
           [
-            35.98227,
-            -114.82806
+            35.97525,
+            -114.8466
           ],
           [
-            35.9814,
-            -114.83011
+            35.97429,
+            -114.84645
           ],
           [
-            35.98101,
-            -114.83179
+            35.97338,
+            -114.84745
           ],
           [
-            35.98007,
-            -114.83118
+            35.97266,
+            -114.84845
           ],
           [
-            35.97961,
-            -114.83183
+            35.97214,
+            -114.84933
           ],
           [
-            35.97903,
-            -114.83292
+            35.97157,
+            -114.8503
           ],
           [
-            35.97877,
-            -114.8336
+            35.97101,
+            -114.85125
+          ],
+          [
+            35.97059,
+            -114.85228
+          ],
+          [
+            35.97024,
+            -114.85312
+          ],
+          [
+            35.96978,
+            -114.85428
+          ],
+          [
+            35.96937,
+            -114.85568
+          ],
+          [
+            35.96903,
+            -114.85752
+          ],
+          [
+            35.96863,
+            -114.86026
+          ],
+          [
+            35.96786,
+            -114.86856
+          ],
+          [
+            35.967,
+            -114.87807
+          ],
+          [
+            35.96696,
+            -114.88264
+          ],
+          [
+            35.96793,
+            -114.90023
+          ],
+          [
+            35.96845,
+            -114.90956
+          ],
+          [
+            35.96868,
+            -114.91067
+          ],
+          [
+            35.96921,
+            -114.91183
+          ],
+          [
+            35.97011,
+            -114.91285
+          ],
+          [
+            35.97089,
+            -114.91332
+          ],
+          [
+            35.97639,
+            -114.9151
+          ],
+          [
+            35.9807,
+            -114.9172
+          ],
+          [
+            35.9858,
+            -114.92144
+          ],
+          [
+            35.9941,
+            -114.93111
+          ],
+          [
+            35.99865,
+            -114.94183
+          ],
+          [
+            35.99999,
+            -114.94796
+          ],
+          [
+            36.00003,
+            -114.96967
+          ],
+          [
+            36.00084,
+            -114.97624
+          ],
+          [
+            36.00197,
+            -114.97959
+          ],
+          [
+            36.00557,
+            -114.98529
+          ],
+          [
+            36.0126,
+            -114.99037
+          ],
+          [
+            36.0178,
+            -114.99595
+          ],
+          [
+            36.02842,
+            -115.00866
+          ],
+          [
+            36.03881,
+            -115.01973
+          ],
+          [
+            36.04519,
+            -115.02228
+          ],
+          [
+            36.05003,
+            -115.0241
+          ],
+          [
+            36.06212,
+            -115.03079
+          ],
+          [
+            36.07607,
+            -115.03931
+          ],
+          [
+            36.07962,
+            -115.04286
+          ],
+          [
+            36.087,
+            -115.05701
+          ],
+          [
+            36.08837,
+            -115.06531
+          ],
+          [
+            36.08972,
+            -115.06914
+          ],
+          [
+            36.09696,
+            -115.0797
+          ],
+          [
+            36.10469,
+            -115.0822
+          ],
+          [
+            36.11929,
+            -115.08284
+          ],
+          [
+            36.12276,
+            -115.08385
+          ],
+          [
+            36.12908,
+            -115.08854
+          ],
+          [
+            36.13656,
+            -115.09035
+          ],
+          [
+            36.15856,
+            -115.09154
+          ],
+          [
+            36.16341,
+            -115.09296
+          ],
+          [
+            36.16596,
+            -115.09605
+          ],
+          [
+            36.16762,
+            -115.10247
+          ],
+          [
+            36.16796,
+            -115.12024
+          ],
+          [
+            36.16827,
+            -115.1252
+          ],
+          [
+            36.16951,
+            -115.12844
+          ],
+          [
+            36.17397,
+            -115.13744
+          ],
+          [
+            36.17173,
+            -115.13913
+          ],
+          [
+            36.17059,
+            -115.13985
+          ],
+          [
+            36.1693,
+            -115.14071
+          ],
+          [
+            36.16774,
+            -115.14173
+          ],
+          [
+            36.16741,
+            -115.14333
+          ],
+          [
+            36.16836,
+            -115.14554
+          ],
+          [
+            36.16799,
+            -115.14731
+          ],
+          [
+            36.16777,
+            -115.14819
           ]
         ]
       }
@@ -2988,15 +2940,15 @@
         ]
       },
       "miles": 0,
-      "headline": "The valley floor",
-      "notes": "Badwater Basin is the lowest point in North America. Artist's Drive is a one-way loop through mineral-stained hills and is limited to vehicles under 25 feet.",
+      "headline": "The whole valley floor in one day",
+      "notes": "The long version spreads this over two days. Here it is one, and it works if you start at Badwater early and finish at the dunes for sunset. What you give up is Dante's View and Mosaic Canyon, both of which need the second day.",
       "elevation": -190,
       "freezingNight": false,
       "activities": [
         "Badwater Basin",
         "Golden Canyon hike",
         "Artist's Drive",
-        "Devil's Golf Course"
+        "Mesquite Flat Dunes at sunset"
       ],
       "pois": [
         {
@@ -3058,36 +3010,7 @@
               "src": "assets/photos/low-desert-loop/artists-drive-4.jpg"
             }
           ]
-        }
-      ]
-    },
-    {
-      "day": 3,
-      "from": {
-        "name": "Furnace Creek",
-        "coords": [
-          36.45648,
-          -116.86914
-        ]
-      },
-      "to": {
-        "name": "Furnace Creek",
-        "coords": [
-          36.45648,
-          -116.86914
-        ]
-      },
-      "miles": 0,
-      "headline": "Dunes at sunrise",
-      "notes": "Mesquite Flat is twenty minutes up the valley and is best before the wind picks up. Dante's View is the one genuinely cold thing on this whole route — 5,450 feet, and it can be 25 degrees colder than where you parked this morning.",
-      "elevation": -190,
-      "freezingNight": false,
-      "activities": [
-        "Mesquite Flat Dunes at sunrise",
-        "Mosaic Canyon",
-        "Dante's View"
-      ],
-      "pois": [
+        },
         {
           "name": "Mesquite Flat Dunes",
           "coords": [
@@ -3110,48 +3033,11 @@
               "src": "assets/photos/low-desert-loop/mesquite-flat-dunes-4.jpg"
             }
           ]
-        },
-        {
-          "name": "Mosaic Canyon",
-          "coords": [
-            36.57184,
-            -117.14424
-          ],
-          "caption": "Polished marble narrows, a mile up from the car park.",
-          "photos": [
-            {
-              "src": "assets/photos/low-desert-loop/mosaic-canyon.jpg",
-              "caption": "Polished marble narrows, a mile up from the car park."
-            }
-          ]
-        },
-        {
-          "name": "Dante's View",
-          "coords": [
-            36.22066,
-            -116.72675
-          ],
-          "caption": "5,450 ft up, looking straight down at Badwater. The one cold place on this route.",
-          "photos": [
-            {
-              "src": "assets/photos/low-desert-loop/dantes-view.jpg",
-              "caption": "5,450 ft up, looking straight down at Badwater. The one cold place on this route."
-            },
-            {
-              "src": "assets/photos/low-desert-loop/dantes-view-2.jpg"
-            },
-            {
-              "src": "assets/photos/low-desert-loop/dantes-view-3.jpg"
-            },
-            {
-              "src": "assets/photos/low-desert-loop/dantes-view-4.jpg"
-            }
-          ]
         }
       ]
     },
     {
-      "day": 4,
+      "day": 3,
       "from": {
         "name": "Furnace Creek",
         "coords": [
@@ -4405,7 +4291,7 @@
       ]
     },
     {
-      "day": 5,
+      "day": 4,
       "from": {
         "name": "Barstow",
         "coords": [
@@ -4422,7 +4308,7 @@
       },
       "miles": 130,
       "headline": "Into the warmest air on the trip",
-      "notes": "Start on the old road for Elmer's Bottle Tree Ranch — a forest of welded steel trees hung with thousands of glass bottles, free, and unlike anything else on either version. Then over the pass into the Coachella Valley, which runs to the low 70s in January. One night here, so the tramway is this afternoon.",
+      "notes": "Start on the old road for Elmer's Bottle Tree Ranch, then over the pass into the Coachella Valley, which runs to the low 70s in January. One night here, so take the tramway this afternoon — sunset from the top is the version worth having.",
       "elevation": 450,
       "freezingNight": false,
       "activities": [
@@ -5688,7 +5574,7 @@
       ]
     },
     {
-      "day": 6,
+      "day": 5,
       "from": {
         "name": "Palm Springs",
         "coords": [
@@ -5704,14 +5590,15 @@
         ]
       },
       "miles": 84,
-      "headline": "A palm oasis, then down the Salton Sea",
-      "notes": "Indian Canyons first thing — Agua Caliente land, a real palm oasis in a desert canyon, and a walk that suits everyone. Then south along the west shore of the Salton Sea, a lake 230 feet below sea level that exists only because an irrigation canal broke in 1905 and took two years to close.",
+      "headline": "A palm oasis, then the biggest state park in California",
+      "notes": "Indian Canyons first thing, then south along the west shore of the Salton Sea — a lake 230 feet below sea level that exists only because an irrigation canal broke in 1905. You reach Borrego Springs with the afternoon still ahead of you, which is exactly enough for the sculptures and The Slot.",
       "elevation": 550,
       "freezingNight": false,
       "activities": [
         "Indian Canyons",
         "Salton Sea west shore",
-        "Galleta Meadows sculptures"
+        "Galleta Meadows sculptures",
+        "The Slot"
       ],
       "pois": [
         {
@@ -5768,6 +5655,23 @@
             },
             {
               "src": "assets/photos/low-desert-loop/galleta-meadows-4.jpg"
+            }
+          ]
+        },
+        {
+          "name": "The Slot",
+          "coords": [
+            33.18224,
+            -116.21377
+          ],
+          "caption": "A real slot canyon you walk yourself. No permit, no guide, no fee.",
+          "photos": [
+            {
+              "src": "assets/photos/low-desert-loop/the-slot.jpg",
+              "caption": "A real slot canyon you walk yourself. No permit, no guide, no fee."
+            },
+            {
+              "src": "assets/photos/low-desert-loop/the-slot-2.jpg"
             }
           ]
         }
@@ -6977,7 +6881,7 @@
       ]
     },
     {
-      "day": 7,
+      "day": 6,
       "from": {
         "name": "Borrego Springs",
         "coords": [
@@ -6986,21 +6890,21 @@
         ]
       },
       "to": {
-        "name": "Borrego Springs",
+        "name": "Twentynine Palms, CA",
         "coords": [
-          33.25486,
-          -116.35695
+          34.13569,
+          -116.05435
         ]
       },
-      "miles": 0,
-      "headline": "Six hundred thousand acres of state park",
-      "notes": "Borrego Palm Canyon is a three-mile round trip to a palm grove and, in a wet year, a waterfall. The Slot is a genuine slot canyon you walk yourself — no permit, no guide, no fee. Font's Point looks out over the Borrego Badlands and is the best view in the park, but the road to it is four miles of soft sand.",
-      "elevation": 550,
+      "miles": 131,
+      "headline": "Out of Anza-Borrego and up to Joshua Tree",
+      "notes": "Borrego Palm Canyon before you leave — three miles round trip to a palm grove and, in a wet year, a waterfall. Then you climb about 1,500 feet and come in by Joshua Tree's south entrance, where the Cholla Cactus Garden is the first thing you meet.",
+      "elevation": 1990,
       "freezingNight": false,
       "activities": [
         "Borrego Palm Canyon",
-        "The Slot",
-        "Font's Point at sunset"
+        "Cholla Cactus Garden",
+        "Keys View"
       ],
       "pois": [
         {
@@ -7026,59 +6930,6 @@
             }
           ]
         },
-        {
-          "name": "The Slot",
-          "coords": [
-            33.18224,
-            -116.21377
-          ],
-          "caption": "A real slot canyon you walk yourself. No permit, no guide, no fee.",
-          "photos": [
-            {
-              "src": "assets/photos/low-desert-loop/the-slot.jpg",
-              "caption": "A real slot canyon you walk yourself. No permit, no guide, no fee."
-            },
-            {
-              "src": "assets/photos/low-desert-loop/the-slot-2.jpg"
-            }
-          ]
-        },
-        {
-          "name": "Font's Point",
-          "coords": [
-            33.2567,
-            -116.23315
-          ],
-          "caption": "The best view in the park — at the end of four miles of soft sand. 4WD only."
-        }
-      ]
-    },
-    {
-      "day": 8,
-      "from": {
-        "name": "Borrego Springs",
-        "coords": [
-          33.25486,
-          -116.35695
-        ]
-      },
-      "to": {
-        "name": "Twentynine Palms, CA",
-        "coords": [
-          34.13569,
-          -116.05435
-        ]
-      },
-      "miles": 131,
-      "headline": "Up out of the low desert to Joshua Tree",
-      "notes": "You climb about 1,500 feet, and this is the first night that feels properly cool — high 30s rather than the high 40s you have had. Come in by the south entrance and the Cholla Cactus Garden is the first thing you meet.",
-      "elevation": 1990,
-      "freezingNight": false,
-      "activities": [
-        "Cholla Cactus Garden",
-        "Keys View"
-      ],
-      "pois": [
         {
           "name": "Cholla Cactus Garden",
           "coords": [
@@ -8328,7 +8179,7 @@
       ]
     },
     {
-      "day": 9,
+      "day": 7,
       "from": {
         "name": "Twentynine Palms",
         "coords": [
@@ -8345,7 +8196,7 @@
       },
       "miles": 0,
       "headline": "A full day in Joshua Tree",
-      "notes": "Two deserts meet inside this park — the low Colorado and the high Mojave — and the Joshua trees only grow on the high side. Nearly everything worth doing is a short walk from a car park, which is exactly what you want on day nine with six people.",
+      "notes": "Two deserts meet inside this park — the low Colorado and the high Mojave — and the Joshua trees only grow on the high side. Nearly everything worth doing is a short walk from a car park, which is what you want on the only rest day in the second half.",
       "elevation": 1990,
       "freezingNight": false,
       "activities": [
@@ -8447,7 +8298,7 @@
       ]
     },
     {
-      "day": 10,
+      "day": 8,
       "from": {
         "name": "Twentynine Palms",
         "coords": [
@@ -8463,8 +8314,8 @@
         ]
       },
       "miles": 135,
-      "headline": "Amboy Crater and the empty Route 66",
-      "notes": "North on Amboy Road onto the loneliest surviving stretch of Route 66. Amboy Crater is a 250-foot cinder cone you can walk into. Roy's Motel is one neon sign in an empty town and it is the photograph everybody takes. Needles sits at 495 feet on the Colorado — the warmest bed on the route.",
+      "headline": "The empty Route 66",
+      "notes": "North on Amboy Road onto the loneliest surviving stretch of Route 66. Amboy Crater is a 250-foot cinder cone you can walk into; Roy's Motel is one neon sign in an empty town and it is the photograph everybody takes. Needles is 495 feet above sea level — the warmest bed on the whole route.",
       "elevation": 495,
       "freezingNight": false,
       "activities": [
@@ -9731,7 +9582,7 @@
       ]
     },
     {
-      "day": 11,
+      "day": 9,
       "from": {
         "name": "Needles",
         "coords": [
@@ -9740,16 +9591,16 @@
         ]
       },
       "to": {
-        "name": "Boulder City, NV",
+        "name": "Las Vegas area",
         "coords": [
-          35.97876,
-          -114.83376
+          36.16743,
+          -115.14841
         ]
       },
-      "miles": 139,
+      "miles": 166,
       "headline": "Kingman, the burros and the dam",
-      "notes": "East into Arizona for Kingman, where Route 66 crosses US-93 and the Powerhouse museum sits inside a 1907 power station. Then north to Hoover Dam and Boulder City, built in 1931 to house the men who constructed it and still the only town in Nevada where gambling is illegal. In a car you can take the Oatman Highway instead — ten miles shorter and half an hour slower, because it is a mountain pass with hairpins.",
-      "elevation": 2510,
+      "notes": "East into Arizona for Kingman, where Route 66 crosses US-93 and the Powerhouse museum sits in a 1907 power station. Then north to Hoover Dam and into Las Vegas. In a car you can take the Oatman Highway over Sitgreaves Pass instead — ten miles shorter and half an hour slower, because it is a mountain pass with hairpins, and the wild burros come to the window.",
+      "elevation": 2050,
       "freezingNight": false,
       "activities": [
         "Oatman (car only)",
@@ -9833,2581 +9684,1217 @@
           -114.0533
         ]
       ],
-      "driveTime": "2h 41m",
+      "driveTime": "3h 14m",
       "route": [
         [
           34.83826,
           -114.60392
         ],
         [
-          34.83718,
-          -114.60174
+          34.83644,
+          -114.60031
         ],
         [
-          34.83637,
-          -114.59961
+          34.83624,
+          -114.59903
         ],
         [
-          34.83615,
-          -114.59885
-        ],
-        [
-          34.83351,
-          -114.59593
-        ],
-        [
-          34.83181,
-          -114.59483
-        ],
-        [
-          34.83051,
+          34.8328,
           -114.59522
         ],
         [
-          34.82817,
-          -114.59521
+          34.83107,
+          -114.5951
         ],
         [
-          34.82507,
-          -114.59647
+          34.82845,
+          -114.59516
         ],
         [
-          34.8224,
-          -114.59675
+          34.82448,
+          -114.59672
         ],
         [
-          34.81544,
-          -114.59426
+          34.81972,
+          -114.59563
         ],
         [
           34.791,
           -114.58655
         ],
         [
-          34.77227,
-          -114.58062
+          34.77014,
+          -114.57973
         ],
         [
-          34.76883,
-          -114.57906
+          34.76535,
+          -114.57679
         ],
         [
-          34.76461,
-          -114.57621
+          34.75388,
+          -114.56717
         ],
         [
-          34.7545,
-          -114.56769
-        ],
-        [
-          34.74861,
-          -114.56275
-        ],
-        [
-          34.733,
-          -114.54957
+          34.73829,
+          -114.55403
         ],
         [
           34.72631,
           -114.54383
         ],
         [
-          34.72306,
-          -114.53878
+          34.72167,
+          -114.53633
         ],
         [
-          34.71879,
-          -114.53123
-        ],
-        [
-          34.71738,
-          -114.52705
+          34.71749,
+          -114.52753
         ],
         [
           34.71696,
           -114.52402
         ],
         [
-          34.71719,
-          -114.51529
-        ],
-        [
-          34.71769,
-          -114.49853
+          34.71778,
+          -114.50042
         ],
         [
           34.71702,
           -114.49298
         ],
         [
-          34.71702,
-          -114.48992
+          34.71719,
+          -114.48694
         ],
         [
-          34.71759,
-          -114.48158
+          34.71766,
+          -114.47977
         ],
         [
-          34.71767,
-          -114.47884
+          34.71804,
+          -114.47579
         ],
         [
-          34.71797,
-          -114.47651
+          34.71818,
+          -114.47122
         ],
         [
-          34.71816,
-          -114.47252
+          34.71895,
+          -114.46106
         ],
         [
-          34.71831,
-          -114.468
+          34.72055,
+          -114.4474
         ],
         [
-          34.71896,
-          -114.46104
-        ],
-        [
-          34.72038,
-          -114.44886
-        ],
-        [
-          34.72113,
-          -114.44257
-        ],
-        [
-          34.72157,
-          -114.43873
+          34.72136,
+          -114.44059
         ],
         [
           34.72282,
           -114.42811
         ],
         [
-          34.72308,
-          -114.426
+          34.72329,
+          -114.42405
         ],
         [
-          34.72385,
-          -114.41944
+          34.72419,
+          -114.41651
         ],
         [
-          34.72428,
-          -114.4157
+          34.72504,
+          -114.40923
         ],
         [
-          34.72485,
-          -114.41087
-        ],
-        [
-          34.72594,
-          -114.40155
-        ],
-        [
-          34.72653,
-          -114.39461
+          34.72641,
+          -114.3968
         ],
         [
           34.72686,
           -114.38589
         ],
         [
-          34.72712,
-          -114.37907
+          34.72725,
+          -114.37563
         ],
         [
-          34.7274,
-          -114.37144
-        ],
-        [
-          34.72774,
-          -114.36238
+          34.72755,
+          -114.36767
         ],
         [
           34.72828,
           -114.34799
         ],
         [
-          34.72856,
-          -114.34026
+          34.72904,
+          -114.32714
         ],
         [
-          34.72928,
-          -114.32069
+          34.72943,
+          -114.31683
         ],
         [
-          34.72954,
-          -114.31342
+          34.72974,
+          -114.30633
         ],
         [
-          34.72964,
-          -114.30975
-        ],
-        [
-          34.72995,
-          -114.29896
-        ],
-        [
-          34.73027,
-          -114.28801
+          34.73025,
+          -114.28856
         ],
         [
           34.73096,
           -114.27396
         ],
         [
-          34.73275,
-          -114.26334
+          34.73315,
+          -114.26171
         ],
         [
-          34.73502,
-          -114.25531
+          34.73615,
+          -114.25211
         ],
         [
-          34.73693,
-          -114.25011
+          34.74472,
+          -114.23444
         ],
         [
-          34.73969,
-          -114.24408
+          34.75247,
+          -114.21984
         ],
         [
-          34.74897,
-          -114.22634
+          34.77099,
+          -114.19345
         ],
         [
-          34.75606,
-          -114.21432
+          34.78903,
+          -114.16823
         ],
         [
-          34.77636,
-          -114.18592
-        ],
-        [
-          34.78662,
-          -114.17159
-        ],
-        [
-          34.79347,
-          -114.16213
-        ],
-        [
-          34.79499,
-          -114.16029
+          34.79457,
+          -114.16081
         ],
         [
           34.79985,
           -114.15541
         ],
         [
-          34.80724,
-          -114.15009
-        ],
-        [
-          34.81517,
-          -114.14654
+          34.81101,
+          -114.14816
         ],
         [
           34.81945,
           -114.14537
         ],
         [
-          34.82529,
-          -114.14461
+          34.82583,
+          -114.14458
         ],
         [
-          34.82887,
-          -114.14457
-        ],
-        [
-          34.83548,
-          -114.14499
+          34.83318,
+          -114.14482
         ],
         [
           34.85149,
           -114.14608
         ],
         [
-          34.85632,
-          -114.14641
+          34.85949,
+          -114.14664
         ],
         [
-          34.86299,
-          -114.14687
+          34.87022,
+          -114.14736
         ],
         [
-          34.87162,
-          -114.14746
+          34.87623,
+          -114.14777
         ],
         [
-          34.87562,
-          -114.14773
-        ],
-        [
-          34.88127,
-          -114.14818
-        ],
-        [
-          34.88311,
-          -114.14854
+          34.88254,
+          -114.14843
         ],
         [
           34.88614,
           -114.14974
         ],
         [
-          34.88955,
-          -114.15184
+          34.89069,
+          -114.15255
         ],
         [
-          34.89368,
-          -114.15406
+          34.89486,
+          -114.15444
         ],
         [
-          34.8961,
-          -114.15474
+          34.90029,
+          -114.15495
         ],
         [
-          34.89923,
-          -114.15501
+          34.91386,
+          -114.15249
         ],
         [
-          34.90989,
-          -114.15323
+          34.93695,
+          -114.14817
         ],
         [
-          34.91878,
-          -114.15157
+          34.96387,
+          -114.14315
         ],
         [
-          34.94214,
-          -114.1472
-        ],
-        [
-          34.96338,
-          -114.14324
-        ],
-        [
-          34.97011,
-          -114.14198
-        ],
-        [
-          34.9906,
-          -114.13816
+          34.98203,
+          -114.13976
         ],
         [
           35.00353,
           -114.13574
         ],
         [
-          35.02896,
-          -114.131
+          35.03292,
+          -114.13025
         ],
         [
-          35.03885,
-          -114.12914
+          35.04038,
+          -114.12886
         ],
         [
-          35.04146,
-          -114.12865
+          35.0517,
+          -114.12672
         ],
         [
-          35.05064,
-          -114.12692
+          35.06874,
+          -114.12354
         ],
         [
-          35.06213,
-          -114.12479
+          35.07724,
+          -114.12195
         ],
         [
-          35.07141,
-          -114.12304
+          35.09679,
+          -114.1183
         ],
         [
-          35.07969,
-          -114.12149
-        ],
-        [
-          35.08884,
-          -114.11979
-        ],
-        [
-          35.10545,
-          -114.11662
-        ],
-        [
-          35.1105,
-          -114.11532
+          35.10838,
+          -114.11588
         ],
         [
           35.11403,
           -114.11423
         ],
         [
-          35.12038,
-          -114.11185
+          35.12204,
+          -114.11109
         ],
         [
-          35.12421,
-          -114.10998
+          35.12784,
+          -114.10785
         ],
         [
-          35.12811,
-          -114.10766
+          35.13273,
+          -114.1045
         ],
         [
-          35.13205,
-          -114.10499
-        ],
-        [
-          35.13465,
-          -114.10315
-        ],
-        [
-          35.13871,
-          -114.10031
+          35.13621,
+          -114.10203
         ],
         [
           35.14079,
           -114.09885
         ],
         [
-          35.14878,
-          -114.09326
+          35.1504,
+          -114.09192
         ],
         [
-          35.15162,
-          -114.09081
-        ],
-        [
-          35.15447,
-          -114.08769
+          35.15374,
+          -114.08859
         ],
         [
           35.15732,
           -114.08367
         ],
         [
-          35.15872,
-          -114.0812
-        ],
-        [
-          35.16169,
-          -114.07544
+          35.1607,
+          -114.07693
         ],
         [
           35.16479,
           -114.07379
         ],
         [
-          35.17012,
-          -114.07491
+          35.17125,
+          -114.07512
         ],
         [
-          35.17488,
-          -114.07503
+          35.17774,
+          -114.07395
         ],
         [
-          35.17858,
-          -114.07346
+          35.18538,
+          -114.06816
         ],
         [
-          35.18501,
-          -114.06836
+          35.18846,
+          -114.06683
         ],
         [
-          35.18703,
-          -114.06741
+          35.19073,
+          -114.0656
         ],
         [
-          35.19009,
-          -114.06649
-        ],
-        [
-          35.19071,
-          -114.0653
-        ],
-        [
-          35.19055,
-          -114.06339
-        ],
-        [
-          35.19043,
-          -114.06206
-        ],
-        [
-          35.19034,
-          -114.06104
-        ],
-        [
-          35.19005,
-          -114.0578
-        ],
-        [
-          35.1898,
-          -114.05495
-        ],
-        [
-          35.18963,
-          -114.05303
-        ],
-        [
-          35.18933,
-          -114.05365
-        ],
-        [
-          35.18997,
-          -114.0568
-        ],
-        [
-          35.19008,
-          -114.05804
+          35.19054,
+          -114.0633
         ],
         [
           35.19038,
           -114.06146
         ],
         [
+          35.19005,
+          -114.0578
+        ],
+        [
+          35.18977,
+          -114.05453
+        ],
+        [
+          35.18927,
+          -114.05308
+        ],
+        [
+          35.19003,
+          -114.05749
+        ],
+        [
+          35.19031,
+          -114.06076
+        ],
+        [
           35.19047,
           -114.06253
         ],
         [
-          35.19061,
-          -114.06411
+          35.19069,
+          -114.06506
         ],
         [
-          35.19082,
-          -114.06593
-        ],
-        [
-          35.19102,
-          -114.06772
+          35.19089,
+          -114.06662
         ],
         [
           35.19117,
           -114.06859
         ],
         [
-          35.19149,
-          -114.06943
+          35.19176,
+          -114.06996
         ],
         [
-          35.19208,
-          -114.07047
+          35.19273,
+          -114.07127
         ],
         [
-          35.19293,
-          -114.07151
+          35.19538,
+          -114.07429
         ],
         [
-          35.19512,
-          -114.074
-        ],
-        [
-          35.19596,
-          -114.07492
-        ],
-        [
-          35.19703,
-          -114.07612
+          35.19628,
+          -114.07528
         ],
         [
           35.20017,
           -114.07916
         ],
         [
-          35.20151,
-          -114.08154
+          35.20169,
+          -114.08204
         ],
         [
-          35.20232,
-          -114.08409
+          35.20257,
+          -114.08491
         ],
         [
-          35.20273,
-          -114.08533
+          35.20481,
+          -114.09082
         ],
         [
-          35.20405,
-          -114.08839
+          35.20578,
+          -114.09396
         ],
         [
-          35.2053,
-          -114.09241
+          35.20659,
+          -114.09652
         ],
         [
-          35.20602,
-          -114.09472
+          35.20838,
+          -114.10133
         ],
         [
-          35.2067,
-          -114.09682
-        ],
-        [
-          35.20761,
-          -114.09906
-        ],
-        [
-          35.20981,
-          -114.10539
-        ],
-        [
-          35.21292,
-          -114.1126
+          35.2124,
+          -114.11172
         ],
         [
           35.21502,
           -114.11484
         ],
         [
-          35.21733,
-          -114.11741
-        ],
-        [
-          35.21781,
-          -114.11827
+          35.21755,
+          -114.11778
         ],
         [
           35.2197,
           -114.1221
         ],
         [
-          35.2208,
-          -114.12433
+          35.22113,
+          -114.12491
         ],
         [
-          35.22243,
-          -114.12693
+          35.22436,
+          -114.12955
         ],
         [
-          35.22587,
-          -114.13153
+          35.22892,
+          -114.13513
         ],
         [
-          35.22844,
-          -114.13471
+          35.23308,
+          -114.13765
         ],
         [
-          35.23146,
-          -114.13661
-        ],
-        [
-          35.23467,
-          -114.13904
-        ],
-        [
-          35.24014,
-          -114.1452
+          35.23947,
+          -114.14449
         ],
         [
           35.24365,
           -114.14812
         ],
         [
-          35.25036,
-          -114.15296
-        ],
-        [
-          35.28112,
-          -114.1753
+          35.27996,
+          -114.17446
         ],
         [
           35.30305,
           -114.19121
         ],
         [
-          35.31695,
-          -114.20128
+          35.32143,
+          -114.20458
         ],
         [
-          35.33146,
-          -114.21183
+          35.33659,
+          -114.21555
         ],
         [
-          35.35326,
-          -114.22759
+          35.37573,
+          -114.24384
         ],
         [
-          35.36365,
-          -114.23511
+          35.41062,
+          -114.2691
         ],
         [
-          35.39611,
-          -114.25856
+          35.41953,
+          -114.27556
         ],
         [
-          35.41425,
-          -114.27173
+          35.43833,
+          -114.28911
         ],
         [
-          35.4209,
-          -114.27654
-        ],
-        [
-          35.43172,
-          -114.28437
-        ],
-        [
-          35.44893,
-          -114.29643
-        ],
-        [
-          35.48787,
-          -114.32334
+          35.46496,
+          -114.30752
         ],
         [
           35.49576,
           -114.3288
         ],
         [
-          35.50183,
-          -114.33299
+          35.51579,
+          -114.34265
         ],
         [
-          35.51735,
-          -114.34373
+          35.53337,
+          -114.35481
         ],
         [
-          35.53421,
-          -114.35539
+          35.54377,
+          -114.362
         ],
         [
-          35.54135,
-          -114.36033
-        ],
-        [
-          35.56073,
-          -114.37375
-        ],
-        [
-          35.57489,
-          -114.38356
+          35.56629,
+          -114.37761
         ],
         [
           35.58932,
           -114.39355
         ],
         [
-          35.59504,
-          -114.39752
+          35.60017,
+          -114.40107
         ],
         [
-          35.60696,
-          -114.40638
-        ],
-        [
-          35.6102,
-          -114.41096
+          35.60965,
+          -114.41023
         ],
         [
           35.63237,
           -114.4279
         ],
         [
-          35.64565,
-          -114.43778
+          35.66134,
+          -114.44957
         ],
         [
-          35.66349,
-          -114.45215
+          35.66592,
+          -114.45549
         ],
         [
-          35.66704,
-          -114.45659
+          35.67627,
+          -114.46329
         ],
         [
-          35.6723,
-          -114.46043
-        ],
-        [
-          35.68138,
-          -114.46663
-        ],
-        [
-          35.68532,
-          -114.46832
+          35.68444,
+          -114.46803
         ],
         [
           35.68965,
           -114.46948
         ],
         [
-          35.69911,
-          -114.47395
+          35.7048,
+          -114.47702
         ],
         [
-          35.71032,
-          -114.48
+          35.71547,
+          -114.48278
         ],
         [
-          35.7211,
-          -114.4858
+          35.75167,
+          -114.50232
         ],
         [
-          35.74134,
-          -114.49673
-        ],
-        [
-          35.76282,
-          -114.5083
-        ],
-        [
-          35.78405,
-          -114.5204
+          35.78023,
+          -114.51781
         ],
         [
           35.78822,
           -114.5239
         ],
         [
-          35.80387,
-          -114.53787
+          35.80436,
+          -114.53831
         ],
         [
-          35.817,
-          -114.54961
-        ],
-        [
-          35.83161,
-          -114.56267
+          35.82871,
+          -114.56008
         ],
         [
           35.8379,
           -114.56828
         ],
         [
-          35.84403,
-          -114.5742
-        ],
-        [
-          35.84782,
-          -114.58434
+          35.84512,
+          -114.57626
         ],
         [
           35.85087,
           -114.59068
         ],
         [
-          35.8527,
-          -114.59232
+          35.85637,
+          -114.59427
         ],
         [
-          35.85775,
-          -114.59553
-        ],
-        [
-          35.8623,
-          -114.60148
+          35.86013,
+          -114.59932
         ],
         [
           35.87811,
           -114.61323
         ],
         [
-          35.88264,
-          -114.61659
+          35.88434,
+          -114.61782
         ],
         [
-          35.8892,
-          -114.62143
+          35.89336,
+          -114.6244
         ],
         [
-          35.89402,
-          -114.62474
+          35.90476,
+          -114.62726
         ],
         [
-          35.90108,
-          -114.6266
-        ],
-        [
-          35.91516,
-          -114.62933
-        ],
-        [
-          35.92904,
-          -114.63424
+          35.91727,
+          -114.62998
         ],
         [
           35.93505,
           -114.63756
         ],
         [
-          35.94855,
-          -114.64646
+          35.95015,
+          -114.64781
         ],
         [
-          35.95215,
-          -114.65013
+          35.95788,
+          -114.65908
         ],
         [
-          35.96097,
-          -114.66393
+          35.96787,
+          -114.67489
         ],
         [
-          35.96743,
-          -114.67413
+          35.97074,
+          -114.68349
         ],
         [
-          35.9692,
-          -114.67828
+          35.97216,
+          -114.68764
         ],
         [
-          35.97148,
-          -114.68597
+          35.97561,
+          -114.69394
         ],
         [
-          35.97236,
-          -114.68802
-        ],
-        [
-          35.97515,
-          -114.69294
-        ],
-        [
-          35.97678,
-          -114.69569
-        ],
-        [
-          35.97981,
-          -114.69874
+          35.97924,
+          -114.69799
         ],
         [
           35.98307,
           -114.70534
         ],
         [
-          35.98418,
-          -114.70838
+          35.98492,
+          -114.71084
         ],
         [
-          35.98548,
-          -114.71214
+          35.98712,
+          -114.7142
         ],
         [
-          35.9877,
-          -114.71465
+          35.99528,
+          -114.71889
         ],
         [
-          35.99516,
-          -114.71882
+          35.99993,
+          -114.72128
         ],
         [
-          35.99777,
-          -114.72027
+          36.0028,
+          -114.72279
         ],
         [
-          36.00127,
-          -114.72191
+          36.00706,
+          -114.72631
         ],
         [
-          36.00332,
-          -114.72314
-        ],
-        [
-          36.00628,
-          -114.72554
-        ],
-        [
-          36.00796,
-          -114.7274
-        ],
-        [
-          36.00885,
-          -114.72892
+          36.0087,
+          -114.72863
         ],
         [
           36.0095,
           -114.73064
         ],
         [
-          36.00986,
-          -114.7325
-        ],
-        [
-          36.01035,
-          -114.73596
+          36.01017,
+          -114.73498
         ],
         [
           36.01099,
           -114.73799
         ],
         [
-          36.01411,
-          -114.74463
+          36.0144,
+          -114.74531
         ],
         [
-          36.01501,
-          -114.74726
-        ],
-        [
-          36.01541,
-          -114.75012
+          36.01533,
+          -114.74909
         ],
         [
           36.01542,
           -114.75192
         ],
         [
-          36.01496,
-          -114.75489
+          36.01472,
+          -114.75572
         ],
         [
-          36.01444,
-          -114.75649
-        ],
-        [
-          36.01318,
-          -114.75898
+          36.01353,
+          -114.75838
         ],
         [
           36.01147,
           -114.7613
         ],
         [
-          36.01057,
-          -114.76266
-        ],
-        [
-          36.01,
-          -114.76451
+          36.01015,
+          -114.76377
         ],
         [
           36.00995,
           -114.76649
         ],
         [
-          36.01054,
-          -114.76855
+          36.0108,
+          -114.76911
         ],
         [
-          36.01163,
-          -114.771
+          36.01199,
+          -114.77177
         ],
         [
-          36.01214,
-          -114.77236
+          36.01212,
+          -114.77439
         ],
         [
-          36.01217,
-          -114.77415
+          36.01096,
+          -114.77696
         ],
         [
-          36.01143,
-          -114.77597
+          36.00995,
+          -114.78176
         ],
         [
-          36.0105,
-          -114.77886
+          36.00849,
+          -114.7891
         ],
         [
-          36.00982,
-          -114.78249
-        ],
-        [
-          36.00894,
-          -114.78677
-        ],
-        [
-          36.00836,
-          -114.79001
-        ],
-        [
-          36.00838,
-          -114.79268
+          36.00831,
+          -114.79186
         ],
         [
           36.00879,
           -114.79461
         ],
         [
-          36.00928,
-          -114.79701
+          36.00931,
+          -114.79779
         ],
         [
-          36.00926,
-          -114.79855
+          36.00887,
+          -114.80081
         ],
         [
-          36.00867,
-          -114.80194
+          36.00757,
+          -114.8077
         ],
         [
-          36.0077,
-          -114.80695
-        ],
-        [
-          36.00639,
-          -114.81382
-        ],
-        [
-          36.00585,
-          -114.81549
+          36.00617,
+          -114.81469
         ],
         [
           36.00522,
           -114.8166
         ],
         [
-          36.00111,
-          -114.82028
+          36.00006,
+          -114.82112
         ],
         [
-          35.9986,
-          -114.82241
-        ],
-        [
-          35.99468,
-          -114.82564
+          35.99715,
+          -114.82359
         ],
         [
           35.99167,
           -114.82829
         ],
         [
-          35.9908,
-          -114.82935
+          35.99001,
+          -114.83048
         ],
         [
-          35.98955,
-          -114.83125
+          35.98836,
+          -114.83352
         ],
         [
-          35.98716,
-          -114.83051
+          35.9854,
+          -114.83912
         ],
         [
-          35.98493,
-          -114.82891
+          35.98367,
+          -114.84235
         ],
         [
-          35.98386,
-          -114.82793
+          35.98259,
+          -114.84352
         ],
         [
-          35.98358,
-          -114.82776
+          35.98104,
+          -114.84439
         ],
         [
-          35.98321,
-          -114.82766
+          35.97775,
+          -114.84515
         ],
         [
-          35.98277,
-          -114.82773
+          35.97646,
+          -114.84597
         ],
         [
-          35.98236,
-          -114.82798
+          35.975,
+          -114.84663
         ],
         [
-          35.98203,
-          -114.82841
+          35.97432,
+          -114.84644
         ],
         [
-          35.98135,
-          -114.83042
+          35.97406,
+          -114.84657
         ],
         [
-          35.98105,
-          -114.83177
+          35.97295,
+          -114.84801
         ],
         [
-          35.98024,
-          -114.83123
+          35.97255,
+          -114.84862
         ],
         [
-          35.97992,
-          -114.83124
+          35.97213,
+          -114.84926
         ],
         [
-          35.97961,
-          -114.83183
-        ],
-        [
-          35.97907,
-          -114.83268
-        ],
-        [
-          35.97843,
-          -114.8329
-        ],
-        [
-          35.97877,
-          -114.8336
-        ]
-      ]
-    },
-    {
-      "day": 12,
-      "from": {
-        "name": "Boulder City",
-        "coords": [
-          35.97876,
-          -114.83376
-        ]
-      },
-      "to": {
-        "name": "Valley of Fire State Park, NV",
-        "coords": [
-          36.42999,
-          -114.51377
-        ]
-      },
-      "miles": 74,
-      "headline": "Back to the red rock",
-      "notes": "A short morning drive that puts you inside Nevada's oldest state park with the whole afternoon left. Bright red Aztec sandstone, petroglyphs up a steel staircase at Atlatl Rock, and short walks that suit kids. All campsites are reservation-only, and there is no hotel inside the park.",
-      "elevation": 2000,
-      "freezingNight": false,
-      "activities": [
-        "Atlatl Rock petroglyphs",
-        "Seven Sisters",
-        "Sunset on the sandstone"
-      ],
-      "pois": [
-        {
-          "name": "Valley of Fire",
-          "coords": [
-            36.42999,
-            -114.51377
-          ],
-          "caption": "Nevada's oldest state park, and bright red the whole way through.",
-          "photos": [
-            {
-              "src": "assets/photos/low-desert-loop/valley-of-fire.jpg",
-              "caption": "Nevada's oldest state park, and bright red the whole way through."
-            },
-            {
-              "src": "assets/photos/low-desert-loop/valley-of-fire-2.jpg"
-            },
-            {
-              "src": "assets/photos/low-desert-loop/valley-of-fire-3.jpg"
-            },
-            {
-              "src": "assets/photos/low-desert-loop/valley-of-fire-4.jpg"
-            }
-          ]
-        },
-        {
-          "name": "Atlatl Rock",
-          "coords": [
-            36.42279,
-            -114.5507
-          ],
-          "caption": "Petroglyphs up a steel staircase.",
-          "photos": [
-            {
-              "src": "assets/photos/low-desert-loop/atlatl-rock.jpg",
-              "caption": "Petroglyphs up a steel staircase."
-            }
-          ]
-        }
-      ],
-      "driveTime": "1h 44m",
-      "route": [
-        [
-          35.97877,
-          -114.8336
-        ],
-        [
-          35.97823,
-          -114.83425
-        ],
-        [
-          35.97813,
-          -114.83635
-        ],
-        [
-          35.97808,
-          -114.83738
-        ],
-        [
-          35.97765,
-          -114.83779
-        ],
-        [
-          35.97661,
-          -114.83877
-        ],
-        [
-          35.97603,
-          -114.8393
-        ],
-        [
-          35.97539,
-          -114.83981
-        ],
-        [
-          35.97463,
-          -114.84048
-        ],
-        [
-          35.97417,
-          -114.841
-        ],
-        [
-          35.97393,
-          -114.84155
-        ],
-        [
-          35.97387,
-          -114.84183
-        ],
-        [
-          35.97384,
-          -114.8422
-        ],
-        [
-          35.9739,
-          -114.84267
-        ],
-        [
-          35.97401,
-          -114.84301
-        ],
-        [
-          35.9742,
-          -114.84335
-        ],
-        [
-          35.97442,
-          -114.84374
-        ],
-        [
-          35.97452,
-          -114.84422
-        ],
-        [
-          35.97459,
-          -114.84466
-        ],
-        [
-          35.97463,
-          -114.84495
-        ],
-        [
-          35.97453,
-          -114.84547
-        ],
-        [
-          35.97429,
-          -114.84596
-        ],
-        [
-          35.97409,
-          -114.84637
-        ],
-        [
-          35.97329,
-          -114.84759
-        ],
-        [
-          35.97282,
-          -114.84822
-        ],
-        [
-          35.97246,
-          -114.84876
-        ],
-        [
-          35.9722,
-          -114.84916
-        ],
-        [
-          35.97195,
-          -114.84965
-        ],
-        [
-          35.97164,
-          -114.85007
+          35.97169,
+          -114.84999
         ],
         [
           35.97131,
           -114.85066
         ],
         [
-          35.97103,
-          -114.85122
-        ],
-        [
-          35.97083,
-          -114.85163
+          35.97095,
+          -114.85139
         ],
         [
           35.97057,
           -114.8522
         ],
         [
-          35.9704,
-          -114.85261
+          35.9703,
+          -114.85285
         ],
         [
-          35.97024,
-          -114.85312
+          35.96999,
+          -114.85366
         ],
         [
-          35.96988,
-          -114.85396
+          35.96971,
+          -114.8545
         ],
         [
-          35.96974,
-          -114.85441
-        ],
-        [
-          35.96947,
-          -114.8553
-        ],
-        [
-          35.96922,
-          -114.8563
+          35.96946,
+          -114.85555
         ],
         [
           35.96908,
           -114.85696
         ],
         [
-          35.96899,
-          -114.85775
+          35.96888,
+          -114.85802
         ],
         [
-          35.96881,
-          -114.85885
+          35.96859,
+          -114.86071
         ],
         [
-          35.96856,
-          -114.86103
+          35.96788,
+          -114.86839
         ],
         [
-          35.96789,
-          -114.86823
+          35.96715,
+          -114.87626
         ],
         [
-          35.9675,
-          -114.87251
+          35.96693,
+          -114.87971
         ],
         [
-          35.96703,
-          -114.87766
+          35.967,
+          -114.8833
         ],
         [
-          35.96692,
-          -114.88061
-        ],
-        [
-          35.96694,
-          -114.88209
-        ],
-        [
-          35.96723,
-          -114.88746
-        ],
-        [
-          35.96793,
-          -114.90023
+          35.96761,
+          -114.89432
         ],
         [
           35.96833,
           -114.90747
         ],
         [
-          35.96845,
-          -114.90956
+          35.96851,
+          -114.91001
         ],
         [
-          35.96856,
-          -114.91023
+          35.96868,
+          -114.91067
         ],
         [
-          35.96871,
-          -114.91077
+          35.96903,
+          -114.91153
         ],
         [
-          35.96896,
-          -114.91139
-        ],
-        [
-          35.9693,
-          -114.91198
-        ],
-        [
-          35.96983,
-          -114.91259
+          35.9697,
+          -114.91247
         ],
         [
           35.97024,
           -114.91295
         ],
         [
-          35.97073,
-          -114.91325
-        ],
-        [
-          35.97143,
-          -114.91353
+          35.97089,
+          -114.91332
         ],
         [
           35.97618,
           -114.91503
         ],
         [
-          35.97833,
-          -114.9159
+          35.97861,
+          -114.91604
         ],
         [
-          35.9807,
-          -114.9172
-        ],
-        [
-          35.98272,
-          -114.91864
+          35.98199,
+          -114.91808
         ],
         [
           35.9858,
           -114.92144
         ],
         [
-          35.99245,
-          -114.9289
-        ],
-        [
-          35.99459,
-          -114.93196
+          35.99316,
+          -114.92975
         ],
         [
           35.99563,
           -114.93431
         ],
         [
-          35.99896,
-          -114.94279
+          35.99921,
+          -114.94361
         ],
         [
-          35.99989,
-          -114.94699
+          35.99999,
+          -114.94796
         ],
         [
           36.00006,
-          -114.94887
+          -114.96286
         ],
         [
-          36.00007,
-          -114.9569
+          36.00015,
+          -114.97222
         ],
         [
-          36.00005,
-          -114.9709
+          36.00105,
+          -114.97702
         ],
         [
-          36.00046,
-          -114.97457
+          36.00197,
+          -114.97959
         ],
         [
-          36.00118,
-          -114.97744
-        ],
-        [
-          36.00172,
-          -114.97898
-        ],
-        [
-          36.00265,
-          -114.98106
-        ],
-        [
-          36.00521,
-          -114.98488
+          36.004,
+          -114.98331
         ],
         [
           36.00724,
           -114.9869
         ],
         [
-          36.00971,
-          -114.98862
+          36.01331,
+          -114.99087
         ],
         [
-          36.01391,
-          -114.99139
+          36.01635,
+          -114.99421
         ],
         [
-          36.0178,
-          -114.99595
+          36.02803,
+          -115.00818
         ],
         [
-          36.02765,
-          -115.00774
-        ],
-        [
-          36.03197,
-          -115.01248
-        ],
-        [
-          36.038,
-          -115.019
+          36.03777,
+          -115.01875
         ],
         [
           36.03944,
           -115.02018
         ],
         [
-          36.04123,
-          -115.02101
+          36.04519,
+          -115.02228
         ],
         [
-          36.0471,
-          -115.02289
+          36.04883,
+          -115.02355
         ],
         [
-          36.04944,
-          -115.02381
+          36.05615,
+          -115.02722
         ],
         [
-          36.05604,
-          -115.02716
-        ],
-        [
-          36.05971,
-          -115.02933
-        ],
-        [
-          36.06668,
-          -115.03356
+          36.06409,
+          -115.03199
         ],
         [
           36.07545,
           -115.0389
         ],
         [
-          36.07735,
-          -115.04033
-        ],
-        [
-          36.07962,
-          -115.04286
+          36.07822,
+          -115.04117
         ],
         [
           36.08606,
           -115.05492
         ],
         [
-          36.087,
-          -115.05701
+          36.0871,
+          -115.05729
         ],
         [
-          36.08767,
-          -115.05955
+          36.0883,
+          -115.06483
         ],
         [
-          36.08849,
-          -115.06591
+          36.08905,
+          -115.06777
         ],
         [
-          36.08895,
-          -115.06751
+          36.09471,
+          -115.07725
         ],
         [
-          36.09197,
-          -115.07283
+          36.09801,
+          -115.08053
         ],
         [
-          36.09589,
-          -115.07869
+          36.10256,
+          -115.08214
         ],
         [
-          36.09847,
-          -115.08085
-        ],
-        [
-          36.1021,
-          -115.0821
-        ],
-        [
-          36.11153,
-          -115.08243
-        ],
-        [
-          36.11837,
-          -115.08279
+          36.116,
+          -115.08278
         ],
         [
           36.1209,
           -115.08313
         ],
         [
-          36.12276,
-          -115.08385
+          36.12388,
+          -115.0845
         ],
         [
-          36.12476,
-          -115.08513
+          36.1286,
+          -115.08827
         ],
         [
-          36.12908,
-          -115.08854
+          36.13152,
+          -115.08952
         ],
         [
-          36.13072,
-          -115.08926
+          36.14258,
+          -115.09111
         ],
         [
-          36.13922,
-          -115.09073
+          36.1591,
+          -115.09156
         ],
         [
-          36.14637,
-          -115.09123
+          36.1628,
+          -115.09255
         ],
         [
-          36.15508,
-          -115.09131
+          36.16457,
+          -115.09404
         ],
         [
-          36.15728,
-          -115.09083
+          36.16657,
+          -115.09734
         ],
         [
-          36.15853,
-          -115.09052
+          36.16766,
+          -115.10301
         ],
         [
-          36.1587,
-          -115.09035
-        ],
-        [
-          36.15883,
-          -115.0886
-        ],
-        [
-          36.15883,
-          -115.08742
-        ],
-        [
-          36.15884,
-          -115.08536
-        ],
-        [
-          36.15885,
-          -115.08413
-        ],
-        [
-          36.15883,
-          -115.08196
-        ],
-        [
-          36.15884,
-          -115.08028
-        ],
-        [
-          36.15929,
-          -115.08012
-        ],
-        [
-          36.16021,
-          -115.08016
-        ],
-        [
-          36.16132,
-          -115.0803
-        ],
-        [
-          36.16487,
-          -115.08045
-        ],
-        [
-          36.16567,
-          -115.08043
-        ],
-        [
-          36.16637,
-          -115.08045
+          36.168,
+          -115.11548
         ],
         [
           36.16799,
-          -115.08048
+          -115.12344
         ],
         [
-          36.16977,
-          -115.0804
+          36.16846,
+          -115.12591
         ],
         [
-          36.17052,
-          -115.0804
+          36.16951,
+          -115.12844
         ],
         [
-          36.17124,
-          -115.08048
+          36.17362,
+          -115.13663
         ],
         [
-          36.17258,
-          -115.08037
+          36.17332,
+          -115.13823
         ],
         [
-          36.17412,
-          -115.08037
+          36.1716,
+          -115.13921
         ],
         [
-          36.17565,
-          -115.08042
+          36.17056,
+          -115.13987
         ],
         [
-          36.17717,
-          -115.08041
+          36.16936,
+          -115.14068
         ],
         [
-          36.17824,
-          -115.08041
+          36.1682,
+          -115.14144
         ],
         [
-          36.17917,
-          -115.0804
+          36.16705,
+          -115.1422
         ],
         [
-          36.18,
-          -115.08033
+          36.16741,
+          -115.14333
         ],
         [
-          36.1807,
-          -115.08031
+          36.16833,
+          -115.14547
         ],
         [
-          36.18198,
-          -115.08024
+          36.16883,
+          -115.14663
         ],
         [
-          36.18312,
-          -115.08023
+          36.1677,
+          -115.1475
         ],
         [
-          36.1847,
-          -115.08013
-        ],
-        [
-          36.18596,
-          -115.08004
-        ],
-        [
-          36.18834,
-          -115.07984
-        ],
-        [
-          36.18922,
-          -115.07984
-        ],
-        [
-          36.1902,
-          -115.07995
-        ],
-        [
-          36.19205,
-          -115.08002
-        ],
-        [
-          36.19441,
-          -115.08002
-        ],
-        [
-          36.19506,
-          -115.08005
-        ],
-        [
-          36.19642,
-          -115.08015
-        ],
-        [
-          36.1973,
-          -115.08015
-        ],
-        [
-          36.20238,
-          -115.08011
-        ],
-        [
-          36.20378,
-          -115.08012
-        ],
-        [
-          36.20748,
-          -115.08018
-        ],
-        [
-          36.20923,
-          -115.0802
-        ],
-        [
-          36.21155,
-          -115.08019
-        ],
-        [
-          36.21507,
-          -115.08014
-        ],
-        [
-          36.21635,
-          -115.08004
-        ],
-        [
-          36.21756,
-          -115.08003
-        ],
-        [
-          36.21871,
-          -115.08008
-        ],
-        [
-          36.22128,
-          -115.08008
-        ],
-        [
-          36.22348,
-          -115.08011
-        ],
-        [
-          36.22498,
-          -115.08006
-        ],
-        [
-          36.22572,
-          -115.08005
-        ],
-        [
-          36.227,
-          -115.08014
-        ],
-        [
-          36.23011,
-          -115.08016
-        ],
-        [
-          36.23223,
-          -115.08008
-        ],
-        [
-          36.23348,
-          -115.08007
-        ],
-        [
-          36.23722,
-          -115.08007
-        ],
-        [
-          36.23875,
-          -115.07996
-        ],
-        [
-          36.24036,
-          -115.07992
-        ],
-        [
-          36.24169,
-          -115.08
-        ],
-        [
-          36.24404,
-          -115.07998
-        ],
-        [
-          36.24651,
-          -115.07995
-        ],
-        [
-          36.2484,
-          -115.07995
-        ],
-        [
-          36.25422,
-          -115.07997
-        ],
-        [
-          36.25639,
-          -115.0797
-        ],
-        [
-          36.25752,
-          -115.07952
-        ],
-        [
-          36.25868,
-          -115.07844
-        ],
-        [
-          36.2625,
-          -115.07433
-        ],
-        [
-          36.26327,
-          -115.07334
-        ],
-        [
-          36.26402,
-          -115.07231
-        ],
-        [
-          36.26459,
-          -115.07145
-        ],
-        [
-          36.26528,
-          -115.07034
-        ],
-        [
-          36.26592,
-          -115.06921
-        ],
-        [
-          36.26653,
-          -115.06804
-        ],
-        [
-          36.26698,
-          -115.06709
-        ],
-        [
-          36.2675,
-          -115.06591
-        ],
-        [
-          36.26789,
-          -115.06495
-        ],
-        [
-          36.27479,
-          -115.04662
-        ],
-        [
-          36.28264,
-          -115.02554
-        ],
-        [
-          36.30854,
-          -114.9565
-        ],
-        [
-          36.31224,
-          -114.94696
-        ],
-        [
-          36.31377,
-          -114.94451
-        ],
-        [
-          36.31493,
-          -114.94317
-        ],
-        [
-          36.32064,
-          -114.93724
-        ],
-        [
-          36.32388,
-          -114.9322
-        ],
-        [
-          36.32716,
-          -114.92604
-        ],
-        [
-          36.33066,
-          -114.92211
-        ],
-        [
-          36.35254,
-          -114.90462
-        ],
-        [
-          36.36049,
-          -114.90288
-        ],
-        [
-          36.36483,
-          -114.90142
-        ],
-        [
-          36.37741,
-          -114.89361
-        ],
-        [
-          36.44037,
-          -114.85481
-        ],
-        [
-          36.44729,
-          -114.84846
-        ],
-        [
-          36.46935,
-          -114.82499
-        ],
-        [
-          36.49939,
-          -114.76684
-        ],
-        [
-          36.50153,
-          -114.76216
-        ],
-        [
-          36.50122,
-          -114.76093
-        ],
-        [
-          36.50046,
-          -114.76034
-        ],
-        [
-          36.49953,
-          -114.76029
-        ],
-        [
-          36.49915,
-          -114.76019
-        ],
-        [
-          36.49846,
-          -114.75957
-        ],
-        [
-          36.49647,
-          -114.75746
-        ],
-        [
-          36.49261,
-          -114.75334
-        ],
-        [
-          36.49038,
-          -114.75114
-        ],
-        [
-          36.48716,
-          -114.74946
-        ],
-        [
-          36.47523,
-          -114.74342
-        ],
-        [
-          36.46203,
-          -114.73657
-        ],
-        [
-          36.4602,
-          -114.73509
-        ],
-        [
-          36.45892,
-          -114.73269
-        ],
-        [
-          36.44811,
-          -114.67829
-        ],
-        [
-          36.44712,
-          -114.67328
-        ],
-        [
-          36.44641,
-          -114.6707
-        ],
-        [
-          36.44562,
-          -114.66736
-        ],
-        [
-          36.44525,
-          -114.666
-        ],
-        [
-          36.4454,
-          -114.66367
-        ],
-        [
-          36.44571,
-          -114.6616
-        ],
-        [
-          36.44566,
-          -114.65987
-        ],
-        [
-          36.44492,
-          -114.65777
-        ],
-        [
-          36.44448,
-          -114.65624
-        ],
-        [
-          36.44429,
-          -114.65532
-        ],
-        [
-          36.44344,
-          -114.65327
-        ],
-        [
-          36.44213,
-          -114.6477
-        ],
-        [
-          36.43906,
-          -114.64368
-        ],
-        [
-          36.43624,
-          -114.63986
-        ],
-        [
-          36.4342,
-          -114.6366
-        ],
-        [
-          36.43309,
-          -114.63426
-        ],
-        [
-          36.43221,
-          -114.63302
-        ],
-        [
-          36.43084,
-          -114.62928
-        ],
-        [
-          36.4299,
-          -114.6277
-        ],
-        [
-          36.42797,
-          -114.62655
-        ],
-        [
-          36.42644,
-          -114.62542
-        ],
-        [
-          36.42391,
-          -114.62215
-        ],
-        [
-          36.41889,
-          -114.61903
-        ],
-        [
-          36.41565,
-          -114.61681
-        ],
-        [
-          36.41438,
-          -114.61178
-        ],
-        [
-          36.41412,
-          -114.61031
-        ],
-        [
-          36.41439,
-          -114.60715
-        ],
-        [
-          36.41483,
-          -114.60513
-        ],
-        [
-          36.41703,
-          -114.60216
-        ],
-        [
-          36.41735,
-          -114.60156
-        ],
-        [
-          36.41779,
-          -114.59805
-        ],
-        [
-          36.41736,
-          -114.59535
-        ],
-        [
-          36.41666,
-          -114.59321
-        ],
-        [
-          36.41588,
-          -114.59191
-        ],
-        [
-          36.41468,
-          -114.59001
-        ],
-        [
-          36.41113,
-          -114.58564
-        ],
-        [
-          36.41076,
-          -114.58546
-        ],
-        [
-          36.41029,
-          -114.58574
-        ],
-        [
-          36.4091,
-          -114.58667
-        ],
-        [
-          36.40752,
-          -114.58748
-        ],
-        [
-          36.4066,
-          -114.58631
-        ],
-        [
-          36.40756,
-          -114.58329
-        ],
-        [
-          36.40797,
-          -114.57939
-        ],
-        [
-          36.40664,
-          -114.57448
-        ],
-        [
-          36.40595,
-          -114.57229
-        ],
-        [
-          36.40598,
-          -114.57103
-        ],
-        [
-          36.40575,
-          -114.56731
-        ],
-        [
-          36.4058,
-          -114.56633
-        ],
-        [
-          36.40636,
-          -114.56116
-        ],
-        [
-          36.40698,
-          -114.55987
-        ],
-        [
-          36.40982,
-          -114.55393
-        ],
-        [
-          36.41125,
-          -114.55043
-        ],
-        [
-          36.41177,
-          -114.54949
-        ],
-        [
-          36.41299,
-          -114.54853
-        ],
-        [
-          36.41461,
-          -114.54765
-        ],
-        [
-          36.41647,
-          -114.54627
-        ],
-        [
-          36.41837,
-          -114.54546
-        ],
-        [
-          36.42061,
-          -114.54449
-        ],
-        [
-          36.4226,
-          -114.54345
-        ],
-        [
-          36.42574,
-          -114.54109
-        ],
-        [
-          36.42609,
-          -114.54026
-        ],
-        [
-          36.42559,
-          -114.53741
-        ],
-        [
-          36.42525,
-          -114.53339
-        ],
-        [
-          36.4251,
-          -114.53038
-        ],
-        [
-          36.42527,
-          -114.52887
-        ],
-        [
-          36.425,
-          -114.52797
-        ],
-        [
-          36.42429,
-          -114.52628
-        ],
-        [
-          36.42415,
-          -114.52498
-        ],
-        [
-          36.42464,
-          -114.52287
-        ],
-        [
-          36.42566,
-          -114.52031
-        ],
-        [
-          36.42614,
-          -114.51838
-        ],
-        [
-          36.42831,
-          -114.51353
-        ],
-        [
-          36.42854,
-          -114.51378
-        ],
-        [
-          36.42882,
-          -114.51346
-        ],
-        [
-          36.4294,
-          -114.5137
-        ],
-        [
-          36.42981,
-          -114.51382
+          36.16777,
+          -115.14819
         ]
       ]
     },
     {
-      "day": 13,
+      "day": 10,
       "from": {
-        "name": "Valley of Fire",
+        "name": "Las Vegas",
         "coords": [
-          36.42999,
-          -114.51377
-        ]
-      },
-      "to": {
-        "name": "Valley of Fire",
-        "coords": [
-          36.42999,
-          -114.51377
-        ]
-      },
-      "miles": 0,
-      "headline": "The last full day, and the best rock on the route",
-      "notes": "The Fire Wave is striped red and white sandstone at the end of a short flat walk. White Domes adds a slot canyon and the remains of a 1960s film set. Elephant Rock is ten minutes from the east entrance. A better last day than a car park near the airport.",
-      "elevation": 2000,
-      "freezingNight": false,
-      "activities": [
-        "Fire Wave",
-        "White Domes loop",
-        "Elephant Rock"
-      ],
-      "pois": [
-        {
-          "name": "Fire Wave",
-          "coords": [
-            36.48825,
-            -114.529
-          ],
-          "caption": "Striped Aztec sandstone, a short walk that suits kids.",
-          "photos": [
-            {
-              "src": "assets/photos/low-desert-loop/fire-wave.jpg",
-              "caption": "Striped Aztec sandstone, a short walk that suits kids."
-            },
-            {
-              "src": "assets/photos/low-desert-loop/fire-wave-2.jpg"
-            },
-            {
-              "src": "assets/photos/low-desert-loop/fire-wave-3.jpg"
-            },
-            {
-              "src": "assets/photos/low-desert-loop/fire-wave-4.jpg"
-            }
-          ]
-        },
-        {
-          "name": "White Domes",
-          "coords": [
-            36.48471,
-            -114.53178
-          ],
-          "caption": "A slot canyon, a 1960s film set, and the best loop in the park.",
-          "photos": [
-            {
-              "src": "assets/photos/low-desert-loop/white-domes.jpg",
-              "caption": "A slot canyon, a 1960s film set, and the best loop in the park."
-            },
-            {
-              "src": "assets/photos/low-desert-loop/white-domes-2.jpg"
-            },
-            {
-              "src": "assets/photos/low-desert-loop/white-domes-3.jpg"
-            },
-            {
-              "src": "assets/photos/low-desert-loop/white-domes-4.jpg"
-            }
-          ]
-        },
-        {
-          "name": "Elephant Rock",
-          "coords": [
-            36.42836,
-            -114.46012
-          ],
-          "caption": "Ten minutes from the east entrance, and it really does look like one.",
-          "photos": [
-            {
-              "src": "assets/photos/low-desert-loop/elephant-rock.jpg",
-              "caption": "Ten minutes from the east entrance, and it really does look like one."
-            },
-            {
-              "src": "assets/photos/low-desert-loop/elephant-rock-2.jpg"
-            },
-            {
-              "src": "assets/photos/low-desert-loop/elephant-rock-3.jpg"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "day": 14,
-      "from": {
-        "name": "Valley of Fire",
-        "coords": [
-          36.42999,
-          -114.51377
+          36.16743,
+          -115.14841
         ]
       },
       "to": {
@@ -12417,961 +10904,516 @@
           -115.1611
         ]
       },
-      "miles": 63,
-      "headline": "An hour and a half to the plane",
-      "notes": "Sixty-three miles to the airport, so there is time for one more walk before you go. Allow half a day for the vehicle return process.",
+      "miles": 0,
+      "headline": "Return and depart",
+      "notes": "Allow half a day for the vehicle return process.",
       "elevation": 2050,
       "freezingNight": false,
       "activities": [],
       "pois": [],
-      "driveTime": "1h 37m",
       "route": [
         [
-          36.42981,
-          -114.51382
+          36.16777,
+          -115.14819
         ],
         [
-          36.42951,
-          -114.5142
+          36.16788,
+          -115.14846
         ],
         [
-          36.42891,
-          -114.51348
+          36.16799,
+          -115.14839
         ],
         [
-          36.42822,
-          -114.51351
+          36.16813,
+          -115.14852
         ],
         [
-          36.42617,
-          -114.518
+          36.16814,
+          -115.14854
         ],
         [
-          36.42608,
-          -114.51902
+          36.16817,
+          -115.1486
         ],
         [
-          36.4253,
-          -114.52113
+          36.16821,
+          -115.1487
         ],
         [
-          36.42464,
-          -114.52287
+          36.16815,
+          -115.14875
         ],
         [
-          36.42428,
-          -114.52425
+          36.16755,
+          -115.14913
         ],
         [
-          36.42413,
-          -114.52529
+          36.1674,
+          -115.14917
         ],
         [
-          36.42429,
-          -114.52628
+          36.16729,
+          -115.1493
         ],
         [
-          36.42448,
-          -114.52692
+          36.16719,
+          -115.14937
         ],
         [
-          36.42513,
-          -114.52823
+          36.16714,
+          -115.1494
         ],
         [
-          36.42527,
-          -114.52899
+          36.16703,
+          -115.14941
         ],
         [
-          36.42511,
-          -114.53028
+          36.16677,
+          -115.14957
         ],
         [
-          36.42509,
-          -114.53091
+          36.16673,
+          -115.1496
         ],
         [
-          36.42531,
-          -114.53435
+          36.16668,
+          -115.14964
         ],
         [
-          36.42545,
-          -114.53657
+          36.16664,
+          -115.14973
         ],
         [
-          36.4259,
-          -114.53909
+          36.16653,
+          -115.1498
         ],
         [
-          36.42605,
-          -114.54056
+          36.16644,
+          -115.14986
         ],
         [
-          36.42574,
-          -114.54109
+          36.16604,
+          -115.15012
         ],
         [
-          36.42437,
-          -114.54234
+          36.16601,
+          -115.15012
         ],
         [
-          36.42202,
-          -114.5438
+          36.16592,
+          -115.15012
         ],
         [
-          36.42061,
-          -114.54449
+          36.16583,
+          -115.15018
         ],
         [
-          36.41927,
-          -114.54506
+          36.16575,
+          -115.15023
         ],
         [
-          36.41795,
-          -114.54564
+          36.16542,
+          -115.15045
         ],
         [
-          36.41596,
-          -114.54649
+          36.16507,
+          -115.15068
         ],
         [
-          36.41524,
-          -114.547
+          36.16479,
+          -115.15086
         ],
         [
-          36.41431,
-          -114.54788
+          36.16476,
+          -115.15088
         ],
         [
-          36.41299,
-          -114.54853
+          36.1647,
+          -115.15092
         ],
         [
-          36.41177,
-          -114.54949
+          36.16459,
+          -115.15099
         ],
         [
-          36.41142,
-          -114.54994
+          36.16442,
+          -115.1511
         ],
         [
-          36.41111,
-          -114.55099
+          36.16436,
+          -115.15114
         ],
         [
-          36.40982,
-          -114.55393
+          36.16413,
+          -115.15133
         ],
         [
-          36.40827,
-          -114.55714
+          36.16408,
+          -115.15137
         ],
         [
-          36.40677,
-          -114.56026
+          36.16403,
+          -115.15142
         ],
         [
-          36.40636,
-          -114.56116
+          36.16397,
+          -115.15153
         ],
         [
-          36.40596,
-          -114.56375
+          36.16393,
+          -115.15162
         ],
         [
-          36.40578,
-          -114.5669
-        ],
-        [
-          36.40571,
-          -114.5697
-        ],
-        [
-          36.40601,
-          -114.57131
-        ],
-        [
-          36.40595,
-          -114.57229
-        ],
-        [
-          36.40636,
-          -114.57377
-        ],
-        [
-          36.40723,
-          -114.57617
-        ],
-        [
-          36.40797,
-          -114.57939
-        ],
-        [
-          36.40814,
-          -114.58126
-        ],
-        [
-          36.40699,
-          -114.58419
-        ],
-        [
-          36.40661,
-          -114.58651
-        ],
-        [
-          36.40721,
-          -114.58726
-        ],
-        [
-          36.40785,
-          -114.5875
-        ],
-        [
-          36.40944,
-          -114.58654
-        ],
-        [
-          36.41004,
-          -114.58604
-        ],
-        [
-          36.41055,
-          -114.58554
-        ],
-        [
-          36.41086,
-          -114.58546
-        ],
-        [
-          36.41113,
-          -114.58564
-        ],
-        [
-          36.41226,
-          -114.58754
-        ],
-        [
-          36.41515,
-          -114.59046
-        ],
-        [
-          36.41588,
-          -114.59191
-        ],
-        [
-          36.41631,
-          -114.59266
-        ],
-        [
-          36.41696,
-          -114.5938
-        ],
-        [
-          36.41736,
-          -114.59535
-        ],
-        [
-          36.41777,
-          -114.5977
-        ],
-        [
-          36.41771,
-          -114.59897
-        ],
-        [
-          36.41735,
-          -114.60156
-        ],
-        [
-          36.41703,
-          -114.60216
-        ],
-        [
-          36.41524,
-          -114.60419
-        ],
-        [
-          36.4147,
-          -114.60557
-        ],
-        [
-          36.41443,
-          -114.60675
-        ],
-        [
-          36.41415,
-          -114.6098
-        ],
-        [
-          36.41413,
-          -114.61048
-        ],
-        [
-          36.41438,
-          -114.61178
-        ],
-        [
-          36.41546,
-          -114.61612
-        ],
-        [
-          36.41596,
-          -114.61741
-        ],
-        [
-          36.41889,
-          -114.61903
-        ],
-        [
-          36.42368,
-          -114.62197
-        ],
-        [
-          36.42482,
-          -114.62326
-        ],
-        [
-          36.42673,
-          -114.62573
-        ],
-        [
-          36.42778,
-          -114.62644
-        ],
-        [
-          36.42891,
-          -114.6271
-        ],
-        [
-          36.43017,
-          -114.6279
-        ],
-        [
-          36.43063,
-          -114.62865
-        ],
-        [
-          36.43201,
-          -114.63275
-        ],
-        [
-          36.43282,
-          -114.63354
-        ],
-        [
-          36.43309,
-          -114.63426
-        ],
-        [
-          36.43342,
-          -114.63502
-        ],
-        [
-          36.43488,
-          -114.63798
-        ],
-        [
-          36.43624,
-          -114.63986
-        ],
-        [
-          36.4383,
-          -114.64234
-        ],
-        [
-          36.44194,
-          -114.64735
-        ],
-        [
-          36.44277,
-          -114.64965
-        ],
-        [
-          36.44337,
-          -114.65294
-        ],
-        [
-          36.44364,
-          -114.65389
-        ],
-        [
-          36.44438,
-          -114.65561
-        ],
-        [
-          36.44448,
-          -114.65624
-        ],
-        [
-          36.44468,
-          -114.65701
-        ],
-        [
-          36.4452,
-          -114.65861
-        ],
-        [
-          36.44566,
-          -114.65987
-        ],
-        [
-          36.44576,
-          -114.66052
-        ],
-        [
-          36.44562,
-          -114.66231
-        ],
-        [
-          36.44528,
-          -114.66461
-        ],
-        [
-          36.44524,
-          -114.66569
-        ],
-        [
-          36.44529,
-          -114.66638
-        ],
-        [
-          36.44581,
-          -114.66778
-        ],
-        [
-          36.44625,
-          -114.67002
-        ],
-        [
-          36.44693,
-          -114.67251
-        ],
-        [
-          36.44769,
-          -114.67615
-        ],
-        [
-          36.44811,
-          -114.67829
-        ],
-        [
-          36.45871,
-          -114.73181
-        ],
-        [
-          36.45895,
-          -114.73275
-        ],
-        [
-          36.4602,
-          -114.73509
-        ],
-        [
-          36.4615,
-          -114.73629
-        ],
-        [
-          36.46567,
-          -114.73842
-        ],
-        [
-          36.4769,
-          -114.74426
-        ],
-        [
-          36.48539,
-          -114.74859
-        ],
-        [
-          36.48872,
-          -114.75025
-        ],
-        [
-          36.49038,
-          -114.75114
-        ],
-        [
-          36.49261,
-          -114.75334
-        ],
-        [
-          36.49541,
-          -114.75635
-        ],
-        [
-          36.49692,
-          -114.75795
-        ],
-        [
-          36.49846,
-          -114.75957
-        ],
-        [
-          36.49898,
-          -114.76009
-        ],
-        [
-          36.49925,
-          -114.76023
-        ],
-        [
-          36.49953,
-          -114.76029
-        ],
-        [
-          36.50023,
-          -114.76033
-        ],
-        [
-          36.50075,
-          -114.76046
-        ],
-        [
-          36.50267,
-          -114.76193
-        ],
-        [
-          36.50171,
-          -114.76442
-        ],
-        [
-          36.49968,
-          -114.76702
-        ],
-        [
-          36.47341,
-          -114.81886
-        ],
-        [
-          36.46874,
-          -114.82628
-        ],
-        [
-          36.44755,
-          -114.84857
-        ],
-        [
-          36.44369,
-          -114.85248
-        ],
-        [
-          36.39034,
-          -114.88604
-        ],
-        [
-          36.38076,
-          -114.8919
-        ],
-        [
-          36.37527,
-          -114.89533
-        ],
-        [
-          36.36843,
-          -114.89948
-        ],
-        [
-          36.36274,
-          -114.9028
-        ],
-        [
-          36.35811,
-          -114.90318
-        ],
-        [
-          36.35382,
-          -114.90424
-        ],
-        [
-          36.34933,
-          -114.90739
-        ],
-        [
-          36.33705,
-          -114.91736
-        ],
-        [
-          36.33006,
-          -114.92303
-        ],
-        [
-          36.32809,
-          -114.92517
-        ],
-        [
-          36.32427,
-          -114.93196
-        ],
-        [
-          36.32172,
-          -114.93619
-        ],
-        [
-          36.31869,
-          -114.93979
-        ],
-        [
-          36.31435,
-          -114.94426
-        ],
-        [
-          36.31329,
-          -114.94579
-        ],
-        [
-          36.31262,
-          -114.94701
-        ],
-        [
-          36.31214,
-          -114.94807
-        ],
-        [
-          36.3089,
-          -114.95661
-        ],
-        [
-          36.29036,
-          -115.00607
-        ],
-        [
-          36.28267,
-          -115.02662
-        ],
-        [
-          36.27236,
-          -115.05397
-        ],
-        [
-          36.27042,
-          -115.05917
-        ],
-        [
-          36.2683,
-          -115.06484
-        ],
-        [
-          36.268,
-          -115.06558
-        ],
-        [
-          36.26758,
-          -115.06657
-        ],
-        [
-          36.26725,
-          -115.06729
-        ],
-        [
-          36.2669,
-          -115.06801
-        ],
-        [
-          36.26649,
-          -115.06883
-        ],
-        [
-          36.26611,
-          -115.06952
-        ],
-        [
-          36.26572,
-          -115.0702
-        ],
-        [
-          36.26532,
-          -115.07087
-        ],
-        [
-          36.26476,
-          -115.07175
-        ],
-        [
-          36.26433,
-          -115.07238
-        ],
-        [
-          36.26389,
-          -115.07301
-        ],
-        [
-          36.26327,
-          -115.07382
-        ],
-        [
-          36.2628,
-          -115.07441
-        ],
-        [
-          36.25861,
-          -115.07956
-        ],
-        [
-          36.24557,
-          -115.09558
-        ],
-        [
-          36.23933,
-          -115.10309
-        ],
-        [
-          36.23465,
-          -115.10891
-        ],
-        [
-          36.2302,
-          -115.11438
-        ],
-        [
-          36.22785,
-          -115.11668
-        ],
-        [
-          36.22508,
-          -115.11873
-        ],
-        [
-          36.21796,
-          -115.12398
-        ],
-        [
-          36.20793,
-          -115.13142
-        ],
-        [
-          36.20209,
-          -115.13566
-        ],
-        [
-          36.20056,
-          -115.13667
-        ],
-        [
-          36.19623,
-          -115.13869
-        ],
-        [
-          36.19417,
-          -115.13965
-        ],
-        [
-          36.19249,
-          -115.14062
-        ],
-        [
-          36.1907,
-          -115.14205
-        ],
-        [
-          36.18941,
-          -115.14294
-        ],
-        [
-          36.18849,
-          -115.14337
-        ],
-        [
-          36.18774,
-          -115.1436
-        ],
-        [
-          36.18716,
-          -115.14372
-        ],
-        [
-          36.18638,
-          -115.14381
-        ],
-        [
-          36.18562,
-          -115.14381
-        ],
-        [
-          36.1845,
-          -115.14382
-        ],
-        [
-          36.18351,
-          -115.14392
-        ],
-        [
-          36.18295,
-          -115.14406
-        ],
-        [
-          36.18255,
-          -115.14422
-        ],
-        [
-          36.18206,
-          -115.14446
-        ],
-        [
-          36.18138,
-          -115.14492
-        ],
-        [
-          36.18109,
-          -115.14512
-        ],
-        [
-          36.18042,
-          -115.14581
-        ],
-        [
-          36.18001,
-          -115.14632
-        ],
-        [
-          36.17844,
-          -115.14914
-        ],
-        [
-          36.17782,
-          -115.15027
-        ],
-        [
-          36.17699,
+          36.1639,
           -115.15167
         ],
         [
-          36.17562,
-          -115.15358
+          36.16385,
+          -115.15172
         ],
         [
-          36.17462,
-          -115.15473
+          36.1638,
+          -115.15176
         ],
         [
-          36.17329,
-          -115.15603
+          36.16372,
+          -115.15181
         ],
         [
-          36.17227,
-          -115.15695
+          36.16318,
+          -115.15217
         ],
         [
-          36.17142,
-          -115.15767
+          36.16297,
+          -115.15231
         ],
         [
-          36.16906,
-          -115.15913
+          36.16247,
+          -115.15264
         ],
         [
-          36.16689,
-          -115.16008
+          36.16219,
+          -115.15282
         ],
         [
-          36.166,
-          -115.16037
+          36.16134,
+          -115.15337
         ],
         [
-          36.16466,
-          -115.16069
+          36.16116,
+          -115.15349
         ],
         [
-          36.16428,
-          -115.16076
+          36.16104,
+          -115.15357
         ],
         [
-          36.16333,
-          -115.16089
+          36.16077,
+          -115.15375
         ],
         [
-          36.1626,
-          -115.16094
+          36.15999,
+          -115.15426
         ],
         [
-          36.16147,
-          -115.16096
+          36.15976,
+          -115.15441
         ],
         [
-          36.15918,
-          -115.16097
+          36.15927,
+          -115.15472
         ],
         [
-          36.15864,
-          -115.16097
+          36.15901,
+          -115.15487
         ],
         [
-          36.15823,
-          -115.16099
+          36.15898,
+          -115.15487
         ],
         [
-          36.15765,
-          -115.16107
+          36.15892,
+          -115.15487
         ],
         [
-          36.15692,
-          -115.16123
+          36.15892,
+          -115.155
         ],
         [
-          36.15643,
-          -115.16138
+          36.15892,
+          -115.15515
         ],
         [
-          36.15604,
-          -115.16152
+          36.15892,
+          -115.15534
         ],
         [
-          36.15528,
-          -115.16185
+          36.15892,
+          -115.15651
         ],
         [
-          36.15451,
-          -115.16228
+          36.15895,
+          -115.15746
+        ],
+        [
+          36.15896,
+          -115.15755
+        ],
+        [
+          36.15898,
+          -115.15777
+        ],
+        [
+          36.159,
+          -115.15797
+        ],
+        [
+          36.15906,
+          -115.15848
+        ],
+        [
+          36.15906,
+          -115.15852
+        ],
+        [
+          36.15908,
+          -115.15861
+        ],
+        [
+          36.15911,
+          -115.1589
+        ],
+        [
+          36.15915,
+          -115.15927
+        ],
+        [
+          36.15915,
+          -115.15943
+        ],
+        [
+          36.15916,
+          -115.15999
+        ],
+        [
+          36.15916,
+          -115.1603
+        ],
+        [
+          36.15916,
+          -115.1612
+        ],
+        [
+          36.15915,
+          -115.16132
+        ],
+        [
+          36.1589,
+          -115.16132
+        ],
+        [
+          36.15808,
+          -115.16133
+        ],
+        [
+          36.15785,
+          -115.16133
+        ],
+        [
+          36.15766,
+          -115.16134
+        ],
+        [
+          36.15739,
+          -115.16136
+        ],
+        [
+          36.15698,
+          -115.16141
+        ],
+        [
+          36.15667,
+          -115.16148
+        ],
+        [
+          36.15627,
+          -115.16158
+        ],
+        [
+          36.15605,
+          -115.16166
+        ],
+        [
+          36.15579,
+          -115.16176
+        ],
+        [
+          36.15558,
+          -115.16183
+        ],
+        [
+          36.15534,
+          -115.16194
+        ],
+        [
+          36.15483,
+          -115.16217
+        ],
+        [
+          36.15459,
+          -115.16229
+        ],
+        [
+          36.15438,
+          -115.1624
+        ],
+        [
+          36.15413,
+          -115.16252
         ],
         [
           36.15369,
           -115.16284
         ],
         [
+          36.15349,
+          -115.163
+        ],
+        [
           36.15323,
           -115.16322
+        ],
+        [
+          36.15308,
+          -115.16336
+        ],
+        [
+          36.1526,
+          -115.1638
+        ],
+        [
+          36.15243,
+          -115.16397
         ],
         [
           36.15206,
           -115.1643
         ],
         [
+          36.15066,
+          -115.16556
+        ],
+        [
           36.14986,
           -115.16628
+        ],
+        [
+          36.14924,
+          -115.16683
+        ],
+        [
+          36.14905,
+          -115.16701
         ],
         [
           36.14849,
           -115.16749
         ],
         [
+          36.14807,
+          -115.16786
+        ],
+        [
+          36.14683,
+          -115.16898
+        ],
+        [
           36.14589,
           -115.16981
+        ],
+        [
+          36.14467,
+          -115.17089
+        ],
+        [
+          36.14422,
+          -115.17128
         ],
         [
           36.14379,
           -115.17166
         ],
         [
+          36.14116,
+          -115.17403
+        ],
+        [
           36.13714,
           -115.17756
+        ],
+        [
+          36.1368,
+          -115.17786
+        ],
+        [
+          36.13641,
+          -115.17817
+        ],
+        [
+          36.13584,
+          -115.17861
         ],
         [
           36.13523,
           -115.17903
         ],
         [
+          36.13359,
+          -115.17987
+        ],
+        [
           36.13246,
           -115.18029
+        ],
+        [
+          36.13224,
+          -115.18034
+        ],
+        [
+          36.13199,
+          -115.18041
         ],
         [
           36.13156,
           -115.18053
         ],
         [
+          36.13108,
+          -115.18063
+        ],
+        [
           36.12917,
           -115.18077
         ],
         [
+          36.12881,
+          -115.18079
+        ],
+        [
+          36.12744,
+          -115.18083
+        ],
+        [
+          36.12699,
+          -115.18083
+        ],
+        [
           36.12661,
+          -115.18084
+        ],
+        [
+          36.12505,
           -115.18084
         ],
         [
@@ -13379,7 +11421,23 @@
           -115.18083
         ],
         [
+          36.12411,
+          -115.18083
+        ],
+        [
+          36.12385,
+          -115.18083
+        ],
+        [
           36.123,
+          -115.18084
+        ],
+        [
+          36.1219,
+          -115.18086
+        ],
+        [
+          36.12094,
           -115.18084
         ],
         [
@@ -13387,11 +11445,31 @@
           -115.18084
         ],
         [
+          36.11996,
+          -115.18083
+        ],
+        [
+          36.11991,
+          -115.18084
+        ],
+        [
           36.11968,
           -115.18084
         ],
         [
+          36.11782,
+          -115.18085
+        ],
+        [
           36.11693,
+          -115.18085
+        ],
+        [
+          36.11649,
+          -115.18085
+        ],
+        [
+          36.11585,
           -115.18085
         ],
         [
@@ -13399,7 +11477,23 @@
           -115.18085
         ],
         [
+          36.1142,
+          -115.18085
+        ],
+        [
+          36.11289,
+          -115.18084
+        ],
+        [
           36.11212,
+          -115.18083
+        ],
+        [
+          36.11147,
+          -115.18083
+        ],
+        [
+          36.11015,
           -115.18083
         ],
         [
@@ -13407,15 +11501,43 @@
           -115.18083
         ],
         [
+          36.10731,
+          -115.18084
+        ],
+        [
           36.10665,
           -115.18084
+        ],
+        [
+          36.10597,
+          -115.18084
+        ],
+        [
+          36.10567,
+          -115.18084
+        ],
+        [
+          36.10529,
+          -115.18086
         ],
         [
           36.10447,
           -115.18084
         ],
         [
+          36.10266,
+          -115.18085
+        ],
+        [
           36.10155,
+          -115.18084
+        ],
+        [
+          36.10045,
+          -115.18082
+        ],
+        [
+          36.09944,
           -115.18084
         ],
         [
@@ -13423,7 +11545,23 @@
           -115.18086
         ],
         [
+          36.09422,
+          -115.18097
+        ],
+        [
           36.09347,
+          -115.18107
+        ],
+        [
+          36.09215,
+          -115.18107
+        ],
+        [
+          36.09148,
+          -115.18107
+        ],
+        [
+          36.09026,
           -115.18107
         ],
         [
@@ -13431,23 +11569,63 @@
           -115.18108
         ],
         [
+          36.08905,
+          -115.18119
+        ],
+        [
           36.08875,
           -115.18128
+        ],
+        [
+          36.08853,
+          -115.18137
+        ],
+        [
+          36.08837,
+          -115.18144
         ],
         [
           36.08819,
           -115.18154
         ],
         [
+          36.08766,
+          -115.18183
+        ],
+        [
+          36.08746,
+          -115.18191
+        ],
+        [
           36.08724,
           -115.18198
+        ],
+        [
+          36.08701,
+          -115.18205
+        ],
+        [
+          36.08677,
+          -115.18209
         ],
         [
           36.08653,
           -115.18212
         ],
         [
+          36.08623,
+          -115.18215
+        ],
+        [
           36.08619,
+          -115.18215
+        ],
+        [
+          36.0861,
+          -115.18215
+        ],
+        [
+          36.08594,
           -115.18215
         ],
         [
@@ -13455,116 +11633,324 @@
           -115.18146
         ],
         [
+          36.08592,
+          -115.18117
+        ],
+        [
+          36.0859,
+          -115.18046
+        ],
+        [
           36.0859,
           -115.1803
+        ],
+        [
+          36.0859,
+          -115.18013
+        ],
+        [
+          36.0859,
+          -115.17997
         ],
         [
           36.08589,
           -115.17963
         ],
         [
+          36.08589,
+          -115.1793
+        ],
+        [
           36.08588,
           -115.1792
+        ],
+        [
+          36.08588,
+          -115.17907
+        ],
+        [
+          36.08587,
+          -115.17857
+        ],
+        [
+          36.08586,
+          -115.17771
         ],
         [
           36.08586,
           -115.17731
         ],
         [
+          36.08588,
+          -115.17688
+        ],
+        [
           36.08595,
           -115.17619
+        ],
+        [
+          36.08597,
+          -115.17589
+        ],
+        [
+          36.08598,
+          -115.17586
         ],
         [
           36.08599,
           -115.17572
         ],
         [
+          36.08605,
+          -115.17511
+        ],
+        [
+          36.08607,
+          -115.17483
+        ],
+        [
           36.08608,
           -115.17458
+        ],
+        [
+          36.08608,
+          -115.17431
+        ],
+        [
+          36.08608,
+          -115.17427
         ],
         [
           36.08607,
           -115.17332
         ],
         [
+          36.08608,
+          -115.17323
+        ],
+        [
           36.0861,
           -115.17314
+        ],
+        [
+          36.08614,
+          -115.17303
+        ],
+        [
+          36.08583,
+          -115.17302
         ],
         [
           36.08578,
           -115.17302
         ],
         [
+          36.08473,
+          -115.173
+        ],
+        [
+          36.08425,
+          -115.17299
+        ],
+        [
           36.08409,
           -115.17298
+        ],
+        [
+          36.08378,
+          -115.17298
+        ],
+        [
+          36.08344,
+          -115.17297
         ],
         [
           36.08315,
           -115.17297
         ],
         [
+          36.082,
+          -115.17295
+        ],
+        [
           36.08194,
           -115.17295
         ],
         [
-          36.08006,
+          36.08166,
+          -115.17294
+        ],
+        [
+          36.08148,
+          -115.17294
+        ],
+        [
+          36.08013,
           -115.17293
+        ],
+        [
+          36.07984,
+          -115.17292
+        ],
+        [
+          36.07935,
+          -115.17291
         ],
         [
           36.07894,
           -115.17289
         ],
         [
+          36.07676,
+          -115.17284
+        ],
+        [
+          36.07525,
+          -115.17279
+        ],
+        [
           36.07512,
           -115.17278
+        ],
+        [
+          36.07397,
+          -115.17274
         ],
         [
           36.07377,
           -115.17274
         ],
         [
-          36.07186,
-          -115.17257
+          36.07301,
+          -115.17268
+        ],
+        [
+          36.07254,
+          -115.17263
+        ],
+        [
+          36.07239,
+          -115.17261
+        ],
+        [
+          36.07164,
+          -115.17256
+        ],
+        [
+          36.07129,
+          -115.17253
         ],
         [
           36.07126,
           -115.17253
         ],
         [
+          36.07119,
+          -115.17253
+        ],
+        [
+          36.07106,
+          -115.17252
+        ],
+        [
           36.07106,
           -115.1724
+        ],
+        [
+          36.07107,
+          -115.17217
+        ],
+        [
+          36.07107,
+          -115.17195
         ],
         [
           36.07108,
           -115.17105
         ],
         [
+          36.07114,
+          -115.1709
+        ],
+        [
+          36.07116,
+          -115.16864
+        ],
+        [
           36.07118,
-          -115.16717
+          -115.16701
+        ],
+        [
+          36.07121,
+          -115.16491
         ],
         [
           36.07114,
           -115.1647
         ],
         [
+          36.07115,
+          -115.16437
+        ],
+        [
+          36.07115,
+          -115.16402
+        ],
+        [
           36.07116,
           -115.16367
+        ],
+        [
+          36.07117,
+          -115.16343
+        ],
+        [
+          36.07117,
+          -115.1628
         ],
         [
           36.07122,
           -115.16266
         ],
         [
-          36.07122,
-          -115.15923
+          36.07124,
+          -115.16146
+        ],
+        [
+          36.07128,
+          -115.15941
+        ],
+        [
+          36.07124,
+          -115.15794
+        ],
+        [
+          36.07124,
+          -115.15706
         ],
         [
           36.07132,
           -115.1567
         ],
         [
-          36.07119,
+          36.07132,
+          -115.15642
+        ],
+        [
+          36.07134,
+          -115.15483
+        ],
+        [
+          36.07134,
           -115.15467
+        ],
+        [
+          36.07073,
+          -115.15467
+        ],
+        [
+          36.07045,
+          -115.15466
         ],
         [
           36.07011,
@@ -13572,14 +11958,42 @@
         ],
         [
           36.06968,
+          -115.15465
+        ],
+        [
+          36.0695,
+          -115.15457
+        ],
+        [
+          36.06968,
           -115.1545
+        ],
+        [
+          36.07013,
+          -115.15451
+        ],
+        [
+          36.07041,
+          -115.15451
         ],
         [
           36.07048,
           -115.15451
         ],
         [
-          36.07115,
+          36.07052,
+          -115.15453
+        ],
+        [
+          36.07071,
+          -115.15454
+        ],
+        [
+          36.0712,
+          -115.15454
+        ],
+        [
+          36.07135,
           -115.15454
         ],
         [
@@ -13587,40 +12001,112 @@
           -115.1546
         ],
         [
+          36.07134,
+          -115.15467
+        ],
+        [
+          36.07134,
+          -115.15483
+        ],
+        [
           36.07132,
           -115.15642
+        ],
+        [
+          36.07137,
+          -115.15713
+        ],
+        [
+          36.07135,
+          -115.15844
         ],
         [
           36.07135,
           -115.15861
         ],
         [
-          36.07179,
-          -115.15864
+          36.0714,
+          -115.15861
+        ],
+        [
+          36.0717,
+          -115.15863
+        ],
+        [
+          36.07178,
+          -115.16002
+        ],
+        [
+          36.07176,
+          -115.16059
         ],
         [
           36.07162,
           -115.16945
         ],
         [
-          36.07243,
-          -115.172
+          36.07165,
+          -115.16979
+        ],
+        [
+          36.07171,
+          -115.17016
+        ],
+        [
+          36.07232,
+          -115.17183
+        ],
+        [
+          36.07254,
+          -115.17211
+        ],
+        [
+          36.07269,
+          -115.17216
         ],
         [
           36.07284,
           -115.1722
         ],
         [
-          36.07732,
-          -115.17224
+          36.07711,
+          -115.17231
+        ],
+        [
+          36.07724,
+          -115.17228
+        ],
+        [
+          36.07739,
+          -115.17219
+        ],
+        [
+          36.07754,
+          -115.17204
         ],
         [
           36.07776,
           -115.17183
         ],
         [
-          36.08148,
-          -115.16972
+          36.07843,
+          -115.17145
+        ],
+        [
+          36.07979,
+          -115.17068
+        ],
+        [
+          36.08004,
+          -115.17054
+        ],
+        [
+          36.08759,
+          -115.16622
+        ],
+        [
+          36.0879,
+          -115.16605
         ],
         [
           36.08794,

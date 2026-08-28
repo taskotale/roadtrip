@@ -4,9 +4,13 @@ Every photo on the site is from [Wikimedia Commons](https://commons.wikimedia.or
 licence — public domain, CC0, CC BY or CC BY-SA. To swap one out, overwrite the file of the same
 name in `assets/photos/<route-id>/` and add its row below; nothing else needs to change.
 
-The Death Valley, Hoover Dam and Kingman photos appear on more than one route. They are the same
-files, copied into each route's folder, and are credited under each route so every table stands
-on its own.
+Some photos appear on more than one route — the Death Valley, Hoover Dam, Kingman and Valley of
+Fire ones. They are the same files copied into each route's folder, and are credited under each
+route so every table stands on its own.
+
+The two Low Desert versions — `low-desert-short` and `low-desert-loop` — are the same trip at two
+lengths and deliberately share one photo folder, `assets/photos/low-desert-loop/`. Overwriting a
+picture there updates both.
 
 ## Southwest Loop
 
@@ -80,9 +84,9 @@ on its own.
 | `zion-canyon-4.jpg` | The Three Patriarchs above the Court of the Patriarchs, Zion Canyon, Utah | Ken Lund | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Three_Patriarchs,_Zion_Canyon,_Zion_National_Park,_Utah_%281026034872%29.jpg) |
 | `zion-canyon.jpg` | Zion Canyon from the Canyon Overlook Trail, Zion National Park, Utah | Óðinn | CC BY-SA 2.5 ca | [Commons](https://commons.wikimedia.org/wiki/File:Overlook_trail_view_-_Zion_Canyon.jpg) |
 
-## Low Desert Loop
+## Low Desert Loop (both versions)
 
-`assets/photos/low-desert-loop/` — 92 photos
+`assets/photos/low-desert-loop/` — 111 photos
 
 | File | Subject | Author | Licence | Source |
 | --- | --- | --- | --- | --- |
@@ -98,6 +102,7 @@ on its own.
 | `artists-drive-3.jpg` | Artist's Palette mineral-stained hills with a hiker for scale, Death Valley | Rick Cooper | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Artists_Drive,_Death_Valley.jpg) |
 | `artists-drive-4.jpg` | Artist's Palette green and pink mineral colours, Death Valley | Brocken Inaglory | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Artist%27s_Palette_in_death_valley.jpg) |
 | `artists-drive.jpg` | Artist's Palette / Artist's Drive, Death Valley (mineral-stained colored hills) | Pavel Spindler | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Death_Valley_-_Artists_Palette_-_panoramio.jpg) |
+| `atlatl-rock.jpg` | Atlatl Rock, Valley of Fire State Park, Nevada | Grenzlandstern | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Treppe_Atlatl_Rock.jpg) |
 | `badwater-basin-2.jpg` | Badwater Basin salt flats looking toward the Panamint Range, Death Valley | Jeffhollett | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Badwater_Basin_at_Death_Valley_National_Park_in_California.jpg) |
 | `badwater-basin-3.jpg` | Salt uplift ridges on the Badwater Basin flats, Death Valley | National Park Service | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Uplift_on_the_salt_flats,_Badwater_Basin.jpg) |
 | `badwater-basin-4.jpg` | Badwater Basin salt flat below the Black Mountains, Death Valley | dconvertini | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Death_Valley_National_Park,_Badwater,_California,_USA_-_52674727022.jpg) |
@@ -122,10 +127,17 @@ on its own.
 | `dantes-view-3.jpg` | Visitors on the ridge at Dante's View, Death Valley | Christian David | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Visitors_on_the_ridge_at_Dante%27s_View,_Death_Valley_National_Park,_California.jpg) |
 | `dantes-view-4.jpg` | Badwater salt pan from Dante's View, Death Valley | Anna Irene from Frankfurt, Deutschland | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dantes_View_%28Death_Valley_National_Park%29_%2835195695040%29.jpg) |
 | `dantes-view.jpg` | Dante's View overlook, Death Valley | Pimlico27 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Dante%27s_View_to_Death_Valley,_Amargosa_Range.jpg) |
+| `elephant-rock-2.jpg` | Elephant Rock, Valley of Fire State Park, Nevada | Unknown | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Valley_of_Fire_Nevada10.jpg) |
+| `elephant-rock-3.jpg` | Elephant Rock, Valley of Fire State Park, Nevada | Rcgtrrz | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Valley_of_FIre%2C_Nevada.jpg) |
+| `elephant-rock.jpg` | Elephant Rock, Valley of Fire State Park, Nevada | InSapphoWeTrust from Los Angeles, California, USA | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Elephant_Rock_-_Valley_of_Fire_State_Park%2C_Nevada%2C_USA.jpg) |
 | `elmers-bottle-tree-ranch-2.jpg` | Elmer's Bottle Tree Ranch on Route 66 at Oro Grande, California | Núria | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_Bottle_Treen_Ranch._24266_of_Route_66.jpg) |
 | `elmers-bottle-tree-ranch-3.jpg` | Elmer's Bottle Tree Ranch on Route 66 at Oro Grande, California | daveynin | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Elmer%E2%80%99s_Bottle_Tree_Ranch_on_Route_66.jpg) |
 | `elmers-bottle-tree-ranch-4.jpg` | Elmer's Bottle Tree Ranch on Route 66 at Oro Grande, California | daveynin | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Route_66_bottle.jpg) |
 | `elmers-bottle-tree-ranch.jpg` | Elmer's Bottle Tree Ranch on Route 66 at Oro Grande, California | daveynin | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bottle_Tree_Ranch%2C_Route_66.jpg) |
+| `fire-wave-2.jpg` | Banded red, white and yellow sandstone hills along the Fire Wave trail, Valley of Fire State Park, Nevada | Fabio Achilli | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Fire_Wave_Trail,_Valley_of_Fire_%2830808690887%29.jpg) |
+| `fire-wave-3.jpg` | Hikers resting on a striped sandstone fin, Fire Wave trail, Valley of Fire State Park, Nevada | Fabio Achilli | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Fire_Wave_Trail,_Valley_of_Fire_%2843930720480%29.jpg) |
+| `fire-wave-4.jpg` | Red and white striped slickrock of the Fire Wave, Valley of Fire State Park, Nevada | Fabio Achilli | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Fire_Wave_Trail,_Valley_of_Fire_%2845698066532%29.jpg) |
+| `fire-wave.jpg` | Fire Wave, Valley of Fire State Park, Nevada | Fabio Achilli | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Fire_Wave_Trail,_Valley_of_Fire_%2831876666718%29.jpg) |
 | `galleta-meadows-2.jpg` | Ricardo Breceda sculptures at Galleta Meadows, Borrego Springs, California | Gotborregosprings | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Galleta_Meadows_Borrego_Springs.jpg) |
 | `galleta-meadows-3.jpg` | Ricardo Breceda sculptures at Galleta Meadows, Borrego Springs, California | GB11111 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:ScorpionVsBug.jpg) |
 | `galleta-meadows-4.jpg` | Ricardo Breceda sculptures at Galleta Meadows, Borrego Springs, California | GB11111 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Priest_and_Cross.jpg) |
@@ -142,6 +154,9 @@ on its own.
 | `keys-view-2.jpg` | Keys View looking over the Coachella Valley, Joshua Tree National Park, California | Wing-Chi Poon | CC BY-SA 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Sunset_Solar_Halo_at_Keys_View_of_Joshua_Tree_National_Park.jpg) |
 | `keys-view-3.jpg` | Keys View looking over the Coachella Valley, Joshua Tree National Park, California | Tony Webster from Portland, Oregon, United States | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Keys_View_in_Joshua_Tree_National_Park_(15832943668).jpg) |
 | `keys-view.jpg` | Keys View looking over the Coachella Valley, Joshua Tree National Park, California | Mfield, Matthew Field, http://www.photography.mattfield.com | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Joshua_tree_keys_view_pano_more_vertical.jpg) |
+| `kingman-route66-2.jpg` | Kingman, Arizona, where Route 66 crosses US-93 | Justjeffaz (Jeff Brunton) | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Route_66%2C_Kingman_AZ.jpg) |
+| `kingman-route66-3.jpg` | Kingman, Arizona, where Route 66 crosses US-93 | Marine 69-71 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Kingman-Building-Desert_Water_and_Power_Co-1907-1.jpg) |
+| `kingman-route66-4.jpg` | Kingman, Arizona, where Route 66 crosses US-93 | Ken Lund from Reno, Nevada, USA | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Beale_Street_Commercial_District%2C_Kingman%2C_Arizona_(2639327369).jpg) |
 | `kingman-route66.jpg` | Kingman, Arizona Route 66 roadside Americana | G. Edward Johnson | CC BY 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Mr_Dz_Route_66_Diner_Kingman_AZ_2026-04-05_17-45-03.jpg) |
 | `lake-havasu-2.jpg` | Lake Havasu, Arizona | Dorian Wallender from Lake Havasu City, Arizona, USA | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Lake_Havasu_(27234550594).jpg) |
 | `lake-havasu.jpg` | Lake Havasu, Arizona | CWanamaker | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Beautiful_Beach_-_panoramio.jpg) |
@@ -174,6 +189,14 @@ on its own.
 | `skull-rock.jpg` | Skull Rock, Joshua Tree National Park, California | Qfl247 (talk) (Transferred by Citypeek/Original uploaded by Qfl247) | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:SkullRock.JPG) |
 | `the-slot-2.jpg` | The Slot, a narrow sandstone canyon in Anza-Borrego Desert State Park, California | Chris Hunkeler from Carlsbad, California, USA | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Slot_Middle_(33433272594).jpg) |
 | `the-slot.jpg` | The Slot, a narrow sandstone canyon in Anza-Borrego Desert State Park, California | Chris Hunkeler from Carlsbad, California, USA | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Slot_Top_(33433279884).jpg) |
+| `valley-of-fire-2.jpg` | Valley of Fire State Park, Nevada — the state's oldest park | John Fowler from Placitas, NM, USA | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Around_sunset%2C_Valley_of_Fire_State_Park%2C_NV.jpg) |
+| `valley-of-fire-3.jpg` | Valley of Fire State Park, Nevada — the state's oldest park | Murray Foubister | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Autumn_colours_in_SW_Utah_-_in_Valley_of_Fire_State_park_inSE_Nevada_-_cool_light_in_the_cave_(15467373029).jpg) |
+| `valley-of-fire-4.jpg` | Valley of Fire State Park, Nevada — the state's oldest park | Murray Foubister | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Autumn_colours_in_SW_Utah_-_in_Valley_of_Fire_State_park_inSE_Nevada_(15033870613).jpg) |
+| `valley-of-fire.jpg` | Valley of Fire State Park, Nevada — the state's oldest park | Murray Foubister | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Autumn_colours_in_SW_Utah_-_in_Valley_of_Fire_State_park_inSE_Nevada_(15468527770).jpg) |
+| `white-domes-2.jpg` | White Domes, Valley of Fire State Park, Nevada | Stan Shebs | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Valley_of_Fire_White_Domes_area_7.jpg) |
+| `white-domes-3.jpg` | White Domes, Valley of Fire State Park, Nevada | Stan Shebs | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Valley_of_Fire_White_Domes_area_6.jpg) |
+| `white-domes-4.jpg` | White Domes, Valley of Fire State Park, Nevada | Stan Shebs | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Valley_of_Fire_White_Domes_area_2.jpg) |
+| `white-domes.jpg` | White Domes, Valley of Fire State Park, Nevada | Stan Shebs | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Valley_of_Fire_White_Domes_area_3.jpg) |
 | `zabriskie-point-2.jpg` | Manly Beacon seen from Zabriskie Point, Death Valley | Christian David | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Manly_Beacon_seen_from_Zabriskie_Point,_Death_Valley_National_Park,_California.jpg) |
 | `zabriskie-point-3.jpg` | Zabriskie Point badlands under a cloudy sky, Death Valley | Luca Galuzzi (Lucag) | CC BY-SA 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:USA_10789_Death_Valley_Luca_Galuzzi_2007.jpg) |
 | `zabriskie-point-4.jpg` | Zabriskie Point badlands and the valley floor beyond, Death Valley | User Wolfgangbeyer on de.wikipedia | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Death_Valley_Zabriskie_Point.jpg) |
