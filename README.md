@@ -19,6 +19,7 @@ Route  ──  Southwest Loop — January        the original: five national par
         ──  Low Desert Loop, the long way   14 days: the same, finishing at Valley of Fire
         ──  Sonoran Loop — January          warmest of them, and the most driving
         ──  Key West Run — January          the East Coast rival: drive from home, no flights
+        ──  New Orleans Loop — January      inland to New Orleans, home along the Gulf
              ├── shared: the map, the days, must-sees, watch-outs, pros/cons
              └── options: Motorhome  ·  Car and lodging
                           (cost, vehicle, and which days change)
@@ -29,10 +30,12 @@ and open in Death Valley. After that they go different ways. The two Low Desert 
 same trip at two lengths — one source file and one builder produce both, and they share a photo
 folder, so a picture swapped for one is swapped for both.
 
-The **Key West Run** is the odd one out and deliberately so: it starts and ends at Fort Lee,
-NJ, is driven from home with no flights and no airport, and runs down the Atlantic coast to
-the bottom of the Florida Keys. Its options split on the vehicle — a hired van against a
-motorhome — rather than on where you sleep.
+Two routes leave from Fort Lee, NJ instead, driven from home with no flights and no airport.
+The **Key West Run** goes down the Atlantic coast to the bottom of the Florida Keys and back
+up the same way. The **New Orleans Loop** is a loop rather than an out-and-back: down the
+inland side of the Appalachians through Nashville, Memphis and the Delta, then home along the
+Gulf coast and up the Piedmont, so no road is driven twice. Both split their options on the
+vehicle — a hired van against a motorhome — rather than on where you sleep.
 
 Costs are deliberately tucked away — no prices on the home screen, and none on the
 route page until you reach the summary at the very bottom. The **COSTS** button
@@ -55,6 +58,7 @@ Everything the site shows comes from two files:
 | `data/routes/low-desert-loop.json` | The same loop in fourteen, finishing at Valley of Fire |
 | `data/routes/sonoran-loop.json` | The Arizona loop, out to Saguaro and Tucson |
 | `data/routes/key-west-run.json` | Fort Lee to Key West and back, driven from home |
+| `data/routes/new-orleans-loop.json` | Fort Lee to New Orleans and back the other way, a loop |
 
 Change a number or some wording, then push:
 
@@ -302,6 +306,7 @@ work — the browser blocks loading the JSON that way.
 | `tools/build-low-desert.mjs` | Builds both Low Desert routes from one source file |
 | `tools/build-sonoran-loop.mjs` | Same, for the Sonoran Loop |
 | `tools/build-key-west-run.mjs` | Same, for the Key West Run |
+| `tools/build-new-orleans-loop.mjs` | Same, for the New Orleans Loop |
 | `tools/fetch-commons.mjs` | Pulls freely-licensed candidate photos off Wikimedia Commons |
 | `source/` | The planning data and checked coordinates each route was built from |
 

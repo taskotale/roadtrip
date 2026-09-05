@@ -1,0 +1,273 @@
+{
+  "trip": {
+    "title": "New Orleans Loop — January",
+    "subtitle": "Luray Caverns · Bristol · Nashville · Memphis · the Delta · Vicksburg · New Orleans · Mobile · Atlanta",
+    "summary": "Fourteen days from Fort Lee to New Orleans and back, down the inland side of the Appalachians and home along the Gulf and the Piedmont. It is a loop, so no road is driven twice. Carnival opens on 6 January and Mardi Gras is not until 9 February 2027, which puts the far end of this trip inside the season but nowhere near the crush — and in the cheapest, quietest fortnight New Orleans has. 2,926 miles, and not one day over 350.",
+    "season": "January",
+    "start_end": "Fort Lee, NJ",
+    "duration_days": 14,
+    "total_miles": 2926,
+    "party_size": 6,
+    "avg_miles_per_day": 209
+  },
+  "days": [
+    {
+      "day": 1,
+      "miles": 323,
+      "driveTime": "6h 40m",
+      "freezingNight": true,
+      "headline": "Off the Turnpike and into the Shenandoah",
+      "notes": "Fort Lee is on the west bank of the Hudson, which is the one gift the start of this trip gives you: no bridge toll, no Manhattan. Then turn inland rather than south — I-78 across New Jersey and Pennsylvania, down the Great Valley on I-81, and east on US-211 over the Blue Ridge into Luray. Very little of it is scenic and the last forty minutes are, climbing through Thornton Gap with the ridge on both sides. If you are running ahead, Harpers Ferry sits almost on the line: a town wedged into the point where the Shenandoah meets the Potomac, with two states looking back at you across the water.",
+      "activities": [
+        "Out by 7am — I-78 is unforgiving after eight",
+        "Harpers Ferry if you are ahead of the clock",
+        "Book the 9am Luray Caverns tour before you go to bed"
+      ]
+    },
+    {
+      "day": 2,
+      "miles": 278,
+      "driveTime": "5h 15m",
+      "freezingNight": true,
+      "headline": "The mountain day, spent underground",
+      "notes": "Skyline Drive starts half an hour from here and in January it is very often shut — all 105 miles of it, sometimes for days at a time. That is fine, because nothing on this route needs it. Luray Caverns opens at nine, sits at a constant 12°C whatever is happening above it, and the tour is a mile and a quarter of paved, well-lit path past columns the height of a house. Out by eleven and the rest is I-81 down the valley, with the Blue Ridge on your left the whole afternoon. Bristol at the end of it is one town in two states, and the line runs down the middle of State Street with a brass marker set into the tarmac.",
+      "activities": [
+        "Luray Caverns at 9am — the first tour is the empty one",
+        "The Great Stalacpipe Organ, played on the formations themselves",
+        "Natural Bridge is fifteen minutes off I-81 at exit 180",
+        "Stand with one foot in Virginia and one in Tennessee"
+      ]
+    },
+    {
+      "day": 3,
+      "miles": 291,
+      "driveTime": "5h 20m",
+      "freezingNight": true,
+      "headline": "Into Central Time, and into the Ryman",
+      "notes": "The Birthplace of Country Music Museum opens at ten and takes about ninety minutes. It is built around the 1927 Bristol Sessions — the fortnight of recordings in a hat warehouse on State Street that put the Carter Family and Jimmie Rodgers onto disc and started the entire industry. Then I-81 into I-40 past Knoxville, and somewhere near Crossville you cross into Central Time and get an hour back. Spend it in Nashville: for a stretch of every winter the Grand Ole Opry leaves its purpose-built house out by the airport and moves back downtown into the Ryman, which is the version worth seeing.",
+      "activities": [
+        "Birthplace of Country Music Museum from 10am",
+        "You gain an hour at the time zone line near Crossville",
+        "Check the Opry's Ryman dates before you fix your departure — in 2026 it was 2 to 10 January"
+      ]
+    },
+    {
+      "day": 4,
+      "miles": 212,
+      "driveTime": "3h 55m",
+      "headline": "A morning on Music Row, then west",
+      "notes": "The shortest driving day of the fortnight, which makes the morning a real one. The Country Music Hall of Fame is the pick — two or three hours, ending in the Rotunda, a circular room of bronze plaques under 'Will the Circle Be Unbroken' cut into the stone. If the children have had their fill of country music, the Parthenon in Centennial Park is a full-scale concrete replica of the one in Athens with a 42-foot gilded Athena standing inside it, and the park around it costs nothing. Away by one and I-40 has you in Memphis in daylight.",
+      "activities": [
+        "Country Music Hall of Fame from 9am — $31.95 adult, $21.95 for 6 to 12",
+        "The Parthenon in Centennial Park — free to walk around outside",
+        "Leave by 1pm to reach Memphis before dark"
+      ]
+    },
+    {
+      "day": 5,
+      "miles": 0,
+      "driveTime": "2h 20m round trip",
+      "headline": "Graceland, the Lorraine Motel, and one small room on Union Avenue",
+      "notes": "The heaviest day on the route and the best. Graceland opens at nine and the Elvis Experience — the house, the cars, the two jets — takes most of a morning; it is nine miles south of downtown and the biggest single ticket on this trip at about $85 an adult. Come back into town for the National Civil Rights Museum, which is built into and around the Lorraine Motel with the balcony left exactly as it was on 4 April 1968. Three hours, $18 an adult and $15 for 5 to 17, and it will be the thing the older children still talk about in a year. Sun Studio sits between the two: half an hour in one small room where Elvis, Cash, Perkins and Lewis all recorded. If anything is left in the tank, the Peabody ducks come down to the lobby fountain at eleven and go back up at five, and cost nothing at all.",
+      "activities": [
+        "Graceland at opening — the Elvis Experience, not the VIP tiers",
+        "National Civil Rights Museum in the afternoon",
+        "Sun Studio tours run on the half hour",
+        "Peabody ducks: 11am down, 5pm up",
+        "Beale Street early evening — the clubs tighten up on under-21s later"
+      ]
+    },
+    {
+      "day": 6,
+      "miles": 220,
+      "driveTime": "4h 55m",
+      "headline": "Down Highway 61",
+      "notes": "US-61 leaves Memphis and drops onto the flattest ground you will ever drive across. This is the Delta: cotton stubble to the horizon in January, catfish ponds, grain elevators, and small towns that handed the blues to everyone who came afterwards. Clarksdale is the stop. The Delta Blues Museum is in the old freight depot, is open ten to five Monday to Saturday and closed on Sundays, and is small enough to do properly in an hour. The junction of 61 and 49 is signposted as the Crossroads, and Ground Zero Blues Club a few streets away does lunch. Then south through Cleveland and Leland, over the Yazoo, and up onto the bluff at Vicksburg — the first high ground since Memphis.",
+      "activities": [
+        "Delta Blues Museum, Clarksdale — closed Sundays",
+        "The Crossroads at 61 and 49",
+        "Lunch at Ground Zero Blues Club",
+        "Into Vicksburg with the afternoon still going"
+      ]
+    },
+    {
+      "day": 7,
+      "miles": 251,
+      "driveTime": "5h 00m",
+      "headline": "A siege, a mound, and a city after dark",
+      "notes": "Vicksburg National Military Park has a 16-mile tour road that opens at 8:30 and runs past 1,325 monuments and markers strung along the ridges either side of it — two hours at a stop-and-look pace. The USS Cairo sits in the middle of it: an ironclad gunboat mined on the Yazoo in December 1862, salvaged a century later, and open to the sky under a canopy so you can see straight down into her timbers. Then US-61 south. Twenty minutes short of Natchez, Emerald Mound is a free, unstaffed eight-acre platform mound you can simply walk up, and a mile beyond it the Natchez Trace Parkway ends after 444 miles. Natchez itself deserves an hour on the bluff. New Orleans is three hours further and you will arrive in the dark, which is the right way to arrive.",
+      "activities": [
+        "Vicksburg tour road from 8:30 — allow two hours",
+        "USS Cairo, at stop 12 in the middle of the park",
+        "Emerald Mound, free, at Natchez Trace milepost 10",
+        "Lunch on the bluff at Natchez",
+        "Into New Orleans for three nights"
+      ]
+    },
+    {
+      "day": 8,
+      "miles": 0,
+      "driveTime": "on foot and by streetcar",
+      "headline": "The Quarter on foot",
+      "notes": "The French Quarter is thirteen blocks by six and walking is the only sensible way through it. Jackson Square first, with St Louis Cathedral behind it and the Cabildo and the Presbytère on either side — both are state museums and both are cheap. Café du Monde is on the corner and has done beignets and chicory café au lait since 1862; it is no longer the round-the-clock place it used to be, opening at 7:15am and closing at eleven most nights, and you will wear the sugar whatever you do. The French Market runs down Decatur behind it. Then the National WWII Museum over in the Warehouse District, which is enormous and genuinely takes half a day. If Carnival has opened, the evening belongs to whatever is rolling.",
+      "activities": [
+        "Jackson Square and St Louis Cathedral first thing",
+        "Café du Monde — go before nine in the morning or late at night",
+        "The National WWII Museum, half a day, about $32 an adult",
+        "Royal Street for the buskers; Bourbon Street for about ten minutes"
+      ]
+    },
+    {
+      "day": 9,
+      "miles": 0,
+      "driveTime": "1h 40m round trip if you go to Oak Alley",
+      "headline": "Streetcars, oaks and the river road",
+      "notes": "Day two gets you out of the Quarter. The St Charles line is the oldest continuously operating streetcar in the world, running 1923 Perley Thomas cars up under the live oaks past the Garden District to Audubon Park — $1.25 a ride, or $3 for a one-day Jazzy Pass that also covers the buses and the ferry. Get off around Washington Avenue and walk the Garden District, which is a grid of galleried mansions and cast-iron fences and takes about an hour. In the afternoon either drive an hour up the River Road to Oak Alley, whose quarter-mile tunnel of 300-year-old live oaks is one of the genuine sights of the South, or take a swamp boat out of Barataria. Be warned about the swamp: in January the alligators are dormant.",
+      "activities": [
+        "A $3 Jazzy Pass beats paying four single fares",
+        "Walk the Garden District from Washington Avenue",
+        "Oak Alley — $30 adult, $9 for 6 to 17, an hour each way",
+        "City Park and the Louisiana Children's Museum if it rains"
+      ]
+    },
+    {
+      "day": 10,
+      "miles": 149,
+      "driveTime": "3h 00m",
+      "headline": "The easy day, and a battleship",
+      "notes": "Deliberately the lightest day of the fortnight, because three long ones come after it. Out of New Orleans across the Rigolets and then US-90 along the Mississippi coast rather than I-10 — twenty-odd miles of white sand on your right, the Biloxi Lighthouse standing on the central reservation of the highway, and Ocean Springs with its shrimp fleet tied up at the end of it. Mobile by mid-afternoon, which leaves the whole of the USS Alabama. You climb down through a 35,000-ton battleship and through the submarine moored alongside her for $18 an adult and $6 a child, and it is comfortably the best-value ticket on this route.",
+      "activities": [
+        "US-90 along the coast, not I-10",
+        "The Biloxi Lighthouse really is in the middle of the road",
+        "USS Alabama and USS Drum — last entry around 4pm",
+        "Mobile claims the first American Mardi Gras, in 1703, and will tell you so"
+      ]
+    },
+    {
+      "day": 11,
+      "miles": 328,
+      "driveTime": "6h 00m",
+      "headline": "North on I-65, and the hour comes back",
+      "notes": "The longest day since the drive down, and the clock makes it worse: somewhere between Montgomery and Atlanta you cross into Eastern Time and give back the hour you picked up in Tennessee. Montgomery is almost exactly halfway and costs you nothing in distance. The Rosa Parks Museum stands on the corner where she was arrested in December 1955, and Dexter Avenue Baptist Church, where a 26-year-old King was pastor, is four blocks up the hill in the shadow of the state capitol. An hour there breaks the day in the right place. Then I-85 into Atlanta.",
+      "activities": [
+        "Break at Montgomery — the Rosa Parks Museum takes about an hour",
+        "Dexter Avenue Baptist Church, four blocks below the capitol",
+        "You lose an hour crossing into Eastern Time",
+        "Atlanta by early evening"
+      ]
+    },
+    {
+      "day": 12,
+      "miles": 244,
+      "driveTime": "4h 45m",
+      "headline": "A morning in Atlanta, then the Piedmont",
+      "notes": "A short drive, so the morning is yours. The Georgia Aquarium is the obvious call and the expensive one — $55 to $70 a head depending on the date, so $350 and up for six. The Center for Civil and Human Rights next door is about a third of that and pitched better at children over ten, and the World of Coca-Cola is on the same plaza. Then I-85 north-east through the Piedmont, which is 240 miles of pine, red clay and outlet malls, with Charlotte at the end of it.",
+      "activities": [
+        "Georgia Aquarium, booked ahead, or the Center for Civil and Human Rights",
+        "The BeltLine Eastside Trail if the sun is out",
+        "Discovery Place Science in Charlotte if you land early"
+      ]
+    },
+    {
+      "day": 13,
+      "miles": 347,
+      "driveTime": "6h 40m",
+      "freezingNight": true,
+      "headline": "The long one, and the cold comes back",
+      "notes": "The hardest day of the return and the only one over 340 miles. I-85 to Petersburg and then I-95 north — the first time this trip has touched I-95 since the morning it left home. Fredericksburg is chosen over Richmond deliberately: it is 55 miles further up the road, which takes an hour off tomorrow, and the old town is four walkable blocks of eighteenth-century brick running down to the Rappahannock. The battlefield and the Sunken Road are on the edge of town and free. It will also be the first properly cold night since Nashville.",
+      "activities": [
+        "Leave early — this is the day with no slack in it",
+        "Fredericksburg battlefield and the Sunken Road, free",
+        "Caroline Street for dinner"
+      ]
+    },
+    {
+      "day": 14,
+      "miles": 283,
+      "driveTime": "5h 55m",
+      "headline": "Home the short way",
+      "notes": "Under six hours, and the only real variable is what time you meet Washington and Baltimore. Leave before seven and you are through both before the day properly starts; leave at nine and you will add an hour to the drive and a good deal more to everyone's temper. I-95 the whole way, over the Delaware Memorial Bridge, up the Turnpike, and into Fort Lee from the south with no bridge to cross at the end of it.",
+      "activities": [
+        "Out before 7am to clear the Beltway and the Harbor Tunnel",
+        "Last fuel in Delaware or New Jersey",
+        "Home by mid-afternoon"
+      ]
+    }
+  ],
+  "rejected_alternatives": [
+    {
+      "place": "The Blue Ridge Parkway and Skyline Drive",
+      "reason": "January shuts them. Most of the Parkway's 469 miles sat closed through January 2026, and Skyline Drive closes along its entire 105 miles for days at a time — the whole road was gated ahead of a single storm in late January 2026. This route runs the valley floor on I-81 instead and spends its mountain morning inside Luray Caverns, which is 12°C in any weather."
+    },
+    {
+      "place": "The Great Smoky Mountains",
+      "reason": "Kuwohi Road, the old Clingmans Dome Road, is gated from 1 December to 31 March every year without exception, Newfound Gap Road closes intermittently in snow, and Dollywood is shut for the winter. The park is 130 miles off the line for a version of itself with the best bits locked."
+    },
+    {
+      "place": "Mardi Gras itself",
+      "reason": "9 February 2027, four weeks after this trip ends. Carnival 2027 is one of the shortest on record at 34 days, and the fortnight before Fat Tuesday is when New Orleans lodging triples and the Quarter becomes impassable. Going in January buys the season's opening at a fifth of the price."
+    },
+    {
+      "place": "The Natchez Trace Parkway, end to end",
+      "reason": "444 miles at 50 mph is two full days, it is never plowed, salted or sanded, and it holds ice long after the roads beside it have cleared. It also runs Nashville to Natchez by way of Tupelo, which means giving up Memphis and the Delta. This route drives the best twenty miles of it, at the Natchez end, and takes US-61 for the rest."
+    },
+    {
+      "place": "Florida, Savannah and Charleston",
+      "reason": "The Key West Run already owns I-95, the Atlantic coast and the whole of Florida. Repeating any of it would make this the same holiday twice."
+    },
+    {
+      "place": "Chattanooga and Lookout Mountain",
+      "reason": "Rock City and the Incline Railway would suit the children, but Chattanooga sits 120 miles north of the Mobile-to-Atlanta line and there is no day spare to reach it. It belongs on a trip that comes home through Tennessee."
+    },
+    {
+      "place": "A fourth night in New Orleans",
+      "reason": "It would have to come out of Memphis, and Memphis at one night means choosing between Graceland and the Lorraine Motel. Three nights at the far point and a full day in Memphis is the better trade."
+    },
+    {
+      "place": "Houston and San Antonio",
+      "reason": "The Alamo is another 550 miles west of New Orleans, which is a third of the way to Los Angeles. It would turn a loop into a crossing and add four days."
+    }
+  ],
+  "money_savers": [
+    {
+      "item": "Do not buy the national park pass",
+      "saving": "$80",
+      "detail": "This is the rare route where it does not pay. The only fee stations on it are Harpers Ferry and Vicksburg, at $20 a vehicle each. The Natchez Trace, Emerald Mound, Barataria and the Fredericksburg battlefield are all free. Buy the pass only if you already know you will use it again before it expires."
+    },
+    {
+      "item": "Sleep in Metairie or Mid-City, not the Quarter",
+      "saving": "~$450 over three nights",
+      "detail": "January is the cheapest stretch of the New Orleans year and the Quarter still charges a premium for the postcode. Mid-City puts you on the Canal streetcar; Metairie is fifteen minutes out and half the price, with parking that is free rather than $45 a night."
+    },
+    {
+      "item": "Hire from a neighbourhood branch, not Newark Airport",
+      "saving": "~$150–300",
+      "detail": "You are not flying, so there is no reason to pay the airport concession fee. A seven-seat van out of Jersey City runs around $60 to $75 a day in January against far more at Newark."
+    },
+    {
+      "item": "Skip the Graceland upper tiers",
+      "saving": "~$300 for six",
+      "detail": "The Elvis Experience at about $85 covers the mansion, the car museum and both aircraft. The VIP and Ultimate tiers add front-of-queue and a keepsake book, which for a party of six is several hundred dollars for a shorter wait in the quietest month of the year."
+    },
+    {
+      "item": "The Center for Civil and Human Rights instead of the Georgia Aquarium",
+      "saving": "~$230",
+      "detail": "Around $120 for six against $350 or more, and for children over about ten it is the better morning. If the aquarium is non-negotiable, book online for a weekday — the gate price is $70.77."
+    },
+    {
+      "item": "A $3 Jazzy Pass, not four single fares",
+      "saving": "~$50 over two days",
+      "detail": "Unlimited streetcars, buses and the Algiers ferry for a day. Six single streetcar rides cost $7.50 before you have gone anywhere twice."
+    },
+    {
+      "item": "Eat lunch in the Delta and dinner in the cities",
+      "saving": "~$300 over the fortnight",
+      "detail": "Clarksdale, Vicksburg and Natchez do a proper hot lunch for a third of what the same food costs in Nashville or the French Quarter. Load the middle of the day where the route is cheap."
+    },
+    {
+      "item": "Book Luray Caverns online",
+      "saving": "~$20",
+      "detail": "$36 an adult and $18 for 6 to 12, and the online price beats the window. Six people through the gate is $162 either way you cut it, so take the discount."
+    }
+  ]
+}

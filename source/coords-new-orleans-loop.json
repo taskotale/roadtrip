@@ -1,0 +1,190 @@
+{
+  "fort-lee": {
+    "lat": 40.85093,
+    "lng": -73.97015
+  },
+  "harpers-ferry": {
+    "lat": 39.32342,
+    "lng": -77.73198
+  },
+  "luray": {
+    "lat": 38.66547,
+    "lng": -78.46002
+  },
+  "luray-caverns": {
+    "lat": 38.66328,
+    "lng": -78.48356
+  },
+  "bristol": {
+    "lat": 36.59486,
+    "lng": -82.17914
+  },
+  "birthplace-country-music": {
+    "lat": 36.59629,
+    "lng": -82.18286
+  },
+  "nashville": {
+    "lat": 36.16228,
+    "lng": -86.7743
+  },
+  "ryman": {
+    "lat": 36.16125,
+    "lng": -86.7785
+  },
+  "country-music-hof": {
+    "lat": 36.15817,
+    "lng": -86.77609
+  },
+  "nashville-parthenon": {
+    "lat": 36.14972,
+    "lng": -86.81333
+  },
+  "memphis": {
+    "lat": 35.14603,
+    "lng": -90.05178
+  },
+  "graceland": {
+    "lat": 35.04574,
+    "lng": -90.02307
+  },
+  "civil-rights-museum": {
+    "lat": 35.13458,
+    "lng": -90.05744
+  },
+  "sun-studio": {
+    "lat": 35.13927,
+    "lng": -90.03775
+  },
+  "beale-street": {
+    "lat": 35.13855,
+    "lng": -90.04181
+  },
+  "peabody": {
+    "lat": 35.14218,
+    "lng": -90.05178
+  },
+  "clarksdale": {
+    "lat": 34.20065,
+    "lng": -90.57021
+  },
+  "delta-blues-museum": {
+    "lat": 34.20011,
+    "lng": -90.57358
+  },
+  "vicksburg": {
+    "lat": 32.35281,
+    "lng": -90.87773
+  },
+  "vicksburg-nmp": {
+    "lat": 32.34406,
+    "lng": -90.85145
+  },
+  "uss-cairo": {
+    "lat": 32.37583,
+    "lng": -90.86667
+  },
+  "emerald-mound": {
+    "lat": 31.63611,
+    "lng": -91.24723
+  },
+  "natchez": {
+    "lat": 31.56041,
+    "lng": -91.40317
+  },
+  "natchez-bluff": {
+    "lat": 31.5595,
+    "lng": -91.411
+  },
+  "new-orleans": {
+    "lat": 29.95614,
+    "lng": -90.07339
+  },
+  "jackson-square": {
+    "lat": 29.95747,
+    "lng": -90.06295
+  },
+  "st-louis-cathedral": {
+    "lat": 29.958,
+    "lng": -90.06375
+  },
+  "cafe-du-monde": {
+    "lat": 29.95756,
+    "lng": -90.06185
+  },
+  "french-market": {
+    "lat": 29.95934,
+    "lng": -90.06026
+  },
+  "bourbon-street": {
+    "lat": 29.95468,
+    "lng": -90.06917
+  },
+  "garden-district": {
+    "lat": 29.92961,
+    "lng": -90.08441
+  },
+  "wwii-museum": {
+    "lat": 29.94306,
+    "lng": -90.07028
+  },
+  "city-park-nola": {
+    "lat": 30.00061,
+    "lng": -90.09329
+  },
+  "oak-alley": {
+    "lat": 30.0041,
+    "lng": -90.77631
+  },
+  "ocean-springs": {
+    "lat": 30.41129,
+    "lng": -88.82792
+  },
+  "biloxi-lighthouse": {
+    "lat": 30.39442,
+    "lng": -88.90122
+  },
+  "mobile": {
+    "lat": 30.69135,
+    "lng": -88.04375
+  },
+  "uss-alabama": {
+    "lat": 30.68437,
+    "lng": -88.01532
+  },
+  "montgomery": {
+    "lat": 32.37771,
+    "lng": -86.30908
+  },
+  "rosa-parks-museum": {
+    "lat": 32.37671,
+    "lng": -86.31122
+  },
+  "atlanta": {
+    "lat": 33.75447,
+    "lng": -84.38982
+  },
+  "georgia-aquarium": {
+    "lat": 33.76327,
+    "lng": -84.39512
+  },
+  "charlotte": {
+    "lat": 35.22721,
+    "lng": -80.84308
+  },
+  "discovery-place": {
+    "lat": 35.22962,
+    "lng": -80.8412
+  },
+  "fredericksburg": {
+    "lat": 38.30012,
+    "lng": -77.45715
+  },
+  "natchez-trace": {
+    "lat": 31.60883,
+    "lng": -91.2621
+  },
+  "st-charles-line": {
+    "lat": 29.9264,
+    "lng": -90.0872
+  }
+}
