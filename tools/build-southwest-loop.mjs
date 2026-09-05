@@ -71,7 +71,7 @@ const POIS = {
       poi("Ubehebe Crater", 'ubehebe-crater', 'ubehebe-crater.jpg',
        'A half-mile-wide volcanic crater — but a 110-mile round trip.'),
       poi("Dante's View", 'dantes-view', 'dantes-view.jpg',
-       '5,475 ft up, looking straight down at Badwater. Can be 25° colder.')],
+       '5,475 ft up, looking straight down at Badwater. Can be 14°C colder.')],
   4: [poi("Valley of Fire", 'valley-of-fire', 'valley-of-fire.jpg',
        "Nevada's oldest state park, and bright red the whole way through."),
       poi("Fire Wave", 'fire-wave', 'fire-wave.jpg',
@@ -162,7 +162,7 @@ const ROUTE_PROS = [
   'January is the emptiest month of the year at the Grand Canyon, and Springdale and Page are both cheap in low season.',
   'Short days: 118 miles a day on average, and five of the fourteen days involve no driving between towns at all.',
   'Winter opens Zion Canyon Scenic Drive to private vehicles — the park shuttle does not run, so you drive it yourself.',
-  'The warm end of the trip comes first. Death Valley in the mid-60s while you settle in, before the cold middle.',
+  'The warm end of the trip comes first. Death Valley around 18°C while you settle in, before the cold middle.',
   'One set of flights, one vehicle, one loop. Nothing is one-way.'
 ];
 
@@ -183,7 +183,7 @@ const FLAGS = {
     3: [{ type: 'blocked', label: 'Not in the motorhome:',
           text: "The final climb to Dante's View has the same 25 ft limit. Rental car again." }],
     5: [{ type: 'note', label: 'First freezing night.',
-          text: 'Run the propane furnace, not the heat pump — heat pumps stop working around 40°F. Disconnect the city water hose at night and run off the fresh tank; the hose freezes long before the tanks do.' }],
+          text: 'Run the propane furnace, not the heat pump — heat pumps stop working around 4°C. Disconnect the city water hose at night and run off the fresh tank; the hose freezes long before the tanks do.' }],
     6: [{ type: 'blocked', label: 'Not in the motorhome:',
           text: 'Mount Carmel Highway is closed to anything over 35 ft 9 in long, 7 ft 10 in wide or 11 ft 4 in high. Every Class C is about 8 ft wide and 12 ft tall, so a smaller one does not help — the whole east side of Zion is out, Canyon Overlook Trail and Checkerboard Mesa included. As of June 2026 the oversized-vehicle escort was scrapped entirely: no permit, no escort, no exception.' }],
     7: [{ type: 'blocked', label: 'This is why it is 200 miles.',
@@ -191,7 +191,7 @@ const FLAGS = {
     9: [{ type: 'blocked', label: 'Not in the motorhome:',
           text: 'The Navajo Nation bars RVs from the 17-mile loop by category, not by size. What you can still do for free: the visitor center overlook and the 3.2-mile Wildcat Trail. A Navajo-guided 4x4 tour runs $70–95 each.' }],
     11: [{ type: 'note', label: 'Coldest night of the trip.',
-           text: 'Highs in the low 40s, lows in the high teens. Full hookups are available at Trailer Village — book it first, it sets the skeleton of the whole trip.' }]
+           text: 'Highs around 5°C, lows around −8°C. Full hookups are available at Trailer Village — book it first, it sets the skeleton of the whole trip.' }]
   },
   'car-and-lodging': {
     2: [{ type: 'unlocked', label: 'Open to you:',

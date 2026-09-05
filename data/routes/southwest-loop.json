@@ -81,7 +81,7 @@
     },
     {
       "title": "Seven nights at or below freezing",
-      "text": "Seven nights at or below freezing in the motorhome build — Zion, Page, Monument Valley and the Grand Canyon. Every one of those stops has a full-hookup option. Run the propane furnace, not the heat pump, which stops working around 40°F. Disconnect the city water hose at night and run off the fresh tank; the hose freezes long before the tanks."
+      "text": "Seven nights at or below freezing in the motorhome build — Zion, Page, Monument Valley and the Grand Canyon. Every one of those stops has a full-hookup option. Run the propane furnace, not the heat pump, which stops working around 4°C. Disconnect the city water hose at night and run off the fresh tank; the hose freezes long before the tanks."
     },
     {
       "title": "Freeze damage is charged to you",
@@ -114,7 +114,7 @@
     "January is the emptiest month of the year at the Grand Canyon, and Springdale and Page are both cheap in low season.",
     "Short days: 118 miles a day on average, and five of the fourteen days involve no driving between towns at all.",
     "Winter opens Zion Canyon Scenic Drive to private vehicles — the park shuttle does not run, so you drive it yourself.",
-    "The warm end of the trip comes first. Death Valley in the mid-60s while you settle in, before the cold middle.",
+    "The warm end of the trip comes first. Death Valley around 18°C while you settle in, before the cold middle.",
     "One set of flights, one vehicle, one loop. Nothing is one-way."
   ],
   "cons": [
@@ -310,7 +310,7 @@
           {
             "type": "note",
             "label": "First freezing night.",
-            "text": "Run the propane furnace, not the heat pump — heat pumps stop working around 40°F. Disconnect the city water hose at night and run off the fresh tank; the hose freezes long before the tanks do."
+            "text": "Run the propane furnace, not the heat pump — heat pumps stop working around 4°C. Disconnect the city water hose at night and run off the fresh tank; the hose freezes long before the tanks do."
           }
         ],
         "6": [
@@ -338,7 +338,7 @@
           {
             "type": "note",
             "label": "Coldest night of the trip.",
-            "text": "Highs in the low 40s, lows in the high teens. Full hookups are available at Trailer Village — book it first, it sets the skeleton of the whole trip."
+            "text": "Highs around 5°C, lows around −8°C. Full hookups are available at Trailer Village — book it first, it sets the skeleton of the whole trip."
           }
         ]
       },
@@ -1712,7 +1712,7 @@
       },
       "miles": 120,
       "headline": "Below sea level by lunchtime",
-      "notes": "Pick up the vehicle and drive straight in. Furnace Creek sits 190 feet below sea level and is the warmest place you'll sleep all trip — January highs in the mid-60s, lows around 40.",
+      "notes": "Pick up the vehicle and drive straight in. Furnace Creek sits 190 feet below sea level and is the warmest place you'll sleep all trip — January highs around 18°C, lows around 4°C.",
       "elevation": -190,
       "freezingNight": false,
       "activities": [
@@ -3055,7 +3055,7 @@
       },
       "miles": 0,
       "headline": "Dunes and craters",
-      "notes": "Ubehebe Crater is a 110-mile round trip from Furnace Creek. Dante's View sits at 5,475 feet and can be 25 degrees colder than the valley floor — it also caps at 25 feet.",
+      "notes": "Ubehebe Crater is a 110-mile round trip from Furnace Creek. Dante's View sits at 5,475 feet and can be 14°C colder than the valley floor — it also caps at 25 feet.",
       "elevation": -190,
       "freezingNight": false,
       "activities": [
@@ -3108,11 +3108,11 @@
             36.22066,
             -116.72675
           ],
-          "caption": "5,475 ft up, looking straight down at Badwater. Can be 25° colder.",
+          "caption": "5,475 ft up, looking straight down at Badwater. Can be 14°C colder.",
           "photos": [
             {
               "src": "assets/photos/southwest-loop/dantes-view.jpg",
-              "caption": "5,475 ft up, looking straight down at Badwater. Can be 25° colder."
+              "caption": "5,475 ft up, looking straight down at Badwater. Can be 14°C colder."
             },
             {
               "src": "assets/photos/southwest-loop/dantes-view-2.jpg"
@@ -5685,7 +5685,7 @@
       },
       "miles": 0,
       "headline": "Full day in Zion",
-      "notes": "Canyon floor is around 4,000 feet — low 50s days, high 20s nights. The mildest of the cold stops.",
+      "notes": "Canyon floor is around 4,000 feet — 10 to 12°C days, −2°C nights. The mildest of the cold stops.",
       "elevation": 4000,
       "freezingNight": true,
       "activities": [
@@ -9590,7 +9590,7 @@
       },
       "miles": 0,
       "headline": "The rim",
-      "notes": "Coldest night of the trip — highs in the low 40s, lows in the high teens. Free park shuttles run year-round. Snow on the rim over red rock, and the park at its emptiest all year.",
+      "notes": "Coldest night of the trip — highs around 5°C, lows around −8°C. Free park shuttles run year-round. Snow on the rim over red rock, and the park at its emptiest all year.",
       "elevation": 6800,
       "freezingNight": true,
       "activities": [

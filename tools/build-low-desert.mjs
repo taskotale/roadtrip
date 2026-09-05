@@ -145,7 +145,7 @@ const SHAPE = {
       ['Zabriskie Point', 1, 'zabriskie-point.jpg',
        'Golden badlands at sunset, ten minutes from where you sleep. The best view in Death Valley for the least effort.'],
       ['Badwater Basin', 2, 'badwater-basin.jpg',
-       'The lowest point in North America, 282 ft below sea level, at 65°F in January. Walk out onto the salt flats.'],
+       'The lowest point in North America, 282 ft below sea level, at 18°C in January. Walk out onto the salt flats.'],
       ["Elmer's Bottle Tree Ranch", 4, 'elmers-bottle-tree-ranch.jpg',
        'Free, on the old Route 66 alignment, and unlike anything else on either version. Ten minutes, and worth the detour.'],
       ['Palm Springs Aerial Tramway', 4, 'palm-springs-tramway.jpg',
@@ -184,7 +184,7 @@ const SHAPE = {
       'Ten days, and it still gets Death Valley, two national parks, three state parks and 200 miles of original Route 66.',
       'No night is expected to freeze. Nothing on this route sleeps above 2,200 feet.',
       'Needles sits at 495 feet on the Colorado — the warmest bed of the trip, and genuinely on Route 66.',
-      'January is the best month of the year to be in the low desert. Palm Springs runs to the low 70s and Death Valley to the mid-60s.',
+      'January is the best month of the year to be in the low desert. Palm Springs runs to 21 or 22°C and Death Valley to around 18°C.',
       'The motorhome stops being a compromise. Its worst problem on the Southwest Loop was seven freezing nights, and this route does not have one.',
       'One set of flights, one vehicle, one loop. Nothing is one-way.'
     ],
@@ -229,7 +229,7 @@ const SHAPE = {
       ['Zabriskie Point', 1, 'zabriskie-point.jpg',
        'Golden badlands at sunset, ten minutes from where you sleep. The best view in Death Valley for the least effort.'],
       ['Badwater Basin', 2, 'badwater-basin.jpg',
-       'The lowest point in North America, 282 ft below sea level, at 65°F in January. Walk out onto the salt flats.'],
+       'The lowest point in North America, 282 ft below sea level, at 18°C in January. Walk out onto the salt flats.'],
       ['Mesquite Flat Dunes', 3, 'mesquite-flat-dunes.jpg',
        'Go at sunrise. Dunes the kids can run down, before the wind picks up and the light goes flat.'],
       ["Elmer's Bottle Tree Ranch", 5, 'elmers-bottle-tree-ranch.jpg',
@@ -283,7 +283,7 @@ const SHAPE = {
       'Two national parks, four state parks and 200 miles of original Route 66, out and back from a single airport.',
       'Short days: 100 miles a day on average, and five of the fourteen involve no driving between towns.',
       'It finishes on the red rock at Valley of Fire rather than in a car park near the airport, and the last day is a 63-mile run to the plane.',
-      'January is the best month of the year to be in the low desert. Palm Springs runs to the low 70s and Death Valley to the mid-60s.',
+      'January is the best month of the year to be in the low desert. Palm Springs runs to 21 or 22°C and Death Valley to around 18°C.',
       'The motorhome stops being a compromise. Its worst problem on the Southwest Loop was seven freezing nights, and this route does not have one.'
     ],
     cons: [

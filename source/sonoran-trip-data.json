@@ -10,14 +10,14 @@
     "transit_miles": 1195,
     "in_park_miles": 350,
     "avg_miles_per_day": 110,
-    "summary": "The warmest of the loops, and the one that charges you the most driving for it. Death Valley first, then straight down the Colorado River into Arizona and on into the Sonoran Desert — saguaro country, which begins around Wickenburg and exists on neither of the other routes. Phoenix and Tucson both sit in the high 60s in January. Getting back to Las Vegas from Tucson is a 288-mile day, and that is the honest argument against this trip."
+    "summary": "The warmest of the loops, and the one that charges you the most driving for it. Death Valley first, then straight down the Colorado River into Arizona and on into the Sonoran Desert — saguaro country, which begins around Wickenburg and exists on neither of the other routes. Phoenix and Tucson both sit around 20°C in January. Getting back to Las Vegas from Tucson is a 288-mile day, and that is the honest argument against this trip."
   },
 
   "itinerary": [
     { "day": 1, "from": "Las Vegas, NV", "to": "Furnace Creek, Death Valley", "miles": 122,
       "drive_time": "2h37", "elevation_ft": -190, "freezing_night": false,
       "headline": "Below sea level by lunchtime",
-      "notes": "Pick up the vehicle and drive straight in. Furnace Creek sits 190 feet below sea level — January highs in the mid-60s, lows around 40.",
+      "notes": "Pick up the vehicle and drive straight in. Furnace Creek sits 190 feet below sea level — January highs around 18°C, lows around 4°C.",
       "activities": ["Zabriskie Point at sunset"] },
 
     { "day": 2, "from": "Furnace Creek", "to": "Furnace Creek", "miles": 0,
@@ -29,7 +29,7 @@
     { "day": 3, "from": "Furnace Creek", "to": "Furnace Creek", "miles": 0,
       "elevation_ft": -190, "freezing_night": false,
       "headline": "Dunes at sunrise",
-      "notes": "Mesquite Flat is twenty minutes up the valley and best before the wind picks up. Dante's View is the one genuinely cold place on this route — 5,450 feet, and it can be 25 degrees colder than the valley floor.",
+      "notes": "Mesquite Flat is twenty minutes up the valley and best before the wind picks up. Dante's View is the one genuinely cold place on this route — 5,450 feet, and it can be 14°C colder than the valley floor.",
       "activities": ["Mesquite Flat Dunes at sunrise", "Mosaic Canyon", "Dante's View"] },
 
     { "day": 4, "from": "Furnace Creek", "to": "Boulder City, NV", "miles": 136,
@@ -47,7 +47,7 @@
     { "day": 6, "from": "Lake Havasu City", "to": "Lake Havasu City", "miles": 0,
       "elevation_ft": 630, "freezing_night": false,
       "headline": "A day on the water",
-      "notes": "Lake Havasu runs to the mid-60s in January — warm enough to be out on a boat, too cold to swim. London Bridge is the actual bridge that stood over the Thames from 1831: bought from the City of London in 1968, taken apart, and rebuilt here block by numbered block.",
+      "notes": "Lake Havasu runs to around 18°C in January — warm enough to be out on a boat, too cold to swim. London Bridge is the actual bridge that stood over the Thames from 1831: bought from the City of London in 1968, taken apart, and rebuilt here block by numbered block.",
       "activities": ["London Bridge", "Boat or kayak on the lake", "Lake Havasu State Park"] },
 
     { "day": 7, "from": "Lake Havasu City", "to": "Scottsdale, AZ", "miles": 210,
@@ -59,7 +59,7 @@
     { "day": 8, "from": "Scottsdale", "to": "Scottsdale", "miles": 0,
       "elevation_ft": 1260, "freezing_night": false,
       "headline": "Phoenix in shirtsleeves",
-      "notes": "Mid to high 60s and dry. The Desert Botanical Garden is the best introduction to this desert there is, and being a garden it suits everybody in the party. Camelback is a hard scramble with chains and drop-offs; Papago Park next door gives you a ten-minute walk to the same kind of view.",
+      "notes": "18 to 21°C and dry. The Desert Botanical Garden is the best introduction to this desert there is, and being a garden it suits everybody in the party. Camelback is a hard scramble with chains and drop-offs; Papago Park next door gives you a ten-minute walk to the same kind of view.",
       "activities": ["Desert Botanical Garden", "Hole in the Rock, Papago Park", "Old Town Scottsdale", "Taliesin West"] },
 
     { "day": 9, "from": "Scottsdale", "to": "Apache Junction, AZ", "miles": 28,
@@ -100,7 +100,7 @@
   ],
 
   "practical_notes": {
-    "warm_weather": "No night on this route is expected to freeze. Tucson is the highest place you sleep at 2,430 feet, where January lows average about 40, and Wickenburg can touch freezing for an hour or two before dawn on a cold snap. Phoenix and Lake Havasu stay in the mid-40s at night and the high 60s by day. Nothing here needs winterising.",
+    "warm_weather": "No night on this route is expected to freeze. Tucson is the highest place you sleep at 2,430 feet, where January lows average about 4°C, and Wickenburg can touch freezing for an hour or two before dawn on a cold snap. Phoenix and Lake Havasu stay around 7°C at night and 20°C by day. Nothing here needs winterising.",
     "booking_order": "Book the Phoenix-area nights first, then Tucson, then Lake Havasu. January to March is snowbird season across the whole Valley of the Sun — RV parks around Phoenix, Mesa and Apache Junction fill up months ahead and charge their annual peak, and hotel rooms follow. Death Valley and Wickenburg have far more slack.",
     "long_day": "Day 13 is 288 miles and the better part of six hours. Start early, fill up in Wickenburg, and plan nothing else that day. It is the price of reaching Tucson from Las Vegas and back inside two weeks — the same arithmetic that kept Saguaro off the Southwest Loop.",
     "apache_trail": "The Apache Trail is paved as far as Tortilla Flat and that is the section to drive — Canyon Lake and the saloon. Beyond it the road turns to dirt and long stretches have been closed since the 2019 fire and the floods that followed. Check the state's road status before you set out, and do not plan to drive through to Roosevelt Lake.",
@@ -147,7 +147,7 @@
 
   "rejected_alternatives": [
     { "place": "The Grand Canyon",
-      "reason": "6,800 feet, snow on the rim and nights in the high teens. It belongs to the Southwest Loop, where the cold is the whole bargain." },
+      "reason": "6,800 feet, snow on the rim and nights around −8°C. It belongs to the Southwest Loop, where the cold is the whole bargain." },
     { "place": "Joshua Tree and Palm Springs",
       "reason": "Warm, and on the far side of the Colorado. Putting them with Saguaro means two 280-mile days instead of one. That trip is the Low Desert Loop." },
     { "place": "Sedona",

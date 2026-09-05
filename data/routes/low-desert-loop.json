@@ -23,7 +23,7 @@
       "name": "Badwater Basin",
       "day": 2,
       "photo": "assets/photos/low-desert-loop/badwater-basin.jpg",
-      "why": "The lowest point in North America, 282 ft below sea level, at 65°F in January. Walk out onto the salt flats."
+      "why": "The lowest point in North America, 282 ft below sea level, at 18°C in January. Walk out onto the salt flats."
     },
     {
       "name": "Mesquite Flat Dunes",
@@ -87,7 +87,7 @@
     },
     {
       "title": "It is warm, not hot",
-      "text": "No night on this route is expected to freeze. The coolest stops are Barstow, Twentynine Palms and Boulder City, all around 2,000 to 2,500 feet, where January lows average the high 30s. A cold snap can put any of them a degree or two below for a few hours before dawn, so pack for 35°F nights — but there is no sustained freeze anywhere, and nothing here needs winterising."
+      "text": "No night on this route is expected to freeze. The coolest stops are Barstow, Twentynine Palms and Boulder City, all around 2,000 to 2,500 feet, where January lows average 3 or 4°C. A cold snap can put any of them a degree below for a few hours before dawn, so pack for 2°C nights — but there is no sustained freeze anywhere, and nothing here needs winterising."
     },
     {
       "title": "Needles is warm, not smart",
@@ -123,7 +123,7 @@
     "Two national parks, four state parks and 200 miles of original Route 66, out and back from a single airport.",
     "Short days: 100 miles a day on average, and five of the fourteen involve no driving between towns.",
     "It finishes on the red rock at Valley of Fire rather than in a car park near the airport, and the last day is a 63-mile run to the plane.",
-    "January is the best month of the year to be in the low desert. Palm Springs runs to the low 70s and Death Valley to the mid-60s.",
+    "January is the best month of the year to be in the low desert. Palm Springs runs to 21 or 22°C and Death Valley to around 18°C.",
     "The motorhome stops being a compromise. Its worst problem on the Southwest Loop was seven freezing nights, and this route does not have one."
   ],
   "cons": [
@@ -145,7 +145,7 @@
     },
     {
       "place": "Sleeping in Kingman",
-      "reason": "The better Route 66 town and the better rooms, but it sits at 3,366 feet and averages a January low of 32°F. It would be the one freezing night on a route built to avoid them. You drive through it and stop at the Powerhouse instead."
+      "reason": "The better Route 66 town and the better rooms, but it sits at 3,366 feet and averages a January low of 0°C. It would be the one freezing night on a route built to avoid them. You drive through it and stop at the Powerhouse instead."
     },
     {
       "place": "Lake Havasu",
@@ -1736,7 +1736,7 @@
       },
       "miles": 122,
       "headline": "Below sea level by lunchtime",
-      "notes": "Pick up the vehicle and drive straight in. Furnace Creek sits 190 feet below sea level and is the warmest place you will sleep all trip — January highs in the mid-60s, lows around 40.",
+      "notes": "Pick up the vehicle and drive straight in. Furnace Creek sits 190 feet below sea level and is the warmest place you will sleep all trip — January highs around 18°C, lows around 4°C.",
       "elevation": -190,
       "freezingNight": false,
       "activities": [
@@ -3079,7 +3079,7 @@
       },
       "miles": 0,
       "headline": "Dunes at sunrise",
-      "notes": "Mesquite Flat is twenty minutes up the valley and is best before the wind picks up. Dante's View is the one genuinely cold thing on this whole route — 5,450 feet, and it can be 25 degrees colder than where you parked this morning.",
+      "notes": "Mesquite Flat is twenty minutes up the valley and is best before the wind picks up. Dante's View is the one genuinely cold thing on this whole route — 5,450 feet, and it can be 14°C colder than where you parked this morning.",
       "elevation": -190,
       "freezingNight": false,
       "activities": [
@@ -4422,7 +4422,7 @@
       },
       "miles": 130,
       "headline": "Into the warmest air on the trip",
-      "notes": "Start on the old road for Elmer's Bottle Tree Ranch — a forest of welded steel trees hung with thousands of glass bottles, free, and unlike anything else on either version. Then over the pass into the Coachella Valley, which runs to the low 70s in January. One night here, so the tramway is this afternoon.",
+      "notes": "Start on the old road for Elmer's Bottle Tree Ranch — a forest of welded steel trees hung with thousands of glass bottles, free, and unlike anything else on either version. Then over the pass into the Coachella Valley, which runs to 21 or 22°C in January. One night here, so the tramway is this afternoon.",
       "elevation": 450,
       "freezingNight": false,
       "activities": [
@@ -7071,7 +7071,7 @@
       },
       "miles": 131,
       "headline": "Up out of the low desert to Joshua Tree",
-      "notes": "You climb about 1,500 feet, and this is the first night that feels properly cool — high 30s rather than the high 40s you have had. Come in by the south entrance and the Cholla Cactus Garden is the first thing you meet.",
+      "notes": "You climb about 1,500 feet, and this is the first night that feels properly cool — 3 or 4°C rather than the 8 or 9°C you have had. Come in by the south entrance and the Cholla Cactus Garden is the first thing you meet.",
       "elevation": 1990,
       "freezingNight": false,
       "activities": [

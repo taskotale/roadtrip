@@ -23,7 +23,7 @@
       "elevation_ft": -190,
       "freezing_night": false,
       "headline": "Below sea level by lunchtime",
-      "notes": "Pick up the vehicle and drive straight in. Furnace Creek sits 190 feet below sea level and is the warmest place you'll sleep all trip — January highs in the mid-60s, lows around 40.",
+      "notes": "Pick up the vehicle and drive straight in. Furnace Creek sits 190 feet below sea level and is the warmest place you'll sleep all trip — January highs around 18°C, lows around 4°C.",
       "activities": ["Zabriskie Point at sunset"]
     },
     {
@@ -47,7 +47,7 @@
       "elevation_ft": -190,
       "freezing_night": false,
       "headline": "Dunes and craters",
-      "notes": "Ubehebe Crater is a 110-mile round trip from Furnace Creek. Dante's View sits at 5,475 feet and can be 25 degrees colder than the valley floor — it also caps at 25 feet.",
+      "notes": "Ubehebe Crater is a 110-mile round trip from Furnace Creek. Dante's View sits at 5,475 feet and can be 14°C colder than the valley floor — it also caps at 25 feet.",
       "activities": ["Mesquite Flat Dunes at sunrise", "Ubehebe Crater", "Mosaic Canyon", "Dante's View"]
     },
     {
@@ -83,7 +83,7 @@
       "elevation_ft": 4000,
       "freezing_night": true,
       "headline": "Full day in Zion",
-      "notes": "Canyon floor is around 4,000 feet — low 50s days, high 20s nights. The mildest of the cold stops.",
+      "notes": "Canyon floor is around 4,000 feet — 10 to 12°C days, −2°C nights. The mildest of the cold stops.",
       "activities": ["Canyon Overlook Trail (car only)", "Checkerboard Mesa (car only)", "Pa'rus Trail"]
     },
     {
@@ -143,7 +143,7 @@
       "elevation_ft": 6800,
       "freezing_night": true,
       "headline": "The rim",
-      "notes": "Coldest night of the trip — highs in the low 40s, lows in the high teens. Free park shuttles run year-round. Snow on the rim over red rock, and the park at its emptiest all year.",
+      "notes": "Coldest night of the trip — highs around 5°C, lows around −8°C. Free park shuttles run year-round. Snow on the rim over red rock, and the park at its emptiest all year.",
       "activities": ["Sunrise at Mather Point", "Rim Trail", "Bright Angel trailhead", "Hermit Road"]
     },
     {
@@ -413,7 +413,7 @@
   ],
 
   "practical_notes": {
-    "cold_weather": "Seven nights at or below freezing in the motorhome build — Zion, Page, Monument Valley and the Grand Canyon. Every one of those stops has a full-hookup option. Run the propane furnace, not the heat pump, which stops working around 40°F. Disconnect the city water hose at night and run off the fresh tank; the hose freezes long before the tanks.",
+    "cold_weather": "Seven nights at or below freezing in the motorhome build — Zion, Page, Monument Valley and the Grand Canyon. Every one of those stops has a full-hookup option. Run the propane furnace, not the heat pump, which stops working around 4°C. Disconnect the city water hose at night and run off the fresh tank; the hose freezes long before the tanks.",
     "rental_freeze_risk": "Rental companies push freeze damage onto the renter and treat a burst pipe as negligent damage at full repair cost. Confirm in writing that the unit is not winterized, that the water system is live, and that they have noted your cold-weather destinations on the booking.",
     "booking_order": "Grand Canyon lodging or Trailer Village first, then Goulding's or The View at Monument Valley, then Watchman at Zion. Those three set the skeleton — everything else has slack.",
     "mileage_fees": "If the rental charges per mile at around $0.35, 1,655 miles adds roughly $580. Always price the unlimited-miles package as an alternative.",

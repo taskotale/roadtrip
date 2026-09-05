@@ -77,7 +77,7 @@ const POIS = {
       poi('London Bridge', 'london-bridge', 'london-bridge.jpg',
        'The 1831 Thames bridge, bought in 1968 and rebuilt here block by numbered block.')],
   6: [poi('Lake Havasu State Park', 'lake-havasu-state-park', 'lake-havasu.jpg',
-       'Mid-60s in January — warm enough for a boat, too cold to swim.')],
+       'Around 18°C in January — warm enough for a boat, too cold to swim.')],
   7: [poi('Saguaro country', 'wickenburg', 'saguaro-landscape.jpg',
        'Somewhere around Wickenburg the first giant saguaros appear. They grow nowhere else on earth.')],
   8: [poi('Desert Botanical Garden', 'desert-botanical-garden', 'desert-botanical-garden.jpg',
@@ -119,7 +119,7 @@ const MUST_SEE = [
   ['Zabriskie Point', 1, 'zabriskie-point.jpg',
    'Golden badlands at sunset, ten minutes from where you sleep. The best view in Death Valley for the least effort.'],
   ['Badwater Basin', 2, 'badwater-basin.jpg',
-   'The lowest point in North America, 282 ft below sea level, at 65°F in January. Walk out onto the salt flats.'],
+   'The lowest point in North America, 282 ft below sea level, at 18°C in January. Walk out onto the salt flats.'],
   ['Mesquite Flat Dunes', 3, 'mesquite-flat-dunes.jpg',
    'Go at sunrise. Dunes the kids can run down, before the wind picks up and the light goes flat.'],
   ['Hoover Dam', 4, 'hoover-dam.jpg',
@@ -160,7 +160,7 @@ const WATCH_OUTS = [
 ];
 
 const ROUTE_PROS = [
-  'The warmest of the three loops. Phoenix and Tucson both average the high 60s in January, and no night is expected to freeze.',
+  'The warmest of the three loops. Phoenix and Tucson both average around 20°C in January, and no night is expected to freeze.',
   'Saguaro cactus country. The giant saguaro grows only in the Sonoran Desert and appears on neither of the other routes.',
   'Two national parks, two state parks, and the Arizona-Sonora Desert Museum, which is worth the drive on its own.',
   'Cities, for once. Phoenix and Tucson mean real supermarkets, real restaurants and a hospital — which matters with six people for two weeks.',

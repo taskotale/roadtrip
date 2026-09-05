@@ -2,7 +2,7 @@
   "id": "sonoran-loop",
   "name": "Sonoran Loop — January",
   "subtitle": "Death Valley · Lake Havasu · Scottsdale · Superstitions · Saguaro · Tucson",
-  "summary": "The warmest of the loops, and the one that charges you the most driving for it. Death Valley first, then straight down the Colorado River into Arizona and on into the Sonoran Desert — saguaro country, which begins around Wickenburg and exists on neither of the other routes. Phoenix and Tucson both sit in the high 60s in January. Getting back to Las Vegas from Tucson is a 288-mile day, and that is the honest argument against this trip.",
+  "summary": "The warmest of the loops, and the one that charges you the most driving for it. Death Valley first, then straight down the Colorado River into Arizona and on into the Sonoran Desert — saguaro country, which begins around Wickenburg and exists on neither of the other routes. Phoenix and Tucson both sit around 20°C in January. Getting back to Las Vegas from Tucson is a 288-mile day, and that is the honest argument against this trip.",
   "hero": "assets/photos/sonoran-loop/saguaro-west.jpg",
   "season": "January",
   "startEnd": "Las Vegas, NV (Harry Reid International — LAS)",
@@ -23,7 +23,7 @@
       "name": "Badwater Basin",
       "day": 2,
       "photo": "assets/photos/sonoran-loop/badwater-basin.jpg",
-      "why": "The lowest point in North America, 282 ft below sea level, at 65°F in January. Walk out onto the salt flats."
+      "why": "The lowest point in North America, 282 ft below sea level, at 18°C in January. Walk out onto the salt flats."
     },
     {
       "name": "Mesquite Flat Dunes",
@@ -85,7 +85,7 @@
     },
     {
       "title": "It is warm, not hot",
-      "text": "No night on this route is expected to freeze. Tucson is the highest place you sleep at 2,430 feet, where January lows average about 40, and Wickenburg can touch freezing for an hour or two before dawn on a cold snap. Phoenix and Lake Havasu stay in the mid-40s at night and the high 60s by day. Nothing here needs winterising."
+      "text": "No night on this route is expected to freeze. Tucson is the highest place you sleep at 2,430 feet, where January lows average about 4°C, and Wickenburg can touch freezing for an hour or two before dawn on a cold snap. Phoenix and Lake Havasu stay around 7°C at night and 20°C by day. Nothing here needs winterising."
     },
     {
       "title": "The Apache Trail is only paved to Tortilla Flat",
@@ -109,7 +109,7 @@
     }
   ],
   "pros": [
-    "The warmest of the three loops. Phoenix and Tucson both average the high 60s in January, and no night is expected to freeze.",
+    "The warmest of the three loops. Phoenix and Tucson both average around 20°C in January, and no night is expected to freeze.",
     "Saguaro cactus country. The giant saguaro grows only in the Sonoran Desert and appears on neither of the other routes.",
     "Two national parks, two state parks, and the Arizona-Sonora Desert Museum, which is worth the drive on its own.",
     "Cities, for once. Phoenix and Tucson mean real supermarkets, real restaurants and a hospital — which matters with six people for two weeks.",
@@ -127,7 +127,7 @@
   "notConsidered": [
     {
       "place": "The Grand Canyon",
-      "reason": "6,800 feet, snow on the rim and nights in the high teens. It belongs to the Southwest Loop, where the cold is the whole bargain."
+      "reason": "6,800 feet, snow on the rim and nights around −8°C. It belongs to the Southwest Loop, where the cold is the whole bargain."
     },
     {
       "place": "Joshua Tree and Palm Springs",
@@ -472,7 +472,7 @@
       },
       "miles": 122,
       "headline": "Below sea level by lunchtime",
-      "notes": "Pick up the vehicle and drive straight in. Furnace Creek sits 190 feet below sea level — January highs in the mid-60s, lows around 40.",
+      "notes": "Pick up the vehicle and drive straight in. Furnace Creek sits 190 feet below sea level — January highs around 18°C, lows around 4°C.",
       "elevation": -190,
       "freezingNight": false,
       "activities": [
@@ -1815,7 +1815,7 @@
       },
       "miles": 0,
       "headline": "Dunes at sunrise",
-      "notes": "Mesquite Flat is twenty minutes up the valley and best before the wind picks up. Dante's View is the one genuinely cold place on this route — 5,450 feet, and it can be 25 degrees colder than the valley floor.",
+      "notes": "Mesquite Flat is twenty minutes up the valley and best before the wind picks up. Dante's View is the one genuinely cold place on this route — 5,450 feet, and it can be 14°C colder than the valley floor.",
       "elevation": -190,
       "freezingNight": false,
       "activities": [
@@ -4449,7 +4449,7 @@
       },
       "miles": 0,
       "headline": "A day on the water",
-      "notes": "Lake Havasu runs to the mid-60s in January — warm enough to be out on a boat, too cold to swim. London Bridge is the actual bridge that stood over the Thames from 1831: bought from the City of London in 1968, taken apart, and rebuilt here block by numbered block.",
+      "notes": "Lake Havasu runs to around 18°C in January — warm enough to be out on a boat, too cold to swim. London Bridge is the actual bridge that stood over the Thames from 1831: bought from the City of London in 1968, taken apart, and rebuilt here block by numbered block.",
       "elevation": 630,
       "freezingNight": false,
       "activities": [
@@ -4464,11 +4464,11 @@
             34.49326,
             -114.35881
           ],
-          "caption": "Mid-60s in January — warm enough for a boat, too cold to swim.",
+          "caption": "Around 18°C in January — warm enough for a boat, too cold to swim.",
           "photos": [
             {
               "src": "assets/photos/sonoran-loop/lake-havasu.jpg",
-              "caption": "Mid-60s in January — warm enough for a boat, too cold to swim."
+              "caption": "Around 18°C in January — warm enough for a boat, too cold to swim."
             },
             {
               "src": "assets/photos/sonoran-loop/lake-havasu-2.jpg"
@@ -5749,7 +5749,7 @@
       },
       "miles": 0,
       "headline": "Phoenix in shirtsleeves",
-      "notes": "Mid to high 60s and dry. The Desert Botanical Garden is the best introduction to this desert there is, and being a garden it suits everybody in the party. Camelback is a hard scramble with chains and drop-offs; Papago Park next door gives you a ten-minute walk to the same kind of view.",
+      "notes": "18 to 21°C and dry. The Desert Botanical Garden is the best introduction to this desert there is, and being a garden it suits everybody in the party. Camelback is a hard scramble with chains and drop-offs; Papago Park next door gives you a ten-minute walk to the same kind of view.",
       "elevation": 1260,
       "freezingNight": false,
       "activities": [
