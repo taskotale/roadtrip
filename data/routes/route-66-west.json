@@ -98,12 +98,12 @@
     },
     {
       "title": "Freeze damage is charged to you",
-      "text": "Hire companies treat a split pipe as negligent damage and charge full repair cost. A rig hired in Dallas will not be winterized — which you need, because you are living in it — and it drives straight into nine nights below freezing. Run the propane furnace, not the heat pump, which gives up around 4°C; disconnect the city-water hose at night and run off the fresh tank; use the tank heaters if it has them. Get it in writing that the water system is live and that the company knows where you are taking it.",
+      "text": "Hire companies treat a split pipe as your damage, and El Monte's own conditions list damage caused by freezing among the things its cover never pays for, whichever cover you buy. A rig hired near Dallas will not be winterized — which you need, because you are living in it — and it drives straight into nine nights below freezing. Run the propane furnace, not the heat pump, which gives up around 4°C; disconnect the city-water hose at night and run off the fresh tank; use the tank heaters if it has them. Get it in writing that the water system is live and that the company knows where you are taking it.",
       "only": "motorhome"
     },
     {
       "title": "The depots set the ends of the trip",
-      "text": "Cruise America's Dallas yard, beside Love Field, hands over at 1pm, closes at 3 on Saturdays and all day on Sundays, and wants a call 24 hours ahead. Their Los Angeles yard is in Carson, takes returns between 9 and 11, and is closed on Sundays. So day 1 leaves Dallas at about 3 at the earliest, and day 15 needs a flight after about 1pm.",
+      "text": "El Monte's Dallas depot is in McKinney, 30 miles up US-75 — on day 1's road — and is open Monday to Saturday, 9 to 4, and shut on Sundays. Standard pickup is after 1pm, earlier for a fee, and the handover takes one to two hours. Returns are in the morning — 9 to 10:30 at McKinney — and the Los Angeles yard is in Santa Fe Springs, 23 miles from LAX. So day 1 leaves at about 3, and day 15 needs a flight after about 1pm.",
       "only": "motorhome"
     },
     {
@@ -166,9 +166,17 @@
     "Days 1, 3, 4 and 7 are all over 220 miles, and the first comes straight off a flight.",
     "The first three days are Oklahoma and the Texas Panhandle in January: flat, brown and windy. It is a road trip before it is a scenery trip.",
     "The western end overlaps the Las Vegas routes: Death Valley, the Grand Canyon, Monument Valley, Seligman, Oatman and Amboy are each on at least one of them.",
-    "A one-way hire costs more: a drop fee on the car and a bigger one on the motorhome."
+    "Both vehicles have to be hired one way, and only one of the big motorhome companies would do it from Dallas."
   ],
   "notConsidered": [
+    {
+      "place": "Cruise America",
+      "reason": "It would not take a motorhome one way from Dallas to Los Angeles for these dates. El Monte would, from its depot in McKinney on day 1's road."
+    },
+    {
+      "place": "A privately owned RV",
+      "reason": "Owners on RVshare and Outdoorsy can allow a one-way trip, but they charge about $2 a mile to fetch it back from Los Angeles — more than the hire itself on a route this long."
+    },
     {
       "place": "The Oklahoma Route 66 Museum in Clinton",
       "reason": "Closed on Sundays and Mondays from November to January, and for the first week of January — day 3 is a Monday. The National Route 66 Museum at Elk City, 25 miles further on, is open Monday to Saturday all winter."
@@ -222,7 +230,7 @@
     {
       "item": "Collect the car in town, not at the airport",
       "amount": "~$150–250",
-      "detail": "Airport counters add a concession recovery fee of around 11 per cent plus a daily facility charge. A neighbourhood branch near Love Field is a short taxi ride with the luggage and avoids both, and dropping at LAX does not usually add them back."
+      "detail": "Airport counters add a concession recovery fee of around 11 per cent plus a daily facility charge. If the quote is from DFW or Love Field, price the same van from a neighbourhood branch nearby — a short taxi ride with the luggage — and dropping at LAX does not usually add the fees back."
     },
     {
       "item": "Take US-75 on day 1",
@@ -258,6 +266,21 @@
       "item": "Fill up in Arizona",
       "amount": "~$50 in the van, ~$150 in the motorhome",
       "detail": "California fuel runs more than a dollar a gallon over Arizona's. Leave Kingman on a full tank on day 11 and time the next fill for Barstow rather than the Death Valley pumps."
+    },
+    {
+      "item": "In the motorhome, pay for the extra miles, not unlimited",
+      "amount": "~$750",
+      "detail": "El Monte's unlimited mileage is $1,135 for a hire this long. The plan needs about 1,200 miles over the 1,700 included, which at $30 for each 100 comes to about $390."
+    },
+    {
+      "item": "The Gold Package, not Peace of Mind on its own",
+      "amount": "~$90, more with extra drivers",
+      "detail": "El Monte's Peace of Mind add-on is $15 a night, $210 for this trip. The Gold Package is $119 for the whole hire and includes Peace of Mind, the awning and additional drivers, which are otherwise $6 a night each. With VIP Plus you may not need it at all; if you do, buy it that way."
+    },
+    {
+      "item": "Decline the motorhome's toll cover",
+      "amount": "$80–280",
+      "detail": "El Monte sells unlimited toll coverage at $5.95 to $19.95 a night. The motorhome never meets a toll: US-75 from McKinney to Tulsa, old 66 beside the Turner Turnpike, and nothing at all west of Oklahoma City."
     }
   ],
   "options": [
@@ -284,8 +307,8 @@
           }
         ],
         "totals": {
-          "value": 10795,
-          "location": 15887
+          "value": 11295,
+          "location": 15567
         },
         "lines": [
           {
@@ -296,15 +319,15 @@
           },
           {
             "item": "Vehicle hire, 14 days one way",
-            "value": 1600,
-            "location": 2300,
-            "basis": "Seven-seat minivan in the value column, Suburban in the other, collected in Dallas and dropped at LAX, one-way fee included. Estimate until the quote is in."
+            "value": 2100,
+            "location": 2100,
+            "basis": "Quoted: $2,100 for a seven-seater one way, collected in Dallas on 9 January and dropped at LAX on the 23rd."
           },
           {
             "item": "Fuel",
             "value": 500,
-            "location": 620,
-            "basis": "About 2,850 miles with the park roads, at 21 mpg in a minivan or 17 in a Suburban. Around $3.00 a gallon in Texas and Oklahoma, $3.20 to $3.40 in New Mexico and Arizona and $4.80 in California, on the EIA's forecast of $3.35 nationally for 2027."
+            "location": 500,
+            "basis": "About 2,850 miles with the park roads, at around 21 mpg in a seven-seat minivan — a Suburban would add roughly $120. Around $3.00 a gallon in Texas and Oklahoma, $3.20 to $3.40 in New Mexico and Arizona and $4.80 in California, on the EIA's forecast of $3.35 nationally for 2027."
           },
           {
             "item": "Lodging, 14 nights",
@@ -431,11 +454,11 @@
       "id": "motorhome",
       "name": "Motorhome",
       "tagline": "Cheaper, colder, and shut out of six places",
-      "summary": "A Class C from Cruise America's yard beside Love Field, returned to their yard in Carson near LAX. It is the cheaper build, as it is on every route here, and the long Oklahoma and Texas days are easier when the children can move about. But this is the hardest route on the site for it: nine freezing nights in a row with live plumbing, a one-way fee and possibly a mileage bill on 2,600 miles, a 1pm handover that puts the end of day 1 in the dark, and six places on the route where it is barred or unwise.",
+      "summary": "A Class C from El Monte's depot in McKinney — thirty miles up US-75, on day 1's road — returned to their yard in Santa Fe Springs, twenty miles from LAX. Cruise America would not take one this far one way; El Monte will. It is still the cheaper build, and the long Oklahoma and Texas days go easier when the children can get up and move about. But this is the hardest route on the site for a motorhome: nine freezing nights in a row with live plumbing, a 1pm handover that puts the end of day 1 in the dark, about 1,200 miles over the quote's allowance, and six places on the route where it is barred or unwise.",
       "vehicle": {
-        "type": "Class C motorhome, about 30 ft",
-        "detail": "Cruise America C30 · sleeps 7 · 7 seatbelts · 30 ft long, 8.33 ft wide, 12.2 ft high · about 8 mpg · one way, Dallas to Los Angeles",
-        "notes": "Book by seatbelt count, not berths. One-way hires need the company's approval, so ask early and get the drop fee and the mileage terms in writing. Even the smaller C25 (24.93 ft) is too long for Hermit Road's 22-foot limit, though it squeaks under Death Valley's 25. Confirm that the water system is live and the unit is not winterized: this route has nine freezing nights before it warms up."
+        "type": "Class C motorhome, 30–32 ft",
+        "detail": "El Monte Class C Family Sleeper · sleeps 7 · 7 seatbelts · 30–32 ft long · about 8 mpg · one way, McKinney TX to Santa Fe Springs CA",
+        "notes": "Ask for the Family Sleeper by name: it has seven seatbelts, where El Monte's Class C Large has exactly six and is rated for four adults and two children. At 30 to 32 feet it is too long for Hermit Road's 22-foot limit and for Death Valley's 25-foot roads, as any Class C this size is. Confirm that the water system is live and the unit is not winterized: this route has nine freezing nights before it warms up."
       },
       "costs": {
         "currency": "USD",
@@ -450,8 +473,8 @@
           }
         ],
         "totals": {
-          "low": 7805,
-          "high": 11479
+          "low": 9215,
+          "high": 10948
         },
         "lines": [
           {
@@ -461,28 +484,28 @@
             "basis": "Quoted: six seats, into Dallas on 9 January and home from LAX on the 23rd."
           },
           {
-            "item": "Motorhome hire, 14 nights",
-            "low": 2000,
-            "high": 2700,
-            "basis": "Cruise America C30, Dallas to Los Angeles, January rates. Estimate until the quote is in."
+            "item": "Motorhome hire, one way",
+            "low": 3300,
+            "high": 3300,
+            "basis": "Quoted by El Monte: McKinney to Santa Fe Springs, 9 to 23 January, with 1,700 miles included."
           },
           {
-            "item": "One-way fee",
-            "low": 250,
-            "high": 700,
-            "basis": "Cruise America prices one-way hires route by route and has to approve them. Estimate until the quote is in."
+            "item": "Miles over the 1,700 included",
+            "low": 390,
+            "high": 450,
+            "basis": "About 2,900 miles in the motorhome — the day routes, the Canyon de Chelly rim, Death Valley's side roads and ten miles a day around campgrounds and supermarkets — at $30 for each 100 over. The high column allows another 300."
           },
           {
-            "item": "Mileage",
+            "item": "Peace of Mind, as the Gold Package",
             "low": 0,
-            "high": 1000,
-            "basis": "About 2,750 miles at around $0.35 a mile, or nothing if the quote includes unlimited miles. Estimate until the quote is in."
+            "high": 119,
+            "basis": "Only if El Monte says the VIP Plus cover does not pay for a windscreen. Then take the Gold Package, $119 for the hire with Peace of Mind, the awning and extra drivers, rather than Peace of Mind alone at $15 a night. Breakdowns and 24/7 roadside support are included either way."
           },
           {
             "item": "Fuel",
-            "low": 1150,
+            "low": 1120,
             "high": 1330,
-            "basis": "About 2,750 miles at 8 to 9 mpg, on the same regional prices as the car — Texas and Oklahoma cheapest, California dearest."
+            "basis": "About 2,900 miles at 8 to 9 mpg, on the same regional prices as the car — Texas and Oklahoma cheapest, California dearest."
           },
           {
             "item": "Campgrounds, 14 nights",
@@ -545,7 +568,7 @@
             "basis": "Propane, dump fees, laundry, showers and parking a 30-footer in Los Angeles."
           }
         ],
-        "notes": "The low column is a hire with unlimited miles and the smallest one-way fee, the cheapest open campground at each stop, and no guided tour at Monument Valley. The high column pays per mile, takes the tour and the Pacific Park wristbands. The hire, one-way and mileage lines are estimates until the quote is in."
+        "notes": "The hire is El Monte's quote, one way with 1,700 miles. The low column adds only the miles the plan needs, the cheapest open campground at each stop, and no guided tour or add-on. The high column allows 300 more miles, takes the Gold Package, the Monument Valley tour and the Pacific Park wristbands."
       },
       "pros": [
         "Cheapest by a margin.",
@@ -557,16 +580,16 @@
       "cons": [
         "Nine nights below freezing in a row, with live plumbing.",
         "Barred from the Monument Valley loop, Hermit Road, Artist's Drive and the top of Dante's View; no place for it on Sitgreaves Pass or the Arroyo Seco.",
-        "A 1pm handover in Dallas puts the end of day 1 in the dark.",
+        "A 1pm handover in McKinney puts the end of day 1 in the dark.",
         "Around $700 more fuel than the car.",
-        "A one-way fee and, unless the hire includes unlimited miles, a mileage bill."
+        "About 1,200 miles over the 1,700 the hire includes, at $30 for each 100."
       ],
       "flags": {
         "1": [
           {
             "type": "blocked",
             "label": "Late away:",
-            "text": "Cruise America hands over at 1pm and shuts at 3 on Saturdays; call 24 hours ahead. With the walk-through and a supermarket run you leave about 3, and the last two hours to Tulsa are in the dark. Book the Tulsa site for a late arrival."
+            "text": "El Monte's Dallas depot is in McKinney, 30 miles up US-75 and on the way — take a taxi from the airport. Pickup is after 1pm and the handover takes one to two hours, so you leave about 3 for the 238 miles to Tulsa, the last two of them in the dark. Book the Tulsa site for a late arrival."
           },
           {
             "type": "note",
@@ -650,8 +673,8 @@
         "15": [
           {
             "type": "note",
-            "label": "Back by 11:",
-            "text": "Return it to Cruise America in Carson between 9 and 11; LAX is 20 to 30 minutes on. Book a flight after about 1pm."
+            "label": "Back in the morning:",
+            "text": "Return it to El Monte in Santa Fe Springs, 23 miles from Dockweiler, in their morning window (9 to 10:30 at McKinney), then take a taxi the 23 miles to LAX. Book a flight after about 1pm."
           }
         ]
       },
@@ -686,8 +709,12 @@
         ],
         "15": [
           [
-            33.82516,
-            -118.23317
+            33.92866,
+            -118.43458
+          ],
+          [
+            33.8995,
+            -118.05912
           ]
         ]
       },
@@ -3102,1196 +3129,1196 @@
             -118.4977
           ],
           [
-            34.01092,
-            -118.49842
+            34.01107,
+            -118.49823
           ],
           [
-            34.01112,
-            -118.49816
+            34.01168,
+            -118.49742
           ],
           [
-            34.01157,
-            -118.49756
+            34.01268,
+            -118.49781
           ],
           [
-            34.01254,
-            -118.49799
+            34.01179,
+            -118.49662
           ],
           [
-            34.01253,
-            -118.49752
+            34.01147,
+            -118.49595
           ],
           [
-            34.01189,
-            -118.49675
-          ],
-          [
-            34.01161,
-            -118.4963
-          ],
-          [
-            34.01145,
-            -118.49585
-          ],
-          [
-            34.01137,
-            -118.49548
-          ],
-          [
-            34.01135,
-            -118.49523
+            34.01136,
+            -118.49538
           ],
           [
             34.01134,
-            -118.49484
+            -118.49491
           ],
           [
-            34.01138,
-            -118.49455
-          ],
-          [
-            34.01152,
-            -118.49403
+            34.01142,
+            -118.49436
           ],
           [
             34.01201,
             -118.49318
           ],
           [
-            34.01233,
-            -118.49248
-          ],
-          [
-            34.01243,
-            -118.49205
+            34.01241,
+            -118.49218
           ],
           [
             34.01247,
             -118.49169
           ],
           [
-            34.01252,
-            -118.49023
+            34.01251,
+            -118.48976
           ],
           [
-            34.0128,
-            -118.48918
+            34.01319,
+            -118.488
           ],
           [
-            34.01531,
-            -118.48494
+            34.01437,
+            -118.48593
           ],
           [
-            34.0177,
-            -118.4815
+            34.01422,
+            -118.48531
           ],
           [
-            34.02176,
-            -118.47657
+            34.01388,
+            -118.48483
           ],
           [
-            34.02286,
-            -118.47472
+            34.01285,
+            -118.48362
           ],
           [
-            34.02572,
-            -118.46455
+            34.01232,
+            -118.48298
           ],
           [
-            34.02651,
-            -118.46145
+            34.01164,
+            -118.48219
           ],
           [
-            34.02762,
-            -118.45601
+            34.011,
+            -118.48143
           ],
           [
-            34.02769,
-            -118.45472
+            34.00999,
+            -118.48016
           ],
           [
-            34.02759,
-            -118.45303
+            34.00947,
+            -118.47951
           ],
           [
-            34.02762,
-            -118.45183
+            34.00809,
+            -118.47779
           ],
           [
-            34.02788,
-            -118.45031
-          ],
-          [
-            34.02925,
-            -118.44516
-          ],
-          [
-            34.02959,
-            -118.44382
-          ],
-          [
-            34.03066,
-            -118.43729
-          ],
-          [
-            34.03084,
-            -118.43508
-          ],
-          [
-            34.03083,
-            -118.43441
-          ],
-          [
-            34.03072,
-            -118.43395
-          ],
-          [
-            34.03046,
-            -118.43338
-          ],
-          [
-            34.02984,
-            -118.43272
-          ],
-          [
-            34.02763,
-            -118.43081
-          ],
-          [
-            34.02606,
-            -118.4296
-          ],
-          [
-            34.01736,
-            -118.42274
-          ],
-          [
-            34.01193,
-            -118.41844
-          ],
-          [
-            34.00888,
-            -118.41603
+            34.00695,
+            -118.47634
           ],
           [
             34.00648,
-            -118.41415
+            -118.47574
           ],
           [
-            34.00552,
-            -118.41336
+            34.0059,
+            -118.475
           ],
           [
-            34.00148,
-            -118.41018
+            34.00545,
+            -118.47438
           ],
           [
-            33.99997,
-            -118.40898
+            34.00488,
+            -118.4736
           ],
           [
-            33.99373,
-            -118.40407
+            34.00435,
+            -118.47288
           ],
           [
-            33.99142,
-            -118.4022
+            34.00338,
+            -118.47155
           ],
           [
-            33.98967,
-            -118.4008
+            34.0029,
+            -118.47087
           ],
           [
-            33.98744,
-            -118.39903
+            34.00244,
+            -118.47012
           ],
           [
-            33.98302,
-            -118.39552
+            34.00194,
+            -118.46912
           ],
           [
-            33.9797,
-            -118.39289
+            34.00136,
+            -118.46789
           ],
           [
-            33.97912,
-            -118.39232
+            34.00102,
+            -118.46715
           ],
           [
-            33.97828,
-            -118.39112
+            34.00021,
+            -118.46552
           ],
           [
-            33.97628,
-            -118.38681
+            33.99991,
+            -118.46491
           ],
           [
-            33.97429,
-            -118.38257
+            33.99954,
+            -118.46412
           ],
           [
-            33.9737,
-            -118.38148
+            33.99902,
+            -118.46303
           ],
           [
-            33.97208,
-            -118.37867
+            33.99841,
+            -118.46179
           ],
           [
-            33.97141,
-            -118.37738
+            33.99798,
+            -118.46087
           ],
           [
-            33.97069,
-            -118.37594
+            33.99755,
+            -118.46
           ],
           [
-            33.96922,
-            -118.37317
+            33.99721,
+            -118.4593
           ],
           [
-            33.96853,
-            -118.37234
+            33.99692,
+            -118.45871
           ],
           [
-            33.96755,
-            -118.37151
+            33.99648,
+            -118.45778
           ],
           [
-            33.96686,
-            -118.37113
+            33.9963,
+            -118.4574
           ],
           [
-            33.9643,
-            -118.37028
+            33.99593,
+            -118.45664
           ],
           [
-            33.96194,
-            -118.36961
+            33.99562,
+            -118.45596
           ],
           [
-            33.96075,
-            -118.36946
+            33.99512,
+            -118.45495
           ],
           [
-            33.95746,
-            -118.36948
+            33.99472,
+            -118.45412
           ],
           [
-            33.95383,
-            -118.36951
+            33.99436,
+            -118.45334
           ],
           [
-            33.95246,
-            -118.36937
+            33.99397,
+            -118.45253
           ],
           [
-            33.95043,
-            -118.36937
+            33.99362,
+            -118.45184
           ],
           [
-            33.94809,
-            -118.36903
+            33.99298,
+            -118.45051
           ],
           [
-            33.94668,
-            -118.36883
+            33.99265,
+            -118.44989
           ],
           [
-            33.9444,
-            -118.36882
+            33.99195,
+            -118.44905
           ],
           [
-            33.93863,
-            -118.36882
+            33.99082,
+            -118.44812
           ],
           [
-            33.93755,
-            -118.3689
+            33.98974,
+            -118.44707
           ],
           [
-            33.93539,
-            -118.36909
+            33.98908,
+            -118.44646
           ],
           [
-            33.93452,
-            -118.36903
+            33.98819,
+            -118.44565
           ],
           [
-            33.93301,
-            -118.36871
+            33.98665,
+            -118.44424
           ],
           [
-            33.92872,
-            -118.36856
+            33.98556,
+            -118.4434
           ],
           [
-            33.92503,
-            -118.3686
+            33.98457,
+            -118.44275
           ],
           [
-            33.92383,
+            33.98323,
+            -118.44172
+          ],
+          [
+            33.98233,
+            -118.44097
+          ],
+          [
+            33.9812,
+            -118.43989
+          ],
+          [
+            33.98035,
+            -118.43901
+          ],
+          [
+            33.97893,
+            -118.43727
+          ],
+          [
+            33.97807,
+            -118.43596
+          ],
+          [
+            33.97657,
+            -118.43371
+          ],
+          [
+            33.97579,
+            -118.43286
+          ],
+          [
+            33.97455,
+            -118.43199
+          ],
+          [
+            33.97297,
+            -118.43098
+          ],
+          [
+            33.97202,
+            -118.43053
+          ],
+          [
+            33.9686,
+            -118.43783
+          ],
+          [
+            33.96819,
+            -118.43898
+          ],
+          [
+            33.96578,
+            -118.44129
+          ],
+          [
+            33.96201,
+            -118.44458
+          ],
+          [
+            33.9613,
+            -118.44548
+          ],
+          [
+            33.96039,
+            -118.44659
+          ],
+          [
+            33.95948,
+            -118.4477
+          ],
+          [
+            33.95921,
+            -118.44804
+          ],
+          [
+            33.9587,
+            -118.44859
+          ],
+          [
+            33.95743,
+            -118.4486
+          ],
+          [
+            33.95484,
+            -118.44764
+          ],
+          [
+            33.95364,
+            -118.44736
+          ],
+          [
+            33.9519,
+            -118.44647
+          ],
+          [
+            33.94804,
+            -118.44421
+          ],
+          [
+            33.94527,
+            -118.44259
+          ],
+          [
+            33.94048,
+            -118.43993
+          ],
+          [
+            33.93837,
+            -118.43877
+          ],
+          [
+            33.93467,
+            -118.43691
+          ],
+          [
+            33.93184,
+            -118.4355
+          ],
+          [
+            33.93071,
+            -118.43536
+          ],
+          [
+            33.93009,
+            -118.43566
+          ],
+          [
+            33.92972,
+            -118.43497
+          ],
+          [
+            33.92904,
+            -118.4346
+          ],
+          [
+            33.92911,
+            -118.43458
+          ],
+          [
+            33.92972,
+            -118.43497
+          ],
+          [
+            33.93009,
+            -118.43566
+          ],
+          [
+            33.93067,
+            -118.43503
+          ],
+          [
+            33.93078,
+            -118.43337
+          ],
+          [
+            33.93086,
+            -118.42921
+          ],
+          [
+            33.93109,
+            -118.4272
+          ],
+          [
+            33.93129,
+            -118.42501
+          ],
+          [
+            33.93129,
+            -118.41589
+          ],
+          [
+            33.93134,
+            -118.40825
+          ],
+          [
+            33.93134,
+            -118.40397
+          ],
+          [
+            33.93131,
+            -118.40083
+          ],
+          [
+            33.93124,
+            -118.39773
+          ],
+          [
+            33.93126,
+            -118.39181
+          ],
+          [
+            33.93102,
+            -118.38405
+          ],
+          [
+            33.93099,
+            -118.38096
+          ],
+          [
+            33.93022,
+            -118.37748
+          ],
+          [
+            33.9298,
+            -118.37348
+          ],
+          [
+            33.92983,
             -118.36874
           ],
           [
-            33.92255,
-            -118.36901
+            33.93005,
+            -118.36724
           ],
           [
-            33.91744,
-            -118.37013
+            33.9308,
+            -118.36459
           ],
           [
-            33.91592,
-            -118.37043
+            33.93225,
+            -118.35976
           ],
           [
-            33.91545,
-            -118.37049
+            33.93348,
+            -118.35405
+          ],
+          [
+            33.93278,
+            -118.34988
+          ],
+          [
+            33.92771,
+            -118.34101
+          ],
+          [
+            33.92512,
+            -118.33615
+          ],
+          [
+            33.92469,
+            -118.3324
+          ],
+          [
+            33.92529,
+            -118.3222
+          ],
+          [
+            33.92525,
+            -118.31275
+          ],
+          [
+            33.9267,
+            -118.30297
+          ],
+          [
+            33.92821,
+            -118.29606
+          ],
+          [
+            33.92846,
+            -118.29381
+          ],
+          [
+            33.92848,
+            -118.28858
+          ],
+          [
+            33.92848,
+            -118.28302
+          ],
+          [
+            33.92848,
+            -118.27905
+          ],
+          [
+            33.92837,
+            -118.27719
+          ],
+          [
+            33.92813,
+            -118.27532
+          ],
+          [
+            33.92784,
+            -118.27378
+          ],
+          [
+            33.92749,
+            -118.27194
+          ],
+          [
+            33.92732,
+            -118.27018
+          ],
+          [
+            33.9273,
+            -118.26737
+          ],
+          [
+            33.92729,
+            -118.26131
+          ],
+          [
+            33.92744,
+            -118.25787
+          ],
+          [
+            33.92828,
+            -118.25156
+          ],
+          [
+            33.92856,
+            -118.24902
+          ],
+          [
+            33.9286,
+            -118.24717
+          ],
+          [
+            33.92818,
+            -118.23949
+          ],
+          [
+            33.92785,
+            -118.23286
+          ],
+          [
+            33.92841,
+            -118.22961
+          ],
+          [
+            33.9294,
+            -118.22536
+          ],
+          [
+            33.92947,
+            -118.22271
+          ],
+          [
+            33.92905,
+            -118.22018
+          ],
+          [
+            33.92802,
+            -118.21741
+          ],
+          [
+            33.92306,
+            -118.20626
+          ],
+          [
+            33.9212,
+            -118.20196
+          ],
+          [
+            33.91806,
+            -118.19481
+          ],
+          [
+            33.91652,
+            -118.19129
+          ],
+          [
+            33.91573,
+            -118.18915
+          ],
+          [
+            33.91293,
+            -118.18095
+          ],
+          [
+            33.91138,
+            -118.17614
+          ],
+          [
+            33.91091,
+            -118.16932
+          ],
+          [
+            33.91165,
+            -118.1613
+          ],
+          [
+            33.91277,
+            -118.14854
+          ],
+          [
+            33.91289,
+            -118.13615
+          ],
+          [
+            33.91305,
+            -118.12554
+          ],
+          [
+            33.91365,
+            -118.11399
+          ],
+          [
+            33.91349,
+            -118.11025
+          ],
+          [
+            33.91319,
+            -118.10732
+          ],
+          [
+            33.91235,
+            -118.10595
+          ],
+          [
+            33.91067,
+            -118.10532
+          ],
+          [
+            33.90837,
+            -118.10575
+          ],
+          [
+            33.90419,
+            -118.10572
+          ],
+          [
+            33.90352,
+            -118.10604
+          ],
+          [
+            33.90284,
+            -118.10664
+          ],
+          [
+            33.90203,
+            -118.10641
+          ],
+          [
+            33.902,
+            -118.10421
+          ],
+          [
+            33.90204,
+            -118.10318
+          ],
+          [
+            33.90204,
+            -118.1014
+          ],
+          [
+            33.90203,
+            -118.10025
+          ],
+          [
+            33.90204,
+            -118.09912
+          ],
+          [
+            33.90208,
+            -118.09273
+          ],
+          [
+            33.9021,
+            -118.09014
+          ],
+          [
+            33.90212,
+            -118.08664
+          ],
+          [
+            33.90213,
+            -118.08548
+          ],
+          [
+            33.90213,
+            -118.08492
+          ],
+          [
+            33.90212,
+            -118.083
+          ],
+          [
+            33.90212,
+            -118.08238
+          ],
+          [
+            33.90214,
+            -118.08074
+          ],
+          [
+            33.90214,
+            -118.07956
+          ],
+          [
+            33.90216,
+            -118.07802
+          ],
+          [
+            33.90218,
+            -118.07633
+          ],
+          [
+            33.90219,
+            -118.07448
+          ],
+          [
+            33.9022,
+            -118.07289
+          ],
+          [
+            33.90222,
+            -118.06969
+          ],
+          [
+            33.90223,
+            -118.06818
+          ],
+          [
+            33.90225,
+            -118.06549
+          ],
+          [
+            33.90226,
+            -118.06426
+          ],
+          [
+            33.90167,
+            -118.06411
+          ],
+          [
+            33.90134,
+            -118.06339
+          ],
+          [
+            33.90054,
+            -118.06033
+          ],
+          [
+            33.89997,
+            -118.05967
+          ],
+          [
+            33.89955,
+            -118.05921
+          ],
+          [
+            33.8999,
+            -118.05901
+          ],
+          [
+            33.90051,
+            -118.06004
+          ],
+          [
+            33.90067,
+            -118.06215
+          ],
+          [
+            33.90191,
+            -118.06397
+          ],
+          [
+            33.90242,
+            -118.06397
+          ],
+          [
+            33.90237,
+            -118.06503
+          ],
+          [
+            33.90398,
+            -118.06825
+          ],
+          [
+            33.9053,
+            -118.07028
+          ],
+          [
+            33.90755,
+            -118.07436
+          ],
+          [
+            33.9086,
+            -118.07626
+          ],
+          [
+            33.90944,
+            -118.0756
+          ],
+          [
+            33.91029,
+            -118.07719
+          ],
+          [
+            33.91116,
+            -118.07881
+          ],
+          [
+            33.91222,
+            -118.08074
+          ],
+          [
+            33.91265,
+            -118.08154
+          ],
+          [
+            33.91297,
+            -118.08213
+          ],
+          [
+            33.91362,
+            -118.08336
+          ],
+          [
+            33.91432,
+            -118.08463
+          ],
+          [
+            33.91565,
+            -118.08717
+          ],
+          [
+            33.91638,
+            -118.08852
+          ],
+          [
+            33.91703,
+            -118.08972
+          ],
+          [
+            33.91718,
+            -118.09169
+          ],
+          [
+            33.91716,
+            -118.09761
+          ],
+          [
+            33.91717,
+            -118.09918
+          ],
+          [
+            33.91717,
+            -118.10082
+          ],
+          [
+            33.91718,
+            -118.10348
+          ],
+          [
+            33.91601,
+            -118.10344
+          ],
+          [
+            33.91463,
+            -118.10341
+          ],
+          [
+            33.91438,
+            -118.10403
+          ],
+          [
+            33.91396,
+            -118.10702
+          ],
+          [
+            33.91399,
+            -118.11374
+          ],
+          [
+            33.914,
+            -118.11637
+          ],
+          [
+            33.91368,
+            -118.12114
+          ],
+          [
+            33.91348,
+            -118.12405
+          ],
+          [
+            33.91331,
+            -118.13064
           ],
           [
             33.91321,
-            -118.37056
+            -118.14477
           ],
           [
-            33.90967,
-            -118.37057
+            33.91262,
+            -118.15393
           ],
           [
-            33.90517,
-            -118.37056
+            33.91146,
+            -118.16686
           ],
           [
-            33.90117,
-            -118.37056
+            33.91138,
+            -118.1744
           ],
           [
-            33.89927,
-            -118.37051
+            33.91217,
+            -118.17753
           ],
           [
-            33.89847,
-            -118.37031
+            33.91427,
+            -118.18379
           ],
           [
-            33.89769,
-            -118.36998
+            33.91616,
+            -118.18929
           ],
           [
-            33.89703,
-            -118.36956
+            33.91835,
+            -118.19468
           ],
           [
-            33.89643,
-            -118.36904
+            33.92049,
+            -118.19955
           ],
           [
-            33.8959,
-            -118.36843
+            33.92318,
+            -118.20566
           ],
           [
-            33.89548,
-            -118.36785
+            33.9265,
+            -118.21325
           ],
           [
-            33.89102,
-            -118.36162
+            33.92864,
+            -118.21807
           ],
           [
-            33.88853,
-            -118.35817
+            33.92951,
+            -118.22073
           ],
           [
-            33.88643,
-            -118.35523
+            33.92978,
+            -118.22252
           ],
           [
-            33.8846,
-            -118.35267
+            33.92981,
+            -118.22398
           ],
           [
-            33.88321,
-            -118.35074
+            33.92967,
+            -118.22567
           ],
           [
-            33.88201,
-            -118.34927
+            33.92933,
+            -118.22732
           ],
           [
-            33.88096,
-            -118.34824
+            33.92851,
+            -118.23057
           ],
           [
-            33.87993,
-            -118.34739
+            33.92817,
+            -118.23309
           ],
           [
-            33.87586,
-            -118.34448
+            33.92873,
+            -118.24281
           ],
           [
-            33.87177,
-            -118.34157
+            33.92894,
+            -118.24728
           ],
           [
-            33.87027,
-            -118.34052
+            33.92887,
+            -118.24901
           ],
           [
-            33.86947,
-            -118.33972
+            33.92817,
+            -118.25463
           ],
           [
-            33.86878,
-            -118.33887
+            33.92769,
+            -118.2595
           ],
           [
-            33.86815,
-            -118.33787
+            33.92769,
+            -118.26485
           ],
           [
-            33.86764,
-            -118.33683
+            33.92768,
+            -118.26957
           ],
           [
-            33.86724,
-            -118.33571
+            33.92808,
+            -118.27277
           ],
           [
-            33.86601,
-            -118.33155
+            33.9286,
+            -118.27536
           ],
           [
-            33.86523,
-            -118.32898
+            33.92887,
+            -118.27739
           ],
           [
-            33.86457,
-            -118.32677
+            33.92894,
+            -118.27847
           ],
           [
-            33.86348,
-            -118.32313
+            33.92893,
+            -118.28302
           ],
           [
-            33.86112,
-            -118.31529
+            33.92889,
+            -118.29153
           ],
           [
-            33.86038,
-            -118.31281
+            33.92886,
+            -118.29379
           ],
           [
-            33.8601,
-            -118.31161
+            33.92846,
+            -118.29677
           ],
           [
-            33.8599,
-            -118.31037
+            33.92589,
+            -118.30856
           ],
           [
-            33.85974,
-            -118.3084
+            33.92556,
+            -118.31323
           ],
           [
-            33.85973,
-            -118.30629
+            33.9254,
+            -118.32603
           ],
           [
-            33.85974,
-            -118.3023
+            33.92506,
+            -118.33329
           ],
           [
-            33.85975,
-            -118.29649
+            33.92594,
+            -118.33747
           ],
           [
-            33.85973,
-            -118.29295
+            33.9307,
+            -118.34466
           ],
           [
-            33.85966,
-            -118.29216
+            33.93293,
+            -118.34901
           ],
           [
-            33.85956,
-            -118.29152
+            33.93375,
+            -118.35238
           ],
           [
-            33.85931,
-            -118.29044
+            33.93378,
+            -118.3553
           ],
           [
-            33.85903,
-            -118.28959
+            33.93162,
+            -118.36282
           ],
           [
-            33.85769,
-            -118.28637
-          ],
-          [
-            33.85721,
-            -118.28539
-          ],
-          [
-            33.85639,
-            -118.28413
-          ],
-          [
-            33.85558,
-            -118.28316
-          ],
-          [
-            33.8535,
-            -118.28084
-          ],
-          [
-            33.85283,
-            -118.27999
-          ],
-          [
-            33.85034,
-            -118.2764
-          ],
-          [
-            33.84895,
-            -118.27439
-          ],
-          [
-            33.8471,
-            -118.27175
-          ],
-          [
-            33.84575,
-            -118.27004
-          ],
-          [
-            33.84439,
-            -118.26853
-          ],
-          [
-            33.84346,
-            -118.2676
-          ],
-          [
-            33.84157,
-            -118.26571
-          ],
-          [
-            33.83905,
-            -118.26325
-          ],
-          [
-            33.83799,
-            -118.26221
-          ],
-          [
-            33.83524,
-            -118.25952
-          ],
-          [
-            33.82941,
-            -118.25381
-          ],
-          [
-            33.82763,
-            -118.25206
-          ],
-          [
-            33.82725,
-            -118.25161
-          ],
-          [
-            33.82663,
-            -118.25065
-          ],
-          [
-            33.82611,
-            -118.24939
-          ],
-          [
-            33.82585,
-            -118.24824
-          ],
-          [
-            33.82577,
-            -118.24747
-          ],
-          [
-            33.82567,
-            -118.24511
-          ],
-          [
-            33.82558,
-            -118.24324
-          ],
-          [
-            33.82547,
-            -118.24227
-          ],
-          [
-            33.82529,
-            -118.24197
-          ],
-          [
-            33.8247,
-            -118.24217
-          ],
-          [
-            33.8244,
-            -118.24235
-          ],
-          [
-            33.82425,
-            -118.24218
-          ],
-          [
-            33.82426,
-            -118.24157
-          ],
-          [
-            33.82427,
-            -118.23997
-          ],
-          [
-            33.82427,
-            -118.23853
-          ],
-          [
-            33.82428,
-            -118.23761
-          ],
-          [
-            33.82428,
-            -118.23552
-          ],
-          [
-            33.82428,
-            -118.23396
-          ],
-          [
-            33.82429,
-            -118.23314
-          ],
-          [
-            33.82503,
-            -118.23255
-          ],
-          [
-            33.82502,
-            -118.23343
-          ],
-          [
-            33.82456,
-            -118.23315
-          ],
-          [
-            33.82427,
-            -118.23382
-          ],
-          [
-            33.82428,
-            -118.23534
-          ],
-          [
-            33.82428,
-            -118.2375
-          ],
-          [
-            33.82427,
-            -118.23853
-          ],
-          [
-            33.82427,
-            -118.23958
-          ],
-          [
-            33.82426,
-            -118.24142
-          ],
-          [
-            33.82426,
-            -118.24206
-          ],
-          [
-            33.82444,
-            -118.24215
-          ],
-          [
-            33.82512,
-            -118.24187
-          ],
-          [
-            33.82624,
-            -118.24145
-          ],
-          [
-            33.82687,
-            -118.24111
-          ],
-          [
-            33.82661,
-            -118.24025
-          ],
-          [
-            33.82634,
-            -118.24016
-          ],
-          [
-            33.82616,
-            -118.24027
-          ],
-          [
-            33.82594,
-            -118.24133
-          ],
-          [
-            33.82593,
-            -118.24507
-          ],
-          [
-            33.82594,
-            -118.24742
-          ],
-          [
-            33.82606,
-            -118.24847
-          ],
-          [
-            33.82638,
-            -118.24965
-          ],
-          [
-            33.82678,
-            -118.25055
-          ],
-          [
-            33.82744,
-            -118.25155
-          ],
-          [
-            33.83147,
-            -118.25556
-          ],
-          [
-            33.83389,
-            -118.25793
-          ],
-          [
-            33.83727,
-            -118.26123
-          ],
-          [
-            33.83924,
-            -118.26317
-          ],
-          [
-            33.8413,
-            -118.26519
-          ],
-          [
-            33.843,
-            -118.26684
-          ],
-          [
-            33.84522,
-            -118.26908
-          ],
-          [
-            33.84634,
-            -118.27039
-          ],
-          [
-            33.84746,
-            -118.27184
-          ],
-          [
-            33.84959,
-            -118.27494
-          ],
-          [
-            33.8527,
-            -118.27949
-          ],
-          [
-            33.85344,
-            -118.28047
-          ],
-          [
-            33.85493,
-            -118.28216
-          ],
-          [
-            33.85619,
-            -118.28358
-          ],
-          [
-            33.85698,
-            -118.28468
-          ],
-          [
-            33.85757,
-            -118.2857
-          ],
-          [
-            33.85803,
-            -118.28671
-          ],
-          [
-            33.85887,
-            -118.28873
-          ],
-          [
-            33.85926,
-            -118.2897
-          ],
-          [
-            33.8596,
-            -118.29086
-          ],
-          [
-            33.85982,
-            -118.29203
-          ],
-          [
-            33.85991,
-            -118.29318
-          ],
-          [
-            33.85991,
-            -118.2961
-          ],
-          [
-            33.85992,
-            -118.30049
-          ],
-          [
-            33.85991,
-            -118.30797
-          ],
-          [
-            33.85998,
-            -118.30947
-          ],
-          [
-            33.86022,
-            -118.31127
-          ],
-          [
-            33.86079,
-            -118.31362
-          ],
-          [
-            33.86145,
-            -118.3158
-          ],
-          [
-            33.86199,
-            -118.31761
-          ],
-          [
-            33.86381,
-            -118.32362
-          ],
-          [
-            33.86488,
-            -118.3272
-          ],
-          [
-            33.86631,
-            -118.33196
-          ],
-          [
-            33.86759,
-            -118.33611
-          ],
-          [
-            33.86814,
-            -118.3374
-          ],
-          [
-            33.86864,
-            -118.33827
-          ],
-          [
-            33.86966,
-            -118.33958
-          ],
-          [
-            33.87084,
-            -118.34064
-          ],
-          [
-            33.87261,
-            -118.34193
-          ],
-          [
-            33.87418,
-            -118.34304
-          ],
-          [
-            33.87555,
-            -118.34401
-          ],
-          [
-            33.8776,
-            -118.34548
-          ],
-          [
-            33.87916,
-            -118.3466
-          ],
-          [
-            33.88105,
-            -118.34807
-          ],
-          [
-            33.88228,
-            -118.34929
-          ],
-          [
-            33.88283,
-            -118.34994
-          ],
-          [
-            33.88399,
-            -118.3515
-          ],
-          [
-            33.88504,
-            -118.35297
-          ],
-          [
-            33.88759,
-            -118.35652
-          ],
-          [
-            33.89086,
-            -118.3611
-          ],
-          [
-            33.89251,
-            -118.3634
-          ],
-          [
-            33.89446,
-            -118.36611
-          ],
-          [
-            33.89603,
-            -118.3683
-          ],
-          [
-            33.89659,
-            -118.36893
-          ],
-          [
-            33.89759,
-            -118.36969
-          ],
-          [
-            33.8986,
-            -118.37014
-          ],
-          [
-            33.89937,
-            -118.37031
-          ],
-          [
-            33.90158,
-            -118.37034
-          ],
-          [
-            33.90289,
-            -118.37035
-          ],
-          [
-            33.91147,
-            -118.37036
-          ],
-          [
-            33.91462,
-            -118.37034
-          ],
-          [
-            33.91586,
-            -118.37023
-          ],
-          [
-            33.91776,
-            -118.36985
-          ],
-          [
-            33.92309,
-            -118.36865
-          ],
-          [
-            33.92387,
-            -118.3685
-          ],
-          [
-            33.92544,
-            -118.3683
-          ],
-          [
-            33.9285,
-            -118.36827
-          ],
-          [
-            33.93047,
+            33.93021,
             -118.36808
           ],
           [
-            33.93152,
-            -118.36797
+            33.93014,
+            -118.37349
           ],
           [
-            33.93388,
-            -118.36769
+            33.9302,
+            -118.37521
           ],
           [
-            33.9355,
-            -118.36781
+            33.9304,
+            -118.37667
           ],
           [
-            33.93686,
-            -118.3679
+            33.93132,
+            -118.3816
           ],
           [
-            33.93862,
-            -118.36796
+            33.93121,
+            -118.38634
           ],
           [
-            33.94321,
-            -118.36779
+            33.93158,
+            -118.39124
           ],
           [
-            33.94369,
-            -118.36753
+            33.93178,
+            -118.39431
           ],
           [
-            33.94439,
-            -118.3668
+            33.93212,
+            -118.39551
           ],
           [
-            33.94478,
-            -118.36661
+            33.94031,
+            -118.39613
           ],
           [
-            33.94543,
-            -118.36662
-          ],
-          [
-            33.94548,
-            -118.36772
-          ],
-          [
-            33.94547,
-            -118.36926
-          ],
-          [
-            33.94546,
-            -118.37022
-          ],
-          [
-            33.94546,
-            -118.37113
-          ],
-          [
-            33.94546,
-            -118.37408
-          ],
-          [
-            33.94546,
-            -118.37517
-          ],
-          [
-            33.9455,
-            -118.37799
-          ],
-          [
-            33.94557,
-            -118.37852
-          ],
-          [
-            33.94559,
-            -118.37936
-          ],
-          [
-            33.94558,
-            -118.38013
-          ],
-          [
-            33.94557,
-            -118.38143
-          ],
-          [
-            33.94558,
-            -118.38216
-          ],
-          [
-            33.94558,
-            -118.38402
-          ],
-          [
-            33.94558,
-            -118.3859
-          ],
-          [
-            33.9456,
-            -118.3887
-          ],
-          [
-            33.94559,
-            -118.3902
-          ],
-          [
-            33.94559,
-            -118.39141
-          ],
-          [
-            33.94561,
-            -118.39281
-          ],
-          [
-            33.94561,
-            -118.39393
-          ],
-          [
-            33.94559,
-            -118.39534
-          ],
-          [
-            33.94553,
+            33.94434,
             -118.3961
           ],
           [
-            33.94547,
-            -118.39678
+            33.94565,
+            -118.3961
           ],
           [
-            33.94549,
-            -118.39881
+            33.94733,
+            -118.39425
+          ],
+          [
+            33.94615,
+            -118.39394
+          ],
+          [
+            33.9456,
+            -118.39474
+          ],
+          [
+            33.9455,
+            -118.3963
           ],
           [
             33.94551,
-            -118.39988
+            -118.39845
           ],
           [
-            33.94549,
-            -118.40102
+            33.9455,
+            -118.40077
           ],
           [
-            33.94494,
-            -118.4065
+            33.94509,
+            -118.40502
           ],
           [
-            33.94476,
-            -118.40805
-          ],
-          [
-            33.94444,
-            -118.40833
+            33.94467,
+            -118.4082
           ],
           [
             33.94256,

@@ -344,14 +344,6 @@
     "lat": 34.00854,
     "lng": -118.4978
   },
-  "cruise-america-dallas": {
-    "lat": 32.84196,
-    "lng": -96.85929
-  },
-  "cruise-america-carson": {
-    "lat": 33.82516,
-    "lng": -118.23317
-  },
   "dockweiler-rv": {
     "lat": 33.92866,
     "lng": -118.43458
@@ -403,5 +395,13 @@
   "little-colorado-gorge": {
     "lat": 35.94174,
     "lng": -111.64895
+  },
+  "el-monte-mckinney": {
+    "lat": 33.16497,
+    "lng": -96.64439
+  },
+  "el-monte-santa-fe-springs": {
+    "lat": 33.8995,
+    "lng": -118.05912
   }
 }

@@ -262,7 +262,7 @@ const ROUTE_CONS = [
   'Days 1, 3, 4 and 7 are all over 220 miles, and the first comes straight off a flight.',
   'The first three days are Oklahoma and the Texas Panhandle in January: flat, brown and windy. It is a road trip before it is a scenery trip.',
   'The western end overlaps the Las Vegas routes: Death Valley, the Grand Canyon, Monument Valley, Seligman, Oatman and Amboy are each on at least one of them.',
-  'A one-way hire costs more: a drop fee on the car and a bigger one on the motorhome.'
+  'Both vehicles have to be hired one way, and only one of the big motorhome companies would do it from Dallas.'
 ];
 
 const FLAGS = {
@@ -282,7 +282,7 @@ const FLAGS = {
   },
   motorhome: {
     1: [{ type: 'blocked', label: 'Late away:',
-          text: 'Cruise America hands over at 1pm and shuts at 3 on Saturdays; call 24 hours ahead. With the walk-through and a supermarket run you leave about 3, and the last two hours to Tulsa are in the dark. Book the Tulsa site for a late arrival.' },
+          text: "El Monte's Dallas depot is in McKinney, 30 miles up US-75 and on the way — take a taxi from the airport. Pickup is after 1pm and the handover takes one to two hours, so you leave about 3 for the 238 miles to Tulsa, the last two of them in the dark. Book the Tulsa site for a late arrival." },
         { type: 'note', label: 'Freezing from the first night.',
           text: 'Run the propane furnace, not the heat pump, which stops working around 4°C. Disconnect the city-water hose at night and run off the fresh tank; the hose freezes long before the tanks do.' }],
     4: [{ type: 'note', label: 'Most sites are shut:',
@@ -307,8 +307,8 @@ const FLAGS = {
            text: 'Narrow 1940 lanes, tight curves and stop-sign on-ramps are no place for a 30-footer. The map takes I-10 instead.' },
          { type: 'note', label: 'Sleep at Dockweiler.',
            text: "Santa Monica does not let oversized vehicles park on its streets overnight without a permit. Dockweiler RV Park, the county's beach campground nine miles south under the LAX flight path, takes bookings no more than 90 days ahead — book it the day that window opens." }],
-    15: [{ type: 'note', label: 'Back by 11:',
-           text: 'Return it to Cruise America in Carson between 9 and 11; LAX is 20 to 30 minutes on. Book a flight after about 1pm.' }]
+    15: [{ type: 'note', label: 'Back in the morning:',
+           text: 'Return it to El Monte in Santa Fe Springs, 23 miles from Dockweiler, in their morning window (9 to 10:30 at McKinney), then take a taxi the 23 miles to LAX. Book a flight after about 1pm.' }]
   }
 };
 
@@ -317,7 +317,7 @@ const DAY_VIA = {
   motorhome: {
     11: ['needles', 'roys-motel-amboy', 'bagdad-cafe'],            // I-40 round Sitgreaves Pass
     14: ['worlds-tallest-thermometer', 'barstow', 'i10-ontario'],   // I-10, not the Arroyo Seco
-    15: ['cruise-america-carson']                                   // return in Carson first
+    15: ['dockweiler-rv', 'el-monte-santa-fe-springs']             // night at Dockweiler, return in Santa Fe Springs
   }
 };
 
