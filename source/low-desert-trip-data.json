@@ -266,7 +266,7 @@
         "short": {
           "currency": "USD",
           "lines": [
-            { "item": "Flights", "low": 2280, "high": 2280, "basis": "6 people x $380 round trip" },
+            { "item": "Flights", "low": 2453, "high": 2453, "basis": "Quoted for all six, round trip, for 9–23 January — the ten-day version would fly on different dates, so treat this as a guide" },
             { "item": "RV rental, all-in", "low": 1450, "high": 1450, "basis": "Ten days. Includes protection, unlimited miles and generator hours. Kit fee declined." },
             { "item": "Fuel", "low": 686, "high": 764, "basis": "1,245 mi at 8 mpg, $4.40-4.90/gal blended across CA, NV and AZ" },
             { "item": "Campgrounds", "low": 495, "high": 648, "basis": "9 nights, full hookups" },
@@ -282,7 +282,7 @@
         "long": {
           "currency": "USD",
           "lines": [
-            { "item": "Flights", "low": 2280, "high": 2280, "basis": "6 people x $380 round trip" },
+            { "item": "Flights", "low": 2453, "high": 2453, "basis": "Quoted for all six, round trip, 9–23 January" },
             { "item": "RV rental, all-in", "low": 2000, "high": 2000, "basis": "Fourteen days. Includes protection, unlimited miles and 15 generator hours. Kit fee declined." },
             { "item": "Fuel", "low": 774, "high": 862, "basis": "1,405 mi at 8 mpg, $4.40-4.90/gal blended across CA, NV and AZ" },
             { "item": "Campgrounds", "low": 715, "high": 936, "basis": "13 nights, full hookups. Valley of Fire's Atlatl Rock sites are reservation-only" },
@@ -328,8 +328,8 @@
           "lodging": { "value": 2000, "location": 3050, "basis": "9 nights, two rooms. January is high season in Palm Springs, and Needles is basic motels either way" },
           "food": { "low": 1860, "high": 2570, "basis": "Eating out for six. This single line is most of the gap between the two options." },
           "builds": [
-            { "id": "value", "name": "Best value", "total": 7900 },
-            { "id": "location", "name": "Best location", "total": 10350 }
+            { "id": "value", "name": "Best value", "total": 8073 },
+            { "id": "location", "name": "Best location", "total": 10523 }
           ]
         },
         "long": {
@@ -339,8 +339,8 @@
           "lodging": { "value": 2800, "location": 4300, "basis": "13 nights, two rooms or one rental house. There is no hotel inside Valley of Fire — the nearest rooms are in Overton, fifteen minutes away" },
           "food": { "low": 2600, "high": 3600, "basis": "Eating out for six. This single line is most of the gap between the two options." },
           "builds": [
-            { "id": "value", "name": "Best value", "total": 10000 },
-            { "id": "location", "name": "Best location", "total": 13400 }
+            { "id": "value", "name": "Best value", "total": 10173 },
+            { "id": "location", "name": "Best location", "total": 13573 }
           ]
         }
       }

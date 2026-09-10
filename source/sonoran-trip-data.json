@@ -178,7 +178,7 @@
       "budget": {
         "currency": "USD",
         "lines": [
-          { "item": "Flights", "low": 2280, "high": 2280, "basis": "6 people x $380 round trip" },
+          { "item": "Flights", "low": 2453, "high": 2453, "basis": "Quoted for all six, round trip, 9–23 January" },
           { "item": "RV rental, all-in", "low": 2000, "high": 2000, "basis": "Includes protection, unlimited miles and 15 generator hours. Kit fee declined." },
           { "item": "Fuel", "low": 753, "high": 849, "basis": "1,545 mi at 8 mpg, $3.90-4.40/gal across NV, AZ and the Death Valley leg" },
           { "item": "Campgrounds", "low": 700, "high": 950, "basis": "13 nights, full hookups. The Phoenix-area nights are at their annual peak in January" },
@@ -223,8 +223,8 @@
         "food": { "low": 2600, "high": 3600, "basis": "Eating out for six. This single line is most of the gap between the two options." }
       },
       "builds": [
-        { "id": "value", "name": "Best value", "total": 10300 },
-        { "id": "location", "name": "Best location", "total": 14100 }
+        { "id": "value", "name": "Best value", "total": 10473 },
+        { "id": "location", "name": "Best location", "total": 14273 }
       ],
       "pros": [
         "Unlocks Gates Pass and the best sunset in Tucson",

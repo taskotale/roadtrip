@@ -211,15 +211,15 @@
           }
         ],
         "totals": {
-          "low": 7128,
-          "high": 7923
+          "low": 7301,
+          "high": 8096
         },
         "lines": [
           {
             "item": "Flights",
-            "low": 2280,
-            "high": 2280,
-            "basis": "6 people x $380 round trip"
+            "low": 2453,
+            "high": 2453,
+            "basis": "Quoted for all six, round trip, 9–23 January"
           },
           {
             "item": "RV rental, all-in",
@@ -1586,15 +1586,15 @@
           }
         ],
         "totals": {
-          "value": 9700,
-          "location": 12600
+          "value": 9873,
+          "location": 12773
         },
         "lines": [
           {
             "item": "Flights",
-            "value": 2280,
-            "location": 2280,
-            "basis": "6 people x $380 round trip"
+            "value": 2453,
+            "location": 2453,
+            "basis": "Quoted for all six, round trip, 9–23 January"
           },
           {
             "item": "Vehicle rental",
@@ -12452,7 +12452,7 @@
         ],
         [
           36.15908,
-          -115.15861
+          -115.15864
         ],
         [
           36.15911,

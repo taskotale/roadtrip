@@ -143,9 +143,9 @@ listed, so rebuilding one route never drops the others off the home screen.
         "currency": "USD",
         // One column per scenario to compare side by side.
         "columns": [{ "key": "low", "label": "Low" }, { "key": "high", "label": "High" }],
-        "totals":  { "low": 7128, "high": 7923 },
+        "totals":  { "low": 7301, "high": 8096 },
         "lines": [
-          { "item": "Flights", "low": 2280, "high": 2280, "basis": "6 people x $380 round trip" }
+          { "item": "Flights", "low": 2453, "high": 2453, "basis": "Quoted for all six, round trip, 9–23 January" }
         ],
         "notes": "What the numbers assume."
       },

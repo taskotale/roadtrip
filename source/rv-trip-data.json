@@ -200,7 +200,7 @@
       "budget": {
         "currency": "USD",
         "lines": [
-          { "item": "Flights", "low": 2280, "high": 2280, "basis": "6 people x $380 round trip" },
+          { "item": "Flights", "low": 2453, "high": 2453, "basis": "Quoted for all six, round trip, 9–23 January" },
           { "item": "RV rental, all-in", "low": 2000, "high": 2000, "basis": "Quoted: includes protection, unlimited miles, 15 generator hours. Kit fee declined." },
           { "item": "Fuel", "low": 764, "high": 885, "basis": "1,655 mi at 8 mpg, $3.90/gal, NV/UT/AZ prices" },
           { "item": "Campgrounds", "low": 644, "high": 787, "basis": "13 nights, mostly full hookups" },
@@ -243,8 +243,8 @@
         "notes": "A minivan is better for people, a Suburban better for luggage. Fourteen days from Las Vegas including airport concession fees."
       },
       "builds": [
-        { "id": "value", "name": "Best value", "total": 9700, "per_person": 1617 },
-        { "id": "location", "name": "Best location", "total": 12600, "per_person": 2100 }
+        { "id": "value", "name": "Best value", "total": 9873 },
+        { "id": "location", "name": "Best location", "total": 12773 }
       ],
       "budget_deltas": {
         "fuel": { "low": 300, "high": 360, "basis": "1,655 mi at 18-20 mpg — a large saving over the RV" },
