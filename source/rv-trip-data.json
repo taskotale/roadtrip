@@ -2,14 +2,14 @@
   "trip": {
     "title": "Southwest Loop — January",
     "subtitle": "Death Valley · Zion · Page · Monument Valley · Grand Canyon · Route 66",
-    "duration_days": 14,
+    "duration_days": 15,
     "party_size": 6,
     "start_end": "Las Vegas, NV (Harry Reid International — LAS)",
     "season": "January",
     "total_miles": 1655,
     "transit_miles": 1255,
     "in_park_miles": 400,
-    "avg_miles_per_day": 118,
+    "avg_miles_per_day": 110,
     "summary": "A counterclockwise loop out of Las Vegas taking in five national parks and one Navajo tribal park. Warm start in Death Valley, a cold middle at elevation, and an easy Route 66 run home. Two versions are priced: a motorhome build and a car-plus-hotels build."
   },
 
@@ -173,13 +173,25 @@
     {
       "day": 14,
       "from": "Las Vegas",
+      "to": "Las Vegas",
+      "miles": 0,
+      "drive_time": null,
+      "elevation_ft": 2000,
+      "freezing_night": false,
+      "headline": "A last day in Las Vegas",
+      "notes": "A free day before the Saturday flight home — and a second spare day if snow cost you one earlier in the trip.",
+      "activities": []
+    },
+    {
+      "day": 15,
+      "from": "Las Vegas",
       "to": "Fly home",
       "miles": 0,
       "drive_time": null,
       "elevation_ft": 2000,
       "freezing_night": false,
-      "headline": "Return and depart",
-      "notes": "Allow half a day for the vehicle return process.",
+      "headline": "Fly home",
+      "notes": "The Saturday flight home. Anything still rented goes back at the airport on the way in.",
       "activities": []
     }
   ],
@@ -204,6 +216,7 @@
           { "item": "RV rental, all-in", "low": 2000, "high": 2000, "basis": "Quoted: includes protection, unlimited miles, 15 generator hours. Kit fee declined." },
           { "item": "Fuel", "low": 764, "high": 885, "basis": "1,655 mi at 8 mpg, $3.90/gal, NV/UT/AZ prices" },
           { "item": "Campgrounds", "low": 644, "high": 787, "basis": "13 nights, mostly full hookups" },
+          { "item": "Last night in Las Vegas", "low": 400, "high": 680, "basis": "The motorhome goes back on day 14, so a hotel for the Friday night — two rooms — plus a day of meals out" },
           { "item": "Food and groceries", "low": 832, "high": 1063, "basis": "Cooking in the RV with a few meals out" },
           { "item": "Bedding and kitchen gear", "low": 200, "high": 300, "basis": "Bought in Vegas on day 1 instead of paying per-person kit fees" },
           { "item": "Death Valley rental car", "low": 200, "high": 300, "basis": "Days 1-4 economy car; the 30-footer is barred from Artist's Drive and Dante's View" },
@@ -243,13 +256,13 @@
         "notes": "A minivan is better for people, a Suburban better for luggage. Fourteen days from Las Vegas including airport concession fees."
       },
       "builds": [
-        { "id": "value", "name": "Best value", "total": 9873 },
-        { "id": "location", "name": "Best location", "total": 12773 }
+        { "id": "value", "name": "Best value", "total": 10273 },
+        { "id": "location", "name": "Best location", "total": 13453 }
       ],
       "budget_deltas": {
         "fuel": { "low": 300, "high": 360, "basis": "1,655 mi at 18-20 mpg — a large saving over the RV" },
-        "lodging": { "value": 2600, "location": 4000, "basis": "13 nights, two rooms or one rental house" },
-        "food": { "low": 2600, "high": 3600, "basis": "Eating out for six. This single line is most of the gap between the two options." }
+        "lodging": { "value": 2820, "location": 4420, "basis": "14 nights, two rooms or one rental house — the last one in Las Vegas before the flight" },
+        "food": { "low": 2780, "high": 3860, "basis": "Eating out for six. This single line is most of the gap between the two options." }
       },
       "pros": [
         "No freezing nights — real beds and heated rooms throughout",
@@ -419,11 +432,11 @@
     "mileage_fees": "If the rental charges per mile at around $0.35, 1,655 miles adds roughly $580. Always price the unlimited-miles package as an alternative.",
     "fuel": "Fill up in Nevada, Utah and Arizona. Top off before entering Death Valley, where in-park fuel at Furnace Creek is notably expensive.",
     "death_valley_closures": "Flood damage persists. Bonnie Clare Road and Scotty's Castle are closed with no reopening date, North Highway has loose gravel and missing shoulders, southern Badwater Road has soft shoulders and unpaved sections, and Emigrant Campground is closed indefinitely. Check the park's conditions page a week before departure.",
-    "buffer": "Day 13 is deliberately short. If snow costs you a day earlier in the trip, absorb it there."
+    "buffer": "Day 13 is deliberately short, and day 14 is a free day in Las Vegas before the flight. If snow costs you a day earlier in the trip, there are two places to absorb it."
   },
 
   "rejected_alternatives": [
-    { "place": "Joshua Tree", "reason": "Strong park, but it sits on the opposite side of the map from Monument Valley. Cannot have both in 14 days." },
+    { "place": "Joshua Tree", "reason": "Strong park, but it sits on the opposite side of the map from Monument Valley. Cannot have both in two weeks." },
     { "place": "Palm Springs / Coachella Valley", "reason": "The warmest and most kid-friendly stop available, but on the western route only." },
     { "place": "Mojave National Preserve", "reason": "No hookups, no potable water, no cell service, and the York Fire burned close to 100,000 acres in 2023 including much of the Cima Dome Joshua tree forest." },
     { "place": "Lake Havasu", "reason": "In January the lake is too cold to swim, which removes the main reason to go. London Bridge is a ten-minute stop." },

@@ -7,10 +7,10 @@
   "season": "January",
   "startEnd": "Las Vegas, NV (Harry Reid International — LAS)",
   "totals": {
-    "days": 14,
+    "days": 15,
     "miles": 1545,
     "party": 6,
-    "avgMilesPerDay": 110
+    "avgMilesPerDay": 103
   },
   "mustSee": [
     {
@@ -118,7 +118,7 @@
   ],
   "cons": [
     "Day 13 is 288 miles and the better part of six hours. There is no way to avoid it — Tucson is simply a long way from Las Vegas.",
-    "Day 7 is another 210 miles. Two of the fourteen days carry most of the driving on the whole trip.",
+    "Day 7 is another 210 miles. Two of the fifteen days carry most of the driving on the whole trip.",
     "1,545 miles in total, 180 more than the Low Desert Loop, and much of that is main highway rather than scenery.",
     "January is peak snowbird season across Phoenix and Tucson. RV parks book out months ahead and rooms are at their annual high.",
     "The middle of the trip is a metropolitan area of five million people. If the point of the holiday is empty desert, this is the wrong loop.",
@@ -210,8 +210,8 @@
           }
         ],
         "totals": {
-          "low": 7618,
-          "high": 8695
+          "low": 8018,
+          "high": 9375
         },
         "lines": [
           {
@@ -237,6 +237,12 @@
             "low": 700,
             "high": 950,
             "basis": "13 nights, full hookups. The Phoenix-area nights are at their annual peak in January"
+          },
+          {
+            "item": "Last night in Las Vegas",
+            "low": 400,
+            "high": 680,
+            "basis": "The motorhome goes back on day 14, so a hotel for the Friday night — two rooms — plus a day of meals out"
           },
           {
             "item": "Food and groceries",
@@ -275,7 +281,7 @@
             "basis": "America the Beautiful annual pass already owned — covers Death Valley and both halves of Saguaro"
           }
         ],
-        "notes": "Everything for six people for fourteen days, flights included. The America the Beautiful pass covers Death Valley and both halves of Saguaro — but not the gardens, the museum or the state parks, which is why that line is bigger here than on the other routes."
+        "notes": "Everything for six people for fifteen days, flights included. The America the Beautiful pass covers Death Valley and both halves of Saguaro — but not the gardens, the museum or the state parks, which is why that line is bigger here than on the other routes."
       },
       "pros": [
         "Cheapest by a wide margin",
@@ -326,6 +332,13 @@
             "label": "Not in the motorhome:",
             "text": "Gates Pass is posted closed to RVs — a narrow switchback climb with no shoulders. Saguaro West and the Desert Museum are still open to you the long way round on Ajo Way, which adds about twenty minutes. You lose the sunset, not the park."
           }
+        ],
+        "14": [
+          {
+            "type": "note",
+            "label": "The motorhome goes back today.",
+            "text": "Allow half a day for the return process, then a hotel for the last night — the flight morning stays simple."
+          }
         ]
       }
     },
@@ -352,8 +365,8 @@
           }
         ],
         "totals": {
-          "value": 10473,
-          "location": 14273
+          "value": 10873,
+          "location": 14953
         },
         "lines": [
           {
@@ -376,14 +389,14 @@
           },
           {
             "item": "Lodging",
-            "value": 3000,
-            "location": 4800,
-            "basis": "13 nights, two rooms or one rental house. Scottsdale and Tucson in January are peak snowbird season, which is what makes this line the biggest on the page"
+            "value": 3220,
+            "location": 5220,
+            "basis": "14 nights, two rooms or one rental house — the last one in Las Vegas before the flight. Scottsdale and Tucson in January are peak snowbird season, which is what makes this line the biggest on the page"
           },
           {
             "item": "Food",
-            "value": 2600,
-            "location": 3600,
+            "value": 2780,
+            "location": 3860,
             "basis": "Eating out for six. This single line is most of the gap between the two options."
           },
           {
@@ -11070,6 +11083,30 @@
         ]
       },
       "to": {
+        "name": "Las Vegas",
+        "coords": [
+          36.16743,
+          -115.14841
+        ]
+      },
+      "miles": 0,
+      "headline": "A last day in Las Vegas",
+      "notes": "A free day before the Saturday flight home, and a spare one if weather cost you a day earlier in the trip. After yesterday's 288 miles, nobody will want to drive anywhere.",
+      "elevation": 2050,
+      "freezingNight": false,
+      "activities": [],
+      "pois": []
+    },
+    {
+      "day": 15,
+      "from": {
+        "name": "Las Vegas",
+        "coords": [
+          36.16743,
+          -115.14841
+        ]
+      },
+      "to": {
         "name": "Fly home",
         "coords": [
           36.0861,
@@ -11077,8 +11114,8 @@
         ]
       },
       "miles": 0,
-      "headline": "Return and depart",
-      "notes": "Allow half a day for the vehicle return process.",
+      "headline": "Fly home",
+      "notes": "The Saturday flight home. Anything still rented goes back at the airport on the way in.",
       "elevation": 2050,
       "freezingNight": false,
       "activities": [],

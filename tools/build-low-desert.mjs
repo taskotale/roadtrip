@@ -2,7 +2,7 @@
 /* Rebuilds BOTH Low Desert routes from source/low-desert-trip-data.json:
 
        data/routes/low-desert-short.json   10 days
-       data/routes/low-desert-loop.json    14 days, finishing at Valley of Fire
+       data/routes/low-desert-loop.json    15 days, finishing at Valley of Fire, last night in Las Vegas
 
    Run from the repo root:
        node tools/build-low-desert.mjs
@@ -206,7 +206,8 @@ const SHAPE = {
       7: ['borrego-springs', 'borrego-springs'], 8: ['borrego-springs', 'twentynine-palms'],
       9: ['twentynine-palms', 'twentynine-palms'], 10: ['twentynine-palms', 'needles'],
       11: ['needles', 'boulder-city'],         12: ['boulder-city', 'valley-of-fire'],
-      13: ['valley-of-fire', 'valley-of-fire'], 14: ['valley-of-fire', 'las-vegas-airport']
+      13: ['valley-of-fire', 'valley-of-fire'], 14: ['valley-of-fire', 'las-vegas'],
+      15: ['las-vegas', 'las-vegas-airport']
     },
     via: { 5: ['elmers-bottle-tree-ranch'], 10: ['amboy-crater'], 11: ['kingman'] },
     pois: {
@@ -223,7 +224,8 @@ const SHAPE = {
       11: ['oatman', 'kingman', 'hooverDam'],
       12: ['valleyOfFire', 'atlatlRock'],
       13: ['fireWave', 'whiteDomes', 'elephantRock'],
-      14: []
+      14: [],
+      15: []
     },
     mustSee: [
       ['Zabriskie Point', 1, 'zabriskie-point.jpg',
@@ -263,7 +265,9 @@ const SHAPE = {
         11: [{ type: 'blocked', label: 'Not in the motorhome:',
                text: 'The Oatman Highway over Sitgreaves Pass — steep, blind hairpins, no room for a 30-footer. The map shows the I-40 route through Kingman, which is ten miles longer and half an hour faster.' }],
         12: [{ type: 'unlocked', label: 'The one night you have the better bed:',
-               text: 'There is no hotel inside Valley of Fire. Atlatl Rock campground has hookups and puts you in the park for sunrise on the sandstone. Reserve it — all sites are reservation-only.' }]
+               text: 'There is no hotel inside Valley of Fire. Atlatl Rock campground has hookups and puts you in the park for sunrise on the sandstone. Reserve it — all sites are reservation-only.' }],
+        14: [{ type: 'note', label: 'The motorhome goes back today.',
+               text: 'Hand it back when you reach Las Vegas. Allow half a day for the return process, then a hotel for the last night — the flight morning stays simple.' }]
       },
       'car-and-lodging': {
         2: [{ type: 'unlocked', label: 'Open to you:',
@@ -281,8 +285,8 @@ const SHAPE = {
     pros: [
       'No night is expected to freeze. Nothing on this route sleeps above 2,600 feet.',
       'Two national parks, four state parks and 200 miles of original Route 66, out and back from a single airport.',
-      'Short days: 100 miles a day on average, and five of the fourteen involve no driving between towns.',
-      'It finishes on the red rock at Valley of Fire rather than in a car park near the airport, and the last day is a 63-mile run to the plane.',
+      'Short days: 94 miles a day on average, and five of the fifteen involve no driving between towns.',
+      'It finishes on the red rock at Valley of Fire rather than in a car park near the airport, then an easy 63-mile morning back to Las Vegas and a last night before the flight.',
       'January is the best month of the year to be in the low desert. Palm Springs runs to 21 or 22°C and Death Valley to around 18°C.',
       'The motorhome stops being a compromise. Its worst problem on the Southwest Loop was seven freezing nights, and this route does not have one.'
     ],

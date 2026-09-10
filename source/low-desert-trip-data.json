@@ -16,7 +16,7 @@
       "transit_miles": 945,
       "in_park_miles": 300,
       "avg_miles_per_day": 125,
-      "summary": "The same warm loop as the long version, run in ten days instead of fourteen. Death Valley, Route 66 across the Mojave, the Coachella Valley, Anza-Borrego, Joshua Tree, and home along the old road through Needles and Kingman. Nothing sleeps above 2,200 feet and no night is expected to freeze. Be clear about the trade though: the driving is almost the same, so this is a busier trip rather than a smaller one — only two of the ten days have no driving between towns.",
+      "summary": "The same warm loop as the long version, run in ten days instead of fifteen. Death Valley, Route 66 across the Mojave, the Coachella Valley, Anza-Borrego, Joshua Tree, and home along the old road through Needles and Kingman. Nothing sleeps above 2,200 feet and no night is expected to freeze. Be clear about the trade though: the driving is almost the same, so this is a busier trip rather than a smaller one — only two of the ten days have no driving between towns.",
       "itinerary": [
         { "day": 1, "from": "Las Vegas, NV", "to": "Furnace Creek, Death Valley", "miles": 122,
           "drive_time": "2h37", "elevation_ft": -190, "freezing_night": false,
@@ -83,11 +83,11 @@
       "id": "low-desert-loop",
       "title": "Low Desert Loop — the long way",
       "subtitle": "Death Valley · Palm Springs · Anza-Borrego · Joshua Tree · Route 66 · Valley of Fire",
-      "duration_days": 14,
+      "duration_days": 15,
       "total_miles": 1405,
       "transit_miles": 1055,
       "in_park_miles": 350,
-      "avg_miles_per_day": 100,
+      "avg_miles_per_day": 94,
       "summary": "A warm loop out of Las Vegas that never climbs into the cold. Death Valley first, then Route 66 across the Mojave, the Coachella Valley, Anza-Borrego, Joshua Tree, the old road east through Needles and Kingman, and a finish on the red rock at Valley of Fire rather than in an airport car park. Nothing sleeps above 2,600 feet, no night is expected to freeze, and five of the fourteen days involve no driving between towns.",
       "itinerary": [
         { "day": 1, "from": "Las Vegas, NV", "to": "Furnace Creek, Death Valley", "miles": 122,
@@ -155,10 +155,15 @@
           "headline": "The last full day, and the best rock on the route",
           "notes": "The Fire Wave is striped red and white sandstone at the end of a short flat walk. White Domes adds a slot canyon and the remains of a 1960s film set. Elephant Rock is ten minutes from the east entrance. A better last day than a car park near the airport.",
           "activities": ["Fire Wave", "White Domes loop", "Elephant Rock"] },
-        { "day": 14, "from": "Valley of Fire", "to": "Fly home", "miles": 63,
+        { "day": 14, "from": "Valley of Fire", "to": "Las Vegas", "miles": 63,
           "drive_time": "1h37", "elevation_ft": 2050, "freezing_night": false,
-          "headline": "An hour and a half to the plane",
-          "notes": "Sixty-three miles to the airport, so there is time for one more walk before you go. Allow half a day for the vehicle return process.",
+          "headline": "Back to Las Vegas for the night",
+          "notes": "Sixty-three miles back to Las Vegas, so there is time for one more walk on the red rock before you go — the flight is not until tomorrow.",
+          "activities": [] },
+        { "day": 15, "from": "Las Vegas", "to": "Fly home", "miles": 0,
+          "elevation_ft": 2050, "freezing_night": false,
+          "headline": "Fly home",
+          "notes": "The Saturday flight home. Anything still rented goes back at the airport on the way in.",
           "activities": [] }
       ],
       "rejected_extra": [
@@ -286,6 +291,7 @@
             { "item": "RV rental, all-in", "low": 2000, "high": 2000, "basis": "Fourteen days. Includes protection, unlimited miles and 15 generator hours. Kit fee declined." },
             { "item": "Fuel", "low": 774, "high": 862, "basis": "1,405 mi at 8 mpg, $4.40-4.90/gal blended across CA, NV and AZ" },
             { "item": "Campgrounds", "low": 715, "high": 936, "basis": "13 nights, full hookups. Valley of Fire's Atlatl Rock sites are reservation-only" },
+            { "item": "Last night in Las Vegas", "low": 400, "high": 680, "basis": "The motorhome goes back when you reach Las Vegas on day 14, so a hotel for the Friday night — two rooms — plus a day of meals out" },
             { "item": "Food and groceries", "low": 832, "high": 1063, "basis": "Cooking in the RV with a few meals out" },
             { "item": "Bedding and kitchen gear", "low": 200, "high": 300, "basis": "Bought in Vegas on day 1 instead of paying per-person kit fees" },
             { "item": "Death Valley rental car", "low": 200, "high": 300, "basis": "Days 1-4 economy car; the 30-footer is barred from Artist's Drive and Dante's View" },
@@ -336,11 +342,11 @@
           "vehicle_low": 1400, "vehicle_high": 2100,
           "vehicle_basis": "Fourteen days from Las Vegas including airport concession fees",
           "fuel": { "low": 310, "high": 385, "basis": "1,405 mi at 18-20 mpg — a large saving over the RV even at California prices" },
-          "lodging": { "value": 2800, "location": 4300, "basis": "13 nights, two rooms or one rental house. There is no hotel inside Valley of Fire — the nearest rooms are in Overton, fifteen minutes away" },
-          "food": { "low": 2600, "high": 3600, "basis": "Eating out for six. This single line is most of the gap between the two options." },
+          "lodging": { "value": 3020, "location": 4720, "basis": "14 nights, two rooms or one rental house — the last one in Las Vegas before the flight. There is no hotel inside Valley of Fire — the nearest rooms are in Overton, fifteen minutes away" },
+          "food": { "low": 2780, "high": 3860, "basis": "Eating out for six. This single line is most of the gap between the two options." },
           "builds": [
-            { "id": "value", "name": "Best value", "total": 10173 },
-            { "id": "location", "name": "Best location", "total": 13573 }
+            { "id": "value", "name": "Best value", "total": 10573 },
+            { "id": "location", "name": "Best location", "total": 14253 }
           ]
         }
       }

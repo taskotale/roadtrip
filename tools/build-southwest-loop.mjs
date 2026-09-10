@@ -54,7 +54,8 @@ const STOPS = {
   7:  ['springdale', 'page'],              8:  ['page', 'monument-valley'],
   9:  ['monument-valley', 'monument-valley'], 10: ['monument-valley', 'grand-canyon-village'],
   11: ['grand-canyon-village', 'grand-canyon-village'], 12: ['grand-canyon-village', 'kingman'],
-  13: ['kingman', 'las-vegas'],            14: ['las-vegas', 'las-vegas-airport']
+  13: ['kingman', 'las-vegas'],            14: ['las-vegas', 'las-vegas'],
+  15: ['las-vegas', 'las-vegas-airport']
 };
 
 const POIS = {
@@ -108,7 +109,8 @@ const POIS = {
         'End of the longest intact original stretch of Route 66.')],
   13: [poi("Hoover Dam", 'hoover-dam', 'hoover-dam.jpg',
         'Park and walk out onto the bridge — 20 minutes, no ticket needed.')],
-  14: []
+  14: [],
+  15: []
 };
 
 /* The pick of the trip, shown as a gallery near the top of the route page. */
@@ -153,14 +155,14 @@ const WATCH_OUTS = [
     text: 'The America the Beautiful pass covers Death Valley, Zion, the Grand Canyon and Glen Canyon. It does not cover Monument Valley, which is a Navajo tribal park ($8 per person), or Valley of Fire, which is a Nevada state park.' },
   { title: 'Price the unlimited-miles package',
     text: pn.mileage_fees },
-  { title: 'Day 13 is the weather buffer',
+  { title: 'Days 13 and 14 are the weather buffer',
     text: pn.buffer }
 ];
 
 const ROUTE_PROS = [
   'Five national parks and a Navajo tribal park in one loop, out and back from a single airport.',
   'January is the emptiest month of the year at the Grand Canyon, and Springdale and Page are both cheap in low season.',
-  'Short days: 118 miles a day on average, and five of the fourteen days involve no driving between towns at all.',
+  'Short days: 110 miles a day on average, and six of the fifteen days involve no driving between towns at all.',
   'Winter opens Zion Canyon Scenic Drive to private vehicles — the park shuttle does not run, so you drive it yourself.',
   'The warm end of the trip comes first. Death Valley around 18°C while you settle in, before the cold middle.',
   'One set of flights, one vehicle, one loop. Nothing is one-way.'
@@ -191,7 +193,9 @@ const FLAGS = {
     9: [{ type: 'blocked', label: 'Not in the motorhome:',
           text: 'The Navajo Nation bars RVs from the 17-mile loop by category, not by size. What you can still do for free: the visitor center overlook and the 3.2-mile Wildcat Trail. A Navajo-guided 4x4 tour runs $70–95 each.' }],
     11: [{ type: 'note', label: 'Coldest night of the trip.',
-           text: 'Highs around 5°C, lows around −8°C. Full hookups are available at Trailer Village — book it first, it sets the skeleton of the whole trip.' }]
+           text: 'Highs around 5°C, lows around −8°C. Full hookups are available at Trailer Village — book it first, it sets the skeleton of the whole trip.' }],
+    14: [{ type: 'note', label: 'The motorhome goes back today.',
+           text: 'Allow half a day for the return process, then a hotel for the last night — the flight morning stays simple.' }]
   },
   'car-and-lodging': {
     2: [{ type: 'unlocked', label: 'Open to you:',
@@ -259,7 +263,7 @@ const motorhome = {
     columns: [{ key: 'low', label: 'Low' }, { key: 'high', label: 'High' }],
     totals: { low: sumLines(o1.budget.lines, 'low'), high: sumLines(o1.budget.lines, 'high') },
     lines: o1.budget.lines.map((l) => ({ item: l.item, low: l.low, high: l.high, basis: l.basis })),
-    notes: 'Everything for six people for fourteen days, flights included. The America the Beautiful pass is already owned, so park entry is zero — but it does not cover Monument Valley or Valley of Fire.'
+    notes: 'Everything for six people for fifteen days, flights included. The America the Beautiful pass is already owned, so park entry is zero — but it does not cover Monument Valley or Valley of Fire.'
   },
   pros: o1.pros,
   cons: o1.cons,

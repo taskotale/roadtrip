@@ -7,10 +7,10 @@
   "season": "January",
   "startEnd": "Las Vegas, NV (Harry Reid International — LAS)",
   "totals": {
-    "days": 14,
+    "days": 15,
     "miles": 1655,
     "party": 6,
-    "avgMilesPerDay": 118
+    "avgMilesPerDay": 110
   },
   "mustSee": [
     {
@@ -105,14 +105,14 @@
       "text": "If the rental charges per mile at around $0.35, 1,655 miles adds roughly $580. Always price the unlimited-miles package as an alternative."
     },
     {
-      "title": "Day 13 is the weather buffer",
-      "text": "Day 13 is deliberately short. If snow costs you a day earlier in the trip, absorb it there."
+      "title": "Days 13 and 14 are the weather buffer",
+      "text": "Day 13 is deliberately short, and day 14 is a free day in Las Vegas before the flight. If snow costs you a day earlier in the trip, there are two places to absorb it."
     }
   ],
   "pros": [
     "Five national parks and a Navajo tribal park in one loop, out and back from a single airport.",
     "January is the emptiest month of the year at the Grand Canyon, and Springdale and Page are both cheap in low season.",
-    "Short days: 118 miles a day on average, and five of the fourteen days involve no driving between towns at all.",
+    "Short days: 110 miles a day on average, and six of the fifteen days involve no driving between towns at all.",
     "Winter opens Zion Canyon Scenic Drive to private vehicles — the park shuttle does not run, so you drive it yourself.",
     "The warm end of the trip comes first. Death Valley around 18°C while you settle in, before the cold middle.",
     "One set of flights, one vehicle, one loop. Nothing is one-way."
@@ -128,7 +128,7 @@
   "notConsidered": [
     {
       "place": "Joshua Tree",
-      "reason": "Strong park, but it sits on the opposite side of the map from Monument Valley. Cannot have both in 14 days."
+      "reason": "Strong park, but it sits on the opposite side of the map from Monument Valley. Cannot have both in two weeks."
     },
     {
       "place": "Palm Springs / Coachella Valley",
@@ -211,8 +211,8 @@
           }
         ],
         "totals": {
-          "low": 7301,
-          "high": 8096
+          "low": 7701,
+          "high": 8776
         },
         "lines": [
           {
@@ -238,6 +238,12 @@
             "low": 644,
             "high": 787,
             "basis": "13 nights, mostly full hookups"
+          },
+          {
+            "item": "Last night in Las Vegas",
+            "low": 400,
+            "high": 680,
+            "basis": "The motorhome goes back on day 14, so a hotel for the Friday night — two rooms — plus a day of meals out"
           },
           {
             "item": "Food and groceries",
@@ -276,7 +282,7 @@
             "basis": "America the Beautiful annual pass already owned"
           }
         ],
-        "notes": "Everything for six people for fourteen days, flights included. The America the Beautiful pass is already owned, so park entry is zero — but it does not cover Monument Valley or Valley of Fire."
+        "notes": "Everything for six people for fifteen days, flights included. The America the Beautiful pass is already owned, so park entry is zero — but it does not cover Monument Valley or Valley of Fire."
       },
       "pros": [
         "Cheapest by a wide margin",
@@ -339,6 +345,13 @@
             "type": "note",
             "label": "Coldest night of the trip.",
             "text": "Highs around 5°C, lows around −8°C. Full hookups are available at Trailer Village — book it first, it sets the skeleton of the whole trip."
+          }
+        ],
+        "14": [
+          {
+            "type": "note",
+            "label": "The motorhome goes back today.",
+            "text": "Allow half a day for the return process, then a hotel for the last night — the flight morning stays simple."
           }
         ]
       },
@@ -1586,8 +1599,8 @@
           }
         ],
         "totals": {
-          "value": 9873,
-          "location": 12773
+          "value": 10273,
+          "location": 13453
         },
         "lines": [
           {
@@ -1610,14 +1623,14 @@
           },
           {
             "item": "Lodging",
-            "value": 2600,
-            "location": 4000,
-            "basis": "13 nights, two rooms or one rental house"
+            "value": 2820,
+            "location": 4420,
+            "basis": "14 nights, two rooms or one rental house — the last one in Las Vegas before the flight"
           },
           {
             "item": "Food",
-            "value": 2600,
-            "location": 3600,
+            "value": 2780,
+            "location": 3860,
             "basis": "Eating out for six. This single line is most of the gap between the two options."
           },
           {
@@ -12172,6 +12185,30 @@
         ]
       },
       "to": {
+        "name": "Las Vegas",
+        "coords": [
+          36.16743,
+          -115.14841
+        ]
+      },
+      "miles": 0,
+      "headline": "A last day in Las Vegas",
+      "notes": "A free day before the Saturday flight home — and a second spare day if snow cost you one earlier in the trip.",
+      "elevation": 2000,
+      "freezingNight": false,
+      "activities": [],
+      "pois": []
+    },
+    {
+      "day": 15,
+      "from": {
+        "name": "Las Vegas",
+        "coords": [
+          36.16743,
+          -115.14841
+        ]
+      },
+      "to": {
         "name": "Fly home",
         "coords": [
           36.0861,
@@ -12179,8 +12216,8 @@
         ]
       },
       "miles": 0,
-      "headline": "Return and depart",
-      "notes": "Allow half a day for the vehicle return process.",
+      "headline": "Fly home",
+      "notes": "The Saturday flight home. Anything still rented goes back at the airport on the way in.",
       "elevation": 2000,
       "freezingNight": false,
       "activities": [],

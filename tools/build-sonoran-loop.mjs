@@ -47,7 +47,8 @@ const STOPS = {
   7:  ['lake-havasu-city', 'scottsdale'],      8:  ['scottsdale', 'scottsdale'],
   9:  ['scottsdale', 'apache-junction'],       10: ['apache-junction', 'tucson'],
   11: ['tucson', 'tucson'],                    12: ['tucson', 'wickenburg'],
-  13: ['wickenburg', 'las-vegas'],             14: ['las-vegas', 'las-vegas-airport']
+  13: ['wickenburg', 'las-vegas'],             14: ['las-vegas', 'las-vegas'],
+  15: ['las-vegas', 'las-vegas-airport']
 };
 
 /* Day 5 goes down US-93 through Kingman rather than cutting across. */
@@ -112,7 +113,8 @@ const POIS = {
         'An 1863 gold town that runs on horses now.')],
   13: [poi('Parker Dam', 'parker-dam', 'parker-dam.jpg',
         'The deepest dam in the world — two thirds of it is below the riverbed.')],
-  14: []
+  14: [],
+  15: []
 };
 
 const MUST_SEE = [
@@ -170,7 +172,7 @@ const ROUTE_PROS = [
 
 const ROUTE_CONS = [
   'Day 13 is 288 miles and the better part of six hours. There is no way to avoid it — Tucson is simply a long way from Las Vegas.',
-  'Day 7 is another 210 miles. Two of the fourteen days carry most of the driving on the whole trip.',
+  'Day 7 is another 210 miles. Two of the fifteen days carry most of the driving on the whole trip.',
   '1,545 miles in total, 180 more than the Low Desert Loop, and much of that is main highway rather than scenery.',
   'January is peak snowbird season across Phoenix and Tucson. RV parks book out months ahead and rooms are at their annual high.',
   'The middle of the trip is a metropolitan area of five million people. If the point of the holiday is empty desert, this is the wrong loop.',
@@ -188,7 +190,9 @@ const FLAGS = {
     9: [{ type: 'blocked', label: 'Not in the motorhome:',
           text: 'The Apache Trail past Canyon Lake. Even the paved section is narrow with tight curves and is no place for a 30-footer, and beyond Tortilla Flat it is dirt and partly closed. Do Lost Dutchman and the Canyon Lake vista and turn around.' }],
     11: [{ type: 'blocked', label: 'Not in the motorhome:',
-           text: 'Gates Pass is posted closed to RVs — a narrow switchback climb with no shoulders. Saguaro West and the Desert Museum are still open to you the long way round on Ajo Way, which adds about twenty minutes. You lose the sunset, not the park.' }]
+           text: 'Gates Pass is posted closed to RVs — a narrow switchback climb with no shoulders. Saguaro West and the Desert Museum are still open to you the long way round on Ajo Way, which adds about twenty minutes. You lose the sunset, not the park.' }],
+    14: [{ type: 'note', label: 'The motorhome goes back today.',
+           text: 'Allow half a day for the return process, then a hotel for the last night — the flight morning stays simple.' }]
   },
   'car-and-lodging': {
     2: [{ type: 'unlocked', label: 'Open to you:',
@@ -243,7 +247,7 @@ const motorhome = {
     columns: [{ key: 'low', label: 'Low' }, { key: 'high', label: 'High' }],
     totals: { low: sumLines(o1.budget.lines, 'low'), high: sumLines(o1.budget.lines, 'high') },
     lines: o1.budget.lines.map((l) => ({ item: l.item, low: l.low, high: l.high, basis: l.basis })),
-    notes: 'Everything for six people for fourteen days, flights included. The America the Beautiful pass covers Death Valley and both halves of Saguaro — but not the gardens, the museum or the state parks, which is why that line is bigger here than on the other routes.'
+    notes: 'Everything for six people for fifteen days, flights included. The America the Beautiful pass covers Death Valley and both halves of Saguaro — but not the gardens, the museum or the state parks, which is why that line is bigger here than on the other routes.'
   },
   pros: o1.pros,
   cons: o1.cons,

@@ -2,14 +2,14 @@
   "trip": {
     "title": "Sonoran Loop — January",
     "subtitle": "Death Valley · Lake Havasu · Scottsdale · Superstitions · Saguaro · Tucson",
-    "duration_days": 14,
+    "duration_days": 15,
     "party_size": 6,
     "start_end": "Las Vegas, NV (Harry Reid International — LAS)",
     "season": "January",
     "total_miles": 1545,
     "transit_miles": 1195,
     "in_park_miles": 350,
-    "avg_miles_per_day": 110,
+    "avg_miles_per_day": 103,
     "summary": "The warmest of the loops, and the one that charges you the most driving for it. Death Valley first, then straight down the Colorado River into Arizona and on into the Sonoran Desert — saguaro country, which begins around Wickenburg and exists on neither of the other routes. Phoenix and Tucson both sit around 20°C in January. Getting back to Las Vegas from Tucson is a 288-mile day, and that is the honest argument against this trip."
   },
 
@@ -92,10 +92,16 @@
       "notes": "The longest day on any of these routes, and there is no version of this trip without it. West to Parker, then north along the Colorado through Lake Havasu and Needles and up US-95 into Nevada. It is a good drive and it is still the better part of six hours.",
       "activities": ["Parker Dam", "The Colorado River road"] },
 
-    { "day": 14, "from": "Las Vegas", "to": "Fly home", "miles": 0,
+    { "day": 14, "from": "Las Vegas", "to": "Las Vegas", "miles": 0,
       "elevation_ft": 2050, "freezing_night": false,
-      "headline": "Return and depart",
-      "notes": "Allow half a day for the vehicle return process.",
+      "headline": "A last day in Las Vegas",
+      "notes": "A free day before the Saturday flight home, and a spare one if weather cost you a day earlier in the trip. After yesterday's 288 miles, nobody will want to drive anywhere.",
+      "activities": [] },
+
+    { "day": 15, "from": "Las Vegas", "to": "Fly home", "miles": 0,
+      "elevation_ft": 2050, "freezing_night": false,
+      "headline": "Fly home",
+      "notes": "The Saturday flight home. Anything still rented goes back at the airport on the way in.",
       "activities": [] }
   ],
 
@@ -182,6 +188,7 @@
           { "item": "RV rental, all-in", "low": 2000, "high": 2000, "basis": "Includes protection, unlimited miles and 15 generator hours. Kit fee declined." },
           { "item": "Fuel", "low": 753, "high": 849, "basis": "1,545 mi at 8 mpg, $3.90-4.40/gal across NV, AZ and the Death Valley leg" },
           { "item": "Campgrounds", "low": 700, "high": 950, "basis": "13 nights, full hookups. The Phoenix-area nights are at their annual peak in January" },
+          { "item": "Last night in Las Vegas", "low": 400, "high": 680, "basis": "The motorhome goes back on day 14, so a hotel for the Friday night — two rooms — plus a day of meals out" },
           { "item": "Food and groceries", "low": 832, "high": 1063, "basis": "Cooking in the RV with a few meals out" },
           { "item": "Gardens, museums and state parks", "low": 320, "high": 520, "basis": "Desert Botanical Garden, Arizona-Sonora Desert Museum, Lost Dutchman and Lake Havasu day use. None are covered by the national park pass" },
           { "item": "Bedding and kitchen gear", "low": 200, "high": 300, "basis": "Bought in Vegas on day 1 instead of paying per-person kit fees" },
@@ -219,12 +226,12 @@
       },
       "budget_deltas": {
         "fuel": { "low": 300, "high": 380, "basis": "1,545 mi at 18-20 mpg — the single largest saving over the RV" },
-        "lodging": { "value": 3000, "location": 4800, "basis": "13 nights, two rooms or one rental house. Scottsdale and Tucson in January are peak snowbird season, which is what makes this line the biggest on the page" },
-        "food": { "low": 2600, "high": 3600, "basis": "Eating out for six. This single line is most of the gap between the two options." }
+        "lodging": { "value": 3220, "location": 5220, "basis": "14 nights, two rooms or one rental house — the last one in Las Vegas before the flight. Scottsdale and Tucson in January are peak snowbird season, which is what makes this line the biggest on the page" },
+        "food": { "low": 2780, "high": 3860, "basis": "Eating out for six. This single line is most of the gap between the two options." }
       },
       "builds": [
-        { "id": "value", "name": "Best value", "total": 10473 },
-        { "id": "location", "name": "Best location", "total": 14273 }
+        { "id": "value", "name": "Best value", "total": 10873 },
+        { "id": "location", "name": "Best location", "total": 14953 }
       ],
       "pros": [
         "Unlocks Gates Pass and the best sunset in Tucson",

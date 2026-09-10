@@ -16,7 +16,7 @@ left out → day by day → watch out for → costs.
 ```
 Route  ──  Southwest Loop — January        the original: five national parks, a cold middle
         ──  Low Desert Loop, the short way  10 days: Death Valley, Route 66, Joshua Tree
-        ──  Low Desert Loop, the long way   14 days: the same, finishing at Valley of Fire
+        ──  Low Desert Loop, the long way   15 days: the same, finishing at Valley of Fire
         ──  Sonoran Loop — January          warmest of them, and the most driving
         ──  Key West Run — January          the East Coast rival: drive from home, no flights
         ──  New Orleans Loop — January      inland to New Orleans, home along the Gulf
@@ -55,7 +55,7 @@ Everything the site shows comes from two files:
 | `data/manifest.json` | Which route files to load |
 | `data/routes/southwest-loop.json` | One whole route: days, must-sees, watch-outs, options |
 | `data/routes/low-desert-short.json` | The warm loop through the Mojave and the Colorado Desert, in ten days |
-| `data/routes/low-desert-loop.json` | The same loop in fourteen, finishing at Valley of Fire |
+| `data/routes/low-desert-loop.json` | The same loop in fifteen, finishing at Valley of Fire |
 | `data/routes/sonoran-loop.json` | The Arizona loop, out to Saguaro and Tucson |
 | `data/routes/key-west-run.json` | Fort Lee to Key West and back, driven from home |
 | `data/routes/new-orleans-loop.json` | Fort Lee to New Orleans and back the other way, a loop |
@@ -107,7 +107,7 @@ listed, so rebuilding one route never drops the others off the home screen.
   "hero": "assets/photos/southwest-loop/monument-valley-mittens.jpg",
   "season": "January",
   "startEnd": "Las Vegas, NV",
-  "totals": { "days": 14, "miles": 1655, "party": 6, "avgMilesPerDay": 118 },
+  "totals": { "days": 15, "miles": 1655, "party": 6, "avgMilesPerDay": 110 },
 
   // Photo rail near the top. Tapping one jumps to that day.
   "mustSee": [
@@ -143,7 +143,7 @@ listed, so rebuilding one route never drops the others off the home screen.
         "currency": "USD",
         // One column per scenario to compare side by side.
         "columns": [{ "key": "low", "label": "Low" }, { "key": "high", "label": "High" }],
-        "totals":  { "low": 7301, "high": 8096 },
+        "totals":  { "low": 7701, "high": 8776 },
         "lines": [
           { "item": "Flights", "low": 2453, "high": 2453, "basis": "Quoted for all six, round trip, 9–23 January" }
         ],
