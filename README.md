@@ -20,6 +20,7 @@ Route  ──  Southwest Loop — January        the original: five national par
         ──  Sonoran Loop — January          warmest of them, and the most driving
         ──  Key West Run — January          the East Coast rival: drive from home, no flights
         ──  New Orleans Loop — January      inland to New Orleans, home along the Gulf
+        ──  Route 66 West — January         one way: fly to Dallas, Route 66 to Santa Monica Pier
              ├── shared: the map, the days, must-sees, watch-outs, pros/cons
              └── options: Motorhome  ·  Car and lodging
                           (cost, vehicle, and which days change)
@@ -36,6 +37,11 @@ up the same way. The **New Orleans Loop** is a loop rather than an out-and-back:
 inland side of the Appalachians through Nashville, Memphis and the Delta, then home along the
 Gulf coast and up the Piedmont, so no road is driven twice. Both split their options on the
 vehicle — a hired van against a motorhome — rather than on where you sleep.
+
+**Route 66 West** is the first one-way route. It flies into Dallas, drives north to Tulsa to
+pick up the old road, and follows Route 66 west to the End of the Trail sign on Santa Monica
+Pier — leaving it for Canyon de Chelly, Monument Valley, the Grand Canyon and Death Valley —
+then flies home from LAX. Its options split on the vehicle too, both hired one way.
 
 Costs are deliberately tucked away — no prices on the home screen, and none on the
 route page until you reach the summary at the very bottom. The **COSTS** button
@@ -59,6 +65,7 @@ Everything the site shows comes from two files:
 | `data/routes/sonoran-loop.json` | The Arizona loop, out to Saguaro and Tucson |
 | `data/routes/key-west-run.json` | Fort Lee to Key West and back, driven from home |
 | `data/routes/new-orleans-loop.json` | Fort Lee to New Orleans and back the other way, a loop |
+| `data/routes/route-66-west.json` | One way along Route 66, Dallas to Santa Monica Pier |
 
 Change a number or some wording, then push:
 
@@ -212,6 +219,9 @@ Things worth knowing:
   person dropping out would barely move the number, so a per-head split would
   mislead more than it helps.
 - **`route` is optional.** Without it the map draws a dashed straight line.
+- **A one-way route sets `start` and `end` instead of `startEnd`.** The page then reads
+  "One way, from … to …" and the map labels the last stop **F** for finish rather than giving
+  it a night. Leave `end` out for a loop.
 - Optional throughout: `note`, `caption`, `flags`, `activities`, `elevation`,
   `hero`, `notConsidered`, `moneySavers`, `only`.
 
@@ -307,6 +317,7 @@ work — the browser blocks loading the JSON that way.
 | `tools/build-sonoran-loop.mjs` | Same, for the Sonoran Loop |
 | `tools/build-key-west-run.mjs` | Same, for the Key West Run |
 | `tools/build-new-orleans-loop.mjs` | Same, for the New Orleans Loop |
+| `tools/build-route-66-west.mjs` | Same, for Route 66 West — the one-way route |
 | `tools/fetch-commons.mjs` | Pulls freely-licensed candidate photos off Wikimedia Commons |
 | `source/` | The planning data and checked coordinates each route was built from |
 

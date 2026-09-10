@@ -1,0 +1,305 @@
+{
+  "trip": {
+    "title": "Route 66 West — January",
+    "subtitle": "Tulsa · Cadillac Ranch · Santa Fe · Petrified Forest · Canyon de Chelly · Monument Valley · Grand Canyon · Oatman · Death Valley · Santa Monica",
+    "duration_days": 15,
+    "party_size": 6,
+    "start": "Dallas, TX (Love Field or DFW)",
+    "end": "Los Angeles, CA (LAX)",
+    "season": "January",
+    "total_miles": 2611,
+    "avg_miles_per_day": 174,
+    "summary": "Fifteen days one way, from Dallas to the end of Route 66 on Santa Monica Pier. North to Tulsa to find the old road, then west across Oklahoma, the Texas Panhandle and New Mexico on it — Cadillac Ranch, the 1926 road into Santa Fe, and the only national park Route 66 runs through. It leaves the road for Canyon de Chelly, Monument Valley and the Grand Canyon, rejoins it at Williams for the longest empty stretch left, through Seligman, Oatman and Amboy, and swings north to Death Valley before the last run into Los Angeles. 2,611 miles, no road driven twice, and cold for the first nine nights."
+  },
+
+  "itinerary": [
+    {
+      "day": 1, "from": "Dallas, TX", "to": "Tulsa, OK",
+      "miles": 269, "drive_time": "5h 30m", "elevation_ft": 700, "freezing_night": true,
+      "headline": "Fly in, then US-75 all the way north",
+      "notes": "Land, collect the vehicle and point it north. US-75 runs from Dallas to Tulsa without a toll — the faster turnpike route bills you through the hire company — and crosses the Red River into Oklahoma about an hour out. It is the longest first day of any route on this site that starts with a flight, and you arrive after dark, which in Tulsa in January is about half past five. Keep the evening small: the Meadow Gold sign lit up on 11th Street, which is Route 66, and dinner. Tulsa: highs around 9°C, lows around −2°C.",
+      "activities": ["US-75 north, no tolls", "The Meadow Gold sign on 11th Street after dark", "The Golden Driller at Expo Square"]
+    },
+    {
+      "day": 2, "from": "Tulsa, OK", "to": "Oklahoma City, OK",
+      "miles": 151, "drive_time": "3h 30m", "elevation_ft": 1200, "freezing_night": true,
+      "headline": "The best 150 miles of old 66 in Oklahoma",
+      "notes": "Slow on purpose. East first to the Blue Whale at Catoosa, then back through Tulsa and west on the two-lane that runs beside the Turner Turnpike rather than on it — Sapulpa, Kellyville, Bristow, Depew — for lunch at the Rock Café in Stroud. Then the Route 66 Interpretive Center in Chandler's 1937 armory, the Round Barn at Arcadia, and the 66-foot soda bottle at Pops. It is a Sunday, which is the catch: Chandler opens only from 1 to 5, and that is exactly when you pass. Oklahoma City: highs around 10°C, lows around −2°C.",
+      "activities": ["The Blue Whale of Catoosa", "Lunch at the Rock Café, Stroud", "Route 66 Interpretive Center, Chandler (Sundays 1 to 5)", "Arcadia Round Barn", "Pops and its soda bottle"]
+    },
+    {
+      "day": 3, "from": "Oklahoma City, OK", "to": "Amarillo, TX",
+      "miles": 259, "drive_time": "4h 45m", "elevation_ft": 3600, "freezing_night": true,
+      "headline": "Into the Panhandle, and Cadillacs at sunset",
+      "notes": "I-40 replaced Route 66 out here and mostly runs on top of it, so this is interstate with stops. Skip Clinton's museum — it is shut on Mondays in winter and for the first week of January — and use the National Route 66 Museum at Elk City, 25 miles on, which is open. Then the U-Drop Inn at Shamrock, the 1936 art deco Conoco station that became Ramone's in Cars, and Groom's water tower, tilted on purpose in 1980 to pull drivers off the interstate. Reach Cadillac Ranch for the last hour of light — sunset is about 5:55 — and bring a can of spray paint, because everyone does. Amarillo: highs around 10°C, lows around −5°C.",
+      "activities": ["National Route 66 Museum, Elk City", "U-Drop Inn, Shamrock", "The Leaning Tower of Britten, Groom", "Cadillac Ranch at sunset", "Dinner at the Big Texan"]
+    },
+    {
+      "day": 4, "from": "Amarillo, TX", "to": "Santa Fe, NM",
+      "miles": 293, "drive_time": "5h 15m", "elevation_ft": 7200, "freezing_night": true,
+      "headline": "New Mexico, and the 1926 road into Santa Fe",
+      "notes": "You gain an hour at the New Mexico line. Tucumcari's motel strip first — the Blue Swallow's sign is worth the stop even by day — then the Blue Hole at Santa Rosa, a spring 80 feet deep and the colour of a swimming pool, where divers train all winter. From Santa Rosa this route leaves I-40 and takes US-84 north through Dilia to Romeroville, then I-25 over Glorieta Pass: that was Route 66 from 1926 until 1937, when it was straightened through Albuquerque. Santa Fe by mid-afternoon, for the Plaza, the Native artisans under the portal of the Palace of the Governors, and Loretto Chapel's staircase before it closes. Meow Wolf is shut on Tuesdays, so it is tomorrow morning. Santa Fe sits at 7,200 feet: highs around 7°C, lows around −6°C.",
+      "activities": ["Blue Swallow Motel, Tucumcari", "The Blue Hole, Santa Rosa", "The 1926 alignment through Dilia and Romeroville", "Santa Fe Plaza and the Palace of the Governors", "Loretto Chapel"]
+    },
+    {
+      "day": 5, "from": "Santa Fe, NM", "to": "Gallup, NM",
+      "miles": 200, "drive_time": "3h 30m", "elevation_ft": 6500, "freezing_night": true,
+      "headline": "Meow Wolf at ten, Gallup by dusk",
+      "notes": "Meow Wolf's House of Eternal Return opens at 10: a Victorian house you leave through the fridge and the dryer, and more than seventy rooms beyond it. Two hours is about right, three if they are hooked. Then I-25 down to Albuquerque and I-40 west, which is the 1937 alignment. Central Avenue is Route 66 through the middle of Albuquerque, and the KiMo Theatre is ten minutes off the interstate if you want it. Gallup by about five, as the light goes. El Rancho, built in 1937 for the film crews making Westerns, is worth walking into even if you are not staying. Gallup is 6,500 feet up: highs around 8°C, lows around −6°C.",
+      "activities": ["Meow Wolf's House of Eternal Return, from 10", "Central Avenue, Albuquerque (optional)", "El Rancho Hotel, Gallup"]
+    },
+    {
+      "day": 6, "from": "Gallup, NM", "to": "Holbrook, AZ",
+      "miles": 118, "drive_time": "2h 30m", "elevation_ft": 5100, "freezing_night": true,
+      "headline": "The only national park on Route 66",
+      "notes": "The short day, and the one to spend slowly. Petrified Forest is open 8 to 5 in winter, and opens late when the road is icy. Come in from I-40 at the north end: the Painted Desert overlooks, the Painted Desert Inn, and the pullout where a line of telephone poles and a rusted 1932 Studebaker mark where Route 66 crossed the park. South from there past the Newspaper Rock petroglyphs, the Blue Mesa loop — a mile's walk down among blue and purple badlands — and Agate Bridge, and out past the Giant Logs behind the Rainbow Forest Museum. 28 miles of park road; allow three or four hours. Then Holbrook and the Wigwam Motel, fifteen concrete teepees with old cars parked outside. Holbrook: highs around 11°C, lows around −7°C.",
+      "activities": ["The Painted Desert overlooks and the Painted Desert Inn", "The Route 66 pullout and its Studebaker", "Blue Mesa loop trail", "Giant Logs trail", "A night in a wigwam"]
+    },
+    {
+      "day": 7, "from": "Holbrook, AZ", "to": "Monument Valley, AZ/UT",
+      "miles": 222, "drive_time": "5h 30m", "elevation_ft": 5200, "freezing_night": true,
+      "headline": "Across the Navajo Nation to the Mittens",
+      "notes": "North on US-191 through Ganado and Chinle, which is paved all the way — not the shortcut across the Hopi mesas that a phone may suggest, which runs on Navajo and BIA dirt roads that are mud in January. Hubbell Trading Post at Ganado has traded with Navajo families since 1878 and is still a working store; it is free. At Chinle, Canyon de Chelly's South Rim Drive runs 18 miles out to Spider Rock, an 800-foot sandstone spire, past the White House Overlook above a cliff dwelling. It is free, but it adds about 36 miles and two hours, so this is a long day. Then 110 miles to Monument Valley for sunset over the Mittens at about 5:25. The Valley Drive's last entry in winter is 2:30, so the loop is tomorrow. Monument Valley: highs around 6°C, lows around −7°C.",
+      "activities": ["Hubbell Trading Post, Ganado", "Canyon de Chelly South Rim Drive: White House Overlook and Spider Rock", "Sunset over the Mittens"]
+    },
+    {
+      "day": 8, "from": "Monument Valley", "to": "Grand Canyon South Rim, AZ",
+      "miles": 181, "drive_time": "4h 15m", "elevation_ft": 6800, "freezing_night": true,
+      "headline": "The Valley Drive at eight, the Grand Canyon by four",
+      "notes": "Be at the gate when it opens at 8. The 17-mile Valley Drive is graded dirt — slow and bumpy, fine when dry — and takes about two and a half hours with John Ford's Point and the Three Sisters. Out by 11, then back through Kayenta, where the Burger King has long kept a small exhibit on the Navajo Code Talkers (worth ten minutes if it is still up), Tuba City and Cameron, whose 1916 trading post does a proper lunch. The Little Colorado River Gorge overlook on AZ-64 is a Navajo tribal park at $8 a head, with a sheer drop of about a thousand feet. You enter the Grand Canyon at Desert View, the best first look there is, and reach the Village as the light goes. It is Martin Luther King weekend. Grand Canyon Village: highs around 5°C, lows around −8°C.",
+      "activities": ["The Valley Drive at 8: John Ford's Point and the Three Sisters", "Lunch at Cameron Trading Post", "Little Colorado River Gorge ($8 a head)", "Desert View Watchtower", "Sunset at Yavapai or Mather Point"]
+    },
+    {
+      "day": 9, "from": "Grand Canyon", "to": "Grand Canyon",
+      "miles": 0, "elevation_ft": 6800, "freezing_night": true,
+      "headline": "The rim, and Hermit Road in your own car",
+      "notes": "The whole day on the South Rim. Sunrise at Mather Point is about 7:30. The Yavapai Geology Museum is heated and gives the best explanation of what you are looking at. The Rim Trail is paved and flat from Mather Point to the Village. The Bright Angel Trail drops straight off the edge — go down to the first switchbacks and turn round, and wear traction if it is icy. From December to February, and only then, Hermit Road is open to private cars under 22 feet: seven miles out to Hermits Rest, with Hopi Point for sunset. The coldest night of the trip: highs around 5°C, lows around −8°C.",
+      "activities": ["Sunrise at Mather Point", "Yavapai Geology Museum", "The Rim Trail", "The top of the Bright Angel Trail", "Hermit Road to Hermits Rest, sunset at Hopi Point"]
+    },
+    {
+      "day": 10, "from": "Grand Canyon", "to": "Kingman, AZ",
+      "miles": 190, "drive_time": "4h", "elevation_ft": 3300, "freezing_night": false,
+      "headline": "Back on 66 for the longest stretch left",
+      "notes": "South to Williams, the last town on Route 66 to be bypassed by the interstate — in October 1984 — and still built around it. Then Seligman, where Angel Delgadillo's barbershop started the campaign that saved the road; his family's Snow Cap drive-in is closed for the winter, but the gift shops are not. From Seligman to Kingman, 66 swings north away from I-40 on the longest unbroken stretch of the old road left anywhere: Peach Springs, Grand Canyon Caverns (a lift 21 storeys down into a dry cave, if you want it), and the Hackberry General Store with its forecourt of old cars and pumps. Kingman: highs around 13°C, lows right around freezing.",
+      "activities": ["Williams", "Seligman", "Grand Canyon Caverns (optional)", "Hackberry General Store", "Kingman"]
+    },
+    {
+      "day": 11, "from": "Kingman, AZ", "to": "Barstow, CA",
+      "miles": 214, "drive_time": "5h", "elevation_ft": 2200, "freezing_night": false,
+      "headline": "Burros, Roy's, and the empty Mojave",
+      "notes": "Route 66 climbs out of Kingman over Sitgreaves Pass — eight miles of hairpins with no shoulders — and drops into Oatman, a gold-mining town kept alive by the wild burros that wander its main street. They come to the car window; the shops sell bags of burro food and ask you to use that. You gain an hour crossing the Colorado River into California at Needles. Then I-40 to Kelbaker Road and the old road west to Roy's at Amboy, the 1938 motel and café with the sign everyone photographs; the café was being restored for the road's centennial, so check before counting on lunch there. Late lunch instead at the Bagdad Café in Newberry Springs, from the 1987 film. Barstow: highs around 16°C, lows around 2°C.",
+      "activities": ["Sitgreaves Pass into Oatman", "The burros of Oatman", "Roy's Motel and Café, Amboy", "Bagdad Café, Newberry Springs"]
+    },
+    {
+      "day": 12, "from": "Barstow, CA", "to": "Furnace Creek, Death Valley",
+      "miles": 194, "drive_time": "4h 15m", "elevation_ft": -190, "freezing_night": false,
+      "headline": "Into Death Valley the back way",
+      "notes": "West out of Barstow and north through Trona and the Panamint Valley, rather than east through Baker. It is 17 miles longer, and it means no road on this trip is driven twice, because day 14 leaves by Baker. It comes into the park over Towne Pass at 4,956 feet and drops almost 5,000 feet to Stovepipe Wells. Walk out onto the Mesquite Flat Dunes on the way through, then on to Furnace Creek, 190 feet below sea level, and Zabriskie Point for sunset at about five. Death Valley: highs around 18°C, lows around 4°C.",
+      "activities": ["Trona and the Panamint Valley", "Towne Pass", "Mesquite Flat Dunes", "Zabriskie Point at sunset"]
+    },
+    {
+      "day": 13, "from": "Furnace Creek", "to": "Furnace Creek",
+      "miles": 0, "elevation_ft": -190, "freezing_night": false,
+      "headline": "Below sea level, and warm",
+      "notes": "Badwater Basin is the lowest point in North America, 282 feet below sea level, and about 18°C in January. Walk out onto the salt there first, then Devil's Golf Course, Artist's Drive — a one-way loop through hills stained green and pink — and the easy walk up Golden Canyon. End the day at Dante's View, 5,475 feet straight above Badwater. The park is still repairing flood damage, so check its conditions page the week before. Highs around 18°C, lows around 4°C.",
+      "activities": ["Badwater Basin", "Devil's Golf Course", "Artist's Drive", "Golden Canyon", "Dante's View at sunset"]
+    },
+    {
+      "day": 14, "from": "Furnace Creek", "to": "Santa Monica, CA",
+      "miles": 311, "drive_time": "6h 30m", "elevation_ft": 100, "freezing_night": false,
+      "headline": "The last of Route 66, and the Pacific",
+      "notes": "The longest day, so leave by seven. Out past Zabriskie Point and Death Valley Junction to Baker and its 134-foot thermometer, then I-15 through Barstow and down Cajon Pass into the Los Angeles basin. Route 66's own line across the valley is Foothill Boulevard, thirty miles of traffic lights past the Wigwam Motel in Rialto; this route takes the parallel I-210 and rejoins 66 on Colorado Boulevard in Pasadena. From there the Arroyo Seco Parkway — America's first freeway, opened in 1940 and still with stop-sign on-ramps — carries it into downtown, and I-10 runs to the ocean. Aim to be past Pasadena before two, when the Friday traffic builds. The pier at dusk, with the Ferris wheel lit. Santa Monica: highs around 18°C, lows around 9°C.",
+      "activities": ["The World's Tallest Thermometer, Baker", "Cajon Pass", "Colorado Boulevard, Pasadena", "The Arroyo Seco Parkway", "Santa Monica Pier at dusk"]
+    },
+    {
+      "day": 15, "from": "Santa Monica, CA", "to": "Fly home from LAX",
+      "miles": 9, "drive_time": "20m", "freezing_night": false,
+      "headline": "The End of the Trail sign, then home",
+      "notes": "Walk out to the End of the Trail sign first thing, before the pier fills up — the photograph every Route 66 trip ends with. The legal end of the road is a mile inland, at Lincoln and Olympic, and nobody photographs that. Then nine miles to LAX. The car goes back at the airport; the motorhome goes back to Carson, which changes the morning.",
+      "activities": ["The End of the Trail sign", "LAX"]
+    }
+  ],
+
+  "practical_notes": {
+    "booking_order": "The Grand Canyon first, because nights 8 and 9 fall on Martin Luther King weekend — the in-park lodges and Trailer Village before anything else. Then Monument Valley for night 7, at The View or Goulding's, then the Wigwam Motel for night 6, which has fifteen wigwams in all. In the motorhome, add Dockweiler RV Park for night 14: it takes bookings no more than 90 days ahead, which for 22 January means late October. Everything else on this route has slack in January.",
+    "freezing": "On the January averages every night from Tulsa (−2°C) to the Grand Canyon (−8°C) goes below freezing, with Oklahoma City, Amarillo, Santa Fe, Gallup, Holbrook and Monument Valley in between. Kingman on night 10 is a coin toss at around 0°C. After that it is Barstow at 2°C, Death Valley at 4°C and Santa Monica at 9°C. Pack for a winter trip that turns into a mild one, not the other way round.",
+    "freeze_damage": "Hire companies treat a split pipe as negligent damage and charge full repair cost. A rig hired in Dallas will not be winterized — which you need, because you are living in it — and it drives straight into nine nights below freezing. Run the propane furnace, not the heat pump, which gives up around 4°C; disconnect the city-water hose at night and run off the fresh tank; use the tank heaters if it has them. Get it in writing that the water system is live and that the company knows where you are taking it.",
+    "tolls": "Leaving Dallas, the Dallas North Tollway, the Bush Turnpike and the Sam Rayburn Tollway are all cashless, and so is Oklahoma's Indian Nation Turnpike. The hire company pays them and bills you with a daily fee on top, which can turn a few dollars of toll into $20 to $40. US-75 from Dallas to Tulsa is free and takes about half an hour longer, and the map shows it. Day 2 runs the old road beside the Turner Turnpike rather than on it, and from Oklahoma City to the Pacific there is no toll road on the route.",
+    "closed_days": "The Oklahoma Route 66 Museum in Clinton closes on Sundays and Mondays from November to January, and for the first week of January — day 3 is a Monday, so this route uses the National Route 66 Museum at Elk City instead, which is open. Meow Wolf in Santa Fe closes on Tuesdays, which is day 4, so it moves to Wednesday morning. Delgadillo's Snow Cap in Seligman closes for the winter. Two more only just work: the Chandler Interpretive Center opens from 1 to 5 on Sundays, and the U-Drop Inn is shut on Sundays but you pass it on a Monday. Move the dates and all of this moves with them.",
+    "long_day": "311 miles and six and a half hours from Death Valley to Santa Monica, arriving on a Friday. Leave Furnace Creek by seven and aim to be through Pasadena before two, when the weekend traffic starts. If you are running late, nothing on this day has a closing time except the traffic — the pier is open into the evening on Fridays. The Wigwam Motel in Rialto would split the day in two, if the flight home allows it.",
+    "snow": "This route crosses the Continental Divide on I-40 east of Gallup at about 7,250 feet, climbs I-25 over Glorieta Pass into Santa Fe at about 7,400, sleeps at 6,800 at the Grand Canyon and drives AZ-64 past Desert View at 7,400. A January storm can shut any of them for hours, and US-191 and US-160 across the Navajo Nation are ploughed slowly. Check nmroads.com and az511.gov the night before each of days 4 to 10. Day 6 is only 118 miles: if the weather costs you half a day, that is where it goes.",
+    "monument_valley": "You arrive at about four on day 7, after the Valley Drive's last entry at 2:30, so the first evening is sunset from the rim. Drive the loop when the gate opens at 8 the next morning and you are out by 11, with time to reach the Grand Canyon before dark. The parts beyond the self-drive loop — Mystery Valley, Hunts Mesa, the arches — are open only with a Navajo guide, about $79 an adult and $59 a child for two and a half hours.",
+    "time_zones": "You gain an hour at the New Mexico line on day 4 and another crossing the Colorado River into California on day 11. Every summer the Navajo Nation keeps daylight saving and the rest of Arizona does not, and visitors miss their tour times by an hour. In January nobody is on daylight saving and the clocks agree.",
+    "park_pass": "Petrified Forest ($25), the Grand Canyon ($35) and Death Valley ($30) come to $90 at the gates, against $80 for the annual America the Beautiful pass. Monument Valley and the Little Colorado River Gorge are Navajo tribal parks at $8 to $10 a head and do not take it. Canyon de Chelly and Hubbell Trading Post are free.",
+    "fuel": "California fuel costs more than a dollar a gallon above Arizona's. Fill up in Kingman before day 11 and again in Barstow before Death Valley, where the pumps at Furnace Creek and Stovepipe Wells are the dearest on the trip. Roy's at Amboy sells fuel, but at Amboy prices. On the Navajo Nation, fill up in Chinle or Kayenta rather than hoping for something in between.",
+    "death_valley": "As of 2026, Lower Wildrose Road, Darwin Falls Road and Titus Canyon were closed after floods, and South Badwater Road had reopened with missing pavement and soft shoulders. None of those is on this route, but the list changes after every storm: check the park's conditions page the week before. Day 12 comes in over Panamint Valley Road and Towne Pass, which were open.",
+    "pickup_windows": "Cruise America's Dallas yard, beside Love Field, hands over at 1pm, closes at 3 on Saturdays and all day on Sundays, and wants a call 24 hours ahead. Their Los Angeles yard is in Carson, takes returns between 9 and 11, and is closed on Sundays. So day 1 leaves Dallas at about 3 at the earliest, and day 15 needs a flight after about 1pm.",
+    "valley_drive_car": "Most hire agreements exclude unpaved roads, so the 17-mile Valley Drive — which families drive in hire cars every day — is at your own risk if something breaks. Go slowly, stay on the loop, and don't try it after rain or snow; the guided tour is the fallback."
+  },
+
+  "money_savers": [
+    { "item": "Collect the car in town, not at the airport", "saving": "~$150–250",
+      "detail": "Airport counters add a concession recovery fee of around 11 per cent plus a daily facility charge. A neighbourhood branch near Love Field is a short taxi ride with the luggage and avoids both, and dropping at LAX does not usually add them back." },
+    { "item": "Take US-75 on day 1", "saving": "$20–40",
+      "detail": "The Dallas tollways and the Indian Nation Turnpike are cashless, and the hire company adds a daily fee to every toll it passes on. US-75 is free and about half an hour slower. After day 1 there is nothing to pay anywhere on the route." },
+    { "item": "Sleep in Tusayan, not the Village", "saving": "~$400 over two nights",
+      "detail": "Tusayan is seven miles south of the rim, and on Martin Luther King weekend the in-park lodges are at their January high. Hermit Road and sunset at Hopi Point are the same either way." },
+    { "item": "Stovepipe Wells, not The Ranch at Furnace Creek", "saving": "~$700 over two nights",
+      "detail": "Stovepipe Wells is inside the park, beside the dunes day 12 arrives at, and roughly half the price of The Ranch in peak season, which January is. Badwater is 25 miles further away each morning." },
+    { "item": "Drive the Monument Valley loop yourself", "saving": "$414",
+      "detail": "In the car the 17-mile Valley Drive is included in the tribal entry. The guided tour is only needed for the closed parts — Mystery Valley and the arches — or if you would rather not take a hire car onto dirt." },
+    { "item": "Buy the park pass at Petrified Forest", "saving": "$10",
+      "detail": "Three gates at $25, $35 and $30 against $80 for the pass. It barely pays on this route, but it also covers Wupatki, Walnut Canyon and anything else federal you add." },
+    { "item": "Ride the Ferris wheel, skip the wristband", "saving": "~$180",
+      "detail": "Pacific Park's unlimited-ride wristbands are priced for a day. For an hour on the pier at dusk, single tickets for the Ferris wheel and the roller coaster are a fraction of it." },
+    { "item": "Fill up in Arizona", "saving": "~$50 in the van, ~$150 in the motorhome",
+      "detail": "California fuel runs more than a dollar a gallon over Arizona's. Leave Kingman on a full tank on day 11 and time the next fill for Barstow rather than the Death Valley pumps." }
+  ],
+
+  "rejected_alternatives": [
+    { "place": "The Oklahoma Route 66 Museum in Clinton",
+      "reason": "Closed on Sundays and Mondays from November to January, and for the first week of January — day 3 is a Monday. The National Route 66 Museum at Elk City, 25 miles further on, is open Monday to Saturday all winter." },
+    { "place": "A rest day in Monument Valley",
+      "reason": "It would have cost Petrified Forest and the Wigwam Motel, and those won. With a day there you would have sunrise and sunset, a guided tour into Mystery Valley and the Wildcat Trail. As planned it is sunset, sleep and the Valley Drive." },
+    { "place": "Albuquerque instead of Santa Fe",
+      "reason": "It sits at 5,300 feet rather than 7,200, a few degrees warmer, with the neon of the 1937 alignment on Central Avenue and the Sandia Peak tramway. Santa Fe won for the Plaza, the 1926 road and Meow Wolf. Day 5 drives straight through Albuquerque, and the KiMo Theatre is ten minutes off I-40." },
+    { "place": "Chicago to Tulsa",
+      "reason": "The first 650 miles of Route 66, through Illinois, Missouri and thirteen miles of Kansas, would need four or five more days. This trip starts where the flights land." },
+    { "place": "Finishing in Las Vegas",
+      "reason": "Death Valley to Las Vegas is 120 miles, which would free a day — but Route 66 would stop at Barstow, the finish on Santa Monica Pier would go, and four routes on this site already end in Las Vegas." },
+    { "place": "Sedona and Flagstaff",
+      "reason": "Flagstaff is on Route 66, but the line from Monument Valley to the Grand Canyon to Williams passes west of it, and Sedona is another 30 miles south with trails that are icy in January. It needs a day that does not exist." },
+    { "place": "Page and Horseshoe Bend",
+      "reason": "85 extra miles between Monument Valley and the Grand Canyon, and the Southwest Loop already has them." },
+    { "place": "The Hopi mesas road from Holbrook",
+      "reason": "The obvious-looking shortcut to Monument Valley, and the one a phone may pick, runs on unpaved BIA and Navajo roads. In January mud that is a bad idea in a car and a worse one in a motorhome. Ganado and Chinle are paved and pass Canyon de Chelly." },
+    { "place": "The Wigwam Motel in Rialto on night 14",
+      "reason": "The other surviving Wigwam Motel on Route 66, in the San Bernardino valley. Sleeping there would cut day 14 to about five hours and put the last of the road on the final morning — but it only works with a flight home after about 4pm." },
+    { "place": "Disneyland",
+      "reason": "35 miles from the finish, but a day there for six is well over $1,000 in tickets alone, and there is no day to give it." },
+    { "place": "Carlsbad Caverns and White Sands",
+      "reason": "Both are 300 miles south of the route across empty New Mexico." },
+    { "place": "Joshua Tree and Palm Springs",
+      "reason": "The Low Desert Loop has them, and they are 100 miles south of the Mojave stretch of 66." }
+  ],
+
+  "options": [
+    {
+      "id": "car-and-lodging",
+      "name": "Car and lodging",
+      "tagline": "A hired seven-seater, fourteen rooms, and every road open",
+      "summary": "The build this route is designed around. A seven-seater collected in Dallas and dropped at LAX, and a room every night — which matters here, because the first nine nights are below freezing. It is also the only way to drive everything on the route: the Monument Valley loop, Hermit Road, Artist's Drive, Dante's View, Sitgreaves Pass and the Arroyo Seco are all barred to a 30-foot motorhome or no place for one. It costs more, and almost all of the gap is lodging and food.",
+      "vehicle": {
+        "type": "Seven-seat minivan or full-size SUV",
+        "detail": "Chrysler Pacifica · Honda Odyssey · Toyota Sienna · Chevrolet Suburban · one way, Dallas to Los Angeles",
+        "notes": "Book by seatbelt count. A minivan is better for six people for fifteen days; a Suburban is better for their luggage. Nothing on the route needs four-wheel drive, but the first week crosses country that ices overnight — ask for tyres with tread on them. Read the agreement for two things: unpaved roads, because the Monument Valley loop is graded dirt, and Sitgreaves Pass."
+      },
+      "pros": [
+        "Every road on the route is open to you: the Monument Valley loop, Hermit Road, Artist's Drive, Dante's View, Sitgreaves Pass and the Arroyo Seco.",
+        "A heated room on each of the nine freezing nights.",
+        "Parks anywhere — the Santa Fe Plaza, the Wigwam's forecourt, Santa Monica Pier.",
+        "Around $700 less fuel than the motorhome.",
+        "Collected and returned at the airports, whenever the counters are open."
+      ],
+      "cons": [
+        "Fourteen check-ins for six people.",
+        "Lodging and food are the two biggest lines in the budget.",
+        "A one-way drop fee.",
+        "Three children belted in for 2,600 miles, with nowhere to move."
+      ],
+      "budget": {
+        "columns": [{ "key": "value", "label": "Best value" }, { "key": "location", "label": "Best location" }],
+        "notes": "Best value sleeps in chain motels on the edge of each town, in Tusayan for the Grand Canyon and at Stovepipe Wells for Death Valley, and drives the Monument Valley loop itself. Best location sleeps on the Plaza in Santa Fe, at El Rancho, at The View in Monument Valley, inside the Grand Canyon, at The Ranch in Death Valley and by the beach in Santa Monica, and takes the Navajo-guided tour. The Wigwam Motel is the same in both.",
+        "lines": [
+          { "item": "Flights", "value": 1700, "location": 1700,
+            "basis": "Quoted: six seats, into Dallas on 9 January and home from LAX on the 23rd." },
+          { "item": "Vehicle hire, 14 days one way", "value": 1600, "location": 2300, "estimate": true,
+            "basis": "Seven-seat minivan in the value column, Suburban in the other, collected in Dallas and dropped at LAX, one-way fee included. Estimate until the quote is in." },
+          { "item": "Fuel", "value": 500, "location": 620,
+            "basis": "About 2,850 miles with the park roads, at 21 mpg in a minivan or 17 in a Suburban. Around $3.00 a gallon in Texas and Oklahoma, $3.20 to $3.40 in New Mexico and Arizona and $4.80 in California, on the EIA's forecast of $3.35 nationally for 2027." },
+          { "item": "Lodging, 14 nights", "value": 3700, "location": 6200,
+            "basis": "Two rooms, or a family suite, every night. The dear nights are the Grand Canyon on Martin Luther King weekend, Death Valley in its peak season, and Santa Monica on a Friday." },
+          { "item": "Food", "value": 2700, "location": 3500,
+            "basis": "Six people for fifteen days: hotel breakfasts, a diner lunch on the road, dinner out." },
+          { "item": "Parking", "value": 60, "location": 220,
+            "basis": "Hotel parking in Santa Fe and Santa Monica, and a downtown night in Tulsa or Oklahoma City in the location column. Free almost everywhere else." },
+          { "item": "America the Beautiful pass", "value": 80, "location": 80,
+            "basis": "Covers Petrified Forest, the Grand Canyon and Death Valley — $90 at the gates." },
+          { "item": "Navajo tribal parks", "value": 60, "location": 108,
+            "basis": "Monument Valley at $8 to $10 a head, plus the Little Colorado River Gorge at $8 a head in the location column. The park pass is not valid at either." },
+          { "item": "Navajo-guided Monument Valley tour", "value": 0, "location": 414,
+            "basis": "Two and a half hours at about $79 an adult and $59 a child. In the value column you drive the loop yourself." },
+          { "item": "Meow Wolf", "value": 210, "location": 210,
+            "basis": "Roughly $40 an adult and $30 a child; prices vary by date." },
+          { "item": "Route 66 museums", "value": 45, "location": 45,
+            "basis": "Elk City at $5 an adult and $4 a child, and Chandler's Interpretive Center." },
+          { "item": "Pacific Park", "value": 60, "location": 240,
+            "basis": "The Ferris wheel for six in the value column, unlimited-ride wristbands in the other." },
+          { "item": "Everything else", "value": 80, "location": 250,
+            "basis": "Loretto Chapel, spray paint at Cadillac Ranch, snacks at Pops, and Grand Canyon Caverns in the location column." }
+        ]
+      }
+    },
+    {
+      "id": "motorhome",
+      "name": "Motorhome",
+      "tagline": "Cheaper, colder, and shut out of six places",
+      "summary": "A Class C from Cruise America's yard beside Love Field, returned to their yard in Carson near LAX. It is the cheaper build, as it is on every route here, and the long Oklahoma and Texas days are easier when the children can move about. But this is the hardest route on the site for it: nine freezing nights in a row with live plumbing, a one-way fee and possibly a mileage bill on 2,600 miles, a 1pm handover that puts the end of day 1 in the dark, and six places on the route where it is barred or unwise.",
+      "vehicle": {
+        "type": "Class C motorhome, about 30 ft",
+        "detail": "Cruise America C30 · sleeps 7 · 7 seatbelts · 30 ft long, 8.33 ft wide, 12.2 ft high · about 8 mpg · one way, Dallas to Los Angeles",
+        "notes": "Book by seatbelt count, not berths. One-way hires need the company's approval, so ask early and get the drop fee and the mileage terms in writing. Even the smaller C25 (24.93 ft) is too long for Hermit Road's 22-foot limit, though it squeaks under Death Valley's 25. Confirm that the water system is live and the unit is not winterized: this route has nine freezing nights before it warms up."
+      },
+      "pros": [
+        "Cheapest by a margin.",
+        "The kitchen: breakfasts and lunches in, and the long days across Oklahoma and Texas go easier when three children can get up.",
+        "No check-ins at fourteen stops.",
+        "Full hookups at Trailer Village, inside the Grand Canyon and a short walk from the rim.",
+        "The last night is at Dockweiler, a county campground on the beach."
+      ],
+      "cons": [
+        "Nine nights below freezing in a row, with live plumbing.",
+        "Barred from the Monument Valley loop, Hermit Road, Artist's Drive and the top of Dante's View; no place for it on Sitgreaves Pass or the Arroyo Seco.",
+        "A 1pm handover in Dallas puts the end of day 1 in the dark.",
+        "Around $700 more fuel than the car.",
+        "A one-way fee and, unless the hire includes unlimited miles, a mileage bill."
+      ],
+      "budget": {
+        "columns": [{ "key": "low", "label": "Low" }, { "key": "high", "label": "High" }],
+        "notes": "The low column is a hire with unlimited miles and the smallest one-way fee, the cheapest open campground at each stop, and no guided tour at Monument Valley. The high column pays per mile, takes the tour and the Pacific Park wristbands. The hire, one-way and mileage lines are estimates until the quote is in.",
+        "lines": [
+          { "item": "Flights", "low": 1700, "high": 1700,
+            "basis": "Quoted: six seats, into Dallas on 9 January and home from LAX on the 23rd." },
+          { "item": "Motorhome hire, 14 nights", "low": 2000, "high": 2700, "estimate": true,
+            "basis": "Cruise America C30, Dallas to Los Angeles, January rates. Estimate until the quote is in." },
+          { "item": "One-way fee", "low": 250, "high": 700, "estimate": true,
+            "basis": "Cruise America prices one-way hires route by route and has to approve them. Estimate until the quote is in." },
+          { "item": "Mileage", "low": 0, "high": 1000, "estimate": true,
+            "basis": "About 2,750 miles at around $0.35 a mile, or nothing if the quote includes unlimited miles. Estimate until the quote is in." },
+          { "item": "Fuel", "low": 1150, "high": 1330,
+            "basis": "About 2,750 miles at 8 to 9 mpg, on the same regional prices as the car — Texas and Oklahoma cheapest, California dearest." },
+          { "item": "Campgrounds, 14 nights", "low": 700, "high": 950,
+            "basis": "Full hookups where they are open — Santa Fe Skies, Goulding's, Trailer Village, Stovepipe Wells — and Dockweiler for the last night." },
+          { "item": "Food and groceries", "low": 1200, "high": 1500,
+            "basis": "Cooking in the motorhome, with a few meals out on the Route 66 days." },
+          { "item": "Bedding and kitchen kit", "low": 200, "high": 300,
+            "basis": "Bought on the way out of Dallas rather than paying per-person kit fees." },
+          { "item": "America the Beautiful pass", "low": 80, "high": 80,
+            "basis": "Covers Petrified Forest, the Grand Canyon and Death Valley — $90 at the gates." },
+          { "item": "Monument Valley entry", "low": 60, "high": 60,
+            "basis": "$8 to $10 a head; the park pass is not valid." },
+          { "item": "Navajo-guided Monument Valley tour", "low": 0, "high": 414,
+            "basis": "The only way onto the valley floor in a motorhome. The low column settles for the view from the rim and the Wildcat Trail." },
+          { "item": "Meow Wolf", "low": 210, "high": 210,
+            "basis": "Roughly $40 an adult and $30 a child; prices vary by date." },
+          { "item": "Route 66 museums", "low": 45, "high": 45,
+            "basis": "Elk City at $5 an adult and $4 a child, and Chandler's Interpretive Center." },
+          { "item": "Pacific Park", "low": 60, "high": 240,
+            "basis": "The Ferris wheel for six, or unlimited-ride wristbands." },
+          { "item": "Incidentals", "low": 150, "high": 250,
+            "basis": "Propane, dump fees, laundry, showers and parking a 30-footer in Los Angeles." }
+        ]
+      }
+    }
+  ]
+}

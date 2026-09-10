@@ -5,6 +5,7 @@
     "routes/low-desert-loop.json",
     "routes/sonoran-loop.json",
     "routes/key-west-run.json",
-    "routes/new-orleans-loop.json"
+    "routes/new-orleans-loop.json",
+    "routes/route-66-west.json"
   ]
 }

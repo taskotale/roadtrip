@@ -393,7 +393,9 @@
     if (t.avgMilesPerDay) stats.appendChild(chip(t.avgMilesPerDay + ' mi/day average'));
     if (t.party) stats.appendChild(chip(t.party + ' people'));
     if (stats.children.length) box.appendChild(stats);
-    if (route.startEnd) box.appendChild(elem('p', 'route-startend', 'Starts and ends at ' + route.startEnd));
+    /* A one-way route names both ends; a loop names the one place it starts and finishes. */
+    if (route.end) box.appendChild(elem('p', 'route-startend', 'One way, from ' + (route.start || route.startEnd || '') + ' to ' + route.end));
+    else if (route.startEnd) box.appendChild(elem('p', 'route-startend', 'Starts and ends at ' + route.startEnd));
   }
 
   function renderMustSee(route) {
@@ -872,6 +874,11 @@
     var stops = [], byKey = {};
     var keyOf = function (c) { return c[0].toFixed(3) + ',' + c[1].toFixed(3); };
 
+    /* A route with an "end" is one-way, so its last stop is the finish rather than a night. */
+    var oneWay = !!route.end;
+    var last = days[days.length - 1];
+    var finishKey = oneWay && last && last.to && isCoord(last.to.coords) ? keyOf(last.to.coords) : null;
+
     var first = days[0];
     if (first && first.from && isCoord(first.from.coords)) {
       var k0 = keyOf(first.from.coords);
@@ -882,7 +889,7 @@
       if (!day.to || !isCoord(day.to.coords)) return;
       var k = keyOf(day.to.coords);
       if (!byKey[k]) {
-        byKey[k] = { coords: day.to.coords, name: day.to.name, days: [] };
+        byKey[k] = { coords: day.to.coords, name: day.to.name, days: [], finish: k === finishKey };
         stops.push(byKey[k]);
       }
       byKey[k].days.push(day.day || i + 1);
@@ -891,17 +898,17 @@
 
     var n = 0;
     stops.forEach(function (stop) {
-      var label = stop.start ? 'S' : String(++n);
+      var label = stop.start ? 'S' : stop.finish ? 'F' : String(++n);
       var m = L.marker(stop.coords, {
         icon: L.divIcon({
           className: 'stop-marker',
-          html: '<div' + (stop.start ? ' class="start"' : '') + '>' + label + '</div>',
+          html: '<div' + (stop.start || stop.finish ? ' class="start"' : '') + '>' + label + '</div>',
           iconSize: [22, 22], iconAnchor: [11, 11]
         }),
         keyboard: false
       }).addTo(map);
       m.bindPopup('<strong>' + escapeHtml(stop.name || '') + '</strong>' +
-        (stop.start ? 'Start and finish' : nightsLabel(stop.days)));
+        (stop.start ? (oneWay ? 'Start' : 'Start and finish') : stop.finish ? 'Finish' : nightsLabel(stop.days)));
       m._dayNums = stop.days;
       layers.stops.push(m);
       allPts.push(stop.coords);

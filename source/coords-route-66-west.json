@@ -1,0 +1,407 @@
+{
+  "_note": "Checked coordinates for route-66-west, [lat, lng] as lat/lng. Sources: Wikipedia and Wikidata (P625) where the landmark has an item, OpenStreetMap otherwise; the Death Valley, Grand Canyon, Monument Valley, Seligman, Kingman, Oatman and Amboy points are the ones already verified for the Las Vegas routes.",
+  "dallas": {
+    "lat": 32.84524,
+    "lng": -96.84732
+  },
+  "tulsa": {
+    "lat": 36.15398,
+    "lng": -95.99277
+  },
+  "oklahoma-city": {
+    "lat": 35.46861,
+    "lng": -97.52139
+  },
+  "amarillo": {
+    "lat": 35.19917,
+    "lng": -101.84528
+  },
+  "santa-fe": {
+    "lat": 35.6875,
+    "lng": -105.93806
+  },
+  "gallup": {
+    "lat": 35.5281,
+    "lng": -108.7426
+  },
+  "holbrook": {
+    "lat": 34.90257,
+    "lng": -110.16883
+  },
+  "monument-valley": {
+    "lat": 36.98241,
+    "lng": -110.1118
+  },
+  "grand-canyon-village": {
+    "lat": 36.05722,
+    "lng": -112.13924
+  },
+  "kingman": {
+    "lat": 35.18959,
+    "lng": -114.0533
+  },
+  "barstow": {
+    "lat": 34.89862,
+    "lng": -117.02443
+  },
+  "furnace-creek": {
+    "lat": 36.45648,
+    "lng": -116.86914
+  },
+  "santa-monica": {
+    "lat": 34.00861,
+    "lng": -118.49861
+  },
+  "lax": {
+    "lat": 33.9425,
+    "lng": -118.40806
+  },
+  "us75-mockingbird": {
+    "lat": 32.8375,
+    "lng": -96.7715
+  },
+  "us75-richardson": {
+    "lat": 32.9483,
+    "lng": -96.7299
+  },
+  "calvin-ok": {
+    "lat": 34.9681,
+    "lng": -96.2511
+  },
+  "wetumka-ok": {
+    "lat": 35.2376,
+    "lng": -96.2419
+  },
+  "weleetka-ok": {
+    "lat": 35.3387,
+    "lng": -96.1336
+  },
+  "trona": {
+    "lat": 35.7627,
+    "lng": -117.3723
+  },
+  "stovepipe-wells": {
+    "lat": 36.6064,
+    "lng": -117.1452
+  },
+  "i10-ontario": {
+    "lat": 34.0633,
+    "lng": -117.6509
+  },
+  "pasadena": {
+    "lat": 34.1456,
+    "lng": -118.1445
+  },
+  "golden-driller": {
+    "lat": 36.1336,
+    "lng": -95.9312
+  },
+  "meadow-gold-sign": {
+    "lat": 36.14787,
+    "lng": -95.97462
+  },
+  "eleventh-street-bridge": {
+    "lat": 36.14295,
+    "lng": -96.00465
+  },
+  "blue-whale": {
+    "lat": 36.1937,
+    "lng": -95.7331
+  },
+  "rock-cafe": {
+    "lat": 35.749,
+    "lng": -96.6544
+  },
+  "chandler-interpretive": {
+    "lat": 35.70972,
+    "lng": -96.87778
+  },
+  "round-barn": {
+    "lat": 35.66222,
+    "lng": -97.32583
+  },
+  "elk-city-museum": {
+    "lat": 35.41202,
+    "lng": -99.43686
+  },
+  "u-drop-inn": {
+    "lat": 35.22681,
+    "lng": -100.24867
+  },
+  "britten-tower": {
+    "lat": 35.19817,
+    "lng": -101.08191
+  },
+  "cadillac-ranch": {
+    "lat": 35.18722,
+    "lng": -101.98704
+  },
+  "big-texan": {
+    "lat": 35.19405,
+    "lng": -101.75445
+  },
+  "blue-swallow": {
+    "lat": 35.17202,
+    "lng": -103.71641
+  },
+  "blue-hole": {
+    "lat": 34.9405,
+    "lng": -104.67325
+  },
+  "palace-governors": {
+    "lat": 35.68792,
+    "lng": -105.93841
+  },
+  "loretto-chapel": {
+    "lat": 35.68563,
+    "lng": -105.93751
+  },
+  "san-miguel": {
+    "lat": 35.6834,
+    "lng": -105.938
+  },
+  "meow-wolf": {
+    "lat": 35.65465,
+    "lng": -105.99651
+  },
+  "kimo": {
+    "lat": 35.085,
+    "lng": -106.6525
+  },
+  "el-rancho": {
+    "lat": 35.52957,
+    "lng": -108.72814
+  },
+  "tiponi-point": {
+    "lat": 35.07224,
+    "lng": -109.78026
+  },
+  "painted-desert-inn": {
+    "lat": 35.08398,
+    "lng": -109.7881
+  },
+  "route66-pullout": {
+    "lat": 35.05127,
+    "lng": -109.80529
+  },
+  "newspaper-rock": {
+    "lat": 34.96207,
+    "lng": -109.79906
+  },
+  "blue-mesa": {
+    "lat": 34.93946,
+    "lng": -109.75624
+  },
+  "agate-bridge": {
+    "lat": 34.89225,
+    "lng": -109.79373
+  },
+  "crystal-forest": {
+    "lat": 34.8667,
+    "lng": -109.78511
+  },
+  "giant-logs": {
+    "lat": 34.81518,
+    "lng": -109.86582
+  },
+  "wigwam-holbrook": {
+    "lat": 34.90257,
+    "lng": -110.16883
+  },
+  "hubbell": {
+    "lat": 35.70546,
+    "lng": -109.56217
+  },
+  "canyon-de-chelly-vc": {
+    "lat": 36.15313,
+    "lng": -109.53902
+  },
+  "white-house-overlook": {
+    "lat": 36.13063,
+    "lng": -109.47644
+  },
+  "spider-rock-overlook": {
+    "lat": 36.10564,
+    "lng": -109.35523
+  },
+  "monument-valley-mittens": {
+    "lat": 36.98963,
+    "lng": -110.08241
+  },
+  "john-fords-point": {
+    "lat": 36.95341,
+    "lng": -110.08768
+  },
+  "kayenta": {
+    "lat": 36.7125,
+    "lng": -110.24778
+  },
+  "cameron-trading-post": {
+    "lat": 35.87544,
+    "lng": -111.41379
+  },
+  "desert-view-watchtower": {
+    "lat": 36.04401,
+    "lng": -111.82621
+  },
+  "mather-point": {
+    "lat": 36.06172,
+    "lng": -112.10903
+  },
+  "yavapai-point": {
+    "lat": 36.06665,
+    "lng": -112.11822
+  },
+  "bright-angel-trailhead": {
+    "lat": 36.05728,
+    "lng": -112.14363
+  },
+  "hopi-point": {
+    "lat": 36.07452,
+    "lng": -112.15489
+  },
+  "mohave-point": {
+    "lat": 36.07222,
+    "lng": -112.16611
+  },
+  "hermits-rest": {
+    "lat": 36.06231,
+    "lng": -112.21121
+  },
+  "williams": {
+    "lat": 35.2505,
+    "lng": -112.18839
+  },
+  "seligman": {
+    "lat": 35.32688,
+    "lng": -112.87631
+  },
+  "grand-canyon-caverns": {
+    "lat": 35.52889,
+    "lng": -113.23167
+  },
+  "hackberry-store": {
+    "lat": 35.37488,
+    "lng": -113.7227
+  },
+  "oatman": {
+    "lat": 35.02639,
+    "lng": -114.38357
+  },
+  "needles": {
+    "lat": 34.83832,
+    "lng": -114.60387
+  },
+  "roys-motel-amboy": {
+    "lat": 34.55881,
+    "lng": -115.74358
+  },
+  "amboy-crater": {
+    "lat": 34.54388,
+    "lng": -115.79111
+  },
+  "bagdad-cafe": {
+    "lat": 34.81966,
+    "lng": -116.6433
+  },
+  "mesquite-flat-dunes": {
+    "lat": 36.60616,
+    "lng": -117.11507
+  },
+  "zabriskie-point": {
+    "lat": 36.42005,
+    "lng": -116.81229
+  },
+  "badwater-basin": {
+    "lat": 36.23026,
+    "lng": -116.76744
+  },
+  "golden-canyon": {
+    "lat": 36.42076,
+    "lng": -116.84656
+  },
+  "artists-drive": {
+    "lat": 36.36669,
+    "lng": -116.80052
+  },
+  "dantes-view": {
+    "lat": 36.22066,
+    "lng": -116.72675
+  },
+  "worlds-tallest-thermometer": {
+    "lat": 35.26644,
+    "lng": -116.07275
+  },
+  "arroyo-seco": {
+    "lat": 34.10221,
+    "lng": -118.199
+  },
+  "end-of-the-trail": {
+    "lat": 34.00956,
+    "lng": -118.49718
+  },
+  "pacific-park": {
+    "lat": 34.00854,
+    "lng": -118.4978
+  },
+  "cruise-america-dallas": {
+    "lat": 32.84196,
+    "lng": -96.85929
+  },
+  "cruise-america-carson": {
+    "lat": 33.82516,
+    "lng": -118.23317
+  },
+  "dockweiler-rv": {
+    "lat": 33.92866,
+    "lng": -118.43458
+  },
+  "ok66-southwest-blvd": {
+    "lat": 36.04968,
+    "lng": -96.07658
+  },
+  "ok66-sapulpa-west": {
+    "lat": 35.99381,
+    "lng": -96.13249
+  },
+  "ok66-kellyville": {
+    "lat": 35.94185,
+    "lng": -96.22231
+  },
+  "ok66-heyburn": {
+    "lat": 35.9011,
+    "lng": -96.34137
+  },
+  "ok66-bristow-east": {
+    "lat": 35.82191,
+    "lng": -96.40509
+  },
+  "davenport-ok": {
+    "lat": 35.70479,
+    "lng": -96.7653
+  },
+  "wellston-ok": {
+    "lat": 35.69423,
+    "lng": -97.06336
+  },
+  "luther-ok": {
+    "lat": 35.65961,
+    "lng": -97.19414
+  },
+  "dilia-nm": {
+    "lat": 35.19311,
+    "lng": -105.06361
+  },
+  "romeroville-nm": {
+    "lat": 35.52282,
+    "lng": -105.24473
+  },
+  "pops-66": {
+    "lat": 35.6586,
+    "lng": -97.3358
+  },
+  "little-colorado-gorge": {
+    "lat": 35.94174,
+    "lng": -111.64895
+  }
+}
