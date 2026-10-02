@@ -1,5 +1,5 @@
 {
-  "_note": "Checked coordinates for route-66-west, [lat, lng] as lat/lng. Sources: Wikipedia and Wikidata (P625) where the landmark has an item, OpenStreetMap otherwise; the Death Valley, Grand Canyon, Monument Valley, Seligman, Kingman, Oatman and Amboy points are the ones already verified for the Las Vegas routes.",
+  "_note": "Checked coordinates for route-66-west, [lat, lng] as lat/lng. Sources: Wikipedia and Wikidata (P625) where the landmark has an item, OpenStreetMap otherwise; the Death Valley, Grand Canyon, Monument Valley, Seligman, Kingman, Oatman and Amboy points are the ones already verified for the Las Vegas routes. Albuquerque, the Williams depot, Death Valley Junction, Pahrump and the Las Vegas points were added from Wikidata (P625); The Real Unreal has no coordinate of its own, so it uses Grapevine Mills, the mall it is in.",
   "dallas": {
     "lat": 32.84524,
     "lng": -96.84732
@@ -403,5 +403,45 @@
   "el-monte-santa-fe-springs": {
     "lat": 33.8995,
     "lng": -118.05912
+  },
+  "albuquerque": {
+    "lat": 35.0961,
+    "lng": -106.67
+  },
+  "albuquerque-old-town": {
+    "lat": 35.0961,
+    "lng": -106.67
+  },
+  "grand-canyon-railway": {
+    "lat": 35.2513,
+    "lng": -112.1912
+  },
+  "meow-wolf-grapevine": {
+    "lat": 32.9661,
+    "lng": -97.0428
+  },
+  "death-valley-junction": {
+    "lat": 36.30222,
+    "lng": -116.41361
+  },
+  "amargosa-opera-house": {
+    "lat": 36.3021,
+    "lng": -116.415
+  },
+  "pahrump": {
+    "lat": 36.20861,
+    "lng": -116.01194
+  },
+  "las-vegas": {
+    "lat": 36.16722,
+    "lng": -115.14861
+  },
+  "welcome-sign": {
+    "lat": 36.08206,
+    "lng": -115.17278
+  },
+  "bellagio-fountains": {
+    "lat": 36.1128,
+    "lng": -115.174
   }
 }

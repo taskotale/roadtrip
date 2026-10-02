@@ -12,10 +12,19 @@
    Most days carry a "via" list. Those are there to hold the line on the right
    road, not to visit anything: on day 1 they keep it on free US-75 rather than
    the tollways, on day 2 they keep it on old 66 beside the Turner Turnpike
-   rather than on it, on day 4 they follow the 1926 alignment into Santa Fe,
-   and on day 7 they keep it on paved US-191 rather than the Hopi mesa dirt
+   rather than on it, on day 5 they run the Petrified Forest park road, and
+   on day 6 they keep it on paved US-191 rather than the Hopi mesa dirt
    roads a router picks by default. Re-running this builder drops the baked
-   geometry, so always re-bake with --force afterwards. */
+   geometry, so always re-bake with --force afterwards.
+
+   The overnight stops were moved in October 2026 to keep the motorhome's
+   plumbing out of the coldest towns: Albuquerque instead of Santa Fe, no night
+   in Gallup, two nights in Williams (with the train to the rim) instead of the
+   rim itself, and a night in Las Vegas between Death Valley and Los Angeles.
+   Day 13 needs no Pahrump via: OSRM goes through it on Bell Vista Road and
+   NV-160 by itself. It does hop 600 metres along a compacted track between
+   two paved roads west of Pahrump, which is invisible at map scale and does
+   not change the mileage. */
 import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 
 const SITE = new URL('..', import.meta.url).pathname.replace(/\/$/, '');
@@ -53,13 +62,13 @@ const poi = (name, key, photo, caption) => {
 
 const STOPS = {
   1:  ['dallas', 'tulsa'],                       2:  ['tulsa', 'oklahoma-city'],
-  3:  ['oklahoma-city', 'amarillo'],             4:  ['amarillo', 'santa-fe'],
-  5:  ['santa-fe', 'gallup'],                    6:  ['gallup', 'holbrook'],
-  7:  ['holbrook', 'monument-valley'],           8:  ['monument-valley', 'grand-canyon-village'],
-  9:  ['grand-canyon-village', 'grand-canyon-village'],
-  10: ['grand-canyon-village', 'kingman'],       11: ['kingman', 'barstow'],
-  12: ['barstow', 'furnace-creek'],              13: ['furnace-creek', 'furnace-creek'],
-  14: ['furnace-creek', 'santa-monica'],         15: ['santa-monica', 'lax']
+  3:  ['oklahoma-city', 'amarillo'],             4:  ['amarillo', 'albuquerque'],
+  5:  ['albuquerque', 'holbrook'],               6:  ['holbrook', 'monument-valley'],
+  7:  ['monument-valley', 'williams'],           8:  ['williams', 'williams'],
+  9:  ['williams', 'kingman'],                   10: ['kingman', 'barstow'],
+  11: ['barstow', 'furnace-creek'],              12: ['furnace-creek', 'furnace-creek'],
+  13: ['furnace-creek', 'las-vegas'],            14: ['las-vegas', 'santa-monica'],
+  15: ['santa-monica', 'lax']
 };
 
 const VIA = {
@@ -68,13 +77,14 @@ const VIA = {
        'ok66-bristow-east', 'rock-cafe', 'davenport-ok', 'chandler-interpretive', 'wellston-ok',
        'luther-ok', 'round-barn'],
   3:  ['elk-city-museum', 'u-drop-inn', 'britten-tower'],
-  4:  ['blue-swallow', 'blue-hole', 'dilia-nm', 'romeroville-nm'],
-  6:  ['tiponi-point', 'giant-logs'],
-  7:  ['canyon-de-chelly-vc', 'kayenta'],
-  8:  ['kayenta', 'cameron-trading-post', 'desert-view-watchtower'],
-  10: ['williams', 'seligman', 'hackberry-store'],
-  11: ['oatman', 'needles', 'roys-motel-amboy', 'bagdad-cafe'],
-  12: ['trona', 'stovepipe-wells'],
+  4:  ['blue-swallow', 'blue-hole'],
+  5:  ['tiponi-point', 'giant-logs'],
+  6:  ['canyon-de-chelly-vc', 'kayenta'],
+  7:  ['kayenta', 'cameron-trading-post', 'desert-view-watchtower', 'grand-canyon-village'],
+  9:  ['seligman', 'hackberry-store'],
+  10: ['oatman', 'needles', 'roys-motel-amboy', 'bagdad-cafe'],
+  11: ['trona', 'stovepipe-wells'],
+  13: ['zabriskie-point', 'death-valley-junction'],
   14: ['worlds-tallest-thermometer', 'barstow', 'pasadena', 'arroyo-seco']
 };
 
@@ -107,19 +117,13 @@ const POIS = {
         'A 1939 motel with a garage beside every room. The sign is the photograph.'),
       poi('The Blue Hole', 'blue-hole', 'blue-hole.jpg',
         'An 80-foot artesian spring at a steady 18°C. Watch the divers.'),
-      poi('Santa Fe Plaza', 'santa-fe', 'santa-fe-plaza.jpg',
-        'The end of the Santa Fe Trail, and of the first Route 66 into town.'),
-      poi('Palace of the Governors', 'palace-governors', 'palace-governors.jpg',
-        'Built in 1610. Native artisans sell jewellery under its portal most days.'),
-      poi('Loretto Chapel', 'loretto-chapel', 'loretto-chapel.jpg',
-        'The spiral staircase with no centre pole. A few dollars a head.')],
-  5: [poi('Meow Wolf', 'meow-wolf', 'meow-wolf.jpg',
-        'The House of Eternal Return. Opens at 10, closed Tuesdays; book a time slot.'),
       poi('KiMo Theatre', 'kimo', 'kimo-theatre.jpg',
         'Pueblo Deco from 1927, on Central Avenue — Route 66 through Albuquerque.'),
-      poi('El Rancho Hotel', 'el-rancho', 'el-rancho.jpg',
-        'Built in 1937 for the film crews. The lobby is lined with signed photographs.')],
-  6: [poi('The Painted Desert', 'tiponi-point', 'painted-desert.jpg',
+      poi('Old Town Albuquerque', 'albuquerque-old-town', 'albuquerque-old-town.jpg',
+        'The plaza, and San Felipe de Neri on it since 1793.')],
+  5: [poi('El Rancho Hotel', 'el-rancho', 'el-rancho.jpg',
+        'Built in 1937 for the film crews. The lobby is lined with signed photographs.'),
+      poi('The Painted Desert', 'tiponi-point', 'painted-desert.jpg',
         'Tiponi, Tawa, Kachina, Chinde and Pintado Points, all in the first few miles.'),
       poi('Painted Desert Inn', 'painted-desert-inn', 'painted-desert-inn.jpg',
         'An adobe inn on the rim, rebuilt in the 1930s and now a museum. Open about 9 to 4.'),
@@ -135,7 +139,7 @@ const POIS = {
         'The biggest logs in the park, on a short loop behind the Rainbow Forest Museum.'),
       poi('Wigwam Motel', 'wigwam-holbrook', 'wigwam-motel.jpg',
         'Fifteen concrete teepees from 1950. Two of them sleep six.')],
-  7: [poi('Hubbell Trading Post', 'hubbell', 'hubbell.jpg',
+  6: [poi('Hubbell Trading Post', 'hubbell', 'hubbell.jpg',
         'Trading with Navajo families since 1878, and still a working store. Free.'),
       poi('White House Overlook', 'white-house-overlook', 'white-house-overlook.jpg',
         'A cliff dwelling 600 feet below the rim. The trail down is the only one you may walk without a Navajo guide.'),
@@ -143,7 +147,7 @@ const POIS = {
         'An 800-foot spire at the end of the South Rim Drive. Free.'),
       poi('Monument Valley at sunset', 'monument-valley-mittens', 'monument-valley-mittens.jpg',
         'The Mittens as you arrive.')],
-  8: [poi('The Valley Drive', 'john-fords-point', 'monument-valley-loop.jpg',
+  7: [poi('The Valley Drive', 'john-fords-point', 'monument-valley-loop.jpg',
         'The 17-mile dirt loop. Gate at 8; last entry 2:30 in winter.'),
       poi('Wildcat Trail', 'monument-valley', 'wildcat-trail.jpg',
         'A free 3.2-mile loop around West Mitten Butte, open to everyone.'),
@@ -153,8 +157,10 @@ const POIS = {
         'A 1916 trading post with a dining room and a hall full of Navajo rugs.'),
       poi('Desert View Watchtower', 'desert-view-watchtower', 'desert-view-watchtower.jpg',
         'The east entrance. Your first look at the canyon, and the best one.')],
-  9: [poi('Mather Point', 'mather-point', 'mather-point.jpg',
-        'Sunrise, right by the visitor centre.'),
+  8: [poi('Grand Canyon Railway', 'grand-canyon-railway', 'grand-canyon-railway.jpg',
+        'About two and a quarter hours each way from the depot in Williams, and a little under four at the rim.'),
+      poi('Mather Point', 'mather-point', 'mather-point.jpg',
+        'Beside the visitor centre, and the obvious first stop.'),
       poi('Yavapai Point', 'yavapai-point', 'yavapai-point.jpg',
         'The heated geology museum, and a view straight down to the river.'),
       poi('Bright Angel Trailhead', 'bright-angel-trailhead', 'bright-angel-trail.jpg',
@@ -163,25 +169,25 @@ const POIS = {
         'The widest view on Hermit Road, and the sunset spot. By car only from December to February.'),
       poi('Hermits Rest', 'hermits-rest', 'hermits-rest.jpg',
         "Mary Colter's 1914 stone rest house at the end of Hermit Road.")],
-  10: [poi('Williams', 'williams', 'williams.jpg',
+  9: [poi('Williams', 'williams', 'williams.jpg',
          'The last Route 66 town the interstate bypassed, in October 1984.'),
-       poi('Seligman', 'seligman', 'seligman-route66.jpg',
+      poi('Seligman', 'seligman', 'seligman-route66.jpg',
          "Where Angel Delgadillo's barbershop started the campaign that saved the road."),
-       poi('Hackberry General Store', 'hackberry-store', 'hackberry-general-store.jpg',
+      poi('Hackberry General Store', 'hackberry-store', 'hackberry-general-store.jpg',
          'Old pumps, older cars and a Corvette out front, halfway along the longest stretch of 66 left.'),
-       poi('Kingman', 'kingman', 'kingman-route66.jpg',
+      poi('Kingman', 'kingman', 'kingman-route66.jpg',
          'Where the longest intact stretch of 66 comes down out of the desert.')],
-  11: [poi('Oatman', 'oatman', 'oatman.jpg',
+  10: [poi('Oatman', 'oatman', 'oatman.jpg',
          'Wild burros on the main street. Use the burro food the shops sell.'),
        poi("Roy's Motel and Café", 'roys-motel-amboy', 'roys-motel.jpg',
          'The 1938 motel and café, and the sign everyone photographs.'),
        poi('Bagdad Café', 'bagdad-cafe', 'bagdad-cafe.jpg',
          'The Sidewinder Café that played the Bagdad Café in the 1987 film, and kept the name.')],
-  12: [poi('Mesquite Flat Dunes', 'mesquite-flat-dunes', 'mesquite-flat-dunes.jpg',
+  11: [poi('Mesquite Flat Dunes', 'mesquite-flat-dunes', 'mesquite-flat-dunes.jpg',
          'Dunes the children can run down, right beside the road into the park.'),
        poi('Zabriskie Point', 'zabriskie-point', 'zabriskie-point.jpg',
          'Golden badlands at sunset, ten minutes from Furnace Creek.')],
-  13: [poi('Badwater Basin', 'badwater-basin', 'badwater-basin.jpg',
+  12: [poi('Badwater Basin', 'badwater-basin', 'badwater-basin.jpg',
          'The lowest point in North America — 282 feet below sea level.'),
        poi("Artist's Drive", 'artists-drive', 'artists-drive.jpg',
          'A one-way loop through mineral-stained hills. Nothing over 25 feet.'),
@@ -189,6 +195,12 @@ const POIS = {
          'An easy walk up a narrow canyon straight off the valley floor.'),
        poi("Dante's View", 'dantes-view', 'dantes-view.jpg',
          '5,475 feet up, looking straight down at Badwater.')],
+  13: [poi('Amargosa Opera House', 'amargosa-opera-house', 'amargosa-opera-house.jpg',
+         'Marta Becket painted the audience on the walls, then danced for it for more than forty years.'),
+       poi('Welcome to Fabulous Las Vegas sign', 'welcome-sign', 'welcome-sign.jpg',
+         'Up since 1959, with a small free lot in the median beside it.'),
+       poi('Fountains of Bellagio', 'bellagio-fountains', 'bellagio-fountains.jpg',
+         'Free, every fifteen minutes from 8 until midnight.')],
   14: [poi('Arroyo Seco Parkway', 'arroyo-seco', 'arroyo-seco-parkway.jpg',
          "America's first freeway, 1940, and Route 66's last stretch before downtown."),
        poi('Santa Monica Pier', 'pacific-park', 'pacific-park.jpg',
@@ -202,40 +214,41 @@ const MUST_SEE = [
    'A concrete whale on a pond beside Route 66, built as an anniversary present. Walk into its mouth; it costs nothing.'],
   ['Cadillac Ranch', 3, 'cadillac-ranch.jpg',
    'Ten Cadillacs buried nose-down in a Panhandle field. Bring a can of spray paint and add a layer at sunset.'],
-  ['Loretto Chapel', 4, 'loretto-chapel.jpg',
-   'A spiral staircase that climbs two full turns with no centre pole. Five minutes, and they will talk about it for days.'],
-  ['Meow Wolf', 5, 'meow-wolf.jpg',
-   'A Victorian house whose fridge is a door to somewhere else. More than seventy rooms, and probably the best two hours of the trip for anyone under twelve.'],
-  ['The Painted Desert', 6, 'painted-desert.jpg',
+  ['The Painted Desert', 5, 'painted-desert.jpg',
    'Red and lavender badlands from a string of overlooks, and the only stretch of Route 66 inside a national park.'],
-  ['Wigwam Motel', 6, 'wigwam-motel.jpg',
+  ['Wigwam Motel', 5, 'wigwam-motel.jpg',
    'A night in a concrete teepee with 1950s cars parked outside. Two of them sleep six.'],
-  ['Spider Rock', 7, 'spider-rock.jpg',
+  ['Spider Rock', 6, 'spider-rock.jpg',
    'An 800-foot sandstone spire in Canyon de Chelly, at the end of a free rim drive most people never hear of.'],
-  ['Monument Valley', 7, 'monument-valley-mittens.jpg',
+  ['Monument Valley', 6, 'monument-valley-mittens.jpg',
    'Sunset over the Mittens on arrival, and the Valley Drive when the gate opens the next morning.'],
-  ['Hopi Point', 9, 'hopi-point.jpg',
+  ['The Grand Canyon Railway', 8, 'grand-canyon-railway.jpg',
+   'A train from the middle of Williams to the South Rim and back — about two and a quarter hours each way through ponderosa pine, while the motorhome stays plugged in at the depot.'],
+  ['Hopi Point', 8, 'hopi-point.jpg',
    'Sunset from the widest view on the South Rim, reached by car only from December to February.'],
-  ['The burros of Oatman', 11, 'oatman.jpg',
+  ['The burros of Oatman', 10, 'oatman.jpg',
    'Wild burros wander the main street of an old gold town and put their heads in the car window.'],
-  ['Badwater Basin', 13, 'badwater-basin.jpg',
+  ['Badwater Basin', 12, 'badwater-basin.jpg',
    'The lowest point in North America, 282 feet below sea level, and warm in January. Walk out onto the salt.'],
+  ['The Fountains of Bellagio', 13, 'bellagio-fountains.jpg',
+   'Water thrown high above the lake in time to music, every fifteen minutes after dark — free, outdoors, and fine for children, which most of the Strip is not.'],
   ['End of the Trail', 15, 'end-of-the-trail.jpg',
-   'The sign on Santa Monica Pier that every Route 66 trip ends at, 2,611 miles after Dallas.']
+   'The sign on Santa Monica Pier that every Route 66 trip ends at, 2,647 miles after Dallas.']
 ].map(([name, day, photo, why]) => { usedPhotos.add(photo); return { name, day, photo: `${PHOTO}/${photo}`, why }; });
 
 const pn = src.practical_notes;
 
 const WATCH_OUTS = [
   { title: 'Book these first', text: pn.booking_order },
-  { title: 'Nine freezing nights, then none', text: pn.freezing },
+  { title: 'Eight freezing nights, then none', text: pn.freezing },
   { title: 'Freeze damage is charged to you', text: pn.freeze_damage, only: 'motorhome' },
+  { title: 'If a line freezes', text: pn.thaw, only: 'motorhome' },
   { title: 'The depots set the ends of the trip', text: pn.pickup_windows, only: 'motorhome' },
   { title: 'Every toll is on day 1, and all of it is avoidable', text: pn.tolls },
-  { title: 'Three things are shut on the day you pass them', text: pn.closed_days },
+  { title: 'A few things are shut on the day you pass them', text: pn.closed_days },
   { title: 'Monument Valley is an evening and a morning', text: pn.monument_valley },
   { title: 'The Monument Valley loop is dirt', text: pn.valley_drive_car, only: 'car-and-lodging' },
-  { title: 'Day 14 is the longest drive, on the second-last day', text: pn.long_day },
+  { title: 'Day 14 is a long drive on the second-last day', text: pn.long_day },
   { title: 'Snow closes the high roads', text: pn.snow },
   { title: 'Death Valley is still repairing roads', text: pn.death_valley },
   { title: 'The park pass covers three parks, not the Navajo ones', text: pn.park_pass },
@@ -246,36 +259,40 @@ const WATCH_OUTS = [
 const ROUTE_PROS = [
   'Route 66 for real: roughly 1,400 of its 2,448 miles, from Tulsa to the End of the Trail sign on Santa Monica Pier.',
   'All three must-stops — Monument Valley, the Grand Canyon and Death Valley — plus the only national park Route 66 runs through, and Canyon de Chelly, which is free.',
-  'One way with no backtracking: 2,611 miles and not one road driven twice.',
+  'One way with no backtracking: 2,647 miles, and outside the Grand Canyon day barely a road driven twice.',
   'New ground for this site. Oklahoma, the Texas Panhandle, New Mexico and the Navajo Nation are on no other route.',
-  'It gets warmer as it goes: nine cold nights, then Kingman, Barstow, Death Valley and the beach.',
-  'Two nights at the Grand Canyon and two in Death Valley, which is where the two days without a drive belong.',
+  'It gets warmer as it goes: eight cold nights, then Kingman, Barstow, Death Valley, Las Vegas and the beach.',
+  'Two nights in Williams and two in Death Valley, which is where the two days without a drive belong — and a train to the Grand Canyon rim from the first.',
+  'A night in Las Vegas on the way to the coast: the Welcome sign by daylight and the Bellagio fountains after dark, both free.',
   'The only tolls are on day 1, and a free road runs beside them.',
   'It finishes on a pier with a Ferris wheel, nine miles from the airport.'
 ];
 
 const ROUTE_CONS = [
-  '2,611 miles in fifteen days is 174 a day, against 110 on the Southwest Loop, with only two days off the road.',
-  'Nine nights in a row below freezing before Kingman.',
-  'Monument Valley and Santa Fe each get an evening and a morning, not a day. That was the price of Tulsa and Petrified Forest.',
-  'Day 14 is 311 miles and six and a half hours on the second-last day, into Los Angeles on a Friday.',
-  'Days 1, 3, 4 and 7 are all over 220 miles, and the first comes straight off a flight.',
+  '2,647 miles in fifteen days is 176 a day, against 110 on the Southwest Loop, with only two days off the road.',
+  'Eight nights in a row below freezing before Kingman, the coldest about −7°C at Holbrook and Monument Valley.',
+  'No Santa Fe: the Plaza, the Palace of the Governors and Loretto Chapel went with the cold, and Meow Wolf is now a car-only stop on the first morning.',
+  'Monument Valley gets an evening and a morning, not a day, and Albuquerque only an evening. That was the price of Tulsa and Petrified Forest.',
+  'Seven days are over 220 miles, the first of them straight off a flight, and day 5 adds three hours in Petrified Forest to 253 miles of driving.',
+  'Day 14 is 290 miles into Los Angeles on a Friday, on the second-last day.',
   'The first three days are Oklahoma and the Texas Panhandle in January: flat, brown and windy. It is a road trip before it is a scenery trip.',
-  'The western end overlaps the Las Vegas routes: Death Valley, the Grand Canyon, Monument Valley, Seligman, Oatman and Amboy are each on at least one of them.',
+  'The western end overlaps the Las Vegas routes: Death Valley, the Grand Canyon, Monument Valley, Seligman, Oatman, Amboy and Las Vegas itself are each on at least one of them.',
   'Both vehicles have to be hired one way, and only one of the big motorhome companies would do it from Dallas.'
 ];
 
 const FLAGS = {
   'car-and-lodging': {
     1: [{ type: 'note', label: 'Leave on US-75:',
-          text: 'From Love Field it is two miles to US-75 with no toll road in between. From DFW, take I-635 east to US-75 rather than the Bush Turnpike.' }],
-    8: [{ type: 'unlocked', label: 'Open to you:',
+          text: 'From Love Field it is two miles to US-75 with no toll road in between. From DFW, take I-635 east to US-75 rather than the Bush Turnpike.' },
+        { type: 'unlocked', label: 'Open to you:',
+          text: 'Meow Wolf, if the flight lands by about nine. The Real Unreal is in Grapevine Mills, five miles from DFW, and opens at 10 on Saturdays. Bags are not allowed inside and the lockers are small, so leave everything in the car. Two or three hours there puts you in Tulsa around seven rather than half past five.' }],
+    7: [{ type: 'unlocked', label: 'Open to you:',
           text: 'Drive the 17-mile Valley Drive yourself when the gate opens at 8. It is graded dirt, and most hire agreements exclude unpaved roads — go slowly and stay on the loop, or book the guided tour instead.' }],
-    9: [{ type: 'unlocked', label: 'Open to you:',
-          text: 'Hermit Road, seven miles out to Hermits Rest. Private cars are allowed only from December to February and only under 22 feet, which a minivan or a Suburban is. Hopi Point for sunset.' }],
-    11: [{ type: 'unlocked', label: 'Open to you:',
+    8: [{ type: 'unlocked', label: 'Open to you:',
+          text: 'Drive up rather than taking the train, and you have Hermit Road, seven miles out to Hermits Rest. Private cars are allowed only from December to February and only under 22 feet, which a minivan or a Suburban is. Hopi Point for sunset, then an hour back to Williams in the dark — watch for elk on AZ-64.' }],
+    10: [{ type: 'unlocked', label: 'Open to you:',
            text: 'Sitgreaves Pass, the real Route 66 over the Black Mountains into Oatman: eight miles of hairpins with no shoulders. Legal for anything under 40 feet — check the hire agreement, which may say otherwise.' }],
-    13: [{ type: 'unlocked', label: 'Open to you:',
+    12: [{ type: 'unlocked', label: 'Open to you:',
            text: "Artist's Drive and the last climb to Dante's View, both closed to vehicles over 25 feet." }],
     14: [{ type: 'unlocked', label: 'Open to you:',
            text: "The Arroyo Seco Parkway, America's first freeway, which carries Route 66 from Pasadena into downtown. It was built for 45 mph, and the on-ramps start from a stop sign." }]
@@ -283,26 +300,32 @@ const FLAGS = {
   motorhome: {
     1: [{ type: 'blocked', label: 'Late away:',
           text: "El Monte's Dallas depot is in McKinney, 30 miles up US-75 and on the way — take a taxi from the airport. Pickup is after 1pm and the handover takes one to two hours, so you leave about 3 for the 238 miles to Tulsa, the last two of them in the dark. Book the Tulsa site for a late arrival." },
+        { type: 'blocked', label: 'No Meow Wolf:',
+          text: "Grapevine does not allow luggage inside and its lockers are small, and the motorhome is not yours until after 1pm in McKinney, forty miles the other way. With Santa Fe off the route, the motorhome build loses Meow Wolf altogether." },
         { type: 'note', label: 'Freezing from the first night.',
           text: 'Run the propane furnace, not the heat pump, which stops working around 4°C. Disconnect the city-water hose at night and run off the fresh tank; the hose freezes long before the tanks do.' }],
-    4: [{ type: 'note', label: 'Most sites are shut:',
-          text: "Northern New Mexico's campgrounds largely close for the winter. Santa Fe Skies RV Park, off I-25 south of town, stays open with full hookups." }],
-    6: [{ type: 'note', label: 'No hookups at the Wigwam:',
+    4: [{ type: 'note', label: 'Open all winter:',
+          text: "Albuquerque's RV parks stay open — the KOA Journey and American RV Resort, both just off I-40, have full hookups. Fill the propane here; the next planned fill is Williams." }],
+    5: [{ type: 'note', label: 'No hookups at the Wigwam:',
           text: "Sleep at one of Holbrook's RV parks and walk over for the photographs — or book a wigwam for the night and leave the motorhome outside." }],
-    7: [{ type: 'note', label: 'Hookups at Goulding’s:',
+    6: [{ type: 'note', label: 'Hookups at Goulding’s:',
           text: "Goulding's campground has full hookups; The View's is dry camping only, on one of the coldest nights of the trip. Call ahead to check which is open in January." }],
-    8: [{ type: 'blocked', label: 'Not in the motorhome:',
-          text: 'The Navajo Nation bars RVs from the Valley Drive. The rim at the visitor centre and the 3.2-mile Wildcat Trail are free; a Navajo-guided tour — about $79 an adult and $59 a child — is the only way onto the valley floor.' }],
-    9: [{ type: 'blocked', label: 'Not in the motorhome:',
-          text: 'Hermit Road is private cars only in winter, and only under 22 feet, and no shuttle runs it until March. You have Mather and Yavapai Points, the Village rim and the Rim Trail.' },
-        { type: 'note', label: 'Book Trailer Village first.',
-          text: 'Full hookups inside the park, a short walk from the rim, on Martin Luther King weekend.' }],
-    11: [{ type: 'blocked', label: 'Not over Sitgreaves Pass.',
+    7: [{ type: 'blocked', label: 'Not in the motorhome:',
+          text: 'The Navajo Nation bars RVs from the Valley Drive. The rim at the visitor centre and the 3.2-mile Wildcat Trail are free; a Navajo-guided tour — about $79 an adult and $59 a child — is the only way onto the valley floor.' },
+        { type: 'note', label: 'Sleep beside the station:',
+          text: 'The Grand Canyon Railway RV Park in Williams is open all winter, with full hookups on 124 paved sites next to the depot. Two nights, and you walk to the train.' }],
+    8: [{ type: 'unlocked', label: 'Take the train:',
+          text: 'Leave the motorhome plugged in at the depot and ride up. It stays on shore power with the furnace running all day, and nobody drives a 30-footer on an icy rim road. The return leaves the rim before sunset.' },
+        { type: 'blocked', label: 'Not in the motorhome:',
+          text: 'Hermit Road is private cars only in winter, and only under 22 feet, and no shuttle runs it until March. You have Mather and Yavapai Points, the Village rim and the Rim Trail.' }],
+    10: [{ type: 'blocked', label: 'Not over Sitgreaves Pass.',
            text: 'The map takes I-40 from Kingman to Needles and rejoins the car at Amboy. If the burros matter, come at Oatman from the flat side — up from Topock and out on Boundary Cone Road — for about 48 more miles and two more hours.' }],
-    12: [{ type: 'note', label: 'Low gear:',
+    11: [{ type: 'note', label: 'Low gear:',
            text: 'Towne Pass drops almost 5,000 feet into Stovepipe Wells. Use the gears, not the brakes.' }],
-    13: [{ type: 'blocked', label: 'Not in the motorhome:',
+    12: [{ type: 'blocked', label: 'Not in the motorhome:',
            text: "Artist's Drive and the last climb to Dante's View are closed to vehicles over 25 feet. Badwater, Devil's Golf Course and Golden Canyon are open to you." }],
+    13: [{ type: 'note', label: 'Sleep at the Oasis:',
+           text: 'Oasis Las Vegas RV Resort, a mile and a half from the Welcome sign, has full hookups on concrete pads. Take a taxi to the Bellagio rather than hunting for somewhere on the Strip to leave 30 feet of motorhome; the lot at the sign has two bus bays.' }],
     14: [{ type: 'blocked', label: 'Not on the Arroyo Seco.',
            text: 'Narrow 1940 lanes, tight curves and stop-sign on-ramps are no place for a 30-footer. The map takes I-10 instead.' },
          { type: 'note', label: 'Sleep at Dockweiler.',
@@ -315,7 +338,7 @@ const FLAGS = {
 /* Where the motorhome has to take a different road from the car. */
 const DAY_VIA = {
   motorhome: {
-    11: ['needles', 'roys-motel-amboy', 'bagdad-cafe'],            // I-40 round Sitgreaves Pass
+    10: ['needles', 'roys-motel-amboy', 'bagdad-cafe'],            // I-40 round Sitgreaves Pass
     14: ['worlds-tallest-thermometer', 'barstow', 'i10-ontario'],   // I-10, not the Arroyo Seco
     15: ['dockweiler-rv', 'el-monte-santa-fe-springs']             // night at Dockweiler, return in Santa Fe Springs
   }

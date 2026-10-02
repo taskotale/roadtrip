@@ -40,8 +40,11 @@ vehicle — a hired van against a motorhome — rather than on where you sleep.
 
 **Route 66 West** is the first one-way route. It flies into Dallas, drives north to Tulsa to
 pick up the old road, and follows Route 66 west to the End of the Trail sign on Santa Monica
-Pier — leaving it for Canyon de Chelly, Monument Valley, the Grand Canyon and Death Valley —
-then flies home from LAX. Its options split on the vehicle too, both hired one way.
+Pier — leaving it for Canyon de Chelly, Monument Valley, the Grand Canyon, Death Valley and a
+night in Las Vegas — then flies home from LAX. Its options split on the vehicle too, both hired
+one way, and its overnight stops are picked to keep a motorhome's plumbing out of the coldest
+towns: Albuquerque rather than Santa Fe, and Williams, with the train to the rim, rather than
+the Grand Canyon itself.
 
 Costs are deliberately tucked away — no prices on the home screen, and none on the
 route page until you reach the summary at the very bottom. The **COSTS** button

@@ -448,13 +448,20 @@ Map tiles are &copy; [OpenStreetMap](https://www.openstreetmap.org/copyright) co
 
 ## Route 66 West
 
-`assets/photos/route-66-west/` — 176 photos. The Death Valley, Grand Canyon, Monument Valley and Seligman photos are copies of the Southwest Loop's, and the Kingman, Oatman and Roy's ones of the Low Desert Loop's; they are credited again here so this table stands on its own.
+`assets/photos/route-66-west/` — 195 photos. The Death Valley, Grand Canyon, Monument Valley and Seligman photos are copies of the Southwest Loop's, and the Kingman, Oatman and Roy's ones of the Low Desert Loop's; they are credited again here so this table stands on its own.
 
 | File | Subject | Author | Licence | Source |
 | --- | --- | --- | --- | --- |
 | `agate-bridge-2.jpg` | Agate Bridge and the concrete beam now holding it up | “Jon Zander (Digon3)” | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Agate_Bridge_in_Petrified_Forest_NP.jpg) |
 | `agate-bridge-3.jpg` | Visitors standing on Agate Bridge, around 1900 | Pierce, C.C. (Charles C.), 1861-1946 | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Five_people_stand_on_a_petrified_log_forming_a_tree_bridge_in_the_Petrified_Forest_of_Arizona%2C_ca.1900_(CHS-3364).jpg) |
 | `agate-bridge.jpg` | Agate Bridge, a petrified log spanning a gully, Petrified Forest National Park | Jon Sullivan | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Agate_bridge.jpg) |
+| `albuquerque-old-town-2.jpg` | The plaza in Old Town Albuquerque | Nightscream | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:6.18.08OldTownAlbuquerqueByLuigiNovi3.jpg) |
+| `albuquerque-old-town-3.jpg` | A portal in Old Town Albuquerque, with snow on the rail | Nightscream | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:6.18.08OldTownAlbuquerqueByLuigiNovi5.jpg) |
+| `albuquerque-old-town-4.jpg` | A courtyard in Old Town Albuquerque | Malcolm Tredinnick from Sydney, Australia | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Albuquerque_OldTown.jpg) |
+| `albuquerque-old-town.jpg` | San Felipe de Neri Church, Old Town Albuquerque (cropped) | Svobodat | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Albuquerque_Old_Town_church_01.jpg) |
+| `amargosa-opera-house-2.jpg` | The entrance of the Amargosa Opera House, Death Valley Junction | Tuxyso | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Amargosa_Opera_House_01_2013.jpg) |
+| `amargosa-opera-house-3.jpg` | The painted doors of the Amargosa Opera House | Tuxyso | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Door_of_Amargosa_Opera_House_2013.jpg) |
+| `amargosa-opera-house.jpg` | The Amargosa Opera House, Death Valley Junction | G.Rogers (Rodge500) | CC BY-SA 2.5 | [Commons](https://commons.wikimedia.org/wiki/File:Amargosa_Opera_House.jpg) |
 | `arroyo-seco-parkway-2.jpg` | Downtown Los Angeles above the Arroyo Seco | Eric Richardson from Los Angeles | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:SR_110_south_Academy_Road_exit_from_Elysian_Park_2.jpg) |
 | `arroyo-seco-parkway.jpg` | The Arroyo Seco Parkway (1940) under an old bridge, heading for downtown Los Angeles | Eric Richardson from Los Angeles | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:SR_110_south_Academy_Road_exit_from_Elysian_Park.jpg) |
 | `artists-drive-2.jpg` | Artist's Drive winding through the coloured hills, Death Valley | Tuxyso | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Death_Valley_Artist%27s_Drive_2013.jpg) |
@@ -467,6 +474,10 @@ Map tiles are &copy; [OpenStreetMap](https://www.openstreetmap.org/copyright) co
 | `badwater-basin.jpg` | Badwater Basin salt flats, Death Valley | Tuxyso | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Death_Valley_Bad_Water_Basin_03_2013.jpg) |
 | `bagdad-cafe-2.jpg` | The Bagdad Café and its Airstream, Newberry Springs | Everjean | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bagdad_CA_-_Bagdad_Caf%C3%A9.jpg) |
 | `bagdad-cafe.jpg` | The Bagdad Café on Route 66, Newberry Springs, California | Vicente Villamón | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bagdad_Cafe._(4054050230).jpg) |
+| `bellagio-fountains-2.jpg` | The Fountains of Bellagio at dusk, Las Vegas | ZooFari | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Bellagio_Las_Vegas_2011.jpg) |
+| `bellagio-fountains-3.jpg` | A rainbow in the Fountains of Bellagio, Las Vegas | Jon Sullivan | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Bellagio_Fountains_2005.jpg) |
+| `bellagio-fountains-4.jpg` | The Fountains of Bellagio by day, Las Vegas | Cygnusloop99 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bellagio_-_South_East_-_2010-12-11.jpg) |
+| `bellagio-fountains.jpg` | The Fountains of Bellagio at night, Las Vegas | Kashyap Hosdurga | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Bellagio_Fountain.jpg) |
 | `big-texan-2.jpg` | The Big Texan's bull and limousine at night | Peter Fitzgerald | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:The_Big_Texan.jpg) |
 | `big-texan-3.jpg` | The Big Texan Steak Ranch front | Billy Hathorn at English Wikipedia | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Big_Texan_Restaurant.JPG) |
 | `big-texan.jpg` | The Big Texan Steak Ranch, Amarillo, Texas | Who What Where Nguyen Why a/k/a Anonymous Cow | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Amarillo_Texas_Big_Texan_Steak2_2005-05-29.jpg) |
@@ -521,6 +532,10 @@ Map tiles are &copy; [OpenStreetMap](https://www.openstreetmap.org/copyright) co
 | `golden-canyon.jpg` | Golden Canyon, Death Valley | Samartur | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Golden_Canyon_-_Death_Valley_National_Park.jpeg) |
 | `golden-driller-2.jpg` | The Golden Driller lit at night, Tulsa | The original uploader was Dakpowers at English Wikipedia. | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:GoldenDriller.jpg) |
 | `golden-driller.jpg` | The Golden Driller, a 75-foot oil worker at Expo Square, Tulsa | Timdayf5 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Golden_Driller.jpg) |
+| `grand-canyon-railway-2.jpg` | The Grand Canyon Railway through snowy ponderosa pines | Patrick Montenegro | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Grand_Canyon_Railway_Line.jpg) |
+| `grand-canyon-railway-3.jpg` | A Grand Canyon Railway diesel at the Williams platform | Leonard G. | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:GCRRLoco5169.JPG) |
+| `grand-canyon-railway-4.jpg` | A Grand Canyon Railway dome car | Eric Salard | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:GRAND_CANYON_RAILWAYS_(16455209501).jpg) |
+| `grand-canyon-railway.jpg` | A Grand Canyon Railway train at the Williams depot | Unknown | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:WilliamsDepot_WilliamsAZ.jpg) |
 | `hackberry-general-store-2.jpg` | The Hackberry General Store sign and Mobil Pegasus | Carol M. Highsmith | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Sign%2C_Hackberry_General_Store%2C_Route_66%2C_Hackberry%2C_Arizona_LCCN2010630127.tif) |
 | `hackberry-general-store-3.jpg` | A 1957 Corvette at the Hackberry General Store | Frank Kovalchek from Anchorage, Alaska, USA | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Corvette_at_Hackberry_General_Store.jpg) |
 | `hackberry-general-store-4.jpg` | Old petrol pumps at the Hackberry General Store | Carol M. Highsmith | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Old_gas_pumps%2C_Hackberry_General_Store%2C_Route_66%2C_Hackberry%2C_Arizona_LCCN2010630121.tif) |
@@ -612,6 +627,10 @@ Map tiles are &copy; [OpenStreetMap](https://www.openstreetmap.org/copyright) co
 | `u-drop-inn-2.jpg` | Tower Conoco Station and U-Drop Inn Café, Shamrock | ExqBoredinNac | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Tower_Conoco_Station-U_Drop-Inn_Caf%C3%A9.jpg) |
 | `u-drop-inn-3.jpg` | U-Drop Inn on Route 66, Shamrock | Bubba73 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:U-Drop_Inn%2C_Wheeler_County%2C_TX%2C_US.jpg) |
 | `u-drop-inn.jpg` | Tower Station and U-Drop Inn, the 1936 art deco Conoco station, Shamrock, Texas | Carol M. Highsmith | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:A_carefully_restored_early_Conoco_gasoline_station_in_the_town_of_Shamrock%2C_in_the_Texas_panhandle_LCCN2014633462.tif) |
+| `welcome-sign-2.jpg` | The Welcome to Fabulous Las Vegas sign in its median, Las Vegas Boulevard | Dr. Al. K. Lisch | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Shield_at_the_entry_of_the_american_city_Las_Vegas.jpg) |
+| `welcome-sign-3.jpg` | The Welcome to Fabulous Las Vegas sign at night | Hypersite | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Panneau_Las_Vegas_75013.JPG) |
+| `welcome-sign-4.jpg` | The back of the Welcome sign: Drive Carefully, Come Back Soon | Simeon87 | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Back_of_Las_Vegas_Sign_at_Night.JPG) |
+| `welcome-sign.jpg` | The Welcome to Fabulous Las Vegas sign, with Mandalay Bay behind | Kcferret | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:LasVegasSign06212005.jpg) |
 | `white-house-overlook-2.jpg` | White House Ruin from the canyon floor, Canyon de Chelly | Ronnie Macdonald from Chelmsford, United Kingdom | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:White_House_Ruins_Trail_010_(4101968625).jpg) |
 | `white-house-overlook-3.jpg` | Canyon de Chelly from the White House Overlook | NPS Photo | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Cach_white_house_ruin_20100304164842.jpg) |
 | `white-house-overlook.jpg` | White House Ruin seen from the White House Overlook, Canyon de Chelly | Jubileejourney | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Cliff_Dwellings%2C_White_House_Overlook.jpg) |
