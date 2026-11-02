@@ -1,11 +1,5 @@
 {
   "routes": [
-    "routes/southwest-loop.json",
-    "routes/low-desert-short.json",
-    "routes/low-desert-loop.json",
-    "routes/sonoran-loop.json",
-    "routes/key-west-run.json",
-    "routes/new-orleans-loop.json",
-    "routes/route-66-west.json"
+    "routes/southwest-loop.json"
   ]
 }
